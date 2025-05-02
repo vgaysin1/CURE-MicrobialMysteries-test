@@ -25,15 +25,3 @@ using-rmarkdown-container-syntax
 using-html-3
 dropdown-summaries
 print-out-session-info
-pre-lab-scientific-literature
-purpose-learning-objectives-and-introduction
-purpose
-learning-objectives-1
-introduction-1
-activity
-instructions
-questions
-grading-criteria
-footnotes
-resources
-contributions-and-affiliations
