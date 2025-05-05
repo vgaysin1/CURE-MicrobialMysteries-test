@@ -5,7 +5,7 @@ rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-chapter_of_course.Rmd",
             "2.1 Scientific-Literature.Rmd",
-            "2.3 Lab Activity: Scientific Literature.Rmd",
+            "2.3 Lab Activity: Scientific Literature",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
