@@ -1,16 +1,23 @@
 word	file	lines
 al	2.1 Scientific-Literature.Rmd	17
+al	2.3 Lab Activity	 Scientific Literature.Rmd
 Appl	2.1 Scientific-Literature.Rmd	26
 Baquerizo	2.1 Scientific-Literature.Rmd	17
+cholerae	2.3 Lab Activity	 Scientific Literature.Rmd
 docx	2.1 Scientific-Literature.Rmd	38
+docx	2.3 Lab Activity	 Scientific Literature.Rmd
 Dropdown	02-chapter_of_course.Rmd	254
 Earch	2.1 Scientific-Literature.Rmd	17
 et	2.1 Scientific-Literature.Rmd	17
+et	2.3 Lab Activity	 Scientific Literature.Rmd
 Gaysinskaya	2.1 Scientific-Literature.Rmd	49
+Gaysinskaya	2.3 Lab Activity	 Scientific Literature.Rmd
 Handelsman	2.1 Scientific-Literature.Rmd	17
 independend	2.1 Scientific-Literature.Rmd	17
 Lett	2.1 Scientific-Literature.Rmd	26
 metagenome	2.1 Scientific-Literature.Rmd	32
+Metagenome	2.3 Lab Activity	 Scientific Literature.Rmd
+metagenomic	2.3 Lab Activity	 Scientific Literature.Rmd
 metagenomics	2.1 Scientific-Literature.Rmd	7,12,17
 Metagenomics	2.1 Scientific-Literature.Rmd	7,17,26
 Microbiol	2.1 Scientific-Literature.Rmd	26
@@ -18,7 +25,11 @@ microbiome	2.1 Scientific-Literature.Rmd	32
 Pre	2.1 Scientific-Literature.Rmd	1
 Prereq	index.Rmd	39,40
 pubmed	2.1 Scientific-Literature.Rmd	8
+pubmed	2.3 Lab Activity	 Scientific Literature.Rmd
 rRNA	2.1 Scientific-Literature.Rmd	32
 Shortall	2.1 Scientific-Literature.Rmd	7,26
 Sleator	2.1 Scientific-Literature.Rmd	7,26
 Valeriya	2.1 Scientific-Literature.Rmd	49
+Valeriya	2.3 Lab Activity	 Scientific Literature.Rmd
+Vibrio	2.3 Lab Activity	 Scientific Literature.Rmd
+Xue	2.3 Lab Activity	 Scientific Literature.Rmd
