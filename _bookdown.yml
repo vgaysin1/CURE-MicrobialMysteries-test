@@ -4,7 +4,8 @@ repo: https://github.com/jhudsl/OTTR_Template/
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-chapter_of_course.Rmd",
-            "03-test.Rmd",
+            "2.1 Scientific-Literature.Rmd",
+            "2.3 Lab Activity: Scientific Literature.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
