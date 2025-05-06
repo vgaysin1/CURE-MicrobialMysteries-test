@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>3.4 Code examples | Course Name</title>
+  <title>3.1 Learning Objectives | Course Name</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="3.4 Code examples | Course Name" />
+  <meta property="og:title" content="3.1 Learning Objectives | Course Name" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="3.4 Code examples | Course Name" />
+  <meta name="twitter:title" content="3.1 Learning Objectives | Course Name" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="topic-of-section.html"/>
-<link rel="next" href="image-example.html"/>
+<link rel="prev" href="a-new-chapter.html"/>
+<link rel="next" href="libraries.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -279,43 +279,14 @@ div.csl-indent {
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="code-examples" class="section level2 hasAnchor" number="3.4">
-<h2><span class="header-section-number">3.4</span> Code examples<a href="code-examples.html#code-examples" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>You can demonstrate code like this:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="code-examples.html#cb2-1" tabindex="-1"></a>output_dir <span class="ot">&lt;-</span> <span class="fu">file.path</span>(<span class="st">&quot;resources&quot;</span>, <span class="st">&quot;code_output&quot;</span>)</span>
-<span id="cb2-2"><a href="code-examples.html#cb2-2" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">dir.exists</span>(output_dir)) {</span>
-<span id="cb2-3"><a href="code-examples.html#cb2-3" tabindex="-1"></a>  <span class="fu">dir.create</span>(output_dir)</span>
-<span id="cb2-4"><a href="code-examples.html#cb2-4" tabindex="-1"></a>}</span></code></pre></div>
-<p>And make plots too:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="code-examples.html#cb3-1" tabindex="-1"></a>hist_plot <span class="ot">&lt;-</span> <span class="fu">hist</span>(iris<span class="sc">$</span>Sepal.Length)</span></code></pre></div>
-<p><img src="resources/images/microbial-genomes_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
-<p>You can also save these plots to file:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="code-examples.html#cb4-1" tabindex="-1"></a><span class="fu">png</span>(<span class="fu">file.path</span>(output_dir, <span class="st">&quot;test_plot.png&quot;</span>))</span>
-<span id="cb4-2"><a href="code-examples.html#cb4-2" tabindex="-1"></a>hist_plot</span></code></pre></div>
-<pre><code>## $breaks
-## [1] 4.0 4.5 5.0 5.5 6.0 6.5 7.0 7.5 8.0
-## 
-## $counts
-## [1]  5 27 27 30 31 18  6  6
-## 
-## $density
-## [1] 0.06666667 0.36000000 0.36000000 0.40000000 0.41333333 0.24000000 0.08000000
-## [8] 0.08000000
-## 
-## $mids
-## [1] 4.25 4.75 5.25 5.75 6.25 6.75 7.25 7.75
-## 
-## $xname
-## [1] &quot;iris$Sepal.Length&quot;
-## 
-## $equidist
-## [1] TRUE
-## 
-## attr(,&quot;class&quot;)
-## [1] &quot;histogram&quot;</code></pre>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="code-examples.html#cb6-1" tabindex="-1"></a><span class="fu">dev.off</span>()</span></code></pre></div>
-<pre><code>## png 
-##   2</code></pre>
+<div id="learning-objectives-3" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Learning Objectives<a href="learning-objectives-3.html#learning-objectives-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Every chapter also needs Learning objectives that will look like this:</p>
+<p>This chapter will cover:</p>
+<ul>
+<li>{You can use <a href="https://tips.uark.edu/using-blooms-taxonomy/" class="uri">https://tips.uark.edu/using-blooms-taxonomy/</a> to define some learning objectives here}</li>
+<li>{Another learning objective}</li>
+</ul>
 </div>
 <hr>
 <center> 
@@ -328,8 +299,8 @@ div.csl-indent {
           </div>
         </div>
       </div>
-<a href="topic-of-section.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="image-example.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="a-new-chapter.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="libraries.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
