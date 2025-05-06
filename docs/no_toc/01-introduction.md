@@ -65,11 +65,11 @@ Fill out your username and insert a screenshot of that username in the boxes bel
 
 #### Footnotes
 
-##### Resources
+**Resources**
 
 - Google doc
 
-##### Contributions and Affiliations
+**Contributions and Affiliations**
 
 - Frederick Tan, Johns Hopkins University
 
@@ -150,7 +150,7 @@ a. Tell your group about yourself. Answer the following questions.
 
 #### Footnotes
 
-Contributions and Affiliations
+**Contributions and Affiliations**
 
 - Katherine Cox, Johns Hopkins University
 - Valeriya Gaysinskaya, Johns Hopkins University

@@ -8,8 +8,6 @@ instructions
 questions
 grading-criteria
 footnotes
-resources
-contributions-and-affiliations
 lecture-the-scientic-process
 homework-post-introductions
 purpose-1
@@ -17,10 +15,10 @@ learning-objectives
 introduction-1
 activity-1---create-a-topic-in-a-private-category
 instructions-1
-resources-1
+resources
 activity-2---reply-to-a-topic-in-a-public-category
 instructions-2
-resources-2
+resources-1
 grading-criteria-1
 footnotes-1
 a-new-chapter
@@ -60,5 +58,5 @@ conclusions-homework
 future-directions-homework
 grading-criteria-3
 footnotes-3
-resources-4
-contributions-and-affiliations-2
+resources-3
+contributions-and-affiliations-1
