@@ -134,7 +134,7 @@ Note that you should use `echo=FALSE` in the code chunk because we don't want th
 
 You can again use simple markdown syntax to just include a link to a file like so:
 
-[A file](https://www.bgsu.edu/content/dam/BGSU/center-for-faculty-excellence/docs/TLGuides/TLGuide-Learning-Objectives.pdf).
+<!-- [A file](https://www.bgsu.edu/content/dam/BGSU/center-for-faculty-excellence/docs/TLGuides/TLGuide-Learning-Objectives.pdf). -->
 
 Alternatively you can embed files like PDFs.
 
@@ -305,7 +305,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8
 ##  ctype    en_US.UTF-8
 ##  tz       Etc/UTC
-##  date     2025-05-02
+##  date     2025-05-06
 ##  pandoc   3.1.1 @ /usr/local/bin/ (via rmarkdown)
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
