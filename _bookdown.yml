@@ -5,7 +5,7 @@ rmd_files: ["index.Rmd",
             "01-introduction.Rmd",
             "scientific-literature.Rmd",
             "microbial-genomes.Rmd",
-            "taxonomy-profiling.Rmd
+            "taxonomy-profiling.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
