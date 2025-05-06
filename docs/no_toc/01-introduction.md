@@ -4,13 +4,13 @@
 
 ## Lecture: Welcome to Your Genomics Adventure!
 
-![](https://docs.google.com/presentation/d/18hYo8xrYkyq3rG7RUy3n3-jWFK_JPs5NNW3HmM9HUeQ/edit?usp=sharing)
+[Slides: Welcome to Your Genomics Adventure!](https://docs.google.com/presentation/d/18hYo8xrYkyq3rG7RUy3n3-jWFK_JPs5NNW3HmM9HUeQ/edit?usp=sharing)
 
 ## Activity: Create Accounts  
 
 ## Lecture: The Scientic Process 
 
-![] (https://docs.google.com/presentation/d/1VQE-rXASXIdf8rWLP5UTcrAhM_DcznARVigPTHTfw8M/edit?usp=sharing)
+[Slides: The Scientic Process] (https://docs.google.com/presentation/d/1VQE-rXASXIdf8rWLP5UTcrAhM_DcznARVigPTHTfw8M/edit?usp=sharing)
 
 ## Homework: Post Introductions
 
@@ -39,13 +39,11 @@ In this assignment, students will post to both a public and private Category wit
 1. Read through the categories in the C-MOOR Academy Discussion Forum. Notice that some categories (at least one) have a lock next to them. This is a Private category, only visible to you, your classmates and your instructor.  If you cannot see your course’s private category when you log in, email your instructor so that they can add you.
 1. Click on the private category that belongs to your class: Spring 2025. In this private channel, we will add a “New Topic” in which you can introduce yourself to the class.
 1. This first post will be an introduction to your class, including a bit about you and a photo.
-  
-  a) Tell your group about yourself. Answer the following questions.
+a. Tell your group about yourself. Answer the following questions.
   1. What is your name?
   2. Why did you decide to take this class? What are you excited to learn about this semester?
   3. Tell us one thing you like to do outside of school and work. 
-
-  b) Include a photo:.
+  b. Include a photo:.
   1. Selfie: if you would like, post a photo of yourself.
   2. Unselfie: or post a photo of something else. Maybe something that you feel represents your life right now, or a picture of something you love. A pet maybe. Just make sure it tells us something about you.
 
