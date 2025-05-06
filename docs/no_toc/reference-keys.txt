@@ -56,6 +56,10 @@ instructions-3
 questions-1
 grading-criteria-2
 footnotes-2
+discussion-scientific-literature-prelab
+lecture-scientific-literature
+homework-scientific-literature-activity
+presentation-scientific-literature-activity
 lab-activity-scientific-literature
 purpose-learning-objectives-and-introduction
 purpose-3

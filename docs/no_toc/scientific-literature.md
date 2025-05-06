@@ -60,4 +60,11 @@ Download as Microsoft Word (.docx) and upload on Canvas
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
+## Discussion: Scientific Literature Prelab
+
+## Lecture: Scientific Literature
+
+## Homework: Scientific Literature Activity
+
+## Presentation: Scientific Literature Activity
 
