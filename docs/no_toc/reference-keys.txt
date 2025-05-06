@@ -51,3 +51,5 @@ future-directions-homework
 grading-criteria-3
 footnotes-3
 presentation-scientific-literature-activity
+microbial-genomes
+taxonomy-profiling
