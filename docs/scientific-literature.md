@@ -42,21 +42,18 @@ Perform the activity below and answer the embedded **questions**.
 
 | **How many total counts are there?** |
 |:--|
-
 <br> 
 
 - c) In e.g. cell A3, determine the percentage of unclassified reads.
 
 | **What percentage of reads are unclassified?** |
 |:--|
-
 <br>
 
 - d) In e.g. cell A4, determine the percentage of classified reads.
 
 | **What percentage of reads are classified?** |
 |:--|
-
 <br>
 
 5. Identify abundant taxa (those at >1%)
@@ -68,13 +65,12 @@ Perform the activity below and answer the embedded **questions**.
 
 | **How many abundant taxa (at >1%) do you observe?** |
 |:--|
-
 <br>
 
 - f) In new column D copy the lower taxonomic rank identified for the abundant species, and paste results in a table below:
 
 | **% abundance** | Taxonomy |
-|:--|:--|  
+|:--|:--:|  
 | 20.1 | s__Faecalibacterium_prausnitzii |
 | | |
 | | |
@@ -98,21 +94,18 @@ Perform the activity below and answer the embedded **questions**.
 
 | **How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?** |
 |:--|
-
 <br>
 
 8. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. 
 
 |**What percentage of reads are classified in a low abundance taxa?**|
 |:--|
-
 <br>
 
 9. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. 
 
 |**Paste your barplot of % abundance for the 12 most abundant taxa **|
 |:--|
-
 <br>
 
 
