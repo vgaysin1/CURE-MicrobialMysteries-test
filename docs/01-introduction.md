@@ -114,7 +114,7 @@ In this assignment, students will post to both a public and private Category wit
 - b. Include a photo:.
   1. Selfie: if you would like, post a photo of yourself.
   2. Unselfie: or post a photo of something else. Maybe something that you feel represents your life right now, or a picture of something you love. A pet maybe. Just make sure it tells us something about you.
-1. Play around with the platform to personalize your post. As you can see in the discourse topic, you can add emojis, upload images, embed content, etc. These features appear in plain text as you’re typing, but you can see a preview of your post on the right.  For your first few posts you may see a Welcome Box on the right instead, you can close this to see the preview. Once you have posted a few times, the Welcome Box will stop appearing.
+6. Play around with the platform to personalize your post. As you can see in the discourse topic, you can add emojis, upload images, embed content, etc. These features appear in plain text as you’re typing, but you can see a preview of your post on the right.  For your first few posts you may see a Welcome Box on the right instead, you can close this to see the preview. Once you have posted a few times, the Welcome Box will stop appearing.
 1. When you are done, click “Create Topic” and it will post for the class to see.
 1. If other students have posted their introductions, read them and leave a couple replies. This is a discussion platform after all!
 
