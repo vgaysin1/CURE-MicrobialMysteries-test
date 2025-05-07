@@ -29,13 +29,15 @@ learning-objectives-1
 introduction-2
 activity-1-explore-zymo-gut-standard-metagenomic-diversity
 instructions-3
+activity-2-optional-compare-with-zymo-fecal-reference
+instructions-4
 activity-a-short-introduction-to-galaxy
 homework-pre-lab-scientific-literature
 purpose-3
 learning-objectives-2
 introduction-3
 activity-1
-instructions-4
+instructions-5
 questions-1
 grading-criteria-2
 footnotes-2
@@ -46,7 +48,7 @@ purpose-4
 learning-objectives-3
 introduction-4
 activity-2
-instructions-5
+instructions-6
 overview-of-the-paper-in-class
 methods-in-class-and-homework
 figures-in-class-and-homework
