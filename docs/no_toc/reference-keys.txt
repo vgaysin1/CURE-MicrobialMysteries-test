@@ -39,7 +39,7 @@ activity-1
 instructions-5
 grading-criteria-3
 footnotes-3
-homework-pre-lab-scientific-literature
+homework-scientific-literature-prelab
 purpose-3
 learning-objectives-2
 introduction-4
