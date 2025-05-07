@@ -4,7 +4,9 @@
 
 ## Lecture: What’s in Your XYZ?
 
-[Slides" What's in Your XYZ?](https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?usp=sharing)
+![](scientific-literature_files/figure-docx//1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws_g35f391192_00.png)
+
+[Slides: What's in Your XYZ?](https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?usp=sharing)
 
 ## Activity: Taxonomy Profiling Spreadsheet
 
