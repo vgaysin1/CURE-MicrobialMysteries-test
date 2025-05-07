@@ -42,14 +42,14 @@ Perform the activity below and answer the embedded **questions**.
 
 | **How many total counts are there?** |
 |:--|
-|   |
+| <br> |
 <br> 
 
 - c) In e.g. cell A3, determine the percentage of unclassified reads.
 
 | **What percentage of reads are unclassified?** |
 |:--|
-|   |
+| <br> |
 <br>
 
 - d) In e.g. cell A4, determine the percentage of classified reads.
