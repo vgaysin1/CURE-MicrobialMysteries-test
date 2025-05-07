@@ -30,15 +30,23 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 Perform the activity below and answer the embedded **questions**.
 
 1. Access tax-data-gut.tsv and open with Google Sheets.
-- a) [http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-)
+
+ a. [http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-)
+
 2. Identify what information is provided in columns of the tax-data-gut taxonomy file.
-- a) Col A = Counts
-- b) Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
-- c) Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
+
+ a. Col A = Counts
+
+ b. Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
+
+c. Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
+
 3. Create a header row and enter column information.
 4. Evaluate what proportion of data was taxonomically classified.
-- a) Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.
-- b) In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.  
+
+ a. Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.
+
+ b. In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.  
 
 | **How many total counts are there?** |
 |:--|
@@ -56,6 +64,7 @@ Perform the activity below and answer the embedded **questions**.
 
 | **What percentage of reads are classified?** |
 |:--|
+|<br>|
 <br>
 
 5. Identify abundant taxa (those at >1%)
@@ -67,12 +76,13 @@ Perform the activity below and answer the embedded **questions**.
 
 | **How many abundant taxa (at >1%) do you observe?** |
 |:--|
+|<br>|
 <br>
 
 - f) In new column D copy the lower taxonomic rank identified for the abundant species, and paste results in a table below:
 
 | **% abundance** | Taxonomy |
-|:--|:--:|  
+|:--|:--|  
 | 20.1 | s__Faecalibacterium_prausnitzii |
 | | |
 | | |
@@ -96,18 +106,21 @@ Perform the activity below and answer the embedded **questions**.
 
 | **How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?** |
 |:--|
+|<br>|
 <br>
 
 8. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. 
 
 |**What percentage of reads are classified in a low abundance taxa?**|
 |:--|
+|<br>|
 <br>
 
 9. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. 
 
 |**Paste your barplot of % abundance for the 12 most abundant taxa **|
 |:--|
+|<br>|
 <br>
 
 
