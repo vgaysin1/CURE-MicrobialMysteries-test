@@ -8,6 +8,108 @@
 
 ## Activity: Taxonomy Profiling Spreadsheet
 
+### Purpose
+
+First hands-on experience with real data!  Compare kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF] and [Zymo Human Fecal Reference](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf).  Introduce concepts of taxa and relationships, begin forming data analysis goals like comparing how many species, most abundant species, etc. See accompanying [slides](http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk).
+
+### Learning Objectives
+
+1. Explore taxonomy with Kraken 2 taxonomic assignment output.
+2. Compare and contrast taxonomy between Zymo Gut Microbiome Standard and Zymo Human Fecal Reference.
+
+### Introduction
+
+Metagenomics is the direct analysis of the genomes through genome sequencing of an environmental sample (soil, water, gut, etc). The purpose of the taxonomic classification of metagenomic sequences is to catalogue, classify and  identify the species inhabiting a given environment. In the process, new species may get identified! After sampling, DNA extraction, DNA sequencing and genome assembly, genome annotation is used to assign taxonomy to the sequenced sample DNA. Here is where the Kraken 2 tool comes in; Kraken 2 is a taxonomic classification tool which assigns taxonomy to sequencing reads.
+
+### Activity 1 – Explore Zymo Gut Standard Metagenomic Diversity
+
+*Estimated time: 25 min*
+
+#### Instructions
+
+Perform the activity below and answer the embedded **questions**.
+
+1. Access tax-data-gut.tsv and open with Google Sheets.
+- a) [http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-)
+2. Identify what information is provided in columns of the tax-data-gut taxonomy file.
+- a) Col A = Counts
+- b) Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
+- c) Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
+3. Create a header row and enter column information.
+4. Evaluate what proportion of data was taxonomically classified.
+- a) Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.
+- b) In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.  
+
+| **How many total counts are there?** |
+|:--|
+| <br> |
+
+- c) In e.g. cell A3, determine the percentage of unclassified reads.
+
+| **What percentage of reads are unclassified?** |
+|:--|
+| <br> |
+
+- d) In e.g. cell A4, determine the percentage of classified reads.
+
+| **What percentage of reads are classified?** |
+|:--|
+| <br> |
+
+5. Identify abundant taxa (those at >1%)
+- a) Select columns B through I
+- b) In the Data menu, select “Sort range by column B (Z to A)”
+- c) Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
+- d) In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
+- e) Quantify abundant taxa.
+
+| **How many abundant taxa (at >1%) do you observe?** |
+|:--|
+| <br> |
+
+- f) In new column D copy the lower taxonomic rank identified for the abundant species, and paste results in a table below:
+
+| **% abundance** | Taxonomy |
+|:--|:--|  
+| 20.1 | s__Faecalibacterium_prausnitzii |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+
+<br>
+
+7. Overall compare your results with the expected taxa and abundance for [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?
+- Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
+
+| **How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?** |
+|:--|
+| <br> |
+
+8. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. 
+
+|**What percentage of reads are classified in a low abundance taxa?**|
+|:--|
+| <br> |
+
+9. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. 
+
+|**Paste your barplot of % abundance for the 12 most abundant taxa **|
+|:--|
+| <br> |
+
+
+
 ## Activity: A short introduction to Galaxy
 
 ## Homework: Pre-lab: Scientific Literature 
