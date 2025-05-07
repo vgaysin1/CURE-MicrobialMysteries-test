@@ -136,17 +136,17 @@ Perform the optional activity below and answer the embedded **questions**.
 - Perform Activity 1 exercises using tax_data_fecal data, then, use questions below to compare the two datasets.
 - See D6323 Zymo Fecal Microbiome References documentation (pg. 4) in the Resources section below.
 
-2. **Which dataset is classified better, gut or fecal??** 
+|**2.Which dataset is classified better, gut or fecal??**|
 |:--|
 |<br>|
 <br>
 
-3. **Are there any abundant taxa (at >1%) in common between the gut standard and fecal reference?**
+|**3. Are there any abundant taxa (at >1%) in common between the gut standard and fecal reference?**|
 |:--|
 |<br>|
 <br>
 
-4. **In your opinion, does the gut standard mimic the fecal reference well or not?**
+|**4. In your opinion, does the gut standard mimic the fecal reference well or not?**|
 |:--|
 |<br>|
 <br>
