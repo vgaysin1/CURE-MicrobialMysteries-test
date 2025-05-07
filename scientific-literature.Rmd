@@ -273,6 +273,12 @@ Download as Microsoft Word (.docx) and upload on Canvas
 
 ## Lecture: Scientific Literature
 
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?slide=id.g35f391192_00#slide=id.g35f391192_00")
+```
+
+[Slides: Scientific Literature](https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?usp=sharing)
+
 ## Homework: Scientific Literature Activity
 
 ### Purpose
