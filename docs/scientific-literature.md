@@ -136,7 +136,7 @@ Perform the optional activity below and answer the embedded **questions**.
 - Perform Activity 1 exercises using tax_data_fecal data, then, use questions below to compare the two datasets.
 - See D6323 Zymo Fecal Microbiome References documentation (pg. 4) in the Resources section below.
 
-|**2.Which dataset is classified better, gut or fecal??**|
+|**2. Which dataset is classified better, gut or fecal??**|
 |:--|
 |<br>|
 <br>
@@ -150,6 +150,28 @@ Perform the optional activity below and answer the embedded **questions**.
 |:--|
 |<br>|
 <br>
+
+### Grading Criteria
+
+- Download this assignment as Microsoft Word (.docx) and upload on Canvas
+- Download your Google Sheet as Microsoft Excel (.xlsx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+
+- Google Doc
+- [D6331 Zymo Gut Microbiome Standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)
+- [D6323 Zymo Fecal Microbiome References documentation](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf?_gl=1*cych1b*_gcl_au*MzEzNzgzNjc0LjE3MzQ5NTk3NzY)
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Gauri Paul, Clovis Community College
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: January 2025
+
 
 
 ## Activity: A short introduction to Galaxy
