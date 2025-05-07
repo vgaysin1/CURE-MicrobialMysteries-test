@@ -35,9 +35,9 @@ Perform the activity below and answer the embedded **questions**.
 
 2. Identify what information is provided in columns of the tax-data-gut taxonomy file.
 
- a. Col A = Counts
+a. Col A = Counts
 
- b. Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
+b. Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
 
 c. Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
 
@@ -53,14 +53,14 @@ c. Each row corresponds to a different taxa. There are 153 taxa that were classi
 | <br> |
 <br> 
 
-- c) In e.g. cell A3, determine the percentage of unclassified reads.
+c. In e.g. cell A3, determine the percentage of unclassified reads.
 
 | **What percentage of reads are unclassified?** |
 |:--|
 | <br> |
 <br>
 
-- d) In e.g. cell A4, determine the percentage of classified reads.
+d. In e.g. cell A4, determine the percentage of classified reads.
 
 | **What percentage of reads are classified?** |
 |:--|
@@ -68,18 +68,18 @@ c. Each row corresponds to a different taxa. There are 153 taxa that were classi
 <br>
 
 5. Identify abundant taxa (those at >1%)
-- a) Select columns B through I
-- b) In the Data menu, select “Sort range by column B (Z to A)”
-- c) Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
-- d) In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
-- e) Quantify abundant taxa.
+a. Select columns B through I
+b. In the Data menu, select “Sort range by column B (Z to A)”
+c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
+d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
+e. Quantify abundant taxa.
 
 | **How many abundant taxa (at >1%) do you observe?** |
 |:--|
 |<br>|
 <br>
 
-- f) In new column D copy the lower taxonomic rank identified for the abundant species, and paste results in a table below:
+f. In new column D copy the lower taxonomic rank identified for the abundant species, and paste results in a table below:
 
 | **% abundance** | Taxonomy |
 |:--|:--|  
@@ -119,6 +119,34 @@ c. Each row corresponds to a different taxa. There are 153 taxa that were classi
 9. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. 
 
 |**Paste your barplot of % abundance for the 12 most abundant taxa **|
+|:--|
+|<br>|
+<br>
+
+### Activity 2 (OPTIONAL) – Compare with Zymo Fecal Reference
+
+*Estimated time: 20 min*
+
+#### Instructions
+
+Perform the optional activity below and answer the embedded **questions**.
+
+1. In this activity, repeat steps of the Activity 1 above, but now using [tax_data_fecal.tsv](http://drive.google.com/file/d/1CLQw9yqoqWl5caLm-ZmiHpLNtUo_Zo4s) dataset corresponding to Zymo fecal reference. The tax_data_fecal.tsv dataset comes from a real human fecal sample, in contrast to the tax_data_gut.tsv sample you explored in the Activity 1, which corresponds to cultured and pooled known species combined at specific proportions to make up a predictable standard population.
+
+- Perform Activity 1 exercises using tax_data_fecal data, then, use questions below to compare the two datasets.
+- See D6323 Zymo Fecal Microbiome References documentation (pg. 4) in the Resources section below.
+
+2. **Which dataset is classified better, gut or fecal??** 
+|:--|
+|<br>|
+<br>
+
+3. **Are there any abundant taxa (at >1%) in common between the gut standard and fecal reference?**
+|:--|
+|<br>|
+<br>
+
+4. **In your opinion, does the gut standard mimic the fecal reference well or not?**
 |:--|
 |<br>|
 <br>
