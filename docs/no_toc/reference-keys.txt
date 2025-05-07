@@ -49,13 +49,15 @@ questions-1
 grading-criteria-4
 footnotes-4
 discussion-scientific-literature-prelab
+activity-3
+instructions-7
 lecture-scientific-literature
 homework-scientific-literature-activity
 purpose-4
 learning-objectives-3
 introduction-5
-activity-3
-instructions-7
+activity-4
+instructions-8
 overview-of-the-paper-in-class
 methods-in-class-and-homework
 figures-in-class-and-homework

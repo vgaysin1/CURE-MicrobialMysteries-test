@@ -217,6 +217,7 @@ Galaxy [galaxyproject.org](galaxyproject.org) is a free, open-source system for 
 Last Revised: January 2025
 
 
+
 ## Homework: Scientific Literature Prelab
 
 ### Purpose 
@@ -267,7 +268,26 @@ Download as Microsoft Word (.docx) and upload on Canvas
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
+
 ## Discussion: Scientific Literature Prelab
+
+### Activity
+
+*Estimated time: 25 min*
+
+#### Instructions
+
+1. Form groups of four
+- Add names to the "Microbial Mysteries Groups" sheet [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
+2. Pair up into groups (10 min)
+
+a. Discuss -- Each group member briefly describes answers to prelab assignment
+
+b. Summarize -- Identify best answer and add to slidedeck
+[https://docs.google.com/presentation/d/1nuA_gnL09_BPZVNJy5seL-HWejhMFLqILsmgmQztYKo/edit?usp=sharing](https://docs.google.com/presentation/d/1nuA_gnL09_BPZVNJy5seL-HWejhMFLqILsmgmQztYKo/edit?usp=sharing)
+
+3. Share group discussion (2 min each group)
+
 
 ## Lecture: Scientific Literature
 
