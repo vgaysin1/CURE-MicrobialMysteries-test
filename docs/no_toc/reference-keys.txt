@@ -31,6 +31,8 @@ activity-1-explore-zymo-gut-standard-metagenomic-diversity
 instructions-3
 activity-2-optional-compare-with-zymo-fecal-reference
 instructions-4
+grading-criteria-2
+footnotes-2
 activity-a-short-introduction-to-galaxy
 homework-pre-lab-scientific-literature
 purpose-3
@@ -39,8 +41,8 @@ introduction-3
 activity-1
 instructions-5
 questions-1
-grading-criteria-2
-footnotes-2
+grading-criteria-3
+footnotes-3
 discussion-scientific-literature-prelab
 lecture-scientific-literature
 homework-scientific-literature-activity
@@ -55,8 +57,8 @@ figures-in-class-and-homework
 results-in-class-and-homework
 conclusions-homework
 future-directions-homework
-grading-criteria-3
-footnotes-3
+grading-criteria-4
+footnotes-4
 presentation-scientific-literature-activity
 microbial-genomes
 taxonomy-profiling
