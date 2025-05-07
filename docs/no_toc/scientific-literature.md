@@ -10,7 +10,7 @@
 
 ### Purpose
 
-First hands-on experience with real data!  Compare kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF] and [Zymo Human Fecal Reference](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf).  Introduce concepts of taxa and relationships, begin forming data analysis goals like comparing how many species, most abundant species, etc. See accompanying [slides](http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk).
+First hands-on experience with real data!  Compare kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF) and [Zymo Human Fecal Reference](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf).  Introduce concepts of taxa and relationships, begin forming data analysis goals like comparing how many species, most abundant species, etc. See accompanying [slides](http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk).
 
 ### Learning Objectives
 
@@ -42,19 +42,22 @@ Perform the activity below and answer the embedded **questions**.
 
 | **How many total counts are there?** |
 |:--|
-| <br> |
+
+<br> 
 
 - c) In e.g. cell A3, determine the percentage of unclassified reads.
 
 | **What percentage of reads are unclassified?** |
 |:--|
-| <br> |
+
+<br>
 
 - d) In e.g. cell A4, determine the percentage of classified reads.
 
 | **What percentage of reads are classified?** |
 |:--|
-| <br> |
+
+<br>
 
 5. Identify abundant taxa (those at >1%)
 - a) Select columns B through I
@@ -65,7 +68,8 @@ Perform the activity below and answer the embedded **questions**.
 
 | **How many abundant taxa (at >1%) do you observe?** |
 |:--|
-| <br> |
+
+<br>
 
 - f) In new column D copy the lower taxonomic rank identified for the abundant species, and paste results in a table below:
 
@@ -94,20 +98,22 @@ Perform the activity below and answer the embedded **questions**.
 
 | **How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?** |
 |:--|
-| <br> |
+
+<br>
 
 8. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. 
 
 |**What percentage of reads are classified in a low abundance taxa?**|
 |:--|
-| <br> |
+
+<br>
 
 9. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. 
 
 |**Paste your barplot of % abundance for the 12 most abundant taxa **|
 |:--|
-| <br> |
 
+<br>
 
 
 ## Activity: A short introduction to Galaxy
