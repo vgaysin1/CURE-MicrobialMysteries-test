@@ -271,6 +271,10 @@ Download as Microsoft Word (.docx) and upload on Canvas
 
 ## Lecture: Scientific Literature
 
+<img src="scientific-literature_files/figure-html//1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM_g35f391192_00.png" width="480" />
+
+[Slides: Scientific Literature](https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?usp=sharing)
+
 ## Homework: Scientific Literature Activity
 
 ### Purpose
