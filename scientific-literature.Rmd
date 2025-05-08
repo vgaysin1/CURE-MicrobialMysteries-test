@@ -75,15 +75,14 @@ b. In the Data menu, select “Sort range by column B (Z to A)”
 c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
 d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
 e. Quantify abundant taxa.
-
 | **How many abundant taxa (at >1%) do you observe?** |
 |:--|
 |<br>|
 <br>
 
-f. List the abundant taxa into a table below. 
-- First, to consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant species.
-- Then, **Enter the resulting list of your abundant species into a table below**
+f. **What abundant taxa do you observe? Enter in table below**
+- To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant species.
+- Then, enter the results into a table below.
 
 | **% abundance** | Taxonomy |
 |:--|:--|  
