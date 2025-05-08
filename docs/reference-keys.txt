@@ -29,6 +29,7 @@ learning-objectives-1
 introduction-2
 activity-1-explore-zymo-gut-standard-metagenomic-diversity
 instructions-3
+questions-1
 activity-2-optional-compare-with-zymo-fecal-reference
 instructions-4
 grading-criteria-2
@@ -45,7 +46,7 @@ learning-objectives-2
 introduction-4
 activity-2
 instructions-6
-questions-1
+questions-2
 grading-criteria-4
 footnotes-4
 discussion-scientific-literature-prelab
