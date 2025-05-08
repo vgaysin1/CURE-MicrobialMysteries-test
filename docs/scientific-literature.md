@@ -67,24 +67,27 @@ d. In e.g. cell A4, determine the percentage of classified reads.
 |<br>|
 <br>
 
-5. Identify abundant taxa (those at >1%)
+5. Identify abundant taxa (those at >1%).
 a. Select columns B through I
 b. In the Data menu, select “Sort range by column B (Z to A)”
 c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
 d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
 e. Quantify abundant taxa.
+
 | **How many abundant taxa (at >1%) do you observe?** |
 |:--|
 |<br>|
 <br>
 
-f. **What abundant taxa do you observe? Enter in table below**
+f. List abundant taxa you identified in a table below.
 - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant species.
 - Then, enter the results into a table below.
 
+**What abundant taxa do you observe?**
+
 | **% abundance** | Taxonomy |
 |:--|:--|  
-| 20.1 | s__Faecalibacterium_prausnitzii |
+| 20.1 | s_Faecalibacterium_prausnitzii |
 | | |
 | | |
 | | |
