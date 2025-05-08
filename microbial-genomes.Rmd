@@ -22,9 +22,9 @@ In the “A short introduction to Galaxy” activity you learned how to upload a
 
 #### Instructions
 
-1. Complete the “Quality Control” hands-on tutorial: [training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html](training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html)
+1. Complete the “Quality Control” hands-on tutorial: [training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html)
 
-- NOTE: Do all hands-on steps in a single Galaxy history
+- **NOTE**: Do all hands-on steps in a single Galaxy history
 
 ### Activity 2 – Creating, Editing and Importing Galaxy Workflows
 
@@ -32,7 +32,7 @@ In the “A short introduction to Galaxy” activity you learned how to upload a
 
 #### Instructions
 
-1. Complete the “Creating, Editing and Importing Galaxy Workflows” hands-on tutorial: [training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html](http://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.htm)
+1. Complete the “Creating, Editing and Importing Galaxy Workflows” hands-on tutorial: [training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html)
 
 ### Grading Criteria
 
