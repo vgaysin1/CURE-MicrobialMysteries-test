@@ -82,7 +82,7 @@ e. Quantify abundant taxa.
 <br>
 
 f. List abundant taxa you identified in a table below.
-- To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant species.
+- To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa.
 - Then, enter the results into a table below.
 
 **What abundant taxa do you observe?**
