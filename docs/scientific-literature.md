@@ -141,22 +141,24 @@ e. Quantify abundant taxa.
 
 Perform the optional activity below and answer the embedded **questions**.
 
-1. In this activity, repeat steps of the Activity 1 above, but now using [tax_data_fecal.tsv](http://drive.google.com/file/d/1CLQw9yqoqWl5caLm-ZmiHpLNtUo_Zo4s) dataset corresponding to Zymo fecal reference. The tax_data_fecal.tsv dataset comes from a real human fecal sample, in contrast to the tax_data_gut.tsv sample you explored in the Activity 1, which corresponds to cultured and pooled known species combined at specific proportions to make up a predictable standard population.
+In this activity, repeat steps of the Activity 1 above, but now using [tax_data_fecal.tsv](http://drive.google.com/file/d/1CLQw9yqoqWl5caLm-ZmiHpLNtUo_Zo4s) dataset corresponding to Zymo fecal reference. The tax_data_fecal.tsv dataset comes from a real human fecal sample, in contrast to the tax_data_gut.tsv sample you explored in the Activity 1, which corresponds to cultured and pooled known species combined at specific proportions to make up a predictable standard population.
 
 - Perform Activity 1 exercises using tax_data_fecal data, then, use questions below to compare the two datasets.
 - See D6323 Zymo Fecal Microbiome References documentation (pg. 4) in the Resources section below.
 
-|**2. Which dataset is classified better, gut or fecal??**|
+#### Questions
+
+|**1. Which dataset is classified better, gut or fecal??**|
 |:--|
 |<br>|
 <br>
 
-|**3. Are there any abundant taxa (at >1%) in common between the gut standard and fecal reference?**|
+|**2. Are there any abundant taxa (at >1%) in common between the gut standard and fecal reference?**|
 |:--|
 |<br>|
 <br>
 
-|**4. In your opinion, does the gut standard mimic the fecal reference well or not?**|
+|**3. In your opinion, does the gut standard mimic the fecal reference well or not?**|
 |:--|
 |<br>|
 <br>

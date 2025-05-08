@@ -32,6 +32,7 @@ instructions-3
 questions-1
 activity-2-optional-compare-with-zymo-fecal-reference
 instructions-4
+questions-2
 grading-criteria-2
 footnotes-2
 activity-a-short-introduction-to-galaxy
@@ -46,7 +47,7 @@ learning-objectives-2
 introduction-4
 activity-2
 instructions-6
-questions-2
+questions-3
 grading-criteria-4
 footnotes-4
 discussion-scientific-literature-prelab
