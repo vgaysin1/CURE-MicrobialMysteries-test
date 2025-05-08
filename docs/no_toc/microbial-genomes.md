@@ -4,6 +4,9 @@
 
 ## Lecture: Microbial Genome
 
+<img src="resources/images/microbial-genomes_files/figure-html//1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU_g35f391192_00.png" width="480" />
+
+[Slides: Microbial Genomes](https://docs.google.com/presentation/d/1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU/edit?usp=sharing)
 
 ## Homework: Microbial Genomes Prelab
 
