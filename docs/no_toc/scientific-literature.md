@@ -397,3 +397,30 @@ Determine the main objectives and purpose of the paper. Read the Abstract and th
 
 ## Presentation: Scientific Literature Activity
 
+### Activity
+
+*Estimated time: 25 min*
+
+#### Instructions
+
+1. Open the “Scientific Literature Presentation” slidedeck [here](https://docs.google.com/presentation/d/1wwfiTSgm0ialrYlBFnA21zdZsw7mVA58YPMiTnDGCrc/edit?usp=sharing)
+
+2. For your assigned figure from Xue, et al., 2023, create two slides to present methods and results
+
+a. Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+
+b. Search for and insert at least one additional image that relates to your figure
+
+c. Update slide title to summarize your main takeaway
+
+3. Present at next class (5 min each group)
+
+### Footnotes
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: January 2025
+
