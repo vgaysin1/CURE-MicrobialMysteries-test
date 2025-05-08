@@ -44,7 +44,10 @@ Perform the activity below and answer the embedded **questions**.
 - Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
 
 3. Create a header row and enter column information.
-4. Evaluate what proportion of data was taxonomically classified.
+
+#### Questions
+
+1. Evaluate what proportion of data was taxonomically classified.
 
  a. Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.
 
@@ -69,7 +72,8 @@ d. In e.g. cell A4, determine the percentage of classified reads.
 |<br>|
 <br>
 
-5. Identify abundant taxa (those at >1%).
+2. Identify abundant taxa (those at >1%).
+
 a. Select columns B through I
 b. In the Data menu, select “Sort range by column B (Z to A)”
 c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
@@ -81,7 +85,8 @@ e. Quantify abundant taxa.
 |<br>|
 <br>
 
-f. List abundant taxa you identified in a table below.
+3. List abundant taxa you identified in a table below.
+
 - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa.
 - Then, enter the results into a table below.
 
@@ -107,7 +112,8 @@ f. List abundant taxa you identified in a table below.
 
 <br>
 
-6. Overall compare your results with the expected taxa and abundance for [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?
+4. Compare your results with the expected taxa and abundance for [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?
+
 - Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
 
 | **How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?** |
@@ -115,14 +121,14 @@ f. List abundant taxa you identified in a table below.
 |<br>|
 <br>
 
-7. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. 
+5. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. 
 
 |**What percentage of reads are classified in a low abundance taxa?**|
 |:--|
 |<br>|
 <br>
 
-8. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. 
+6. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. 
 
 |**Paste your barplot of % abundance for the 12 most abundant taxa **|
 |:--|
