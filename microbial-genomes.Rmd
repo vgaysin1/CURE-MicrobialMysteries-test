@@ -6,6 +6,11 @@ ottrpal::set_knitr_image_path()
 
 ## Lecture: Microbial Genome
 
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU/edit?slide=id.g35f391192_00#slide=id.g35f391192_00")
+```
+
+[Slides: Microbial Genomes](https://docs.google.com/presentation/d/1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU/edit?usp=sharing)
 
 ## Homework: Microbial Genomes Prelab
 
