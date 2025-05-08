@@ -31,17 +31,15 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 
 Perform the activity below and answer the embedded **questions**.
 
-1. Access tax-data-gut.tsv and open with Google Sheets.
-
- a. [http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-)
+1. Access tax-data-gut.tsv and open with Google Sheets [here](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-)
 
 2. Identify what information is provided in columns of the tax-data-gut taxonomy file.
 
-a. Col A = Counts
+- Col A = Counts
 
-b. Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
+- Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
 
-c. Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
+- Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
 
 3. Create a header row and enter column information.
 4. Evaluate what proportion of data was taxonomically classified.
@@ -81,7 +79,9 @@ e. Quantify abundant taxa.
 |<br>|
 <br>
 
-f. In new column D copy the lower taxonomic rank identified for the abundant species, and paste results in a table below:
+f. List the abundant taxa into a table below. 
+- First, to consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant species.
+- Then, **Enter the resulting list of your abundant species into a table below**
 
 | **% abundance** | Taxonomy |
 |:--|:--|  
@@ -103,7 +103,7 @@ f. In new column D copy the lower taxonomic rank identified for the abundant spe
 
 <br>
 
-7. Overall compare your results with the expected taxa and abundance for [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?
+6. Overall compare your results with the expected taxa and abundance for [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?
 - Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
 
 | **How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?** |
@@ -111,14 +111,14 @@ f. In new column D copy the lower taxonomic rank identified for the abundant spe
 |<br>|
 <br>
 
-8. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. 
+7. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. 
 
 |**What percentage of reads are classified in a low abundance taxa?**|
 |:--|
 |<br>|
 <br>
 
-9. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. 
+8. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. 
 
 |**Paste your barplot of % abundance for the 12 most abundant taxa **|
 |:--|
