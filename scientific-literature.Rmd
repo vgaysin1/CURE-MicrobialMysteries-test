@@ -56,14 +56,12 @@ Perform the activity below and answer the embedded **questions**.
 | **How many total counts are there?** |
 |:--|
 | <br> |
-<br> 
 
 c. In e.g. cell A3, determine the percentage of unclassified reads.
 
 | **What percentage of reads are unclassified?** |
 |:--|
 | <br> |
-<br>
 
 d. In e.g. cell A4, determine the percentage of classified reads.
 
@@ -153,17 +151,14 @@ In this activity, repeat steps of the Activity 1 above, but now using [tax_data_
 |**1. Which dataset is classified better, gut or fecal??**|
 |:--|
 |<br>|
-<br>
 
 |**2. Are there any abundant taxa (at >1%) in common between the gut standard and fecal reference?**|
 |:--|
 |<br>|
-<br>
 
 |**3. In your opinion, does the gut standard mimic the fecal reference well or not?**|
 |:--|
 |<br>|
-<br>
 
 ### Grading Criteria
 
