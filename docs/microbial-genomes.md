@@ -98,11 +98,11 @@ a. Hover along one of many green vertical sticks.
 b. Hover along one of many red vertical sticks.
 - You can also zoom into a smaller and smaller genomic region for higher resolution.
 
-|**1. What do the ‘green sticks’ represent?**
+|**1. What do the ‘green sticks’ represent?**|
 |:-|
 | <br> |
 
-|**2. What do the ‘red sticks’ represent?**
+|**2. What do the ‘red sticks’ represent?**|
 |:-|
 | <br> |
 
@@ -134,7 +134,8 @@ To learn more about the genes of interest and their function scientists often us
 #### Questions
 
 |**1. Record Genome Name associated with the following genes**.| |
-|Gene ID | Genome Name
+|:--|:--| 
+|Gene ID | Genome Name |
 | Gene 1: ampC| Escherichia coli 07798 | 
 | Gene 2: mgtA| |
 | Gene 3: cdd | |
@@ -142,14 +143,16 @@ To learn more about the genes of interest and their function scientists often us
 | <br> |
 
 |**2. For the 3 genes from the activity above, record gene Product.**.| |
-|Gene ID | Gene Product
+|:--|:--| 
+|Gene ID | Gene Product |
 | Gene 1: ampC| Beta-lactamase | 
 | Gene 2: | |
 | Gene 3: | |
 | <br> |
 
 |**3. For the 3 genes from the activity above, record Pathway Name, which relates to gene/protein function.**.| |
-|Gene ID | Pathway Name
+|Gene ID | Pathway Name |
+|:--|:--| 
 | Gene 1: ampC| beta-Lactam resistance | 
 | Gene 2: | |
 | Gene 3: | |
@@ -157,6 +160,85 @@ To learn more about the genes of interest and their function scientists often us
 
 **Note**, For some well characterized genes  you can additionally obtain more detailed information about the gene/protein function. 
 - To do so, from the ‘green’ menu on the right, select **FEATURE** option, to learn from the Special Properties section about a special property of your gene. 
+
+### Activity 3 -  Taxonomy and tree of life
+
+*Estimated time: 30 min*
+
+### Activity 3 - Part I
+
+#### Instructions
+
+a. Back in NCBI enter the *E. coli* accession number again. Under **Related Information** on the right, click on **Taxonomy** and then on the provided link for the *E. coli*. 
+
+b. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names.
+
+### Questions
+
+|1. **Record 7 core taxonomy ranks below**.| |
+|:--|:--|
+| Kingdom: | |
+| Phylum:| |
+| Class:| |
+| Order:| | 
+| Family:| |
+| Genus:| |
+| Species:| |
+|<br>|
+
+### Activity 3 - Part II
+
+#### Instructions
+
+a) As with the BV-BRC database above, we can use another database called **Lifemap** to visually explore the *E. coli* in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr), type E. coli and click species tab.
+
+b) On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus tabs to zoom in and out and visualize E. coli relative to other organisms on the map. 
+
+|**1. How many Domains of life are there?**.| 
+|:--|
+| <br> |
+
+|**2. Zoom into and find nodes for the E. coli Genus, Family, Order, Class and Phylum. Do they match what you found in the NCBI Taxonomy Browser for Lineage?**.| 
+|:--|
+| <br> |
+
+|**3. What are some other members of the Genus (Escherichia) to which E. coli belongs?**.| 
+|:--|
+| <br> |
+
+|**4. What are some other members of the Family (Enterobacteriaceae) to which E. coli belongs?**.| 
+|:--|
+| <br> |
+
+|**5. What are some other members of the Order (Enterobacterales) to which E. coli belongs?**.| 
+|:--|
+| <br> |
+
+|**6. What are some other members of the Class (Gammaproteobacteria) to which E. coli belongs?**.| 
+|:--|
+| <br> |
+
+|**7. What are some other members of the Phylum (Pseudomonadota) to which E. coli belongs?**.| 
+|:--|
+| <br> |
+
+### Grading Criteria
+
+- ==Download as Microsoft Word (.docx) and upload on Canvas==
+
+### Footnotes
+
+**Resources**
+
+- Google Doc
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
+
 
 ## Homework: QC and Galaxy Workflows
 
