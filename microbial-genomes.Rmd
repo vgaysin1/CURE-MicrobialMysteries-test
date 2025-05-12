@@ -147,7 +147,7 @@ To learn more about the genes of interest and their function scientists often us
 
 #### Questions
 
-|**1. Record Genome Name associated with the following genes**.| 
+|**1. Record Genome Name associated with the following genes**.| |
 |:--|:--| 
 |**Gene ID** | **Genome Name** |
 | Gene 1: ampC| Escherichia coli 07798 | 
@@ -156,7 +156,7 @@ To learn more about the genes of interest and their function scientists often us
 | Gene 4: Your gene| |
 | <br> |
 
-|**2. For the 3 genes from the activity above, record gene Product**.| 
+|**2. For the 3 genes from the activity above, record gene Product**.| |
 |:--|:--| 
 |**Gene ID** | **Gene Product** |
 | Gene 1: ampC| Beta-lactamase | 
@@ -164,7 +164,7 @@ To learn more about the genes of interest and their function scientists often us
 | Gene 3: | |
 | <br> |
 
-|**3. For the 3 genes from the activity above, record Pathway Name (relates to function)**.| 
+|**3. For the 3 genes from the activity above, record Pathway Name (relates to function)**.| |
 |:--|:--|
 |**Gene ID** | **Pathway Name** |
 | Gene 1: ampC| beta-Lactam resistance | 
@@ -190,7 +190,7 @@ b. Find Lineage information. Full Lineage information contains 7 core taxonomy r
 
 ### Questions
 
-|1. **Record 7 core taxonomy ranks below**.| 
+|1. **Record 7 core taxonomy ranks below**.| |
 |:--|:--|
 | Kingdom: | |
 | Phylum:| |
@@ -298,8 +298,6 @@ In the “A short introduction to Galaxy” activity you learned how to upload a
 Last Revised: February 2025
 
 
-
-
 ## Discussion: Microbial Genomes Prelab
 
 
@@ -330,6 +328,53 @@ Last Revised: February 2025
 
 
 ## Homework: Microbial Genomes Project
+
+### Purpose
+
+Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/).
+
+### Learning Objectives
+
+1. Explore and better understand MAGs and contigs by following up one MAG and one contig in NCBI.
+2. Utilize knowledge learned by navigating MAG information using previously learned tools such as GenBank, Sequence Browser, BV-BRC, Taxonomy Browser and Lifemap. 
+3. Go deeper and see what you can find on the organism from your MAG of choice and a gene from a MAG of choice (in 15 minutes each!) using any tools available to you (Pubmed, Google, BV-BRC, other databases). 
+
+### Activity 1 – MAGs and Taxonomy
+
+*Estimated time: [40] min*
+
+
+#### Instructions and Questions
+
+1. In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment are of very high quality and completeness. Choose one of these 17 MAGs (see 17 GenBank IDs below) to follow up in this activity.
+
+|17 MAGs| 
+|:-|
+| 1. GCF_030147545.1
+| 2. GCF_030148435.1
+| 3. GCF_030149225.1
+| 4. GCF_030148195.1
+| 5. GCF_030148855.1
+| 6. GCF_030148245.1
+| 7. GCF_030149045.1
+| 8. GCF_030148385.1
+| 9. GCF_030147715.1
+| 10. GCF_030149085.1
+| 11. GCF_030149145.1
+| 12. GCF_030148125.1
+| 13. GCF_030149425.1
+| 14. GCF_030149235.1
+| 15. GCF_030148515.1
+| 16. GCF_030147875.1
+| 17. GCF_030149465.1
+| <br>|
+
+
+
+
+| <br> |
+
+
 
 
 ## Activity: test-driveR
