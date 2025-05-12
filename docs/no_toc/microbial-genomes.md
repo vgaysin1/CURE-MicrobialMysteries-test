@@ -26,7 +26,7 @@ Impress all the information that is freely available about well studied (and not
 
 *Estimated time: 15 min*
 
-#### Activity 1-1
+### Activity 1 - Part I
 
 #### Instructions
 
@@ -34,19 +34,19 @@ Navigate to **GenBank** [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.
 
 #### Questions
 
-| **1-1.1 What is the size of this *E. coli* genome in bp and Kbp**? |
+| **1. What is the size of this *E. coli* genome in bp and Kbp**? |
 |:-|
 | <br> |
 
-| **1-1.2 Is the *E. coli* genome linear or circular**? |
+| **2. Is the *E. coli* genome linear or circular**? |
 |:-|
 | <br> |
 
-| **1-1.3 What is the ACCESSION number?** |
+| **3. What is the ACCESSION number?** |
 |:-|
 | <br> |
 
-#### Activity 1-2
+### Activity 1 - Part II
 
 #### Instructions
 
@@ -54,11 +54,11 @@ Back in GenBank [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.
 
 #### Questions
 
-| **1-2.1 How many records do you observe after an ACCESSION number entry?** |
+| **1. How many records do you observe after an ACCESSION number entry?** |
 |:-|
 | <br> |
 
-| **1-2.1 What can you conclude about what is the ACCESSION number?** |
+| **2. What can you conclude about what is the ACCESSION number?** |
 |:-|
 | <br> |
 
@@ -66,26 +66,26 @@ Back in GenBank [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.
 
 *Estimated time: 45 min*
 
-#### Activity 2-1
+### Activity 2 - Part I
 
 #### Instructions
 
 After entering your accession number, the on the right of the page, under **Related Information**, click on Assembly link to explore genome assembly information.
 
-| **2-1.1 How many chromosomes does E. coli have?** |
+| **1. How many chromosomes does E. coli have?** |
 |:-|
 | <br> |
 
 
-| **2-1.2 What is the genome coverage of this sequenced genome?** |
+| **2. What is the genome coverage of this sequenced genome?** |
 |:-|
 | <br> |
 
-| **2-1.3 How many genes were annotated for this genome?** |
+| **3. How many genes were annotated for this genome?** |
 |:-|
 | <br> |
 
-#### Activity 2-2
+### Activity 2 - Part II
 
 #### Instructions
 
@@ -97,15 +97,15 @@ a. Hover along one of many green vertical sticks.
 b. Hover along one of many red vertical sticks.
 - You can also zoom into a smaller and smaller genomic region for higher resolution.
 
-|**2-2.1 What do the ‘green sticks’ represent?**
+|**1. What do the ‘green sticks’ represent?**
 |:-|
 | <br> |
 
-|**2-2.2 What do the ‘red sticks’ represent?**
+|**2. What do the ‘red sticks’ represent?**
 |:-|
 | <br> |
 
-|**2-2.3 Record 5 genes you found present in E. coli**.|
+|**3. Record 5 genes you found present in E. coli**.|
 |:-|
 | Gene 1
 | Gene 2
@@ -114,13 +114,48 @@ b. Hover along one of many red vertical sticks.
 | Gene 5
 | <br> |
 
-#### Activity 2-3
+### Activity 2 - Part III
 
 #### Instructions
 
-To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate =="No results found."==
+To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate ==No results found==.
+
+**For the 3 genes below, and one gene of your choice from activity above**, in the BV-BRC **Search** space, 
+
+**a)** from a dropdown menu select **“Pathways”** , 
+
+**b)** type in the gene name and **click enter**. This will result in a lot of entries for different organisms. 
+
+**c)** To retrieve information specifically for *E. coli (Escherichia coli)*, in the **Keyword** space type “Escherichia”.
+
+**d)** Check one of the boxes corresponding to *E. coli* strains and enter below which E. coli strain **(Genome Name)** you selected.  ==If no E. coli entry is present, select and record another bacterial Genome Name to learn about your gene’s function.==
 
 #### Questions
+
+|**1. Record Genome Name associated with the following genes**.| |
+|Gene ID | Genome Name
+| Gene 1: ampC| Escherichia coli 07798 | 
+| Gene 2: mgtA| |
+| Gene 3: cdd | |
+| Gene 4: Your gene| |
+| <br> |
+
+|**2. For the 3 genes from the activity above, record gene Product.**.| |
+|Gene ID | Gene Product
+| Gene 1: ampC| Beta-lactamase | 
+| Gene 2: | |
+| Gene 3: | |
+| <br> |
+
+|**3. For the 3 genes from the activity above, record Pathway Name, which relates to gene/protein function.**.| |
+|Gene ID | Pathway Name
+| Gene 1: ampC| beta-Lactam resistance | 
+| Gene 2: | |
+| Gene 3: | |
+| <br> |
+
+**Note**, For some well characterized genes  you can additionally obtain more detailed information about the gene/protein function. 
+- To do so, from the ‘green’ menu on the right, select **FEATURE** option, to learn from the Special Properties section about a special property of your gene. 
 
 ## Homework: QC and Galaxy Workflows
 
