@@ -127,7 +127,7 @@ b. Hover along one of many red vertical sticks.
 
 #### Instructions
 
-To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found>.
+To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found.
 
 **For the 3 genes below, and one gene of your choice from activity above**, in the BV-BRC **Search** space, 
 
@@ -275,7 +275,7 @@ In the “A short introduction to Galaxy” activity you learned how to upload a
 
 ### Grading Criteria
 
-- Submit URL to your shared Galaxy “Quality Control” history on Canvas
+- <mark style="background-color: yellow">Submit URL to your shared Galaxy “Quality Control” history on Canvas
 
 ### Footnotes
 
