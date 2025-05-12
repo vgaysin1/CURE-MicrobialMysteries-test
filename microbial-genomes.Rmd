@@ -164,7 +164,7 @@ To learn more about the genes of interest and their function scientists often us
 | Gene 3: | |
 | <br> |
 
-|**3. For the 3 genes from the activity above, record Pathway Name, which relates to gene/protein function**.| 
+|**3. For the 3 genes from the activity above, record Pathway Name (relates to function)**.| 
 |:--|:--|
 |**Gene ID** | **Pathway Name** |
 | Gene 1: ampC| beta-Lactam resistance | 
