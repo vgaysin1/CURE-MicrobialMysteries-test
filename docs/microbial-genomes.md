@@ -26,7 +26,7 @@ Impress all the information that is freely available about well studied (and not
 
 ![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_0.png)
 
-### Activity 1 - Part I
+#### Activity 1 - Part I
 
 *Estimated time: 5 min*
 
@@ -48,7 +48,7 @@ Navigate to **GenBank** [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.
 |:-|
 | <br> |
 
-### Activity 1 - Part II
+#### Activity 1 - Part II
 
 *Estimated time: 5 min*
 
@@ -69,13 +69,15 @@ Back in GenBank [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.
 
 ### Activity 2 – Genomes, genes, and other databases (BV-BRC)
 
-### Activity 2 - Part I
+#### Activity 2 - Part I
 
 *Estimated time: 5 min*
 
 #### Instructions
 
 After entering your accession number, the on the right of the page, under **Related Information**, click on Assembly link to explore genome assembly information.
+
+#### Questions
 
 | **1. How many chromosomes does E. coli have?** |
 |:-|
@@ -90,7 +92,7 @@ After entering your accession number, the on the right of the page, under **Rela
 |:-|
 | <br> |
 
-### Activity 2 - Part II
+#### Activity 2 - Part II
 
 *Estimated time: 10 min*
 
@@ -103,6 +105,8 @@ a. Hover along one of many green vertical sticks.
 
 b. Hover along one of many red vertical sticks.
 - You can also zoom into a smaller and smaller genomic region for higher resolution.
+
+#### Questions
 
 |**1. What do the ‘green sticks’ represent?**|
 |:-|
@@ -121,7 +125,7 @@ b. Hover along one of many red vertical sticks.
 | Gene 5
 | <br> |
 
-### Activity 2 - Part III
+#### Activity 2 - Part III
 
 *Estimated time: 10 min*
 
@@ -174,7 +178,7 @@ To learn more about the genes of interest and their function scientists often us
 
 *Estimated time: 30 min*
 
-### Activity 3 - Part I
+#### Activity 3 - Part I
 
 #### Instructions
 
@@ -195,13 +199,15 @@ b. Find Lineage information. Full Lineage information contains 7 core taxonomy r
 | Species:| |
 |<br>|
 
-### Activity 3 - Part II
+#### Activity 3 - Part II
 
 #### Instructions
 
 a) As with the BV-BRC database above, we can use another database called **Lifemap** to visually explore the *E. coli* in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr), type E. coli and click species tab.
 
 b) On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus tabs to zoom in and out and visualize E. coli relative to other organisms on the map. 
+
+#### Questions
 
 |**1. How many Domains of life are there?**.| 
 |:--|
@@ -337,7 +343,7 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 *Estimated time: [40] min*
 
-### Activity 1 - Part I: Pick a MAG
+#### Activity 1 - Part I
 
 #### Instructions 
 
@@ -368,7 +374,7 @@ In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubme
 |:--|
 | <br> |
 
-### Activity 1 - Part II: Explore your MAG
+#### Activity 1 - Part II
 
 #### Instructions
 
@@ -399,11 +405,13 @@ In GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.g
 | <br> | 
 
 
-### Activity 1 - Part III: Obtain Contig Info
+#### Activity 1 - Part III
 
 #### Instructions
 
 Locate the Assembly statistics section and scroll down slightly to find ‘view RefSeq sequences’ which will provide you with the  information on all of the Contigs that made up your MAG. 
+
+See example of GenBank's Assembly statistics page for the first of 17 MAGS - GCF_030147545.1 here: [https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_030147545.1/])https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_030147545.1/).
 
 #### Questions
 
@@ -417,12 +425,12 @@ Locate the Assembly statistics section and scroll down slightly to find ‘view 
 | Contigs:
 |<br>|
 
-|**3. Choose a contig of reasonably large size (> 75 kb) and record below this Contig’s ID (Accession number) for further examination.|
+|**3. Each contig has its own accession number. Choose a contig of reasonably large size (> 75 kb) and record below this Contig’s ID (Accession number) for further examination.|
 |:--|
 |Tip: You can sort the entries by length via’ Sort by Sequence Length’ on top!|
 |<br>|
 
-### Activity 1 - Part IV: Find Contig Lineage
+#### Activity 1 - Part IV
 
 #### Instructions
 
@@ -442,7 +450,7 @@ Find Lineage information. Full Lineage information contains 7 core taxonomy rank
 |<br>|
 
 
-### Activity 1 - Part V: Visualize your Contig in a tree of life.
+#### Activity 1 - Part V
 
 #### Introduction
 
@@ -487,6 +495,7 @@ b) On the tree map, use plus and minus tabs to zoom in and out and visualize you
 
 #### Instructions
 
+For the contig you chose in activity 1 click on **Graphics** to explore the genome browser and the genes. Record 5 genes of interest. 
 
 
 ## Activity: test-driveR
