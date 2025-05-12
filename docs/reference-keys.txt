@@ -113,6 +113,10 @@ activity-6
 instructions-19
 footnotes-9
 homework-microbial-genomes-project
+purpose-6
+learning-objectives-5
+activity-1-mags-and-taxonomy
+instructions-and-questions
 activity-test-driver
 presentation-microbial-genomes-project
 taxonomy-profiling
