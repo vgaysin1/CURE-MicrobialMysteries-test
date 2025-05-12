@@ -127,7 +127,7 @@ b. Hover along one of many red vertical sticks.
 
 #### Instructions
 
-To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found</>.
+To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found>.
 
 **For the 3 genes below, and one gene of your choice from activity above**, in the BV-BRC **Search** space, 
 
@@ -137,7 +137,7 @@ To learn more about the genes of interest and their function scientists often us
 
 **c)** To retrieve information specifically for *E. coli (Escherichia coli)*, in the **Keyword** space type “Escherichia”.
 
-**d)** Check one of the boxes corresponding to *E. coli* strains and enter below which E. coli strain **(Genome Name)** you selected.  ==If no E. coli entry is present, select and record another bacterial Genome Name to learn about your gene’s function.==
+**d)** Check one of the boxes corresponding to *E. coli* strains and enter below which E. coli strain **(Genome Name)** you selected. <mark style="background-color: lightyellow">If no E. coli entry is present, select and record another bacterial Genome Name to learn about your gene’s function.
 
 #### Questions
 
@@ -159,8 +159,8 @@ To learn more about the genes of interest and their function scientists often us
 | <br> |
 
 |**3. For the 3 genes from the activity above, record Pathway Name, which relates to gene/protein function**.| |
+|:--|:--|
 |**Gene ID** | **Pathway Name** |
-|:--|:--| 
 | Gene 1: ampC| beta-Lactam resistance | 
 | Gene 2: | |
 | Gene 3: | |
@@ -233,7 +233,7 @@ b) On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus t
 
 ### Grading Criteria
 
-- ==Download as Microsoft Word (.docx) and upload on Canvas==
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas.
 
 ### Footnotes
 
