@@ -109,6 +109,9 @@ instructions-18
 grading-criteria-7
 footnotes-8
 discussion-microbial-genomes-prelab
+activity-6
+instructions-19
+footnotes-9
 homework-microbial-genomes-project
 activity-test-driver
 presentation-microbial-genomes-project
