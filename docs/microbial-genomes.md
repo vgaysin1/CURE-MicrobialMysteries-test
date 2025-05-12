@@ -24,6 +24,7 @@ Impress all the information that is freely available about well studied (and not
 
 ### Activity 1 – GenBank
 
+![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_0.png)
 *Estimated time: 15 min*
 
 ### Activity 1 - Part I
