@@ -28,6 +28,9 @@ Impress all the information that is freely available about well studied (and not
 
 ### Activity 1 – GenBank
 
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g305048ba785_0_0#slide=id.g305048ba785_0_0")
+```
 *Estimated time: 15 min*
 
 ### Activity 1 - Part I
