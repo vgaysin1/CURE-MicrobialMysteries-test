@@ -10,6 +10,117 @@
 
 ## Homework: Microbial Genomes Prelab
 
+### Purpose
+
+Impress all the information that is freely available about well studied (and not so well studied) bacterial species.  Start with E. coli as one of the best and longest studied before going into recently discovered bacteria (with less information).
+
+### Learning Objectives
+
+1. GenBank – Explore sequence database of all publicly available DNA sequences
+2. Sequence Browser – Observe genome organization using graphical representation
+3. Bacterial database BV-BRC - Explore bacterial genes and their function
+4. Taxonomy Browser – Identify relationships between taxa
+5. Lifemap - Tree of Live viewer to visualize relationships between taxa
+
+### Activity 1 – GenBank
+
+*Estimated time: 15 min*
+
+#### Activity 1-1
+
+#### Instructions
+
+Navigate to **GenBank** [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank) and enter ‘E. coli strain K-12’ in the search bar (which should default to **Nucleotide**). This will give you a list of almost 300,000 E. coli sequences. Go down the list and click on the entry that corresponds to the complete genome of the substrain MG1655, which should be on page 1! Click on the selection and answer the following questions.
+
+#### Questions
+
+| **1-1.1 What is the size of this *E. coli* genome in bp and Kbp**? |
+|:-|
+| <br> |
+
+| **1-1.2 Is the *E. coli* genome linear or circular**? |
+|:-|
+| <br> |
+
+| **1-1.3 What is the ACCESSION number?** |
+|:-|
+| <br> |
+
+#### Activity 1-2
+
+#### Instructions
+
+Back in GenBank [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank), under the **Nucleotide** search tab,  instead of typing ‘E. coli strain K-12’, type in the ACCESSION number you found (NZ_CP169634). 
+
+#### Questions
+
+| **1-2.1 How many records do you observe after an ACCESSION number entry?** |
+|:-|
+| <br> |
+
+| **1-2.1 What can you conclude about what is the ACCESSION number?** |
+|:-|
+| <br> |
+
+### Activity 2 – Genomes, genes, and other databases (BV-BRC)
+
+*Estimated time: 45 min*
+
+#### Activity 2-1
+
+#### Instructions
+
+After entering your accession number, the on the right of the page, under **Related Information**, click on Assembly link to explore genome assembly information.
+
+| **2-1.1 How many chromosomes does E. coli have?** |
+|:-|
+| <br> |
+
+
+| **2-1.2 What is the genome coverage of this sequenced genome?** |
+|:-|
+| <br> |
+
+| **2-1.3 How many genes were annotated for this genome?** |
+|:-|
+| <br> |
+
+#### Activity 2-2
+
+#### Instructions
+
+Go back and on the top of the page and click on **Graphics** to explore genome browser.
+
+a. Hover along one of many green vertical sticks.  
+- You can also zoom into a smaller and smaller genomic region for higher resolution.
+
+b. Hover along one of many red vertical sticks.
+- You can also zoom into a smaller and smaller genomic region for higher resolution.
+
+|**2-2.1 What do the ‘green sticks’ represent?**
+|:-|
+| <br> |
+
+|**2-2.2 What do the ‘red sticks’ represent?**
+|:-|
+| <br> |
+
+|**2-2.3 Record 5 genes you found present in E. coli**.|
+|:-|
+| Gene 1
+| Gene 2
+| Gene 3
+| Gene 4
+| Gene 5
+| <br> |
+
+#### Activity 2-3
+
+#### Instructions
+
+To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate =="No results found."==
+
+#### Questions
 
 ## Homework: QC and Galaxy Workflows
 
