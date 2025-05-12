@@ -255,6 +255,7 @@ b) On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus t
 Last Revised: February 2025
 
 
+
 ## Homework: QC and Galaxy Workflows
 
 ### Introduction
@@ -300,6 +301,32 @@ Last Revised: February 2025
 
 
 ## Discussion: Microbial Genomes Prelab
+
+
+### Activity 
+
+*Estimated time: 25 min*
+
+#### Instructions
+
+1. Form new groups of four [here](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing).
+
+2. Pair up into groups (10 min).
+
+a. Discuss -- Each group member briefly describes answers to prelab assignment.
+
+b. Summarize -- Identify best answer and add to slidedeck [here](https://docs.google.com/presentation/d/1PxqLt-MDFCTSBWm0-j-mY268b3YUiPMRqYMtcJ5JDL4/edit?usp=sharing)
+
+3. Share group discussion (2 min each group)
+
+### Footnotes
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
 
 
 ## Homework: Microbial Genomes Project
