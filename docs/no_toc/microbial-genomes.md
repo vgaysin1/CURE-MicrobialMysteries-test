@@ -25,9 +25,10 @@ Impress all the information that is freely available about well studied (and not
 ### Activity 1 – GenBank
 
 <img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_0.png" width="480" />
-*Estimated time: 15 min*
 
 ### Activity 1 - Part I
+
+*Estimated time: 5 min*
 
 #### Instructions
 
@@ -49,6 +50,8 @@ Navigate to **GenBank** [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.
 
 ### Activity 1 - Part II
 
+*Estimated time: 5 min*
+
 #### Instructions
 
 Back in GenBank [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank), under the **Nucleotide** search tab,  instead of typing ‘E. coli strain K-12’, type in the ACCESSION number you found (NZ_CP169634). 
@@ -63,11 +66,12 @@ Back in GenBank [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.
 |:-|
 | <br> |
 
+
 ### Activity 2 – Genomes, genes, and other databases (BV-BRC)
 
-*Estimated time: 45 min*
-
 ### Activity 2 - Part I
+
+*Estimated time: 5 min*
 
 #### Instructions
 
@@ -87,6 +91,8 @@ After entering your accession number, the on the right of the page, under **Rela
 | <br> |
 
 ### Activity 2 - Part II
+
+*Estimated time: 10 min*
 
 #### Instructions
 
@@ -117,6 +123,8 @@ b. Hover along one of many red vertical sticks.
 
 ### Activity 2 - Part III
 
+*Estimated time: 10 min*
+
 #### Instructions
 
 To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate ==No results found==.
@@ -135,23 +143,23 @@ To learn more about the genes of interest and their function scientists often us
 
 |**1. Record Genome Name associated with the following genes**.| |
 |:--|:--| 
-|Gene ID | Genome Name |
+|**Gene ID** | **Genome Name** |
 | Gene 1: ampC| Escherichia coli 07798 | 
 | Gene 2: mgtA| |
 | Gene 3: cdd | |
 | Gene 4: Your gene| |
 | <br> |
 
-|**2. For the 3 genes from the activity above, record gene Product.**.| |
+|**2. For the 3 genes from the activity above, record gene Product**.| |
 |:--|:--| 
-|Gene ID | Gene Product |
+|**Gene ID** | **Gene Product** |
 | Gene 1: ampC| Beta-lactamase | 
 | Gene 2: | |
 | Gene 3: | |
 | <br> |
 
-|**3. For the 3 genes from the activity above, record Pathway Name, which relates to gene/protein function.**.| |
-|Gene ID | Pathway Name |
+|**3. For the 3 genes from the activity above, record Pathway Name, which relates to gene/protein function**.| |
+|**Gene ID** | **Pathway Name** |
 |:--|:--| 
 | Gene 1: ampC| beta-Lactam resistance | 
 | Gene 2: | |
@@ -159,6 +167,7 @@ To learn more about the genes of interest and their function scientists often us
 | <br> |
 
 **Note**, For some well characterized genes  you can additionally obtain more detailed information about the gene/protein function. 
+
 - To do so, from the ‘green’ menu on the right, select **FEATURE** option, to learn from the Special Properties section about a special property of your gene. 
 
 ### Activity 3 -  Taxonomy and tree of life
