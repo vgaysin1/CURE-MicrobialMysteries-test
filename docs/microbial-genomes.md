@@ -141,7 +141,7 @@ To learn more about the genes of interest and their function scientists often us
 
 #### Questions
 
-|**1. Record Genome Name associated with the following genes**.| |
+|**1. Record Genome Name associated with the following genes**.| 
 |:--|:--| 
 |**Gene ID** | **Genome Name** |
 | Gene 1: ampC| Escherichia coli 07798 | 
@@ -150,7 +150,7 @@ To learn more about the genes of interest and their function scientists often us
 | Gene 4: Your gene| |
 | <br> |
 
-|**2. For the 3 genes from the activity above, record gene Product**.| |
+|**2. For the 3 genes from the activity above, record gene Product**.| 
 |:--|:--| 
 |**Gene ID** | **Gene Product** |
 | Gene 1: ampC| Beta-lactamase | 
@@ -158,7 +158,7 @@ To learn more about the genes of interest and their function scientists often us
 | Gene 3: | |
 | <br> |
 
-|**3. For the 3 genes from the activity above, record Pathway Name, which relates to gene/protein function**.| |
+|**3. For the 3 genes from the activity above, record Pathway Name, which relates to gene/protein function**.| 
 |:--|:--|
 |**Gene ID** | **Pathway Name** |
 | Gene 1: ampC| beta-Lactam resistance | 
@@ -184,7 +184,7 @@ b. Find Lineage information. Full Lineage information contains 7 core taxonomy r
 
 ### Questions
 
-|1. **Record 7 core taxonomy ranks below**.| |
+|1. **Record 7 core taxonomy ranks below**.| 
 |:--|:--|
 | Kingdom: | |
 | Phylum:| |
