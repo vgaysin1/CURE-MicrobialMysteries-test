@@ -105,20 +105,23 @@ In this assignment, students will post to both a public and private Category wit
 #### Instructions
 
 1. Visit the C-MOOR Academy Discussion Forum (help.c-moor.org) and log in.  
-1. It is a good idea to bookmark this page so that you can easily access it throughout the course.
-1. Read through the categories in the C-MOOR Academy Discussion Forum. Notice that some categories (at least one) have a lock next to them. This is a Private category, only visible to you, your classmates and your instructor.  If you cannot see your course’s private category when you log in, email your instructor so that they can add you.
-1. Click on the private category that belongs to your class: Spring 2025. In this private channel, we will add a “New Topic” in which you can introduce yourself to the class.
-1. This first post will be an introduction to your class, including a bit about you and a photo.
-- a. Tell your group about yourself. Answer the following questions.
+2. It is a good idea to bookmark this page so that you can easily access it throughout the course.
+3. Read through the categories in the C-MOOR Academy Discussion Forum. Notice that some categories (at least one) have a lock next to them. This is a Private category, only visible to you, your classmates and your instructor.  If you cannot see your course’s private category when you log in, email your instructor so that they can add you.
+4. Click on the private category that belongs to your class: Spring 2025. In this private channel, we will add a “New Topic” in which you can introduce yourself to the class.
+5. This first post will be an introduction to your class, including a bit about you and a photo.
+
+**a. Tell your group about yourself. Answer the following questions.**
   1. What is your name?
   2. Why did you decide to take this class? What are you excited to learn about this semester?
   3. Tell us one thing you like to do outside of school and work. 
-- b. Include a photo:.
+
+**b. Include a photo:**
   1. Selfie: if you would like, post a photo of yourself.
   2. Unselfie: or post a photo of something else. Maybe something that you feel represents your life right now, or a picture of something you love. A pet maybe. Just make sure it tells us something about you.
+
 6. Play around with the platform to personalize your post. As you can see in the discourse topic, you can add emojis, upload images, embed content, etc. These features appear in plain text as you’re typing, but you can see a preview of your post on the right.  For your first few posts you may see a Welcome Box on the right instead, you can close this to see the preview. Once you have posted a few times, the Welcome Box will stop appearing.
-1. When you are done, click “Create Topic” and it will post for the class to see.
-1. If other students have posted their introductions, read them and leave a couple replies. This is a discussion platform after all!
+7. When you are done, click “Create Topic” and it will post for the class to see.
+8. If other students have posted their introductions, read them and leave a couple replies. This is a discussion platform after all!
 
 #### Resources
 
