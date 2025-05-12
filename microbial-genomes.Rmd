@@ -188,7 +188,7 @@ a. Back in NCBI enter the *E. coli* accession number again. Under **Related Info
 
 b. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names.
 
-### Questions
+#### Questions
 
 |1. **Record 7 core taxonomy ranks below**.| |
 |:--|:--|
@@ -343,10 +343,11 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 *Estimated time: [40] min*
 
+### Activity 1 - Part I: Pick a MAG
 
-#### Instructions and Questions
+#### Instructions 
 
-1. In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment are of very high quality and completeness. Choose one of these 17 MAGs (see 17 GenBank IDs below) to follow up in this activity.
+In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment are of very high quality and completeness. Choose one of these 17 MAGs (see 17 GenBank IDs below) to follow up in this activity.
 
 |17 MAGs| 
 |:-|
@@ -367,13 +368,130 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 | 15. GCF_030148515.1
 | 16. GCF_030147875.1
 | 17. GCF_030149465.1
-| <br>|
 
 
-
-
+|**1. Record the GenBank ID  number below for one of  17 high quality MAGs you will follow up below?**.| 
+|:--|
 | <br> |
 
+### Activity 1 - Part II: Explore your MAG
+
+#### Instructions
+
+In GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab type in the GenBank number from activity above.
+
+#### Questions
+
+|**1. Record below the genome name for the MAG assembly associated with the GenBank ID you entered.**| 
+|:--|
+| <br> | 
+
+- Click on the Genome name of your MAG to explore genome assembly summary information
+
+|**2. What is the taxon of your MAG?**| 
+|:--|
+| <br> | 
+
+|**3. What is the genome size of your MAG?**| 
+|:--|
+| <br> | 
+
+|**4. How many genes were annotated?**| 
+|:--|
+| <br> | 
+
+|**5. How comparable is your MAG genome to the E. coli genome from the microbial-genomes-pre-lab, in terms of genome size and number of genes?**| 
+|:--|
+| <br> | 
+
+
+### Activity 1 - Part III: Obtain Contig Info
+
+#### Instructions
+
+Locate the Assembly statistics section and scroll down slightly to find ‘view RefSeq sequences’ which will provide you with the  information on all of the Contigs that made up your MAG. 
+
+#### Questions
+
+|**1. How many contigs contributed to your MAG assembly?**| 
+|:--|
+| <br> | 
+
+|**2. MAGs are made up of Contigs. Based on your lecture material, and your experience with MAGs and contigs from Zue Z et al, Nature Scientific Data 2023 and this exercise, in your own words define MAGs and Contigs below.**| 
+|:--|
+| MAGs:
+| Contigs:
+|<br>|
+
+|**3. Choose a contig of reasonably large size (> 75 kb) and record below this Contig’s ID (Accession number) for further examination.|
+|:--|
+|Tip: You can sort the entries by length via’ Sort by Sequence Length’ on top!|
+|<br>|
+
+### Activity 1 - Part IV: Find Contig Lineage
+
+#### Instructions
+
+For the contig you chose in activity above, under **Related Information** on the right, click on **Taxonomy** and then on the provided link.
+
+Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
+
+|**1. Record 7 core taxonomy ranks for your Contig.|
+|:--|:--|
+| Kingdom: | |
+| Phylum:| |
+| Class:| |
+| Order:| | 
+| Family:| |
+| Genus:| |
+| Species:| |
+|<br>|
+
+
+### Activity 1 - Part V: Visualize your Contig in a tree of life.
+
+#### Introduction
+
+a) Use Lifemap to visually explore the contig taxonomy in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr) and **enter the lowest taxonomy rank observed for your contig** (most likely the species or genus level, but can also correspond to order or family).
+
+b) On the tree map, use plus and minus tabs to zoom in and out and visualize your Contig entry relative to other organisms on the map. Zoom in and find nodes corresponding to  the higher taxonomic ranks. For example, if your contig corresponds to genus level classification, you will not be able to identify species level information, but you will be able to identify the corresponding Family, Order, Class and Phylum. 
+
+|**1. Record 7 core taxonomy ranks for your Contig.|
+|:--|:--|
+| Kingdom: | |
+| Phylum:| |
+| Class:| |
+| Order:| | 
+| Family:| |
+| Genus:| |
+| Species:| |
+|<br>|
+
+|**2. What are some other members of the Genus to which your Contig belongs?**|
+|:--|
+|<br>|
+
+|**3. What are some other members of the Family to which your Contig belongs?**|
+|:--|
+|<br>|
+
+|**4. What are some other members of the Order to which your Contig belongs?**|
+|:--|
+|<br>|
+
+|**5. What are some other members of the Class to which your Contig belongs?**|
+|:--|
+|<br>|
+
+|**6. What are some other members of the Phylum to which your Contig belongs?**|
+|:--|
+|<br>|
+
+### Activity 2 - – Genomes, Genes, and Databases
+
+*Estimated time: [20] min*
+
+#### Instructions
 
 
 
