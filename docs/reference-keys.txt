@@ -141,4 +141,7 @@ questions-13
 grading-criteria-9
 footnotes-11
 presentation-microbial-genomes-project
+activity-8
+instructions-25
+footnotes-12
 taxonomy-profiling
