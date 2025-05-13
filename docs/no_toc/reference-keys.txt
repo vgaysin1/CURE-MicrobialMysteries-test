@@ -134,5 +134,11 @@ instructions-23
 grading-criteria-8
 footnotes-10
 activity-test-driver
+introduction-8
+activity-7
+instructions-24
+questions-13
+grading-criteria-9
+footnotes-11
 presentation-microbial-genomes-project
 taxonomy-profiling
