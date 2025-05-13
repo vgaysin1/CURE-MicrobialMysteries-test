@@ -126,8 +126,10 @@ activity-1---part-ii-explore-a-contig
 instructions-21
 activity-1---part-iii-visualize-contig-in-a-tree-of-life
 introductions
-activity-2---genomes-genes-and-databases
+activity-2-genomes-genes-and-databases
 instructions-22
+questions-12
+activity-3-go-deeper
 activity-test-driver
 presentation-microbial-genomes-project
 taxonomy-profiling
