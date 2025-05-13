@@ -337,18 +337,18 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 1. Explore and better understand MAGs and contigs by following up one MAG and one contig in NCBI.
 2. Utilize knowledge learned by navigating MAG information using previously learned tools such as GenBank, Sequence Browser, BV-BRC, Taxonomy Browser and Lifemap. 
-3. Go deeper and see what you can find on the organism from your MAG of choice and a gene from a MAG of choice (in 15 minutes each!) using any tools available to you (Pubmed, Google, BV-BRC, other databases). 
+3. Go deeper and see what you can find on the organism from your MAG of choice and a gene from a MAG of choice using any tools available to you (Pubmed, Google, BV-BRC, other databases). 
 
 ### Activity 1 – MAGs and Taxonomy
 
 *Estimated time: [40] min*
 
-#### Activity 1 - Part I
+#### Activity 1 - Part I: Explore a MAG
 
 #### Instructions 
 
-- In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment are of very high quality and completeness. 
-- Choose one of these 17 MAGs (see 17 GenBank IDs below) to follow up in this activity.
+- In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment were of very high quality and completeness. You will follow up on one of them!
+- **Choose one of these 17 MAGs** (see 17 GenBank IDs below) to follow up in this activity.
 - Use GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/) to answer questions. 
 
 |GenBank IDs for 17 quality MAGs| 
@@ -370,23 +370,31 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 | 15. GCF_030148515.1
 | 16. GCF_030147875.1
 | 17. GCF_030149465.1
-|<br>|
+<br>
 
 #### Questions
 
-|**1. Record the GenBank ID number for one of  17 high quality MAGs for follow up below.**.| 
+|**1. Record the GenBank ID number for one of  17 high quality MAGs for follow up below**.| 
 |:--|
 | <br> |
 
-- In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab type in the GenBank number of the MAG you chose to follow up in the activity above.
+<>Here is a snapshot for the 1st MAG (GCF_030147545.1)
 
-|**2. Record below the genome name for the MAG assembly associated with the GenBank ID you entered.**| 
+<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_77.png" width="480" />
+
+In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab **enter** the GenBank number of your MAG and click **Search**.
+
+|**2. Record below the GENOME name for the MAG assembly associated with the GenBank ID you entered.**| 
 |:--|
 | <br> | 
 
-- Click on the Genome name of your MAG to explore genome assembly summary information
+<>Here is an example for the 1st MAG (GCF_030147545.1), the GENOME name is "Alcanivorax sp. genome ASM3014754v1":
 
-|**3. What is the taxon of your MAG?**| 
+<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357b6795023_0_2.png" width="480" />
+
+Click on the GENOME name of your MAG to **explore genome assembly summary** information.
+
+|**3. What is the Taxon of your MAG?**| 
 |:--|
 | <br> | 
 
@@ -394,49 +402,45 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 |:--|
 | <br> | 
 
-|**5. How many genes were annotated?**| 
+|**5. How many contigs contributed to your MAG assembly?**| 
 |:--|
 | <br> | 
 
-|**6. How comparable is your MAG genome to the E. coli genome from the microbial-genomes-pre-lab, in terms of genome size and number of genes?**| 
+|**6. How many genes were annotated?**| 
 |:--|
 | <br> | 
 
-
-#### Activity 1 - Part II
-
-#### Instructions
-
-Locate the Assembly statistics section and scroll down slightly to find ‘view RefSeq sequences’ which will provide you with the  information on all of the Contigs that made up your MAG. 
-
-See example of GenBank's Assembly statistics page for the first of 17 MAGS - GCF_030147545.1 here: [https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_030147545.1/])https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_030147545.1/).
-
-#### Questions
-
-|**1. How many contigs contributed to your MAG assembly?**| 
+|**7. How comparable is your MAG genome to the E. coli genome from the microbial-genomes-pre-lab, in terms of genome size and number of genes?**| 
 |:--|
 | <br> | 
 
-|**2. MAGs are made up of Contigs. Based on your lecture material, and your experience with MAGs and contigs from Zue Z et al, Nature Scientific Data 2023 and this exercise, in your own words define MAGs and Contigs below.**| 
+|**8 As you can see, MAGs are made up of Contigs. Based on your lecture and reading material, and this exercise, in your own words define MAGs and Contigs below.**| 
 |:--|
 | MAGs:
 | Contigs:
 |<br>|
 
-|**3. Each contig has its own accession number. Choose a contig of reasonably large size (> 75 kb) and record below this Contig’s ID (Accession number) for further examination.|
+
+#### Activity 1 - Part II: Explore a Contig
+
+#### Instructions
+
+- MAGs are made up of Contigs. To see which contigs make up your MAG, go back to GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), and search for your MAG using its GenBank ID.
+
+<>Here is an example for the 1st MAG (GCF_030147545.1) composed of 42 contigs:
+
+<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_0.png" width="480" />
+
+|**1. Each contig has its own accession number. Choose a contig of reasonably large size (> 75 kb), click on the contig, then find and record below the Contig’s ID (Accession number/GenBank ID) for further examination.|
 |:--|
 |Tip: You can sort the entries by length via’ Sort by Sequence Length’ on top!|
 |<br>|
 
-#### Activity 1 - Part III
+- For the contig you chose in activity above, under **Related Information** on the right, click on **Taxonomy** and **then click again on the provided link**.
 
-#### Instructions
+- Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
 
-For the contig you chose in activity above, under **Related Information** on the right, click on **Taxonomy** and then on the provided link.
-
-Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
-
-|**1. Record 7 core taxonomy ranks for your Contig.|
+|**2. Record 7 core taxonomy ranks for your Contig.|
 |:--|:--|
 | Kingdom: | |
 | Phylum:| |
@@ -448,9 +452,9 @@ Find Lineage information. Full Lineage information contains 7 core taxonomy rank
 |<br>|
 
 
-#### Activity 1 - Part IV
+#### Activity 1 - Part III: Visualize contig in a tree of life
 
-#### Introduction
+#### Introductions
 
 a) Use Lifemap to visually explore the contig taxonomy in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr) and **enter the lowest taxonomy rank observed for your contig** (most likely the species or genus level, but can also correspond to order or family).
 
