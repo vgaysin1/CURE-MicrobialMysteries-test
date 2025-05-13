@@ -676,15 +676,15 @@ Last Revised: February 2025
 
 #### Instructions
 
-1. Open the “Microbial Genomes Presentation” [slidedeck](https://docs.google.com/presentation/d/17hFixGrtYtM0EzEOcU1aAi0CVRu36OqtNIXtbuiu0Os/edit?usp=sharing)
+1. **Open the “Microbial Genomes Presentation” slidedeck** [here](https://docs.google.com/presentation/d/17hFixGrtYtM0EzEOcU1aAi0CVRu36OqtNIXtbuiu0Os/edit?usp=sharing)
 
-2. Create at least two slides (feel free to make more!) to present your findings e.g.
+2. **Create at least two slides (feel free to make more!) to present your findings** e.g.
 
 a. Describe the MAG you explored (Activity 1) and some of its genes (Activity 2)
 
 b. What did you discover about your organism and gene (Activity 3)?
 
-3. Iterate your slides being sure to:
+3. **Iterate your slides being sure to**:
 
 a. Add bullet points on key details you understand (Notice) and questions you have (Wonder)
 
