@@ -347,9 +347,11 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 #### Instructions 
 
-In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment are of very high quality and completeness. Choose one of these 17 MAGs (see 17 GenBank IDs below) to follow up in this activity.
+- In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment are of very high quality and completeness. 
+- Choose one of these 17 MAGs (see 17 GenBank IDs below) to follow up in this activity.
+- Use GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/) to answer questions. 
 
-|17 MAGs| 
+|GenBank IDs for 17 quality MAGs| 
 |:-|
 | 1. GCF_030147545.1
 | 2. GCF_030148435.1
@@ -368,44 +370,40 @@ In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubme
 | 15. GCF_030148515.1
 | 16. GCF_030147875.1
 | 17. GCF_030149465.1
-
-
-|**1. Record the GenBank ID  number below for one of  17 high quality MAGs you will follow up below?**.| 
-|:--|
-| <br> |
-
-#### Activity 1 - Part II
-
-#### Instructions
-
-In GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab type in the GenBank number from activity above.
+|<br>|
 
 #### Questions
 
-|**1. Record below the genome name for the MAG assembly associated with the GenBank ID you entered.**| 
+|**1. Record the GenBank ID number for one of  17 high quality MAGs for follow up below.**.| 
+|:--|
+| <br> |
+
+- In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab type in the GenBank number of the MAG you chose to follow up in the activity above.
+
+|**2. Record below the genome name for the MAG assembly associated with the GenBank ID you entered.**| 
 |:--|
 | <br> | 
 
 - Click on the Genome name of your MAG to explore genome assembly summary information
 
-|**2. What is the taxon of your MAG?**| 
+|**3. What is the taxon of your MAG?**| 
 |:--|
 | <br> | 
 
-|**3. What is the genome size of your MAG?**| 
+|**4. What is the genome size of your MAG?**| 
 |:--|
 | <br> | 
 
-|**4. How many genes were annotated?**| 
+|**5. How many genes were annotated?**| 
 |:--|
 | <br> | 
 
-|**5. How comparable is your MAG genome to the E. coli genome from the microbial-genomes-pre-lab, in terms of genome size and number of genes?**| 
+|**6. How comparable is your MAG genome to the E. coli genome from the microbial-genomes-pre-lab, in terms of genome size and number of genes?**| 
 |:--|
 | <br> | 
 
 
-#### Activity 1 - Part III
+#### Activity 1 - Part II
 
 #### Instructions
 
@@ -430,7 +428,7 @@ See example of GenBank's Assembly statistics page for the first of 17 MAGS - GCF
 |Tip: You can sort the entries by length via’ Sort by Sequence Length’ on top!|
 |<br>|
 
-#### Activity 1 - Part IV
+#### Activity 1 - Part III
 
 #### Instructions
 
@@ -450,7 +448,7 @@ Find Lineage information. Full Lineage information contains 7 core taxonomy rank
 |<br>|
 
 
-#### Activity 1 - Part V
+#### Activity 1 - Part IV
 
 #### Introduction
 
@@ -488,6 +486,7 @@ b) On the tree map, use plus and minus tabs to zoom in and out and visualize you
 |**6. What are some other members of the Phylum to which your Contig belongs?**|
 |:--|
 |<br>|
+
 
 ### Activity 2 - – Genomes, Genes, and Databases
 
