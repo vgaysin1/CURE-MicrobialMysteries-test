@@ -130,6 +130,9 @@ activity-2-genomes-genes-and-databases
 instructions-22
 questions-12
 activity-3-go-deeper
+instructions-23
+grading-criteria-8
+footnotes-10
 activity-test-driver
 presentation-microbial-genomes-project
 taxonomy-profiling
