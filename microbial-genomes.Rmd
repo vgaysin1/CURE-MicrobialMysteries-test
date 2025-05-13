@@ -380,7 +380,7 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 #### Questions
 
-|**1. Record the GenBank ID number for one of  17 high quality MAGs for follow up below.**.| 
+|**1. Record the GenBank ID number for one of  17 high quality MAGs for follow up below**.| 
 |:--|
 | <br> |
 
@@ -388,6 +388,7 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g305048ba785_0_77#slide=id.g305048ba785_0_77")
+```
 
 In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab **enter** the GenBank number of your MAG and click **Search**.
 
@@ -399,6 +400,7 @@ In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.n
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g357b6795023_0_2#slide=id.g357b6795023_0_2")
+```
 
 Click on the GENOME name of your MAG to **explore genome assembly summary** information.
 
@@ -422,7 +424,7 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 |:--|
 | <br> | 
 
-|**8 As you can see, MAGs are made up of Contigs. Based on your lecture material, your experience with MAGs and contigs from Zue Z et al, Nature Scientific Data 2023 and this exercise, in your own words define MAGs and Contigs below.**| 
+|**8 As you can see, MAGs are made up of Contigs. Based on your lecture and reading material, and this exercise, in your own words define MAGs and Contigs below.**| 
 |:--|
 | MAGs:
 | Contigs:
@@ -439,6 +441,7 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g357f32d72ad_0_0#slide=id.g357f32d72ad_0_0")
+```
 
 |**1. Each contig has its own accession number. Choose a contig of reasonably large size (> 75 kb), click on the contig, then find and record below the Contig’s ID (Accession number/GenBank ID) for further examination.|
 |:--|
