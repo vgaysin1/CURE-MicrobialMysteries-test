@@ -428,7 +428,7 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 
 ![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_0.png)
 
-|**1. Each contig has its own accession number. Choose a contig of reasonably large size (> 75 kb), click on the contig, then find and record below the Contig’s ID (Accession number/GenBank ID) for further examination.|
+|**1. Each contig has its own accession number. Choose a contig of reasonably large size (> 75 kb), click on the contig, then find and record below the Contig’s ID (Accession number/GenBank ID) for further examination.**|
 |:--|
 |Tip: You can sort the entries by length via’ Sort by Sequence Length’ on top!|
 |<br>|
@@ -437,7 +437,7 @@ a) For the contig you chose in activity above, under **Related Information** on 
 
 b) Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
 
-|**2. Record 7 core taxonomy ranks for your Contig.|
+|**2. Record 7 core taxonomy ranks for your Contig.**|
 |:--|:--|
 | Kingdom: | |
 | Phylum:| |
@@ -451,13 +451,13 @@ b) Find Lineage information. Full Lineage information contains 7 core taxonomy r
 
 #### Activity 1 - Part III: Visualize contig in a tree of life
 
-#### Introductions
+#### Introduction
 
 a) Use Lifemap to visually explore the contig taxonomy in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr) and **enter the lowest taxonomy rank observed for your contig** (most likely the species or genus level, but can also correspond to order or family).
 
 b) On the tree map, use plus and minus tabs to zoom in and out and visualize your Contig entry relative to other organisms on the map. Zoom in and find nodes corresponding to  the higher taxonomic ranks. For example, if your contig corresponds to genus level classification, you will not be able to identify species level information, but you will be able to identify the corresponding Family, Order, Class and Phylum. 
 
-|**1. Record 7 core taxonomy ranks for your Contig.|
+|**1. Record 7 core taxonomy ranks for your Contig.**|
 |:--|:--|
 | Kingdom: | |
 | Phylum:| |
@@ -507,7 +507,7 @@ c) For the 3 genes of choice, use the BV-BRC [bv-brc.org](https://www.bv-brc.org
 
 #### Questions
 
-|**1. Record 5 genes (gene names)of interest for your Contig.|
+|**1. Record 5 genes of interest for your Contig.|
 |:--|:--|
 | Gene1: | |
 | Gene2:| |
@@ -515,25 +515,25 @@ c) For the 3 genes of choice, use the BV-BRC [bv-brc.org](https://www.bv-brc.org
 | Gene4:| |
 | Gene5:| |
 
-For the 3 genes from activity above, in the [bv-brc.org](https://www.bv-brc.org) **Search** space, a) from a dropdown menu select **“Pathways”** , b) type in the gene name and click enter. This will result in a lot of entries for different organisms. c) check one of the boxes corresponding to the gene of interest and enter below which species/strain (**Genome Name**) you selected.
+For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** space, a) from a dropdown menu select **“Pathways”** , b) type in the gene name and click enter. This will result in a lot of entries for different organisms. c) check one of the boxes corresponding to the gene of interest and enter below which species/strain (**Genome Name**) you selected.
 
-|**2. Record Genome Name associated with your3  genes of interest in bv-brc database.|
+|**2. Record Genome Name associated with your 3 genes of interest in bv-brc database.| |
 |:--|:--|
-|** Gene**| **Genome Name**|
+|**Gene**| **Genome Name**|
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
 
-|**3. Record gene Product associated with your genes of interest in bv-brc database.|
+|**3. Record gene Product associated with your genes of interest in bv-brc database.| |
 |:--|:--|
-|** Gene**| **Product**|
+|**Gene**| **Product**|
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
 
-|**4. Record Pathway Name associated with your genes of interest in bv-brc database.|
+|**4. Record Pathway Name associated with your genes of interest in bv-brc database.| |
 |:--|:--|
-|** Gene**| **Pathway Name**|
+|**Gene**| **Pathway Name**|
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |

@@ -125,7 +125,7 @@ questions-11
 activity-1---part-ii-explore-a-contig
 instructions-21
 activity-1---part-iii-visualize-contig-in-a-tree-of-life
-introductions
+introduction-7
 activity-2-genomes-genes-and-databases
 instructions-22
 questions-12
