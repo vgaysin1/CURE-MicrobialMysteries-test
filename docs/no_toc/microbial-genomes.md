@@ -604,13 +604,13 @@ SciServer ([sciserver.org](https://sciserver.org)) is an online platform for doi
 
 1. Accept invitation to join class SciServer Group
 
-a. Navigate to https://apps.sciserver.org/dashboard/groups
+a. Navigate to [https://apps.sciserver.org/dashboard/groups](https://apps.sciserver.org/dashboard/groups)
 
 b. Click “Accept Invitation”
 
 2. Start up a "C-MOOR LearnR" compute container
 
-a. Navigate to https://apps.sciserver.org/compute
+a. Navigate to [https://apps.sciserver.org/compute](https://apps.sciserver.org/compute)
 
 b. Click “Create container”
 
@@ -668,3 +668,41 @@ Use the blocks provided at the end of the tutorial to create variations of the c
 Last Revised: February 2025
 
 ## Presentation: Microbial Genomes Project
+
+### Activity
+
+*Estimated time: 25 min*
+
+
+#### Instructions
+
+1. Open the “Microbial Genomes Presentation” [slidedeck](https://docs.google.com/presentation/d/17hFixGrtYtM0EzEOcU1aAi0CVRu36OqtNIXtbuiu0Os/edit?usp=sharing)
+
+2. Create at least two slides (feel free to make more!) to present your findings e.g.
+
+a. Describe the MAG you explored (Activity 1) and some of its genes (Activity 2)
+
+b. What did you discover about your organism and gene (Activity 3)?
+
+3. Iterate your slides being sure to:
+
+a. Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+
+b. Include one or more plots or images that support your points
+
+c. Create slide titles that summarize your main takeaway
+
+4. Present at next class (5 min each group)
+
+
+### Footnotes
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
+
+
+
