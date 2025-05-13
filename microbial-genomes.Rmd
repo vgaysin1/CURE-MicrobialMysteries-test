@@ -559,6 +559,51 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 
 *Estimated time: [30] min*
 
+#### Instructions
+
+Use any tools available at your disposal to follow up on your MAG and gene of interest from activities 1 and 2 above. Some suggested tools include PubMed, Google, [MBGD](https://mbgd.nibb.ac.jp), BV-BRC, [BacDive](https://bacdive.dsmz.de).
+
+1. For the **taxa** you identified for your chosen MAG in activity 1, what can you learn about this organism (species or genus for example) in 15 minutes using any tools at your disposal? 
+
+|**a. What did you learn? |
+|:--|
+|   |
+| <br> |
+
+
+|**b. What tools did you use? |
+|:--|
+|   |
+| <br> |
+
+2. For one of the **genes** you identified for your chosen contig in activity 2, what can you learn about this gene in 15 minutes using any tools at your disposal?
+
+|**a. What did you learn? |
+|:--|
+|   |
+| <br> |
+
+|**b. What tools did you use? |
+|:--|
+|   |
+| <br> |
+
+### Grading Criteria
+
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+
+- Google Doc
+
+**Contributions and Affiliations**
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Gauri Paul, Clovis Community College
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: May 2025
 
 
 ## Activity: test-driveR
