@@ -147,6 +147,11 @@ footnotes-12
 taxonomy-profiling
 lecture-taxonomy-profiling
 homework-taxonomy-profiling-prelab
+purpose-7
+learning-objectives-6
+introduction-9
+activity-1-qc-reads
+instructions-26
 lecture-possible-datasets
 homework-possible-datasets-activity
 homework-using-dataset-collections
