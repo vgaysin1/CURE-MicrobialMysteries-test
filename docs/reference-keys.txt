@@ -151,7 +151,13 @@ purpose-7
 learning-objectives-6
 introduction-9
 activity-1-qc-reads
+activity-1---part-i-import-dataset-into-galaxy
 instructions-26
+questions-14
+activity-1---part-ii-run-nanoplot-to-assess-sequence-quality
+instructions-27
+activity-1---part-iii-view-nanoplot-results
+instructions-28
 lecture-possible-datasets
 homework-possible-datasets-activity
 homework-using-dataset-collections
