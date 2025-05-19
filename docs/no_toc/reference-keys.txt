@@ -145,3 +145,12 @@ activity-8
 instructions-25
 footnotes-12
 taxonomy-profiling
+lecture-taxonomy-profiling
+homework-taxonomy-profiling-prelab
+lecture-possible-datasets
+homework-possible-datasets-activity
+homework-using-dataset-collections
+discussion-taxonomy-profiling-prelab
+homework-taxonomy-profiling-project
+activity-meet-r
+presentation-taxonomy-profiling-project
