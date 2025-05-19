@@ -37,7 +37,88 @@ To find out which microorganisms are present in the sample, it is important to h
 
 *Estimated time: 50 min*
 
+#### Activity 1 - Part I: Import dataset into Galaxy
+
+*Estimated time: 15 min*
+
 #### Instructions
+
+Import dataset into Galaxy. 
+
+a. Open the zymo-gut-standard public history [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1) 
+
+b. Click on **Import this history**, select Copy only the active, non-deleted datasets and then Copy History. 
+
+c. Confirm <mark style="background color: lightgreen">Zymo_Gut_Standard_D6331_subset exists in your history by clicking on the Home button "Galaxy" on top left ().
+
+d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
+
+
+#### Questions
+
+|1. What is the size of this downloaded dataset subset?|
+|:--|
+|<break>|
+
+|2. What is the format/extension of the downloaded file?|
+|:--|
+|<break>|
+
+|3. Click on the Display (eyeball) icon and describe what you see in lines 1, 2, 3 and 4 of the fastq file?| |
+|:--|:--|
+|Line 1:| |
+|Line 2:| |
+|Line 3:| |
+|Line 4:| |
+|<break>| |
+
+#### Activity 1 - Part II: Run Nanoplot to assess sequence quality
+
+*Estimated time: 15 min*
+
+#### Instructions
+
+In Galaxy, click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
+
+1. Under **Type of file(s) to work on**, check  to see which input files are compatible with NanoPlot and name 2 file extension options listed.
+
+| **Record NanoPlot input file options**| |
+|:--|:--|
+|File extension name 1:| |
+|File extension name 2:| |
+|<br>| 
+
+2. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.
+
+| **Record NanoPlot sequencing data filtering options**| |
+|:--|:--|
+|Option 1:| |
+|Option 2:| |
+|Option 3:| |
+|<br>| 
+
+3. <mark style="background color: yellow">**Run Nanoplot** using default tool settings. Under Tool Parameters, <mark style="background color: lightyellow">**check the following settings**:
+
+- Under files * There are 3 options to select a fastq dataset: Single dataset, Multiple datasets, or Dataset collection; Browse to select your fastq dataset by clicking on the ‘...’ tab for a Single dataset option. 
+- Note, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
+- Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.
+
+Record how many output files you obtained and list their names.
+
+| **Record how many output files you obtained after running NanoPlot and list their names.| 
+|:--|:--|
+| |
+| |
+| |
+|<br>|  
+
+
+#### Activity 1 - Part III: View NanoPlot Results
+
+*Estimated time: 15 min*
+
+#### Instructions
+
 
 
 
