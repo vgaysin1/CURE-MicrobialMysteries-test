@@ -16,6 +16,34 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10P4ktKWSrRpM1YAW
 
 ## Homework: Taxonomy Profiling Prelab
 
+### Purpose
+
+To use a variety of Galaxy tools to perform Quality Control (QC), taxonomy profiling, and visualization of a metagenomics sample.
+
+### Learning Objectives
+
+Use Galaxy tools to:
+
+1. Perform Quality Control (QC) on your raw data by checking the quality of your raw reads
+2. Assign taxonomy labels to your reads
+3. Visualize the classified metagenome
+
+In this exercise, using Galaxy, you will be:
+
+1. Using NanoPlot tool to examine the quality of your sequencing reads
+2. Running a workflow to perform taxonomy profiling and visualization in a single step
+
+### Introduction
+
+To find out which microorganisms are present in the sample, it is important to have high-quality DNA sequences. To ensure high-quality sequence input, QC (and in many cases also read trimming and filtering) are routinely performed on raw sequences. The reads can then be used to determine which species, genera, families, and other taxonomic ranks are present in the sample. To assign taxonomy, we can compare the reads of the sample to a reference database, i.e. sequences of known microorganisms stored in a database, using Kraken2, which is a k-mer based taxonomic assignment tool. We can then use a tool like Krona to interactively visualize and explore the composition of a metagenome.  
+
+### Activity 1 – QC Reads
+
+*Estimated time: 50 min*
+
+#### Instructions
+
+
 
 ## Lecture: Possible Datasets
 
