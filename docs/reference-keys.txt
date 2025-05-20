@@ -162,6 +162,9 @@ instructions-and-questions
 activity-2-taxonomy-profiling
 activity-2---part-i-run-taxonomy-profiling-workflow
 instructions-28
+activity-2---part-ii-view-kraken2-results
+instructions-29
+questions-16
 lecture-possible-datasets
 homework-possible-datasets-activity
 homework-using-dataset-collections
