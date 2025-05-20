@@ -53,7 +53,7 @@ a. Open the zymo-gut-standard public history [https://usegalaxy.org/u/valerie-g/
 
 b. Click on **Import this history**, select Copy only the active, non-deleted datasets and then Copy History. 
 
-c. Confirm <mark style="background color: lightgreen">Zymo_Gut_Standard_D6331_subset exists in your history by clicking on the Home button "Galaxy" on top left ().
+c. Confirm <mark style="background color: lightgreen"Zymo_Gut_Standard_D6331_subset> exists in your history by clicking on the Home button "Galaxy" on top left ().
 
 d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
