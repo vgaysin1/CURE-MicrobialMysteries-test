@@ -158,8 +158,10 @@ activity-1---part-ii-run-nanoplot-to-assess-sequence-quality
 instructions-27
 questions-15
 activity-1---part-iii-view-nanoplot-results
+instructions-and-questions
+activity-2-taxonomy-profiling
+activity-2---part-i-run-taxonomy-profiling-workflow
 instructions-28
-questions-16
 lecture-possible-datasets
 homework-possible-datasets-activity
 homework-using-dataset-collections

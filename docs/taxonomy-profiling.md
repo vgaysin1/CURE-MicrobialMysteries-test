@@ -41,7 +41,7 @@ To find out which microorganisms are present in the sample, it is important to h
 
 *Estimated time: 15 min*
 
-##### Instructions
+#### Instructions
 
 Import dataset into Galaxy. 
 
@@ -49,12 +49,12 @@ a. Open the zymo-gut-standard public history [https://usegalaxy.org/u/valerie-g/
 
 b. Click on **Import this history**, select Copy only the active, non-deleted datasets and then Copy History. 
 
-c. Confirm <mark style="background color: lightgreen"Zymo_Gut_Standard_D6331_subset> exists in your history by clicking on the Home button "Galaxy" on top left ().
+c. Confirm <mark style="background color: lightgreen">Zymo_Gut_Standard_D6331_subset</mark> exists in your history by clicking on the Home button "Galaxy" on top left ().
 
 d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 
-##### Questions
+#### Questions
 
 |1. What is the size of this downloaded dataset subset?|
 |:--|
@@ -76,11 +76,11 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 *Estimated time: 15 min*
 
-##### Instructions
+#### Instructions
 
 In Galaxy, click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
 
-##### Questions
+#### Questions
 
 1. Under **Type of file(s) to work on**, check  to see which input files are compatible with NanoPlot and name 2 file extension options listed.
 
@@ -92,26 +92,21 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 
 2. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.
 
-| **Record NanoPlot sequencing data filtering options**| |
-|:--|:--|
-|Option 1:| |
-|Option 2:| |
-|Option 3:| |
+| **Record NanoPlot sequencing data filtering options**| 
+|:--|
+|1.| 
+|2.| 
+|3.| 
 <br> 
 
 3. <mark style="background color: yellow">**Run Nanoplot** using default tool settings. Under Tool Parameters, **check the following settings**:
 
-- Under files * There are 3 options to select a fastq dataset: Single dataset, Multiple datasets, or Dataset collection; Browse to select your fastq dataset by clicking on the ‘...’ tab for a Single dataset option. 
+- Under files* there are 3 options to select a fastq dataset: Single dataset, Multiple datasets, or Dataset collection; Browse to select your fastq dataset by clicking on the ‘...’ tab for a Single dataset option. 
 - Note, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
 - Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.
 
-Record how many output files you obtained and list their names.
-
 | **Record how many output files you obtained after running NanoPlot and list their names.| 
 |:--|
-| |
-| |
-| |
 <br>  
 
 
@@ -119,22 +114,59 @@ Record how many output files you obtained and list their names.
 
 *Estimated time: 15 min*
 
-##### Instructions
+#### Instructions and Questions
 
-Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
+1. Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
 
-##### Questions
+| A. **How many bases were sequenced?**| 
+|:--|
+<br>
 
-| 1. **How many bases were sequenced?| 
+| B. **Why is mean read length longer than the median read length?**|
+|- Hint: think skewness https://wikipedia.org/wiki/Skewness|
+|:--|
+<br>
+
+| C. ** Record Reads >Q20 metric value. Given that Q20 quality (Phred) score corresponds to read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?**|
+|:--|
+<br>
+
+2. Click on the Display icon (eyeball) next to the NanoPlot output HTML report. 
+
+| A. **Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained**| 
+|:--|
+<br>
+
+| B. **Scroll down to view the ‘Yield by length’ cumulative plot which shows sequencing yield based on read length. From this plot do shorter (10kb or less) or longer sequences produce more data?**| 
 |:--|
 | |
 <br>
 
-| 2. **Why is mean read length longer than the median read length?
-- Hint: think skewness https://wikipedia.org/wiki/Skewness|
-|:--|
-| |
-<br>
+
+### Activity 2 – Taxonomy Profiling
+
+*Estimated time: 50 min*
+
+#### Activity 2 - Part I: Run ‘Taxonomy Profiling’ workflow
+
+*Estimated time: 15 min*
+
+#### Instructions
+
+1. Run ‘Taxonomy Profiling’ public workflow
+
+a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling)
+
+b. Click on **Run** 
+
+c. Browse to select your fastq dataset by clicking on the ‘...’ tab.
+
+d. Under **kraken_database** select <mark style="background color: green">‘Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).
+
+e. Click **Run Workflow** with the following parameters
+
+2. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
+
 
 ## Lecture: Possible Datasets
 
