@@ -64,7 +64,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 |:--|
 |<break>|
 
-|3. Click on the Display (eyeball) icon and describe what you see in lines 1, 2, 3 and 4 of the fastq file?| 
+|3. Click on the Display (eyeball) icon and describe what you see in the 4 lines of the fastq file?| 
 |:--|
 |Line 1:| 
 |Line 2:| 
@@ -82,30 +82,26 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 
 #### Questions
 
-1. Under **Type of file(s) to work on**, check  to see which input files are compatible with NanoPlot and name 2 file extension options listed.
-
-| **Record NanoPlot input file options**| |
-|:--|:--|
-|File extension name 1:| |
-|File extension name 2:| |
+| **1. Under **Type of file(s) to work on**, check to see which input files are compatible with NanoPlot and name 2 file extension options listed.**|
+|:--|
+|File extension name 1:| 
+|File extension name 2:| 
 <br>
 
-2. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.
-
-| **Record NanoPlot sequencing data filtering options**| 
+|**2. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.**|
 |:--|
 |1.| 
 |2.| 
 |3.| 
 <br> 
 
-3. <mark style="background color: yellow">**Run Nanoplot** using default tool settings. Under Tool Parameters, **check the following settings**:
+3. <mark style="background color: yellow">**Run Nanoplot**</mark> using default tool settings. Under Tool Parameters, **check the following settings**:
 
 - Under files* there are 3 options to select a fastq dataset: Single dataset, Multiple datasets, or Dataset collection; Browse to select your fastq dataset by clicking on the ‘...’ tab for a Single dataset option. 
 - Note, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
 - Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.
 
-| **Record how many output files you obtained after running NanoPlot and list their names.| 
+| **Record how many output files you obtained after running NanoPlot and list their names.**| 
 |:--|
 <br>  
 
@@ -118,26 +114,29 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 
 1. Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
 
-| A. **How many bases were sequenced?**| 
+| A. How many bases were sequenced?| 
 |:--|
+| |
 <br>
 
-| B. **Why is mean read length longer than the median read length?**|
-|- Hint: think skewness https://wikipedia.org/wiki/Skewness|
+| B. Why is mean read length longer than the median read length? - Hint: think skewness https://wikipedia.org/wiki/Skewness|
 |:--|
+| |
 <br>
 
-| C. ** Record Reads >Q20 metric value. Given that Q20 quality (Phred) score corresponds to read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?**|
+| C. Record Reads >Q20 metric value. Given that Q20 quality (Phred) score corresponds to read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?|
 |:--|
+| |
 <br>
 
 2. Click on the Display icon (eyeball) next to the NanoPlot output HTML report. 
 
-| A. **Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained**| 
+| A. Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained| 
 |:--|
+| |
 <br>
 
-| B. **Scroll down to view the ‘Yield by length’ cumulative plot which shows sequencing yield based on read length. From this plot do shorter (10kb or less) or longer sequences produce more data?**| 
+| B. Scroll down to view the ‘Yield by length’ cumulative plot which shows sequencing yield based on read length. From this plot do shorter (10kb or less) or longer sequences produce more data?| 
 |:--|
 | |
 <br>
