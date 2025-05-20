@@ -157,18 +157,73 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 
 1. Run ‘Taxonomy Profiling’ public workflow
 
-a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling)
+a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling) and click on **Run**. 
 
-b. Click on **Run** 
+b. Browse to select your fastq dataset by clicking on the ‘...’ tab.
 
-c. Browse to select your fastq dataset by clicking on the ‘...’ tab.
+c. Under **kraken_database** select <mark style="background color: green">‘Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).
 
-d. Under **kraken_database** select <mark style="background color: green">‘Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).
+d. Click **Run Workflow** with the following parameters:
 
-e. Click **Run Workflow** with the following parameters
+e. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
 
-2. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
+2. While the Taxonomy Workflow is running, click on the Tools icon on the left of the page. Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** tool. 
 
+| A. How  does Galaxy describe the Kraken2 tool in its descriptor on top of the page?| 
+|:--|
+| |
+<br>
+
+| B. Scroll down to **Help/What it does** section, and in your own words paraphrase the paragraph describing how Kraken 2 works.| 
+|:--|
+| |
+<br>
+
+| C. Record how many output files you obtained from the Taxonomy Workflow and list their names.| 
+|:--|
+| |
+<br>
+
+
+#### Activity 2 - Part II: View Kraken2 results
+
+*Estimated time: 15 min*
+
+#### Instructions
+
+Click on the Display icon (eyeball) next to the output file with **converted_kraken_report**. This report should look familiar from week 1 taxonomy-profiling-spreadsheet activity. 
+
+
+#### Questions
+
+1. Without doing a spreadsheet activity to summarize the proportion of unclassified, classified and different taxonomic ranks, just eye/scroll the report to answer the following questions: 
+
+| A. How many Unclassified reads are there?| 
+|:--|
+| |
+<br>
+
+| B. How many Kingdoms are there and what are they?| 
+|:--|
+| |
+<br>
+
+| C. How many Phyla are there and what are they?| 
+|:--|
+| |
+<br
+
+| D. Using the total *number_of_reads* you obtained from the **NanoStats** (NanoPlot) metrics, and the value of *Unclassified* reads from the **converted_kraken_report**, calculate % unclassified and % classified taxa.| 
+|:--|
+| |
+<br
+
+| E. Instead of the eyeball, now click on the **converted_kraken_report** entry and just below the ‘Add Tags’ it shows the number of lines and columns in the file. Remember that the number of lines corresponds to the number of taxa detected. Excluding Unclassified subset, how many taxa were identified?| 
+|:--|
+| |
+<br
+
+2. 
 
 ## Lecture: Possible Datasets
 
