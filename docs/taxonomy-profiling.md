@@ -82,7 +82,7 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 
 #### Questions
 
-| **1. Under **Type of file(s) to work on**, check to see which input files are compatible with NanoPlot and name 2 file extension options listed.**|
+|**1. Under **Type of file(s) to work on**, check to see which input files are compatible with NanoPlot and name 2 file extension options listed.**|
 |:--|
 |File extension name 1:| 
 |File extension name 2:| 
@@ -97,11 +97,10 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 
 3. <mark style="background color: yellow">**Run Nanoplot**</mark> using default tool settings. Under Tool Parameters, **check the following settings**:
 
-- Under files* there are 3 options to select a fastq dataset: Single dataset, Multiple datasets, or Dataset collection; Browse to select your fastq dataset by clicking on the ‘...’ tab for a Single dataset option. 
-- Note, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
+- Under **files** there are 4 options to select a fastq dataset: Single dataset, Multiple datasets, Dataset collection or option '...' which is Browse or Upload Datasets. Browse to select your fastq dataset. **Note**, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
 - Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.
 
-| **Record how many output files you obtained after running NanoPlot and list their names.**| 
+|**Record how many output files you obtained after running NanoPlot and list their names.**| 
 |:--|
 <br>  
 
