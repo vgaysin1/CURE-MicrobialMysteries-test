@@ -96,11 +96,11 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 
 2. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.
 
-| **Record NanoPlot sequencing data filtering options**| |
-|:--|:--|
-|Option 1:| |
-|Option 2:| |
-|Option 3:| |
+| **Record NanoPlot sequencing data filtering options**| 
+|:--|
+|1.| 
+|2.| 
+|3.| 
 <br> 
 
 3. <mark style="background color: yellow">**Run Nanoplot** using default tool settings. Under Tool Parameters, **check the following settings**:
@@ -109,13 +109,8 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 - Note, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
 - Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.
 
-Record how many output files you obtained and list their names.
-
 | **Record how many output files you obtained after running NanoPlot and list their names.| 
 |:--|
-| |
-| |
-| |
 <br>  
 
 
@@ -129,31 +124,53 @@ Record how many output files you obtained and list their names.
 
 | A. **How many bases were sequenced?**| 
 |:--|
-| |
 <br>
 
 | B. **Why is mean read length longer than the median read length?**|
 |- Hint: think skewness https://wikipedia.org/wiki/Skewness|
 |:--|
-| |
 <br>
 
 | C. ** Record Reads >Q20 metric value. Given that Q20 quality (Phred) score corresponds to read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?**|
 |:--|
-| |
 <br>
 
 2. Click on the Display icon (eyeball) next to the NanoPlot output HTML report. 
 
 | A. **Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained**| 
 |:--|
-| |
 <br>
 
 | B. **Scroll down to view the ‘Yield by length’ cumulative plot which shows sequencing yield based on read length. From this plot do shorter (10kb or less) or longer sequences produce more data?**| 
 |:--|
 | |
 <br>
+
+
+### Activity 2 – Taxonomy Profiling
+
+*Estimated time: 50 min*
+
+#### Activity 2 - Part I: Run ‘Taxonomy Profiling’ workflow
+
+*Estimated time: 15 min*
+
+#### Instructions
+
+1. Run ‘Taxonomy Profiling’ public workflow
+
+a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling)
+
+b. Click on **Run** 
+
+c. Browse to select your fastq dataset by clicking on the ‘...’ tab.
+
+d. Under **kraken_database** select <mark style="background color: green">‘Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).
+
+e. Click **Run Workflow** with the following parameters
+
+2. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
+
 
 ## Lecture: Possible Datasets
 
