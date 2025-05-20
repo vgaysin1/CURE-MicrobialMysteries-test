@@ -522,14 +522,150 @@
 <li>Run ‘Taxonomy Profiling’ public workflow</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
-<li><p>Open the taxonomy-profiling public workflow <a href="https://usegalaxy.org/u/cutsort/w/taxonomy-profiling">https://usegalaxy.org/u/cutsort/w/taxonomy-profiling</a></p></li>
-<li><p>Click on <strong>Run</strong></p></li>
+<li><p>Open the taxonomy-profiling public workflow <a href="https://usegalaxy.org/u/cutsort/w/taxonomy-profiling">https://usegalaxy.org/u/cutsort/w/taxonomy-profiling</a> and click on <strong>Run</strong>.</p></li>
 <li><p>Browse to select your fastq dataset by clicking on the ‘…’ tab.</p></li>
 <li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">’Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).</p></li>
-<li><p>Click <strong>Run Workflow</strong> with the following parameters</p></li>
+<li><p>Click <strong>Run Workflow</strong> with the following parameters:</p></li>
+<li><p>Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.</p></li>
 </ol>
 <ol start="2" style="list-style-type: decimal">
-<li>Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.</li>
+<li>While the Taxonomy Workflow is running, click on the Tools icon on the left of the page. Then, in the search bar enter ‘Kraken2’’ and select the <strong>Kraken2</strong> tool.</li>
+</ol>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. How does Galaxy describe the Kraken2 tool in its descriptor on top of the page?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">B. Scroll down to <strong>Help/What it does</strong> section, and in your own words paraphrase the paragraph describing how Kraken 2 works.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">C. Record how many output files you obtained from the Taxonomy Workflow and list their names.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="activity-2---part-ii-view-kraken2-results" class="section level4 hasAnchor" number="4.2.5.3">
+<h4><span class="header-section-number">4.2.5.3</span> Activity 2 - Part II: View Kraken2 results<a href="homework-taxonomy-profiling-prelab.html#activity-2---part-ii-view-kraken2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><em>Estimated time: 15 min</em></p>
+</div>
+<div id="instructions-29" class="section level4 hasAnchor" number="4.2.5.4">
+<h4><span class="header-section-number">4.2.5.4</span> Instructions<a href="homework-taxonomy-profiling-prelab.html#instructions-29" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Click on the Display icon (eyeball) next to the output file with <strong>converted_kraken_report</strong>. This report should look familiar from week 1 taxonomy-profiling-spreadsheet activity.</p>
+</div>
+<div id="questions-16" class="section level4 hasAnchor" number="4.2.5.5">
+<h4><span class="header-section-number">4.2.5.5</span> Questions<a href="homework-taxonomy-profiling-prelab.html#questions-16" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Without doing a spreadsheet activity to summarize the proportion of unclassified, classified and different taxonomic ranks, just eye/scroll the report to answer the following questions:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">A. How many Unclassified reads are there?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">B. How many Kingdoms are there and what are they?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">C. How many Phyla are there and what are they?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>&lt;br</p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">D. Using the total <em>number_of_reads</em> you obtained from the <strong>NanoStats</strong> (NanoPlot) metrics, and the value of <em>Unclassified</em> reads from the <strong>converted_kraken_report</strong>, calculate % unclassified and % classified taxa.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>&lt;br</p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">E. Instead of the eyeball, now click on the <strong>converted_kraken_report</strong> entry and just below the ‘Add Tags’ it shows the number of lines and columns in the file. Remember that the number of lines corresponds to the number of taxa detected. Excluding Unclassified subset, how many taxa were identified?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>&lt;br</p>
+<ol start="2" style="list-style-type: decimal">
+<li></li>
 </ol>
 </div>
 </div>
