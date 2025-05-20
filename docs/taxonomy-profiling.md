@@ -41,7 +41,7 @@ To find out which microorganisms are present in the sample, it is important to h
 
 *Estimated time: 15 min*
 
-#### Instructions
+##### Instructions
 
 Import dataset into Galaxy. 
 
@@ -49,12 +49,12 @@ a. Open the zymo-gut-standard public history [https://usegalaxy.org/u/valerie-g/
 
 b. Click on **Import this history**, select Copy only the active, non-deleted datasets and then Copy History. 
 
-c. Confirm <mark style="background color: lightgreen">Zymo_Gut_Standard_D6331_subset exists in your history by clicking on the Home button "Galaxy" on top left ().
+c. Confirm <mark style="background color: lightgreen"Zymo_Gut_Standard_D6331_subset> exists in your history by clicking on the Home button "Galaxy" on top left ().
 
 d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 
-#### Questions
+##### Questions
 
 |1. What is the size of this downloaded dataset subset?|
 |:--|
@@ -64,21 +64,23 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 |:--|
 |<break>|
 
-|3. Click on the Display (eyeball) icon and describe what you see in lines 1, 2, 3 and 4 of the fastq file?| |
-|:--|:--|
-|Line 1:| |
-|Line 2:| |
-|Line 3:| |
-|Line 4:| |
-|<break>| |
+|3. Click on the Display (eyeball) icon and describe what you see in lines 1, 2, 3 and 4 of the fastq file?| 
+|:--|
+|Line 1:| 
+|Line 2:| 
+|Line 3:| 
+|Line 4:| 
+|<break>| 
 
 #### Activity 1 - Part II: Run Nanoplot to assess sequence quality
 
 *Estimated time: 15 min*
 
-#### Instructions
+##### Instructions
 
 In Galaxy, click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
+
+##### Questions
 
 1. Under **Type of file(s) to work on**, check  to see which input files are compatible with NanoPlot and name 2 file extension options listed.
 
@@ -86,7 +88,7 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 |:--|:--|
 |File extension name 1:| |
 |File extension name 2:| |
-|<br>| 
+<br>
 
 2. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.
 
@@ -95,7 +97,7 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 |Option 1:| |
 |Option 2:| |
 |Option 3:| |
-|<br>| 
+<br> 
 
 3. <mark style="background color: yellow">**Run Nanoplot** using default tool settings. Under Tool Parameters, <mark style="background color: lightyellow">**check the following settings**:
 
@@ -117,7 +119,7 @@ Record how many output files you obtained and list their names.
 
 *Estimated time: 15 min*
 
-#### Instructions
+##### Instructions
 
 
 
