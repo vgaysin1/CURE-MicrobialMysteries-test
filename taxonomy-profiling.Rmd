@@ -103,7 +103,7 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 |Option 3:| |
 <br> 
 
-3. <mark style="background color: yellow">**Run Nanoplot** using default tool settings. Under Tool Parameters, <mark style="background color: lightyellow">**check the following settings**:
+3. <mark style="background color: yellow">**Run Nanoplot** using default tool settings. Under Tool Parameters, **check the following settings**:
 
 - Under files * There are 3 options to select a fastq dataset: Single dataset, Multiple datasets, or Dataset collection; Browse to select your fastq dataset by clicking on the ‘...’ tab for a Single dataset option. 
 - Note, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
@@ -112,11 +112,11 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 Record how many output files you obtained and list their names.
 
 | **Record how many output files you obtained after running NanoPlot and list their names.| 
-|:--|:--|
+|:--|
 | |
 | |
 | |
-|<br>|  
+<br>  
 
 
 #### Activity 1 - Part III: View NanoPlot Results
@@ -125,8 +125,20 @@ Record how many output files you obtained and list their names.
 
 ##### Instructions
 
+Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
 
+##### Questions
 
+| 1. **How many bases were sequenced?| 
+|:--|
+| |
+<br>
+
+| 2. **Why is mean read length longer than the median read length?
+- Hint: think skewness https://wikipedia.org/wiki/Skewness|
+|:--|
+| |
+<br>
 
 ## Lecture: Possible Datasets
 
