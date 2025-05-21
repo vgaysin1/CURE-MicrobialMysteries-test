@@ -62,11 +62,13 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 |1. What is the size of this downloaded dataset subset?|
 |:--|
-|<break>|
+| |
+<break>
 
 |2. What is the format/extension of the downloaded file?|
 |:--|
-|<break>|
+| |
+<break>
 
 |3. Click on the Display (eyeball) icon and describe what you see in the 4 lines of the fastq file?| 
 |:--|
@@ -74,7 +76,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 |Line 2:| 
 |Line 3:| 
 |Line 4:| 
-|<break>| 
+<break>
 
 #### Activity 1 - Part II: Run Nanoplot in Galaxy to assess sequence quality
 
@@ -82,30 +84,35 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 #### Instructions
 
-In Galaxy, click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
+Run Nanoplot in Galaxy. 
+
+a) Explore NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
+
+b) Run NanoPlot using default settings. Under Tool Parameters, **check the following settings**:
+
+- Under **files** there are 4 options to select a fastq dataset: Single dataset, Multiple datasets, Dataset collection or option '...' which is Browse or Upload Datasets. Browse to select your fastq dataset. **Note**, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
+
+- Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.
 
 #### Questions
 
-|**1. Under **Type of file(s) to work on**, check to see which input files are compatible with NanoPlot and name 2 file extension options listed.**|
+|1. Under **Type of file(s) to work on**, check to see which input files are compatible with NanoPlot and name 2 file extension options listed.|
 |:--|
 |File extension name 1:| 
 |File extension name 2:| 
 <br>
 
-|**2. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.**|
+|2. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.|
 |:--|
 |1.| 
 |2.| 
 |3.| 
 <br> 
 
-3. <mark style="background color: yellow">**Run Nanoplot**</mark> using default tool settings. Under Tool Parameters, **check the following settings**:
-
-- Under **files** there are 4 options to select a fastq dataset: Single dataset, Multiple datasets, Dataset collection or option '...' which is Browse or Upload Datasets. Browse to select your fastq dataset. **Note**, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
-- Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.
-
-|**Record how many output files you obtained after running NanoPlot and list their names.**| 
+| 3. <mark style="background color: yellow">**Run Nanoplot**</mark> using default tool settings and record how many output files you obtained after running NanoPlot and list their names.| 
 |:--|
+| # of output files|
+| Names of output files|
 <br>  
 
 
