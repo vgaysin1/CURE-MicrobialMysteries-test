@@ -268,7 +268,11 @@ This output report is an extended version of the converted_kraken_report. The ou
 
 3. View Krona Results
 
-Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes.
+Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. Click on Display icon (eyeball) next to the **Krona_pie_chart** dataset to explore Krona pie chart results. 
+
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://science.c-moor.org/miniCURE-BioDIGS/taxonomy-profiling.html#activity-2-taxonomy-profiling")
+```
 
 | A. What are the 2 main phyla you observe?| 
 |:--|
