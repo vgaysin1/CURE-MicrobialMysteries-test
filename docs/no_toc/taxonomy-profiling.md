@@ -43,7 +43,7 @@ To find out which microorganisms are present in the sample, it is important to h
 
 #### Instructions
 
-Import dataset into Galaxy. 
+1. Import dataset into Galaxy. 
 
 a. Open the zymo-gut-standard public history [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1) 
 
@@ -80,7 +80,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 #### Instructions
 
-Run Nanoplot in Galaxy. 
+1. <mark style="background color: lightgrey">Run Nanoplot in Galaxy. 
 
 a) Explore NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
 
@@ -118,7 +118,9 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 #### Instructions 
 
-View and examine NanoPlot Results in Galaxy by clicking on the Display icon (eyeball) next to the NanoPlot output.
+1. <mark style="background color: lightgrey">View and examine NanoPlot Results in Galaxy. 
+
+- By clicking on the Display icon (eyeball) next to the NanoPlot output.
 
 #### Questions
 
@@ -162,7 +164,7 @@ View and examine NanoPlot Results in Galaxy by clicking on the Display icon (eye
 
 #### Instructions
 
-1. Run ‘Taxonomy Profiling’ public workflow
+1.  <mark style="background color: lightgrey">Run ‘Taxonomy Profiling’ public workflow.
 
 a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling) and click on **Run**. 
 
@@ -174,7 +176,11 @@ d. Click **Run Workflow** with the following parameters:
 
 e. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
 
-2. While the Taxonomy Workflow is running, click on the Tools icon on the left of the page. Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** tool. 
+2.  <mark style="background color: lightgrey">Examine select aspects of Kraken2 tool. 
+
+a) While the Taxonomy Workflow is running, click on the Tools icon on the left of the page. 
+
+b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** tool. 
 
 | A. How  does Galaxy describe the Kraken2 tool in its descriptor on top of the page?| 
 |:--|
@@ -198,7 +204,9 @@ e. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled
 
 #### Instructions
 
-Click on the Display icon (eyeball) next to the output file with **converted_kraken_report**. This report should look familiar from week 1 taxonomy-profiling-spreadsheet activity. 
+1. <mark style="background color: lightgrey">Examine **converted_kraken_report**.
+
+- Click on the Display icon (eyeball) next to the output file with **converted_kraken_report**. This report should look familiar from week 1 taxonomy-profiling-spreadsheet activity. 
 
 
 #### Questions
