@@ -72,7 +72,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 |Line 4:| 
 |<break>| 
 
-#### Activity 1 - Part II: Run Nanoplot to assess sequence quality
+#### Activity 1 - Part II: Run Nanoplot in Galaxy to assess sequence quality
 
 *Estimated time: 15 min*
 
@@ -105,11 +105,15 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 <br>  
 
 
-#### Activity 1 - Part III: View NanoPlot Results
+#### Activity 1 - Part III: View NanoPlot Results in Galaxy
 
 *Estimated time: 15 min*
 
-#### Instructions and Questions
+#### Instructions 
+
+View and examine NanoPlot Results in Galaxy by clicking on the Display icon (eyeball) next to the NanoPlot output.
+
+#### Questions
 
 1. Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
 
@@ -141,11 +145,11 @@ In Galaxy, click on the Tools icon on the left of the page. Then, in the search 
 <br>
 
 
-### Activity 2 – Taxonomy Profiling
+### Activity 2 – Taxonomy Profiling in Galaxy
 
 *Estimated time: 50 min*
 
-#### Activity 2 - Part I: Run ‘Taxonomy Profiling’ workflow
+#### Activity 2 - Part I: Run ‘Taxonomy Profiling’ workflow in Galaxy
 
 *Estimated time: 15 min*
 
@@ -207,19 +211,95 @@ Click on the Display icon (eyeball) next to the output file with **converted_kra
 | C. How many Phyla are there and what are they?| 
 |:--|
 | |
-<br
+<br>
 
 | D. Using the total *number_of_reads* you obtained from the **NanoStats** (NanoPlot) metrics, and the value of *Unclassified* reads from the **converted_kraken_report**, calculate % unclassified and % classified taxa.| 
 |:--|
 | |
-<br
+<br>
 
 | E. Instead of the eyeball, now click on the **converted_kraken_report** entry and just below the ‘Add Tags’ it shows the number of lines and columns in the file. Remember that the number of lines corresponds to the number of taxa detected. Excluding Unclassified subset, how many taxa were identified?| 
 |:--|
 | |
-<br
+<br>
 
-2. 
+2. Examine **kraken2_with_pluspf_database_output_report** by clicking on the Display icon (eyeball) next to the output file.
+
+This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:
+
+- Column 1: Percentage (%) of a given taxon
+- Column 2: # of reads per given taxon
+- Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
+- Column  6: Identified taxa/scientific name.
+
+| A. What is the percentage of Unclassified taxa listed? Does it match what you calculated in section 2-2.1?| 
+|:--|
+| |
+<br>
+
+| B. What is the percentage of Classified taxa listed? Does it match what you calculated in section 2-2.1?| 
+|:--|
+| |
+<br>
+
+| C. Find and record the 3 most abundant Phyla (p_) by percentages.  As rows are not sorted by abundance, you may find it helpful to search using for “P” using <CTRL>-F to highlight rows corresponding to phyla.| 
+|:--|
+| |
+<br>
+
+3. View Krona Results
+
+Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes.
+
+| A. What are the 2 main phyla you observe?| 
+|:--|
+| |
+<br>
+
+| B. What appears to be the more diverse phyla of the two and why?| 
+|:--|
+| |
+<br>
+
+| C. Examine how many reads and percent of reads classified as phylum Firmicutes.| 
+|:--|
+| |
+<br>
+
+| D. What is one of the most abundant Orders in phylum FIrmicutes based on number and % of reads?| 
+|:--|
+| |
+<br>
+
+| E. Within the most abundant Order from your answer above, record one Family member, one genus member and one species member; also include percent abundances.| 
+|:--|
+| |
+<br>
+
+| F. Some potentially pathogenic bacterial species are often present in a healthy gut, but at relatively low amounts. What % of bacteria is represented by *C. difficile* (*Clostridiodes difficile*) in this gut standard sample? How does it compare to the expected proportion in [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..)?| 
+|:--|
+| |
+<br>
+
+### Grading Criteria
+
+Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+
+- Google Doc
+- Species composition in the Gut Microbiome Standard dataset: [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..)
+- If interested reading more about Kraken 2, see [Kraken 2 publication](https://pubmed.gov/31779668)
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
+
 
 ## Lecture: Possible Datasets
 
