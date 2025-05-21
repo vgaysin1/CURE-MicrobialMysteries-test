@@ -163,13 +163,16 @@ questions-16
 activity-2-taxonomy-profiling-in-galaxy
 activity-2---part-i-run-taxonomy-profiling-workflow-in-galaxy
 instructions-29
+questions-17
 activity-2---part-ii-view-kraken2-results
 instructions-30
-questions-17
+questions-18
 grading-criteria-10
 footnotes-13
 lecture-possible-datasets
 homework-possible-datasets-activity
+activity-9
+instructions-31
 homework-using-dataset-collections
 discussion-taxonomy-profiling-prelab
 homework-taxonomy-profiling-project
