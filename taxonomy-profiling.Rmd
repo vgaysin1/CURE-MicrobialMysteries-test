@@ -215,7 +215,7 @@ b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 
 #### Questions
 
-1. Without doing a spreadsheet activity to summarize the proportion of unclassified, classified and different taxonomic ranks, just eye/scroll the report to answer the following questions: 
+1. Open and scroll through the **converted_kraken_report** report to answer the following questions: 
 
 | A. How many Unclassified reads are there?| 
 |:--|
@@ -237,7 +237,7 @@ b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 | |
 <br>
 
-| E. Instead of the eyeball, now click on the **converted_kraken_report** entry and just below the ‘Add Tags’ it shows the number of lines and columns in the file. Remember that the number of lines corresponds to the number of taxa detected. Excluding Unclassified subset, how many taxa were identified?| 
+| E. Click on the **converted_kraken_report** entry and just below the ‘Add Tags’ to see the number of lines and columns in the file. The number of lines corresponds to the number of taxa detected. Excluding Unclassified subset, how many taxa were identified?| 
 |:--|
 | |
 <br>
