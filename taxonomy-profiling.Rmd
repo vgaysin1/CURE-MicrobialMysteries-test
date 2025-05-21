@@ -47,13 +47,13 @@ To find out which microorganisms are present in the sample, it is important to h
 
 #### Instructions
 
-1. <mark style="background color: green">Import dataset into Galaxy. 
+1. <mark style="background color:green">Import dataset into Galaxy. 
 
 a. Open the zymo-gut-standard public history [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1) 
 
 b. Click on **Import this history**, select Copy only the active, non-deleted datasets and then Copy History. 
 
-c. Confirm <mark style="background color: green">Zymo_Gut_Standard_D6331_subset</mark> exists in your history by clicking on the Home button "Galaxy" on top left ().
+c. Confirm <mark style="background color:green">Zymo_Gut_Standard_D6331_subset</mark> exists in your history by clicking on the Home button "Galaxy" on top left ().
 
 d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
@@ -84,7 +84,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 #### Instructions
 
-1. <mark style="background color: grey">Run Nanoplot in Galaxy. 
+1. <mark style="background color:grey">Run Nanoplot in Galaxy. 
 
 a) Explore NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
 
@@ -109,7 +109,7 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 |3.| 
 <br> 
 
-| 3. <mark style="background color: yellow">**Run Nanoplot**</mark> using default tool settings and record how many output files you obtained after running NanoPlot and list their names.| 
+| 3. <mark style="background color:yellow">**Run Nanoplot**</mark> using default tool settings and record how many output files you obtained after running NanoPlot and list their names.| 
 |:--|
 | # of output files|
 | Names of output files|
@@ -122,7 +122,7 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 #### Instructions 
 
-1. <mark style="background color: grey">View and examine NanoPlot Results in Galaxy. 
+1. <mark style="background color:grey">View and examine NanoPlot Results in Galaxy. 
 
 - By clicking on the Display icon (eyeball) next to the NanoPlot output.
 
