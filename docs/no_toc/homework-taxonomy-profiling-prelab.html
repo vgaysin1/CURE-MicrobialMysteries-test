@@ -219,6 +219,7 @@
 <li class="chapter" data-level="4.8" data-path="activity-meet-r.html"><a href="activity-meet-r.html"><i class="fa fa-check"></i><b>4.8</b> Activity: Meet R!</a></li>
 <li class="chapter" data-level="4.9" data-path="presentation-taxonomy-profiling-project.html"><a href="presentation-taxonomy-profiling-project.html"><i class="fa fa-check"></i><b>4.9</b> Presentation: Taxonomy Profiling Project</a></li>
 </ul></li>
+<li class="chapter" data-level="5" data-path="finding-amrs.html"><a href="finding-amrs.html"><i class="fa fa-check"></i><b>5</b> Finding AMRs</a></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -304,10 +305,11 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><break></td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
+<p><break></p>
 <table>
 <thead>
 <tr class="header">
@@ -316,10 +318,11 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><break></td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
+<p><break></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -342,11 +345,9 @@
 <tr class="even">
 <td align="left">Line 4:</td>
 </tr>
-<tr class="odd">
-<td align="left"><break></td>
-</tr>
 </tbody>
 </table>
+<p><break></p>
 </div>
 <div id="activity-1---part-ii-run-nanoplot-in-galaxy-to-assess-sequence-quality" class="section level4 hasAnchor" number="4.2.4.4">
 <h4><span class="header-section-number">4.2.4.4</span> Activity 1 - Part II: Run Nanoplot in Galaxy to assess sequence quality<a href="homework-taxonomy-profiling-prelab.html#activity-1---part-ii-run-nanoplot-in-galaxy-to-assess-sequence-quality" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -354,7 +355,15 @@
 </div>
 <div id="instructions-27" class="section level4 hasAnchor" number="4.2.4.5">
 <h4><span class="header-section-number">4.2.4.5</span> Instructions<a href="homework-taxonomy-profiling-prelab.html#instructions-27" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>In Galaxy, click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the <strong>NanoPlot</strong> tool. Explore NanoPlot functionality via examining <strong>Tool Parameters</strong>.</p>
+<p>Run Nanoplot in Galaxy.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Explore NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the <strong>NanoPlot</strong> tool. Explore NanoPlot functionality via examining <strong>Tool Parameters</strong>.</p></li>
+<li><p>Run NanoPlot using default settings. Under Tool Parameters, <strong>check the following settings</strong>:</p></li>
+</ol>
+<ul>
+<li><p>Under <strong>files</strong> there are 4 options to select a fastq dataset: Single dataset, Multiple datasets, Dataset collection or option ‘…’ which is Browse or Upload Datasets. Browse to select your fastq dataset. <strong>Note</strong>, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct.</p></li>
+<li><p>Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.</p></li>
+</ul>
 </div>
 <div id="questions-15" class="section level4 hasAnchor" number="4.2.4.6">
 <h4><span class="header-section-number">4.2.4.6</span> Questions<a href="homework-taxonomy-profiling-prelab.html#questions-15" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -364,7 +373,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"><strong>1. Under </strong>Type of file(s) to work on<strong>, check to see which input files are compatible with NanoPlot and name 2 file extension options listed.</strong></th>
+<th align="left">1. Under <strong>Type of file(s) to work on</strong>, check to see which input files are compatible with NanoPlot and name 2 file extension options listed.</th>
 </tr>
 </thead>
 <tbody>
@@ -383,7 +392,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"><strong>2. Click to expand <em>Options for filtering or transforming input prior to plotting</em> and name 3 options you could use to filter your sequencing data.</strong></th>
+<th align="left">2. Click to expand <em>Options for filtering or transforming input prior to plotting</em> and name 3 options you could use to filter your sequencing data.</th>
 </tr>
 </thead>
 <tbody>
@@ -399,23 +408,22 @@
 </tbody>
 </table>
 <p><br></p>
-<ol start="3" style="list-style-type: decimal">
-<li><mark style="background color: yellow"><strong>Run Nanoplot</strong></mark> using default tool settings. Under Tool Parameters, <strong>check the following settings</strong>:</li>
-</ol>
-<ul>
-<li>Under <strong>files</strong> there are 4 options to select a fastq dataset: Single dataset, Multiple datasets, Dataset collection or option ‘…’ which is Browse or Upload Datasets. Browse to select your fastq dataset. <strong>Note</strong>, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct.</li>
-<li>Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.</li>
-</ul>
 <table>
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"><strong>Record how many output files you obtained after running NanoPlot and list their names.</strong></th>
+<th align="left">3. <mark style="background color: yellow"><strong>Run Nanoplot</strong></mark> using default tool settings and record how many output files you obtained after running NanoPlot and list their names.</th>
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td align="left"># of output files</td>
+</tr>
+<tr class="even">
+<td align="left">Names of output files</td>
+</tr>
 </tbody>
 </table>
 <p><br></p>

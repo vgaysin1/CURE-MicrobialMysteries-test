@@ -175,3 +175,4 @@ discussion-taxonomy-profiling-prelab
 homework-taxonomy-profiling-project
 activity-meet-r
 presentation-taxonomy-profiling-project
+finding-amrs
