@@ -43,7 +43,7 @@ To find out which microorganisms are present in the sample, it is important to h
 
 #### Instructions
 
-1. <mark style="background color:green">Import dataset into Galaxy. 
+1. Import dataset into Galaxy. 
 
 a. Open the zymo-gut-standard public history [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1) 
 
@@ -80,7 +80,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 #### Instructions
 
-1. <mark style="background color:grey">Run Nanoplot in Galaxy. 
+1. Run Nanoplot in Galaxy. 
 
 a) Explore NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
 
@@ -118,7 +118,7 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 #### Instructions 
 
-1. <mark style="background color:grey">View and examine NanoPlot Results in Galaxy. 
+1. View and examine NanoPlot Results in Galaxy. 
 
 - By clicking on the Display icon (eyeball) next to the NanoPlot output.
 
@@ -164,7 +164,7 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 #### Instructions
 
-1.  <mark style="background color: grey">Run ‘Taxonomy Profiling’ public workflow.
+1.  Run ‘Taxonomy Profiling’ public workflow.
 
 a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling) and click on **Run**. 
 
@@ -176,11 +176,13 @@ d. Click **Run Workflow** with the following parameters:
 
 e. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
 
-2.  <mark style="background color: grey">Examine select aspects of Kraken2 tool. 
+2. Examine select aspects of Kraken2 tool. 
 
 a) While the Taxonomy Workflow is running, click on the Tools icon on the left of the page. 
 
 b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** tool. 
+
+#### Questions
 
 | A. How  does Galaxy describe the Kraken2 tool in its descriptor on top of the page?| 
 |:--|
@@ -264,7 +266,9 @@ This output report is an extended version of the converted_kraken_report. The ou
 
 3. View Krona Results
 
-Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes.
+Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. Click on Display icon (eyeball) next to the **Krona_pie_chart** dataset to explore Krona pie chart results. 
+
+![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g336203e918d_0_0.png)
 
 | A. What are the 2 main phyla you observe?| 
 |:--|
@@ -325,6 +329,31 @@ Last Revised: February 2025
 
 ## Homework: Possible Datasets Activity
 
+### Activity
+
+*Estimated time: 50 min*
+
+#### Instructions
+
+1. Skim three abstracts
+
+2. Pick one and answer the following questions
+
+a) Notice – What about this abstract most interests you?
+
+b) Dataset – Summarize at a high level where the samples came from, how many there are, and what technology was used for sequencing.
+
+c) Wonder – Two or three questions you would like to ask using this (and any other) datasets.
+
+3. Post your answers by replying to the “Project Work: Possible Datasets” topic in the Discussion Forum
+
+|Possible Datasets (Long-read PacBio)|
+|:--|:--|:--|:--|
+|**Soil**| | | |
+| |Antarctic |PRJNA1126331 | pubmed.gov/39300163| 
+| |Biocrust |PRJNA691698 | pubmed.gov/34795375| 
+|**Water**| | | |
+| |Fresh Water |PRJNA924152 | pubmed.gov/36823661| 
 
 ## Homework: Using dataset collections
 
