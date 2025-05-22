@@ -350,10 +350,17 @@ c) Wonder – Two or three questions you would like to ask using this (and any o
 |Possible Datasets (Long-read PacBio)|
 |:--|:--|:--|:--|
 |**Soil**| | | |
-| |Antarctic |PRJNA1126331 | pubmed.gov/39300163| 
-| |Biocrust |PRJNA691698 | pubmed.gov/34795375| 
+| |Antarctic |PRJNA1126331 | https://pubmed.gov/39300163/| 
+| |Biocrust |PRJNA691698 | https://pubmed.gov/34795375/| 
 |**Water**| | | |
-| |Fresh Water |PRJNA924152 | pubmed.gov/36823661| 
+| |Fresh Water |PRJNA924152 | https://pubmed.gov/36823661/|
+| |Ocean Water |PRJNA853328 | https://pubmed.gov/36448813/|
+|**Human Gut**| | | |
+| |Vegan/Omnivore |PRJNA750084 | http://pubmed.gov/36289209|
+| |Infant Nutrition |PRJNA1139951 | http://pubmed.gov/31022095|
+|**and More!**| | | |
+| |Lamb Gut |PRJNA595610 |http://pubmed.gov/34980911|
+| |Deadwood |PRJNA603240 | http://pubmed.gov/39627869|
 
 ## Homework: Using dataset collections
 
