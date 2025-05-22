@@ -173,6 +173,8 @@ lecture-possible-datasets
 homework-possible-datasets-activity
 activity-9
 instructions-31
+grading-criteria-11
+footnotes-14
 homework-using-dataset-collections
 discussion-taxonomy-profiling-prelab
 homework-taxonomy-profiling-project
