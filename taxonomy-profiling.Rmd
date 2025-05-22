@@ -369,6 +369,22 @@ c) Wonder – Two or three questions you would like to ask using this (and any o
 |**and More!**| | | |
 | |Lamb Gut |PRJNA595610 |http://pubmed.gov/34980911|
 | |Deadwood |PRJNA603240 | http://pubmed.gov/39627869|
+| |Cheese |PRJNA778418 | http://pubmed.gov/9948695|
+| |Whey |PRJNA454439, PRJNA477604 | http://pubmed.gov/6593500 |
+<br>
+
+### Grading Criteria
+
+- Submit URL to your reply on Canvas
+
+### Footnotes
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: May 2022
 
 ## Homework: Using dataset collections
 
