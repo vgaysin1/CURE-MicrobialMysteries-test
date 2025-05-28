@@ -204,6 +204,9 @@ instructions-37
 questions-22
 activity-2---part-iii-krona-pie-chart
 instructions-38
+questions-23
+grading-criteria-13
+footnotes-17
 activity-meet-r
 presentation-taxonomy-profiling-project
 finding-amrs
