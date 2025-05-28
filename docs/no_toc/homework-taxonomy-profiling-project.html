@@ -370,6 +370,7 @@
 </tbody>
 </table>
 <p><br></p>
+<p><strong>2. Compare NanoPlot results.</strong></p>
 <table>
 <colgroup>
 <col width="33%" />
@@ -378,28 +379,23 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2. Compare NanoPlot results.</th>
 <th align="left"></th>
-<th align="left"></th>
+<th align="left">Nanopore soil pilot (this activity)</th>
+<th align="left">Zymo gut standard (taxonomy profiling pre-lab)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
-<td align="left"><strong>Nanopore soil pilot (this activity)</strong></td>
-<td align="left"><strong>Zymo gut standard (taxonomy profiling pre-lab)</strong></td>
-</tr>
-<tr class="even">
 <td align="left">mean read length:</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">mean_qual:</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Reads &gt; Q20:</td>
 <td align="left"></td>
 <td align="left"></td>
@@ -413,7 +409,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3. Which dataset has better sequence quality, Zymo-gut-standard (taxonomy profiling pre-lab) or Nanopore-soil pilot (taxonomy profiling project)?Why?</th>
+<th align="left">3. Which dataset has better sequence quality, Zymo-gut-standard (taxonomy profiling pre-lab) or Nanopore-soil pilot (taxonomy profiling project)? Why?</th>
 </tr>
 </thead>
 <tbody>
@@ -437,37 +433,50 @@
 </div>
 <div id="questions-20" class="section level4 hasAnchor" number="4.7.4.6">
 <h4><span class="header-section-number">4.7.4.6</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-20" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p><strong>1. Compare your dataset before and after filtering using fastp: HTML report output.</strong>
-| | <strong>Before</strong> | <strong>After</strong>|
-|:–|:–|:–|
-|Mean Length| | |
-|total reads| | |
-|total bases| | |
-|Q20 bases (%):| | |
-|Q30 bases (%):| | |
-<br></p>
+<p><strong>1. Compare your dataset before and after filtering using fastp: HTML report output.</strong></p>
 <table>
-<colgroup>
-<col width="100%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th align="left">2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering</th>
+<th align="left"></th>
+<th align="left"><strong>Before</strong></th>
+<th align="left"><strong>After</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">- look at 5’ end, 3’ end and the middle?</td>
+<td align="left">Mean Length</td>
+<td align="left"></td>
+<td align="left"></td>
 </tr>
 <tr class="even">
-<td align="left">- Pay attention to the y-axis</td>
+<td align="left">total reads</td>
+<td align="left"></td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
+<td align="left">total bases</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Q20 bases (%):</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Q30 bases (%):</td>
+<td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
+<p>|2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering|
+- look at 5’ end, 3’ end and the middle?
+- Pay attention to the y-axis|
+|:–|
+| |
+<br></p>
 </div>
 </div>
 <div id="activity-2-taxonomy-profiling" class="section level3 hasAnchor" number="4.7.5">
@@ -563,7 +572,7 @@
 <table>
 <thead>
 <tr class="header">
-<th align="left">How many ’abundant ’taxa (at &gt; 0.1%) do you observe?</th>
+<th align="left">How many ‘abundant’ taxa (at &gt; 0.1%) do you observe?</th>
 </tr>
 </thead>
 <tbody>
@@ -631,13 +640,18 @@
 </div>
 <div id="instructions-37" class="section level4 hasAnchor" number="4.7.5.5">
 <h4><span class="header-section-number">4.7.5.5</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-37" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>. This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:</p>
+<ol style="list-style-type: decimal">
+<li>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>. This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:</li>
+</ol>
 <ul>
 <li>Column 1: Percentage (%) of a given taxon</li>
 <li>Column 2: # of reads per given taxon</li>
 <li>Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.</li>
 <li>Column 6: Identified taxa/scientific name.</li>
 </ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Of note: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has hundreds of lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.</li>
+</ol>
 </div>
 <div id="questions-22" class="section level4 hasAnchor" number="4.7.5.6">
 <h4><span class="header-section-number">4.7.5.6</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-22" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -672,7 +686,6 @@
 </tr>
 </tbody>
 </table>
-<p>Note: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has 352 lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.</p>
 <table>
 <thead>
 <tr class="header">
