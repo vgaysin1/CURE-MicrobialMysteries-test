@@ -302,7 +302,7 @@ Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an int
 
 ### Grading Criteria
 
-Download as Microsoft Word (.docx) and upload on Canvas
+- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
@@ -317,7 +317,7 @@ Download as Microsoft Word (.docx) and upload on Canvas
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: February 2025
+Last Revised: May 2025
 
 
 ## Lecture: Possible Datasets
@@ -367,7 +367,7 @@ c) Wonder – Two or three questions you would like to ask using this (and any o
 
 ### Grading Criteria
 
-- Submit URL to your reply on Canvas
+- <mark style="background color: yellow">Submit URL to your reply on Canvas
 
 ### Footnotes
 
@@ -551,11 +551,11 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 | | 
 <br>
 
-## Activity 2 – Taxonomy Profiling
+### Activity 2 – Taxonomy Profiling
 
 *Estimated time: 50 min (~35 min computing)*
 
-### Activity 2 - Part I: Run Taxonomy Profiling Workflow
+#### Activity 2 - Part I: Run Taxonomy Profiling Workflow
 
 #### Instructions
 
@@ -648,7 +648,7 @@ d. In new column C, calculate % abundance for each row by dividing each count va
 <br>
 
 
-### Activity 2 - Part II: Analyze Kraken2 results
+#### Activity 2 - Part II: Analyze Kraken2 results
 
 #### Instructions
 
@@ -678,9 +678,63 @@ Click on the Display icon (eyeball) next to the output file with **kraken2_with_
 ||
 <br>
 
-### Activity 2 - Part III: Krona Pie Chart
+#### Activity 2 - Part III: Krona Pie Chart
 
 #### Instructions
+
+Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes.
+
+a. View Krona results: Click on the Display icon (eyeball) next to the output file named **krona_pie_chart**. 
+b. Double click on Bacteria kingdom (k_Bacteria) to explore further.
+c. Answer questions below
+
+#### Questions
+
+|1. What are the 2 main phyla you observe?|
+|:---|
+||
+<br>
+
+|2. What appears to be the more diverse phyla of the two?|
+|:---|
+||
+<br>
+
+**3. Compare your taxonomy from soil, to the gut taxonomy results from your taxonomy-prelab** (Zymo-gut-standard [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..).|
+
+|3A. Fill out the comparison table below| | |
+|:---|:---|:---|
+|| **Nanopore soil pilot**| **Zymo gut standard**|
+|What are 2 most abundant phyla| | |
+|What are 2 most abundant species| | |
+|% Classified taxa| | |
+|% Unclassified taxa| | |
+<br>
+
+|3B. Discuss taxonomy diversity between soil and gut, providing 3 points:| 
+|:---|
+| 1) |
+| 2) |
+| 3) | 
+<br>
+
+### Grading Criteria
+
+- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+- Google Doc
+- Species composition in the Gut Microbiome Standard dataset: [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..)
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: May 2025
+
 
 ## Activity: Meet R!
 
