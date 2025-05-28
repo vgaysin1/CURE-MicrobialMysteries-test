@@ -554,9 +554,7 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 |Q30 bases (%):|  | |
 <br>
 
-|2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering|
-- look at 5’ end, 3’ end and the middle? 
-- Pay attention to the y-axis|
+|2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering. `Hint 1`: look at 5’ end, 3’ end and the middle? `Hint 2`: Pay attention to the y-axis|
 |:--|
 | | 
 <br>
@@ -668,8 +666,9 @@ d. In new column C, calculate % abundance for each row by dividing each count va
 - Column 2: # of reads per given taxon
 - Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
 - Column  6: Identified taxa/scientific name.
+<br>
 
-2. Of note: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has hundreds of lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.
+`Of note`: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has hundreds of lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.
 
 #### Questions
 
@@ -711,9 +710,10 @@ c. Answer questions below
 
 **3. Compare your taxonomy from soil, to the gut taxonomy results from your taxonomy-prelab** (Zymo-gut-standard [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..).|
 
-|3A. Fill out the comparison table below| | |
+**3A. Fill out the comparison table below**
+
+|| Nanopore soil pilot| Zymo gut standard|
 |:---|:---|:---|
-|| **Nanopore soil pilot**| **Zymo gut standard**|
 |What are 2 most abundant phyla| | |
 |What are 2 most abundant species| | |
 |% Classified taxa| | |
