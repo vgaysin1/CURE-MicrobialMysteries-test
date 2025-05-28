@@ -378,10 +378,74 @@ c) Wonder – Two or three questions you would like to ask using this (and any o
 
 Last Revised: May 2022
 
-## Homework: Using dataset collections
+## Homework: Galaxy data collections
+
+### Introduction
+
+Collections in Galaxy can be useful when you have to deal with large numbers of datasets.  Examples of when you might use collections include when you have many DNA sequencing samples (e.g. .fastq files) or when you have many genome assembly contigs (e.g. .fasta files).  Dataset collections allow you to not only organize these datasets but they also allow you to manipulate them in a single batch operation.
+
+### Activity
+
+*Estimated time: 45 min*
+
+#### Instructions
+
+1. Review the “Datasets versus collections” FAQ
+
+- [training.galaxyproject.org/training-material/faqs/galaxy/histories_datasets_vs_collections.html](http://training.galaxyproject.org/training-material/faqs/galaxy/histories_datasets_vs_collections.html)
+
+2. Complete the “Using dataset collections” hands-on tutorial
+
+- [training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html](http://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html)
+
+### Grading Criteria
+
+- <mark style="background color: yellow">Submit URL to your shared Galaxy history on Canvas
+
+### Footnotes
+
+**Resources**
+
+- Using Galaxy and Managing your Data [topic]
+
+**Contributions and Affiliations**
+
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: January 2025
+
 
 
 ## Discussion: Taxonomy Profiling Prelab
+
+### Activity
+
+*Estimated time: 25 min*
+
+#### Instructions
+
+1. Form new groups of four
+- [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
+
+2. Pair up into groups (10 min)
+
+a. Discuss -- Each group member briefly describes answers to prelab assignment
+
+b. Summarize -- Identify best answer and add to slidedeck
+
+- [https://docs.google.com/presentation/d/16cRBFzezun6MGXcJEm5uP2KercIccO-dFvVx58_ClNo/edit?usp=sharing](https://docs.google.com/presentation/d/16cRBFzezun6MGXcJEm5uP2KercIccO-dFvVx58_ClNo/edit?usp=sharing)
+
+3. Share group discussion (2 min each group)
+
+### Footnotes
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
+
 
 
 ## Homework: Taxonomy Profiling Project
