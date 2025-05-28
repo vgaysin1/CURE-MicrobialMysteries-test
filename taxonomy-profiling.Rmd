@@ -458,6 +458,112 @@ Last Revised: February 2025
 
 ## Homework: Taxonomy Profiling Project
 
+### Purpose
+
+To use a variety of Galaxy tools to perform Quality Control (QC), sequence quality filtering, taxonomy profiling, and visualization of a metagenomics soil sample sequenced with long-read Nanopore technology.
+
+### Learning Objectives
+
+In this exercise, using Galaxy tools you will be
+1. Performing QC and quality filtering of your soil metagenomics data with NanoPlot and fastp tools.
+2. Running a workflow to perform taxonomy profiling and visualization of a soil metagenome.
+
+Throughout these objectives you will be comparing soil and gut metagenomes.
+
+###Introduction 
+
+The total time for a Galaxy step to complete depends on and will increase based on multiple factors such as large input file size, long queue when many other people are analyzing data, the complexity of the job itself, or an error. See table below for the minimum time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete. 
+<br>
+
+Note, that you can save time by 1) submitting multiple jobs that use the same input (NanoPlot and fastp) and 2) submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job finishes.
+
+Table of approximate minimum times for a job to be completed on Galaxy using specified tools.
+
+|Nanoplot| fastp | taxonomy workflow |
+|:--|:--|:--|
+|15 min| 15 min | 30 min | 
+<br>
+
+### Activity 1 – QC and quality-filter reads
+
+*Estimated time: 50 min*
+
+#### Activity 1 - Part I: Import data and run NanoPlot in Galaxy
+
+#### Instructions
+
+1. Import dataset into Galaxy. 
+
+a. Open the nanopore-soil-pilot public history [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1](https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1)
+
+b. Click on `Import this history`, select Copy only the active, non-deleted datasets and then Copy History. 
+
+c. Confirm <mark style="background color: green">Nanopore-soil-pilot-subset</mark> exists in your history by clicking on the Home button on top left ().
+
+2. Run **NanoPlot** tool in Galaxy to assess sequence quality using **default settings**.
+
+a. Click on the Tools icon. Then, in the search bar enter ‘NanoPlot’ and select the NanoPlot tool. 
+
+b. Under **files** browse to select your Nanopore-soil-pilot-subset fastq dataset.
+
+c. Click on **Run Tool** and wait ~10 minutes as the NanoPlot job is scheduled, run, and complete.
+
+#### Questions
+
+|1.  Click on the Display icon (eyeball) next to the NanoPlot output NanoStats report and record:|
+|:--|
+|Read mean length (mean read length):|
+|Read Mean quality (mean_qual):|
+|Proportion of reads with quality > Q20 (Reads > Q20):|
+
+|2.  Compare your NanoPlot results above for Nanopore-soil, to Zymo-gut-standard from taxonomy profiling pre-lab. |
+|:---|:---|:---|
+| | **Nanopore soil pilot** | **Zymo gut standard** |
+| mean read length:|  |  |
+| mean_qual:|  |  |
+| Reads > Q20:|  |  |
+<br>
+
+|3. Which dataset has better sequence quality, Zymo-gut-standard (taxonomy profiling pre-lab) or Nanopore-soil pilot (taxonomy profiling project)?|
+|:---|
+| | 
+<br>
+
+#### Activity 1 - Part II: Quality filtering with fastp
+
+#### Instructions
+
+Although the majority of bases in the soil dataset are of high quality ( >Q20, or 1 in 100 base error), we can filter out very low quality reads to further improve dataset quality. In this activity run fastp tool to filter out reads with a high proportion of low quality bases (<Q15) using default settings.
+
+a. Click on the Tools icon. Then, in the search bar enter **fastp** and select the fastp tool. 
+
+b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run, and complete. 
+
+#### Questions
+
+|1.  Compare your dataset before and after filtering with fastp using fastp: HTML report output.|
+|:--|:--|:--|
+|| **Before** | **After**|
+|Mean Length| | |
+|total reads| | |
+|total bases|  | |
+|Q20 bases (%):|  | |
+|Q30 bases (%):|  | |
+
+|2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering|
+|:--|
+|- look at 5’ end, 3’ end and the middle?| 
+| - Pay attention to the y-axis|
+| | 
+<br>
+
+## Activity 2 – Taxonomy Profiling
+
+*Estimated time: 50 min (~35 min computing)*
+
+
+
+
 ## Activity: Meet R!
 
 ## Presentation: Taxonomy Profiling Project
