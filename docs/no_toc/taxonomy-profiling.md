@@ -462,25 +462,25 @@ In this exercise, using Galaxy tools you will be
 
 Throughout these objectives you will be comparing soil and gut metagenomes.
 
-###Introduction 
+### Introduction 
 
 The total time for a Galaxy step to complete depends on and will increase based on multiple factors such as large input file size, long queue when many other people are analyzing data, the complexity of the job itself, or an error. See table below for the minimum time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete. 
 <br>
 
 Note, that you can save time by 1) submitting multiple jobs that use the same input (NanoPlot and fastp) and 2) submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job finishes.
 
-Table of approximate minimum times for a job to be completed on Galaxy using specified tools.
+**Table of approximate minimum times for a job to be completed on Galaxy using specified tools.**
 
 |Nanoplot| fastp | taxonomy workflow |
 |:--|:--|:--|
 |15 min| 15 min | 30 min | 
 <br>
 
-### Activity 1 – QC and quality-filter reads
+### Activity 1 – QC 
 
 *Estimated time: 50 min*
 
-#### Activity 1 - Part I: Import data and run NanoPlot in Galaxy
+#### Activity 1 - Part I: Import data and run NanoPlot 
 
 #### Instructions
 
@@ -509,7 +509,7 @@ c. Click on **Run Tool** and wait ~10 minutes as the NanoPlot job is scheduled, 
 |Proportion of reads with quality > Q20 (Reads > Q20):|
 <br>
 
-|2.  Compare your NanoPlot results. |
+|2.  Compare NanoPlot results. |
 |:---|:---|:---|
 | | **Nanopore soil pilot (this activity)** | **Zymo gut standard (taxonomy profiling pre-lab)** |
 | mean read length:|  |  |
@@ -534,9 +534,9 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 
 #### Questions
 
-|1.  Compare your dataset before and after filtering using fastp: HTML report output.| | |
+**1.  Compare your dataset before and after filtering using fastp: HTML report output.**
+| | **Before** | **After**|
 |:--|:--|:--|
-|| **Before** | **After**|
 |Mean Length| | |
 |total reads| | |
 |total bases|  | |
@@ -610,8 +610,8 @@ e. Evaluate what proportion of data was taxonomically classified.
 ||
 <br>
 
-4. **Identify the most abundant taxa (those at >0.1%).**
-Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
+**4. Identify the most abundant taxa (those at >0.1%).**
+- Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
 
 a. Select columns B through I
 
@@ -669,9 +669,8 @@ Click on the Display icon (eyeball) next to the output file with **kraken2_with_
 |2. What percentage of bacteria is Proteobacteria, the most abundant Phyla observed?|
 |:---|
 ||
-<br>
 
-`Note: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has 352 lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.` 
+Note: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has 352 lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.
 
 |3. What is the most abundant class observed and at what percentage?|
 |:---|
