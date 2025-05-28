@@ -614,21 +614,29 @@ a. Navigate to [https://apps.sciserver.org/compute](https://apps.sciserver.org/c
 
 b. Click “Create container”
 
-c. Give your container a name
+![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_0.png)
+
+c. Give your container a name (eg. my LearnR)
 
 d. In the “Compute Image” drop-down menu, select “C-MOOR LearnR”
 
 e. Under “Data Volumes”, check the box next to “C-MOOR Data”
 
-f. Click “Create”. This may take a moment.
+![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_9.png)
+
+f. Scroll down and click “Create”. This may take a moment.
 
 g. Start your C-MOOR LearnR container by clicking on its name
+
+![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_18.png)
 
 - NOTE: If you see “Error: C-MOOR data volume not mounted!” you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
 
 3. Complete your first LearnR tutorial
 
 a. Click on “test-driveR”. The tutorial will open in a new tab.
+
+![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_27.png)
 
 b. Complete the tutorial and answer the questions below.
 
