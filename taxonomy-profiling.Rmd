@@ -515,16 +515,17 @@ c. Click on **Run Tool** and wait ~10 minutes as the NanoPlot job is scheduled, 
 |Read mean length (mean read length):|
 |Read Mean quality (mean_qual):|
 |Proportion of reads with quality > Q20 (Reads > Q20):|
+<br>
 
-|2.  Compare your NanoPlot results above for Nanopore-soil, to Zymo-gut-standard from taxonomy profiling pre-lab. |
+|2.  Compare your NanoPlot results. |
 |:---|:---|:---|
-| | **Nanopore soil pilot** | **Zymo gut standard** |
+| | **Nanopore soil pilot (this activity)** | **Zymo gut standard (taxonomy profiling pre-lab)** |
 | mean read length:|  |  |
 | mean_qual:|  |  |
 | Reads > Q20:|  |  |
 <br>
 
-|3. Which dataset has better sequence quality, Zymo-gut-standard (taxonomy profiling pre-lab) or Nanopore-soil pilot (taxonomy profiling project)?|
+|3. Which dataset has better sequence quality, Zymo-gut-standard (taxonomy profiling pre-lab) or Nanopore-soil pilot (taxonomy profiling project)?Why?|
 |:---|
 | | 
 <br>
@@ -541,7 +542,7 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 
 #### Questions
 
-|1.  Compare your dataset before and after filtering with fastp using fastp: HTML report output.|
+|1.  Compare your dataset before and after filtering using fastp: HTML report output.| | |
 |:--|:--|:--|
 || **Before** | **After**|
 |Mean Length| | |
@@ -549,6 +550,7 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 |total bases|  | |
 |Q20 bases (%):|  | |
 |Q30 bases (%):|  | |
+<br>
 
 |2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering|
 |:--|
@@ -561,8 +563,132 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 
 *Estimated time: 50 min (~35 min computing)*
 
+### Activity 2 - Part I: Run Taxonomy Profiling Workflow
+
+#### Instructions
+
+1. Run ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view results.
+
+a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling)
+
+b. Click on Run 
+
+c. Browse to select your fastp-filtered fastq dataset <mark style="background color: green">“fastp on data1:Read 1 output”</mark> dataset by clicking on the `‘...’` tab.
+
+d. Under **kraken_database** select <mark style="background color: green">‘Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).
+
+d. Click **Run Workflow**
+
+3. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
 
 
+2. Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore metagenomic diversity of soil by performing taxonomy profiling spreadsheet activity you did during week 1. 
+
+a. Click on **converted_kraken_report**, find the download button and **download** the report.
+
+b. <mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv.
+
+c. Upload your taxonomy .tsv file to Google Drive and open with Google Sheets.
+
+d. Create a header row and enter column Information.
+
+- Col A = Counts
+- Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).
+- Each row corresponds to a different taxa. 
+
+e. Evaluate what proportion of data was taxonomically classified.
+- Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.
+- In e.g. cell A2, calculate the sum of all reads observed in the soil  sample. 
+
+#### Questions
+
+|1. How many total read counts are there?|
+|:---|
+||
+<br>
+
+
+|2. Determine percentage of reads that are unclassified| 
+|:---|
+||
+<br>
+
+|3. What percentage of reads are classified?| 
+|:---|
+||
+<br>
+
+4. **Identify the most abundant taxa (those at >0.1%).**
+Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
+
+a. Select columns B through I
+
+b. In the Data menu, select “Sort range by column B (Z to A)”
+
+c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
+
+d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
+
+|How many ‘abundant ‘taxa (at > 0.1%) do you observe?|
+|:---|
+||
+<br>
+
+|5. What are the taxonomic ranks of most abundant taxa?| 
+|:---|
+||
+<br>
+
+|6. What is the most abundant eukaryote observed and its read count?| 
+|:---|
+||
+<br>
+
+
+|7. What is the most abundant archaea observed and its read count?| 
+|:---|
+||
+<br>
+
+|8. What is the most abundant virus observed and its read count?| 
+|:---|
+||
+<br>
+
+
+### Activity 2 - Part II: Analyze Kraken2 results
+
+#### Instructions
+
+Click on the Display icon (eyeball) next to the output file with **kraken2_with_pluspf_database_output_report**. This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:
+
+- Column 1: Percentage (%) of a given taxon
+- Column 2: # of reads per given taxon
+- Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
+- Column  6: Identified taxa/scientific name.
+
+#### Questions
+
+|1. What is the percentage of Unclassified taxa? Does it match your calculations in Activity 2 - Part I?| 
+|:---|
+||
+<br>
+
+|2. What percentage of bacteria is Proteobacteria, the most abundant Phyla observed?|
+|:---|
+||
+<br>
+
+`Note: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has 352 lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.` 
+
+|3. What is the most abundant class observed and at what percentage?|
+|:---|
+||
+<br>
+
+### Activity 2 - Part III: Krona Pie Chart
+
+#### Instructions
 
 ## Activity: Meet R!
 
