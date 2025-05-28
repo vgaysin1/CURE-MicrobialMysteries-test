@@ -234,10 +234,11 @@
 <ul>
 <li class="chapter" data-level="4.7.1" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#purpose-8"><i class="fa fa-check"></i><b>4.7.1</b> Purpose</a></li>
 <li class="chapter" data-level="4.7.2" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#learning-objectives-7"><i class="fa fa-check"></i><b>4.7.2</b> Learning Objectives</a></li>
-<li class="chapter" data-level="4.7.3" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#activity-1-qc-and-quality-filter-reads"><i class="fa fa-check"></i><b>4.7.3</b> Activity 1 – QC and quality-filter reads</a></li>
-<li class="chapter" data-level="4.7.4" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#activity-2-taxonomy-profiling"><i class="fa fa-check"></i><b>4.7.4</b> Activity 2 – Taxonomy Profiling</a></li>
-<li class="chapter" data-level="4.7.5" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#grading-criteria-13"><i class="fa fa-check"></i><b>4.7.5</b> Grading Criteria</a></li>
-<li class="chapter" data-level="4.7.6" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#footnotes-17"><i class="fa fa-check"></i><b>4.7.6</b> Footnotes</a></li>
+<li class="chapter" data-level="4.7.3" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#introduction-11"><i class="fa fa-check"></i><b>4.7.3</b> Introduction</a></li>
+<li class="chapter" data-level="4.7.4" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#activity-1-qc"><i class="fa fa-check"></i><b>4.7.4</b> Activity 1 – QC</a></li>
+<li class="chapter" data-level="4.7.5" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#activity-2-taxonomy-profiling"><i class="fa fa-check"></i><b>4.7.5</b> Activity 2 – Taxonomy Profiling</a></li>
+<li class="chapter" data-level="4.7.6" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#grading-criteria-13"><i class="fa fa-check"></i><b>4.7.6</b> Grading Criteria</a></li>
+<li class="chapter" data-level="4.7.7" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#footnotes-17"><i class="fa fa-check"></i><b>4.7.7</b> Footnotes</a></li>
 </ul></li>
 <li class="chapter" data-level="4.8" data-path="activity-meet-r.html"><a href="activity-meet-r.html"><i class="fa fa-check"></i><b>4.8</b> Activity: Meet R!</a></li>
 <li class="chapter" data-level="4.9" data-path="presentation-taxonomy-profiling-project.html"><a href="presentation-taxonomy-profiling-project.html"><i class="fa fa-check"></i><b>4.9</b> Presentation: Taxonomy Profiling Project</a></li>
@@ -289,11 +290,13 @@
 1. Performing QC and quality filtering of your soil metagenomics data with NanoPlot and fastp tools.
 2. Running a workflow to perform taxonomy profiling and visualization of a soil metagenome.</p>
 <p>Throughout these objectives you will be comparing soil and gut metagenomes.</p>
-<p>###Introduction</p>
+</div>
+<div id="introduction-11" class="section level3 hasAnchor" number="4.7.3">
+<h3><span class="header-section-number">4.7.3</span> Introduction<a href="homework-taxonomy-profiling-project.html#introduction-11" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The total time for a Galaxy step to complete depends on and will increase based on multiple factors such as large input file size, long queue when many other people are analyzing data, the complexity of the job itself, or an error. See table below for the minimum time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete.
 <br></p>
 <p>Note, that you can save time by 1) submitting multiple jobs that use the same input (NanoPlot and fastp) and 2) submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job finishes.</p>
-<p>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</p>
+<p><strong>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
 <table>
 <thead>
 <tr class="header">
@@ -312,14 +315,14 @@
 </table>
 <p><br></p>
 </div>
-<div id="activity-1-qc-and-quality-filter-reads" class="section level3 hasAnchor" number="4.7.3">
-<h3><span class="header-section-number">4.7.3</span> Activity 1 – QC and quality-filter reads<a href="homework-taxonomy-profiling-project.html#activity-1-qc-and-quality-filter-reads" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-1-qc" class="section level3 hasAnchor" number="4.7.4">
+<h3><span class="header-section-number">4.7.4</span> Activity 1 – QC<a href="homework-taxonomy-profiling-project.html#activity-1-qc" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 50 min</em></p>
-<div id="activity-1---part-i-import-data-and-run-nanoplot-in-galaxy" class="section level4 hasAnchor" number="4.7.3.1">
-<h4><span class="header-section-number">4.7.3.1</span> Activity 1 - Part I: Import data and run NanoPlot in Galaxy<a href="homework-taxonomy-profiling-project.html#activity-1---part-i-import-data-and-run-nanoplot-in-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-1---part-i-import-data-and-run-nanoplot" class="section level4 hasAnchor" number="4.7.4.1">
+<h4><span class="header-section-number">4.7.4.1</span> Activity 1 - Part I: Import data and run NanoPlot<a href="homework-taxonomy-profiling-project.html#activity-1---part-i-import-data-and-run-nanoplot" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
-<div id="instructions-34" class="section level4 hasAnchor" number="4.7.3.2">
-<h4><span class="header-section-number">4.7.3.2</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-34" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="instructions-34" class="section level4 hasAnchor" number="4.7.4.2">
+<h4><span class="header-section-number">4.7.4.2</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-34" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Import dataset into Galaxy.</li>
 </ol>
@@ -337,8 +340,8 @@
 <li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the NanoPlot job is scheduled, run, and complete.</p></li>
 </ol>
 </div>
-<div id="questions-19" class="section level4 hasAnchor" number="4.7.3.3">
-<h4><span class="header-section-number">4.7.3.3</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-19" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="questions-19" class="section level4 hasAnchor" number="4.7.4.3">
+<h4><span class="header-section-number">4.7.4.3</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-19" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <colgroup>
 <col width="100%" />
@@ -369,7 +372,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2. Compare your NanoPlot results.</th>
+<th align="left">2. Compare NanoPlot results.</th>
 <th align="left"></th>
 <th align="left"></th>
 </tr>
@@ -415,66 +418,28 @@
 </table>
 <p><br></p>
 </div>
-<div id="activity-1---part-ii-quality-filtering-with-fastp" class="section level4 hasAnchor" number="4.7.3.4">
-<h4><span class="header-section-number">4.7.3.4</span> Activity 1 - Part II: Quality filtering with fastp<a href="homework-taxonomy-profiling-project.html#activity-1---part-ii-quality-filtering-with-fastp" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-1---part-ii-quality-filtering-with-fastp" class="section level4 hasAnchor" number="4.7.4.4">
+<h4><span class="header-section-number">4.7.4.4</span> Activity 1 - Part II: Quality filtering with fastp<a href="homework-taxonomy-profiling-project.html#activity-1---part-ii-quality-filtering-with-fastp" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
-<div id="instructions-35" class="section level4 hasAnchor" number="4.7.3.5">
-<h4><span class="header-section-number">4.7.3.5</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-35" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="instructions-35" class="section level4 hasAnchor" number="4.7.4.5">
+<h4><span class="header-section-number">4.7.4.5</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-35" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Although the majority of bases in the soil dataset are of high quality ( &gt;Q20, or 1 in 100 base error), we can filter out very low quality reads to further improve dataset quality. In this activity run fastp tool to filter out reads with a high proportion of low quality bases (&lt;Q15) using default settings.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Click on the Tools icon. Then, in the search bar enter <strong>fastp</strong> and select the fastp tool.</p></li>
 <li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the fastp job is scheduled, run, and complete.</p></li>
 </ol>
 </div>
-<div id="questions-20" class="section level4 hasAnchor" number="4.7.3.6">
-<h4><span class="header-section-number">4.7.3.6</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-20" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">1. Compare your dataset before and after filtering using fastp: HTML report output.</th>
-<th align="left"></th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"><strong>Before</strong></td>
-<td align="left"><strong>After</strong></td>
-</tr>
-<tr class="even">
-<td align="left">Mean Length</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">total reads</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">total bases</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Q20 bases (%):</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Q30 bases (%):</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
+<div id="questions-20" class="section level4 hasAnchor" number="4.7.4.6">
+<h4><span class="header-section-number">4.7.4.6</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-20" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><strong>1. Compare your dataset before and after filtering using fastp: HTML report output.</strong>
+| | <strong>Before</strong> | <strong>After</strong>|
+|:–|:–|:–|
+|Mean Length| | |
+|total reads| | |
+|total bases| | |
+|Q20 bases (%):| | |
+|Q30 bases (%):| | |
+<br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -499,14 +464,14 @@
 <p><br></p>
 </div>
 </div>
-<div id="activity-2-taxonomy-profiling" class="section level3 hasAnchor" number="4.7.4">
-<h3><span class="header-section-number">4.7.4</span> Activity 2 – Taxonomy Profiling<a href="homework-taxonomy-profiling-project.html#activity-2-taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-2-taxonomy-profiling" class="section level3 hasAnchor" number="4.7.5">
+<h3><span class="header-section-number">4.7.5</span> Activity 2 – Taxonomy Profiling<a href="homework-taxonomy-profiling-project.html#activity-2-taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 50 min (~35 min computing)</em></p>
-<div id="activity-2---part-i-run-taxonomy-profiling-workflow" class="section level4 hasAnchor" number="4.7.4.1">
-<h4><span class="header-section-number">4.7.4.1</span> Activity 2 - Part I: Run Taxonomy Profiling Workflow<a href="homework-taxonomy-profiling-project.html#activity-2---part-i-run-taxonomy-profiling-workflow" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-2---part-i-run-taxonomy-profiling-workflow" class="section level4 hasAnchor" number="4.7.5.1">
+<h4><span class="header-section-number">4.7.5.1</span> Activity 2 - Part I: Run Taxonomy Profiling Workflow<a href="homework-taxonomy-profiling-project.html#activity-2---part-i-run-taxonomy-profiling-workflow" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
-<div id="instructions-36" class="section level4 hasAnchor" number="4.7.4.2">
-<h4><span class="header-section-number">4.7.4.2</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-36" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="instructions-36" class="section level4 hasAnchor" number="4.7.5.2">
+<h4><span class="header-section-number">4.7.5.2</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-36" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Run ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view results.</li>
 </ol>
@@ -540,8 +505,8 @@
 <li>In e.g. cell A2, calculate the sum of all reads observed in the soil sample.</li>
 </ul>
 </div>
-<div id="questions-21" class="section level4 hasAnchor" number="4.7.4.3">
-<h4><span class="header-section-number">4.7.4.3</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-21" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="questions-21" class="section level4 hasAnchor" number="4.7.5.3">
+<h4><span class="header-section-number">4.7.5.3</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-21" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <thead>
 <tr class="header">
@@ -581,10 +546,8 @@
 </tbody>
 </table>
 <p><br></p>
-<ol start="4" style="list-style-type: decimal">
-<li><strong>Identify the most abundant taxa (those at &gt;0.1%).</strong>
-Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.</li>
-</ol>
+<p><strong>4. Identify the most abundant taxa (those at &gt;0.1%).</strong>
+- Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Select columns B through I</p></li>
 <li><p>In the Data menu, select “Sort range by column B (Z to A)”</p></li>
@@ -657,11 +620,11 @@ Remember, soil is one of the most diverse microbial environments with many more 
 </table>
 <p><br></p>
 </div>
-<div id="activity-2---part-ii-analyze-kraken2-results" class="section level4 hasAnchor" number="4.7.4.4">
-<h4><span class="header-section-number">4.7.4.4</span> Activity 2 - Part II: Analyze Kraken2 results<a href="homework-taxonomy-profiling-project.html#activity-2---part-ii-analyze-kraken2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-2---part-ii-analyze-kraken2-results" class="section level4 hasAnchor" number="4.7.5.4">
+<h4><span class="header-section-number">4.7.5.4</span> Activity 2 - Part II: Analyze Kraken2 results<a href="homework-taxonomy-profiling-project.html#activity-2---part-ii-analyze-kraken2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
-<div id="instructions-37" class="section level4 hasAnchor" number="4.7.4.5">
-<h4><span class="header-section-number">4.7.4.5</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-37" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="instructions-37" class="section level4 hasAnchor" number="4.7.5.5">
+<h4><span class="header-section-number">4.7.5.5</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-37" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>. This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:</p>
 <ul>
 <li>Column 1: Percentage (%) of a given taxon</li>
@@ -670,8 +633,8 @@ Remember, soil is one of the most diverse microbial environments with many more 
 <li>Column 6: Identified taxa/scientific name.</li>
 </ul>
 </div>
-<div id="questions-22" class="section level4 hasAnchor" number="4.7.4.6">
-<h4><span class="header-section-number">4.7.4.6</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-22" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="questions-22" class="section level4 hasAnchor" number="4.7.5.6">
+<h4><span class="header-section-number">4.7.5.6</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-22" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <colgroup>
 <col width="100%" />
@@ -703,8 +666,7 @@ Remember, soil is one of the most diverse microbial environments with many more 
 </tr>
 </tbody>
 </table>
-<p><br></p>
-<p><code>Note: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has 352 lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.</code></p>
+<p>Note: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has 352 lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.</p>
 <table>
 <thead>
 <tr class="header">
@@ -719,11 +681,11 @@ Remember, soil is one of the most diverse microbial environments with many more 
 </table>
 <p><br></p>
 </div>
-<div id="activity-2---part-iii-krona-pie-chart" class="section level4 hasAnchor" number="4.7.4.7">
-<h4><span class="header-section-number">4.7.4.7</span> Activity 2 - Part III: Krona Pie Chart<a href="homework-taxonomy-profiling-project.html#activity-2---part-iii-krona-pie-chart" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-2---part-iii-krona-pie-chart" class="section level4 hasAnchor" number="4.7.5.7">
+<h4><span class="header-section-number">4.7.5.7</span> Activity 2 - Part III: Krona Pie Chart<a href="homework-taxonomy-profiling-project.html#activity-2---part-iii-krona-pie-chart" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
-<div id="instructions-38" class="section level4 hasAnchor" number="4.7.4.8">
-<h4><span class="header-section-number">4.7.4.8</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-38" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="instructions-38" class="section level4 hasAnchor" number="4.7.5.8">
+<h4><span class="header-section-number">4.7.5.8</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-38" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes.</p>
 <ol style="list-style-type: lower-alpha">
 <li>View Krona results: Click on the Display icon (eyeball) next to the output file named <strong>krona_pie_chart</strong>.</li>
@@ -731,8 +693,8 @@ Remember, soil is one of the most diverse microbial environments with many more 
 <li>Answer questions below</li>
 </ol>
 </div>
-<div id="questions-23" class="section level4 hasAnchor" number="4.7.4.9">
-<h4><span class="header-section-number">4.7.4.9</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-23" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="questions-23" class="section level4 hasAnchor" number="4.7.5.9">
+<h4><span class="header-section-number">4.7.5.9</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-23" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <thead>
 <tr class="header">
@@ -821,14 +783,14 @@ Remember, soil is one of the most diverse microbial environments with many more 
 <p><br></p>
 </div>
 </div>
-<div id="grading-criteria-13" class="section level3 hasAnchor" number="4.7.5">
-<h3><span class="header-section-number">4.7.5</span> Grading Criteria<a href="homework-taxonomy-profiling-project.html#grading-criteria-13" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="grading-criteria-13" class="section level3 hasAnchor" number="4.7.6">
+<h3><span class="header-section-number">4.7.6</span> Grading Criteria<a href="homework-taxonomy-profiling-project.html#grading-criteria-13" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</li>
 </ul>
 </div>
-<div id="footnotes-17" class="section level3 hasAnchor" number="4.7.6">
-<h3><span class="header-section-number">4.7.6</span> Footnotes<a href="homework-taxonomy-profiling-project.html#footnotes-17" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="footnotes-17" class="section level3 hasAnchor" number="4.7.7">
+<h3><span class="header-section-number">4.7.7</span> Footnotes<a href="homework-taxonomy-profiling-project.html#footnotes-17" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>Resources</strong>
 - Google Doc
 - Species composition in the Gut Microbiome Standard dataset: <a href="https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..">ZymoBIOMICS® Gut Microbiome Standard</a></p>
