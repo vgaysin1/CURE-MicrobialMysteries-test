@@ -30,7 +30,7 @@
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="discussion-taxonomy-profiling-prelab.html"/>
-<link rel="next" href="activity-meet-r.html"/>
+<link rel="next" href="activity-2-taxonomy-profiling.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -230,9 +230,15 @@
 <li class="chapter" data-level="4.6.1" data-path="discussion-taxonomy-profiling-prelab.html"><a href="discussion-taxonomy-profiling-prelab.html#activity-11"><i class="fa fa-check"></i><b>4.6.1</b> Activity</a></li>
 <li class="chapter" data-level="4.6.2" data-path="discussion-taxonomy-profiling-prelab.html"><a href="discussion-taxonomy-profiling-prelab.html#footnotes-16"><i class="fa fa-check"></i><b>4.6.2</b> Footnotes</a></li>
 </ul></li>
-<li class="chapter" data-level="4.7" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html"><i class="fa fa-check"></i><b>4.7</b> Homework: Taxonomy Profiling Project</a></li>
-<li class="chapter" data-level="4.8" data-path="activity-meet-r.html"><a href="activity-meet-r.html"><i class="fa fa-check"></i><b>4.8</b> Activity: Meet R!</a></li>
-<li class="chapter" data-level="4.9" data-path="presentation-taxonomy-profiling-project.html"><a href="presentation-taxonomy-profiling-project.html"><i class="fa fa-check"></i><b>4.9</b> Presentation: Taxonomy Profiling Project</a></li>
+<li class="chapter" data-level="4.7" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html"><i class="fa fa-check"></i><b>4.7</b> Homework: Taxonomy Profiling Project</a>
+<ul>
+<li class="chapter" data-level="4.7.1" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#purpose-8"><i class="fa fa-check"></i><b>4.7.1</b> Purpose</a></li>
+<li class="chapter" data-level="4.7.2" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#learning-objectives-7"><i class="fa fa-check"></i><b>4.7.2</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.7.3" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#activity-1-qc-and-quality-filter-reads"><i class="fa fa-check"></i><b>4.7.3</b> Activity 1 – QC and quality-filter reads</a></li>
+</ul></li>
+<li class="chapter" data-level="4.8" data-path="activity-2-taxonomy-profiling.html"><a href="activity-2-taxonomy-profiling.html"><i class="fa fa-check"></i><b>4.8</b> Activity 2 – Taxonomy Profiling</a></li>
+<li class="chapter" data-level="4.9" data-path="activity-meet-r.html"><a href="activity-meet-r.html"><i class="fa fa-check"></i><b>4.9</b> Activity: Meet R!</a></li>
+<li class="chapter" data-level="4.10" data-path="presentation-taxonomy-profiling-project.html"><a href="presentation-taxonomy-profiling-project.html"><i class="fa fa-check"></i><b>4.10</b> Presentation: Taxonomy Profiling Project</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="finding-amrs.html"><a href="finding-amrs.html"><i class="fa fa-check"></i><b>5</b> Finding AMRs</a></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
@@ -271,6 +277,224 @@
 </div>
 <div id="homework-taxonomy-profiling-project" class="section level2 hasAnchor" number="4.7">
 <h2><span class="header-section-number">4.7</span> Homework: Taxonomy Profiling Project<a href="homework-taxonomy-profiling-project.html#homework-taxonomy-profiling-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-8" class="section level3 hasAnchor" number="4.7.1">
+<h3><span class="header-section-number">4.7.1</span> Purpose<a href="homework-taxonomy-profiling-project.html#purpose-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To use a variety of Galaxy tools to perform Quality Control (QC), sequence quality filtering, taxonomy profiling, and visualization of a metagenomics soil sample sequenced with long-read Nanopore technology.</p>
+</div>
+<div id="learning-objectives-7" class="section level3 hasAnchor" number="4.7.2">
+<h3><span class="header-section-number">4.7.2</span> Learning Objectives<a href="homework-taxonomy-profiling-project.html#learning-objectives-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In this exercise, using Galaxy tools you will be
+1. Performing QC and quality filtering of your soil metagenomics data with NanoPlot and fastp tools.
+2. Running a workflow to perform taxonomy profiling and visualization of a soil metagenome.</p>
+<p>Throughout these objectives you will be comparing soil and gut metagenomes.</p>
+<p>###Introduction</p>
+<p>The total time for a Galaxy step to complete depends on and will increase based on multiple factors such as large input file size, long queue when many other people are analyzing data, the complexity of the job itself, or an error. See table below for the minimum time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete.
+<br></p>
+<p>Note, that you can save time by 1) submitting multiple jobs that use the same input (NanoPlot and fastp) and 2) submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job finishes.</p>
+<p>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Nanoplot</th>
+<th align="left">fastp</th>
+<th align="left">taxonomy workflow</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">15 min</td>
+<td align="left">15 min</td>
+<td align="left">30 min</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="activity-1-qc-and-quality-filter-reads" class="section level3 hasAnchor" number="4.7.3">
+<h3><span class="header-section-number">4.7.3</span> Activity 1 – QC and quality-filter reads<a href="homework-taxonomy-profiling-project.html#activity-1-qc-and-quality-filter-reads" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 50 min</em></p>
+<div id="activity-1---part-i-import-data-and-run-nanoplot-in-galaxy" class="section level4 hasAnchor" number="4.7.3.1">
+<h4><span class="header-section-number">4.7.3.1</span> Activity 1 - Part I: Import data and run NanoPlot in Galaxy<a href="homework-taxonomy-profiling-project.html#activity-1---part-i-import-data-and-run-nanoplot-in-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="instructions-34" class="section level4 hasAnchor" number="4.7.3.2">
+<h4><span class="header-section-number">4.7.3.2</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-34" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Import dataset into Galaxy.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Open the nanopore-soil-pilot public history <a href="https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1</a></p></li>
+<li><p>Click on <code>Import this history</code>, select Copy only the active, non-deleted datasets and then Copy History.</p></li>
+<li><p>Confirm <mark style="background color: green">Nanopore-soil-pilot-subset</mark> exists in your history by clicking on the Home button on top left ().</p></li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>Run <strong>NanoPlot</strong> tool in Galaxy to assess sequence quality using <strong>default settings</strong>.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Click on the Tools icon. Then, in the search bar enter ‘NanoPlot’ and select the NanoPlot tool.</p></li>
+<li><p>Under <strong>files</strong> browse to select your Nanopore-soil-pilot-subset fastq dataset.</p></li>
+<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the NanoPlot job is scheduled, run, and complete.</p></li>
+</ol>
+</div>
+<div id="questions-19" class="section level4 hasAnchor" number="4.7.3.3">
+<h4><span class="header-section-number">4.7.3.3</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-19" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1. Click on the Display icon (eyeball) next to the NanoPlot output NanoStats report and record:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Read mean length (mean read length):</td>
+</tr>
+<tr class="even">
+<td align="left">Read Mean quality (mean_qual):</td>
+</tr>
+<tr class="odd">
+<td align="left">Proportion of reads with quality &gt; Q20 (Reads &gt; Q20):</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. Compare your NanoPlot results above for Nanopore-soil, to Zymo-gut-standard from taxonomy profiling pre-lab.</th>
+<th align="left"></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"><strong>Nanopore soil pilot</strong></td>
+<td align="left"><strong>Zymo gut standard</strong></td>
+</tr>
+<tr class="even">
+<td align="left">mean read length:</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">mean_qual:</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Reads &gt; Q20:</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3. Which dataset has better sequence quality, Zymo-gut-standard (taxonomy profiling pre-lab) or Nanopore-soil pilot (taxonomy profiling project)?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="activity-1---part-ii-quality-filtering-with-fastp" class="section level4 hasAnchor" number="4.7.3.4">
+<h4><span class="header-section-number">4.7.3.4</span> Activity 1 - Part II: Quality filtering with fastp<a href="homework-taxonomy-profiling-project.html#activity-1---part-ii-quality-filtering-with-fastp" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="instructions-35" class="section level4 hasAnchor" number="4.7.3.5">
+<h4><span class="header-section-number">4.7.3.5</span> Instructions<a href="homework-taxonomy-profiling-project.html#instructions-35" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Although the majority of bases in the soil dataset are of high quality ( &gt;Q20, or 1 in 100 base error), we can filter out very low quality reads to further improve dataset quality. In this activity run fastp tool to filter out reads with a high proportion of low quality bases (&lt;Q15) using default settings.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Click on the Tools icon. Then, in the search bar enter <strong>fastp</strong> and select the fastp tool.</p></li>
+<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the fastp job is scheduled, run, and complete.</p></li>
+</ol>
+</div>
+<div id="questions-20" class="section level4 hasAnchor" number="4.7.3.6">
+<h4><span class="header-section-number">4.7.3.6</span> Questions<a href="homework-taxonomy-profiling-project.html#questions-20" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1. Compare your dataset before and after filtering with fastp using fastp: HTML report output.</th>
+<th align="left"></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"><strong>Before</strong></td>
+<td align="left"><strong>After</strong></td>
+</tr>
+<tr class="even">
+<td align="left">Mean Length</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">total reads</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">total bases</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Q20 bases (%):</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Q30 bases (%):</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">- look at 5’ end, 3’ end and the middle?</td>
+</tr>
+<tr class="even">
+<td align="left">- Pay attention to the y-axis</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
 </div>
 <hr>
 <center> 
@@ -284,7 +508,7 @@
         </div>
       </div>
 <a href="discussion-taxonomy-profiling-prelab.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="activity-meet-r.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="activity-2-taxonomy-profiling.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

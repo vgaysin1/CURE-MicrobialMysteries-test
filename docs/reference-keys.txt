@@ -186,6 +186,16 @@ activity-11
 instructions-33
 footnotes-16
 homework-taxonomy-profiling-project
+purpose-8
+learning-objectives-7
+activity-1-qc-and-quality-filter-reads
+activity-1---part-i-import-data-and-run-nanoplot-in-galaxy
+instructions-34
+questions-19
+activity-1---part-ii-quality-filtering-with-fastp
+instructions-35
+questions-20
+activity-2-taxonomy-profiling
 activity-meet-r
 presentation-taxonomy-profiling-project
 finding-amrs
