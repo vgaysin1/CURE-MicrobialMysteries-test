@@ -236,7 +236,12 @@
 <li class="chapter" data-level="4.7.2" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#learning-objectives-7"><i class="fa fa-check"></i><b>4.7.2</b> Learning Objectives</a></li>
 <li class="chapter" data-level="4.7.3" data-path="homework-taxonomy-profiling-project.html"><a href="homework-taxonomy-profiling-project.html#activity-1-qc-and-quality-filter-reads"><i class="fa fa-check"></i><b>4.7.3</b> Activity 1 – QC and quality-filter reads</a></li>
 </ul></li>
-<li class="chapter" data-level="4.8" data-path="activity-2-taxonomy-profiling.html"><a href="activity-2-taxonomy-profiling.html"><i class="fa fa-check"></i><b>4.8</b> Activity 2 – Taxonomy Profiling</a></li>
+<li class="chapter" data-level="4.8" data-path="activity-2-taxonomy-profiling.html"><a href="activity-2-taxonomy-profiling.html"><i class="fa fa-check"></i><b>4.8</b> Activity 2 – Taxonomy Profiling</a>
+<ul>
+<li class="chapter" data-level="4.8.1" data-path="activity-2-taxonomy-profiling.html"><a href="activity-2-taxonomy-profiling.html#activity-2---part-i-run-taxonomy-profiling-workflow"><i class="fa fa-check"></i><b>4.8.1</b> Activity 2 - Part I: Run Taxonomy Profiling Workflow</a></li>
+<li class="chapter" data-level="4.8.2" data-path="activity-2-taxonomy-profiling.html"><a href="activity-2-taxonomy-profiling.html#activity-2---part-ii-analyze-kraken2-results"><i class="fa fa-check"></i><b>4.8.2</b> Activity 2 - Part II: Analyze Kraken2 results</a></li>
+<li class="chapter" data-level="4.8.3" data-path="activity-2-taxonomy-profiling.html"><a href="activity-2-taxonomy-profiling.html#activity-2---part-iii-krona-pie-chart"><i class="fa fa-check"></i><b>4.8.3</b> Activity 2 - Part III: Krona Pie Chart</a></li>
+</ul></li>
 <li class="chapter" data-level="4.9" data-path="activity-meet-r.html"><a href="activity-meet-r.html"><i class="fa fa-check"></i><b>4.9</b> Activity: Meet R!</a></li>
 <li class="chapter" data-level="4.10" data-path="presentation-taxonomy-profiling-project.html"><a href="presentation-taxonomy-profiling-project.html"><i class="fa fa-check"></i><b>4.10</b> Presentation: Taxonomy Profiling Project</a></li>
 </ul></li>
@@ -278,6 +283,229 @@
 <div id="activity-2-taxonomy-profiling" class="section level2 hasAnchor" number="4.8">
 <h2><span class="header-section-number">4.8</span> Activity 2 – Taxonomy Profiling<a href="activity-2-taxonomy-profiling.html#activity-2-taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>Estimated time: 50 min (~35 min computing)</em></p>
+<div id="activity-2---part-i-run-taxonomy-profiling-workflow" class="section level3 hasAnchor" number="4.8.1">
+<h3><span class="header-section-number">4.8.1</span> Activity 2 - Part I: Run Taxonomy Profiling Workflow<a href="activity-2-taxonomy-profiling.html#activity-2---part-i-run-taxonomy-profiling-workflow" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="instructions-36" class="section level4 hasAnchor" number="4.8.1.1">
+<h4><span class="header-section-number">4.8.1.1</span> Instructions<a href="activity-2-taxonomy-profiling.html#instructions-36" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Run ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view results.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Open the taxonomy-profiling public workflow <a href="https://usegalaxy.org/u/cutsort/w/taxonomy-profiling">https://usegalaxy.org/u/cutsort/w/taxonomy-profiling</a></p></li>
+<li><p>Click on Run</p></li>
+<li><p>Browse to select your fastp-filtered fastq dataset <mark style="background color: green">“fastp on data1:Read 1 output”</mark> dataset by clicking on the <code>‘...’</code> tab.</p></li>
+<li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">’Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).</p></li>
+<li><p>Click <strong>Run Workflow</strong></p></li>
+</ol>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.</p></li>
+<li><p>Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore metagenomic diversity of soil by performing taxonomy profiling spreadsheet activity you did during week 1.</p></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Click on <strong>converted_kraken_report</strong>, find the download button and <strong>download</strong> the report.</p></li>
+<li><p><mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv.</p></li>
+<li><p>Upload your taxonomy .tsv file to Google Drive and open with Google Sheets.</p></li>
+<li><p>Create a header row and enter column Information.</p></li>
+</ol>
+<ul>
+<li>Col A = Counts</li>
+<li>Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).</li>
+<li>Each row corresponds to a different taxa.</li>
+</ul>
+<ol start="5" style="list-style-type: lower-alpha">
+<li>Evaluate what proportion of data was taxonomically classified.</li>
+</ol>
+<ul>
+<li>Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.</li>
+<li>In e.g. cell A2, calculate the sum of all reads observed in the soil sample.</li>
+</ul>
+</div>
+<div id="questions-21" class="section level4 hasAnchor" number="4.8.1.2">
+<h4><span class="header-section-number">4.8.1.2</span> Questions<a href="activity-2-taxonomy-profiling.html#questions-21" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. How many total read counts are there?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2. Determine percentage of reads that are unclassified</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3. What percentage of reads are classified?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Identify the most abundant taxa (those at &gt;0.1%).</strong>
+Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Select columns B through I</p></li>
+<li><p>In the Data menu, select “Sort range by column B (Z to A)”</p></li>
+<li><p>Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.</p></li>
+<li><p>In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.</p></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">How many ’abundant ’taxa (at &gt; 0.1%) do you observe?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">5. What are the taxonomic ranks of most abundant taxa?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">6. What is the most abundant eukaryote observed and its read count?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">7. What is the most abundant archaea observed and its read count?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">8. What is the most abundant virus observed and its read count?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="activity-2---part-ii-analyze-kraken2-results" class="section level3 hasAnchor" number="4.8.2">
+<h3><span class="header-section-number">4.8.2</span> Activity 2 - Part II: Analyze Kraken2 results<a href="activity-2-taxonomy-profiling.html#activity-2---part-ii-analyze-kraken2-results" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="instructions-37" class="section level4 hasAnchor" number="4.8.2.1">
+<h4><span class="header-section-number">4.8.2.1</span> Instructions<a href="activity-2-taxonomy-profiling.html#instructions-37" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>. This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:</p>
+<ul>
+<li>Column 1: Percentage (%) of a given taxon</li>
+<li>Column 2: # of reads per given taxon</li>
+<li>Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.</li>
+<li>Column 6: Identified taxa/scientific name.</li>
+</ul>
+</div>
+<div id="questions-22" class="section level4 hasAnchor" number="4.8.2.2">
+<h4><span class="header-section-number">4.8.2.2</span> Questions<a href="activity-2-taxonomy-profiling.html#questions-22" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1. What is the percentage of Unclassified taxa? Does it match your calculations in Activity 2 - Part I?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. What percentage of bacteria is Proteobacteria, the most abundant Phyla observed?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><code>Note: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has 352 lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.</code></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3. What is the most abundant class observed and at what percentage?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="activity-2---part-iii-krona-pie-chart" class="section level3 hasAnchor" number="4.8.3">
+<h3><span class="header-section-number">4.8.3</span> Activity 2 - Part III: Krona Pie Chart<a href="activity-2-taxonomy-profiling.html#activity-2---part-iii-krona-pie-chart" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="instructions-38" class="section level4 hasAnchor" number="4.8.3.1">
+<h4><span class="header-section-number">4.8.3.1</span> Instructions<a href="activity-2-taxonomy-profiling.html#instructions-38" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+</div>
 </div>
 <hr>
 <center> 

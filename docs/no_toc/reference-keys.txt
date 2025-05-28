@@ -196,6 +196,14 @@ activity-1---part-ii-quality-filtering-with-fastp
 instructions-35
 questions-20
 activity-2-taxonomy-profiling
+activity-2---part-i-run-taxonomy-profiling-workflow
+instructions-36
+questions-21
+activity-2---part-ii-analyze-kraken2-results
+instructions-37
+questions-22
+activity-2---part-iii-krona-pie-chart
+instructions-38
 activity-meet-r
 presentation-taxonomy-profiling-project
 finding-amrs
