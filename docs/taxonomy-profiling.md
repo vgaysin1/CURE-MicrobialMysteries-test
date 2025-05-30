@@ -808,3 +808,37 @@ Last Revised: February 2025
 
 ## Presentation: Taxonomy Profiling Project
 
+### Activity
+
+*Estimated time: 25 min*
+
+### Instructions
+
+1. Open the “Taxonomy Profiling Presentation” slidedeck [https://docs.google.com/presentation/d/1qsGKQ3M-etSpH1JFN270YfYgtYKxCsE-ou2B7gw25Gc/edit?usp=sharing](https://docs.google.com/presentation/d/1qsGKQ3M-etSpH1JFN270YfYgtYKxCsE-ou2B7gw25Gc/edit?usp=sharing)
+
+2. Create at least two slides (feel free to make more!) to present your findings e.g.
+- Describe the sample, drawing inspiration from Fig 2 (taxonomic distribution) and Fig 3a (read abundance) in the Xue et al 2023 ballast water study
+- Propose several steps for a follow-up analysis to compare this soil sample with one of the studies described in the Possible Dataset Activity, drawing inspiration from your submissions as well as those of your classmates in the Discussion Forum
+
+3. Iterate your slides being sure to
+- Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+- Include one or more plots or images that support your points
+- Create slide titles that summarize your main takeaway
+
+4. Present at next class (5 min each group)
+
+
+### Footnotes
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
+
+
+
+
+
+
