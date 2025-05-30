@@ -222,6 +222,13 @@ footnotes-19
 finding-amrs
 lecture-finding-amrs
 homework-finding-amrs-prelab
+purpose-9
+learning-objectives-8
+introduction-13
+activity-1-flye-assembly
+instructions-41
+questions-25
+activity-2-visualizing-contigs
 lecture-scientific-posters
 homework-scientific-posters-activity
 homework-r4ds
