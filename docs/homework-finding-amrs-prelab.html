@@ -328,8 +328,10 @@
 <p><br></p>
 <p>Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMR. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: <a href="https://doi.org/10.1038/nrmicro2312">10.1038/nrmicro2312</a> and <a href="https://doi.org/10.3390/antibiotics13121112">10.3390/antibiotics13121112</a>.</p>
 <p><br></p>
-<p><strong>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</strong>
-- Note, these times apply only to the specific input file we will be using in this activity, the Zymo_Gut_Standard_D6331_subset that is ~340MB, and will take longer (or much longer) for larger (or much larger) input files.</p>
+<p><strong>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
+<ul>
+<li>Note, these times apply only to the specific input file we will be using in this activity, the Zymo_Gut_Standard_D6331_subset that is ~340MB, and will take longer (or much longer) for larger (or much larger) input files.</li>
+</ul>
 <table>
 <thead>
 <tr class="header">
@@ -352,10 +354,9 @@
 <p><em>Estimated time: 45 min</em></p>
 <div id="instructions-41" class="section level4 hasAnchor" number="5.2.4.1">
 <h4><span class="header-section-number">5.2.4.1</span> Instructions<a href="homework-finding-amrs-prelab.html#instructions-41" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p><strong>1. Run Flye in Galaxy using Zymo Gut Standard D6331 subset to assemble gut microbial genomes.</strong></p>
+<p><strong>1. Run Flye in Galaxy</strong> - using Zymo Gut Standard D6331 subset to assemble gut microbial genomes.</p>
 <ol style="list-style-type: lower-alpha">
-<li><p>Obtain .fastq file from <code>Zymo_Gut_Standard_D6331_subset</code>.
-<a href="https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1">https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1</a></p></li>
+<li><p>Obtain .fastq file from <code>Zymo_Gut_Standard_D6331_subset</code>: <a href="https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1">https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1</a></p></li>
 <li><p>Name your new history <strong>“Finding gut AMRs”</strong>.</p></li>
 <li><p>Run Flye tool to assess sequence quality using the following Tool Parameters:</p></li>
 </ol>
@@ -365,8 +366,7 @@
 <li>Under <strong>Perform metagenomic assembly</strong>: select <code>Yes</code></li>
 <li>Under <strong>Generate a log file</strong>: select <code>Yes</code></li>
 </ul>
-<p><strong>2. View Flye results</strong>
-- Explore Flye output files and answer questions below</p>
+<p><strong>2. View Flye results</strong> - Explore Flye output files and answer questions below.</p>
 </div>
 <div id="questions-25" class="section level4 hasAnchor" number="5.2.4.2">
 <h4><span class="header-section-number">5.2.4.2</span> Questions<a href="homework-finding-amrs-prelab.html#questions-25" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -463,10 +463,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">- At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length)</td>
+<td align="left"><em><code>At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above</code></em></td>
 </tr>
 <tr class="even">
-<td align="left">- Compare to the total length after assembly from your answer to question 4 above)</td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
@@ -475,14 +475,38 @@
 </table>
 <p><br></p>
 <p><strong>3. Explore Flye assembly info file.</strong></p>
-<p>|A. Based on your Flye output <code>assembly info file</code>[which is sorted by length (in base pairs, bp) of the contig (high to low). ]: What is the longest `contig size?|
-|:–|
-| |
-<br></p>
-<p>|B. Based on your Flye output <code>assembly info file</code>[which is sorted by length (in base pairs, bp) of the contig (high to low). ]: What is the shortest contig size?|
-|:–|
-| |
-<br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. Based on your Flye output <code>assembly info file</code> sorted by contig length (high to low, in base pairs, bp) - What is the longest `contig size?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">B. Based on your Flye output <code>assembly info file</code> sorted by contig length (high to low, in base pairs, bp) - What is the shortest contig size?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 <p><strong>4. Explore Flye output consensus file (in FASTA format).</strong></p>
 <table>
 <thead>
@@ -508,18 +532,15 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">See this link for a quick summary comparison of the 2 formats <a href="https://compgenomr.github.io/book/fasta-and-fastq-formats.html">https://compgenomr.github.io/book/fasta-and-fastq-formats.html</a></td>
+<td align="left"><em><code>See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html</code></em>)</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-</tr>
-<tr class="odd">
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
-<p>**5. Test your general understanding of genome assembly.</p>
+<p><strong>5. Test your general understanding of genome assembly.</strong></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -531,7 +552,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?</td>
+<td align="left"><em><code>E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?</code></em></td>
 </tr>
 <tr class="even">
 <td align="left"></td>
