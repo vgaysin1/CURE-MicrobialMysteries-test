@@ -146,6 +146,115 @@ A. Based on your Flye output `log report file`: At the very bottom of the very l
 
 ### Activity 2 – Visualizing contigs
 
+*Estimated time: 15 min*
+
+#### Instructions
+
+Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly** output (in gfa1 format) using default parameters.
+
+#### Questions
+
+|1. Paste the resulting image below.|
+|:--|
+| |
+<br>
+
+|2. Describe contig profile based on the Bandage Image.|
+|:--|
+| |
+<br>
+
+|3. Do you expect to obtain more contigs, larger or circular contigs with more sequencing reads? why?|
+|:--|
+| |
+<br>
+
+### Activity 3 – Finding AMRs
+
+*Estimated time: 30 min* 
+
+#### Instructions
+
+1. Run **ABRicate** tool in Galaxy using Flye **consensus** as input using the following `Tool Parameters`:
+
+- Under **Input Reads**: select your Flye: consensus output in FASTA format
+- IMPORTANT: Under **Advanced Option**s: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default‘resfinder’ may not work well.
+
+2. Explore **ABRicate report file**.
+
+**Abricate output report** has the following information:
+
+|Column |Description |
+|:--| :--|
+|FILE | The filename this hit came from |
+| SEQUENCE | The sequence in the filename |
+| START | Start coordinate in the sequence |
+| END | End coordinate in the sequence |
+| GENE | ABR gene name |
+|COVERAGE | What proportion of the gene is in our sequence |
+| COVERAGE_MAP | A visual represenation of coverage map (gaps or no gaps)|
+| GAPS | Was there any gaps in the alignment - possible pseudogene? |
+| %COVERAGE | Proportion of gene covered |
+| %IDENTITY | Proportion of exact nucleotide matches |
+| DATABASE | The database this sequence comes from |
+| ACCESSION | The genomic source of the sequence |
+<br>
+
+3. Answer questions below.
+
+#### Questions
+
+**1. Explore Abricate output report.**
+
+|A. How  many AMR genes were detected? This is the number of rows in your file|
+|:--|
+||
+<br>
+
+|B. How many DIFFERENT AMR genes were detected and what are their GENE names?|
+|:--|
+||
+<br>
+
+|C. What are the different AMR genes resistant to? What is their RESISTANCE? |
+|:--|
+||
+<br>
+
+|D. How many DIFFERENT contigs had AMRs? |
+|:--|
+||
+<br>
+
+**2. Research an AMR gene. |
+
+|A. Research and write a small paragraph report on one of the AMR genes.| 
+|:---|
+| *Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.*|
+| |
+<br>
+
+|B. Ask one question you want to know about AMRs?| 
+|:---|
+| |
+<br>
+
+### Grading Criteria
+
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+- Google Doc
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: May 2025
+
 
 
 ## Lecture: Scientific Posters
