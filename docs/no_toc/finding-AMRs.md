@@ -33,6 +33,7 @@ Antimicrobial resistance is the ability of microbes to evade one or more antibio
 <br>
 
 **Table of approximate minimum times for a job to be completed on Galaxy using specified tools.**
+
 - Note, these times apply only to the specific input file we will be using in this activity, the Zymo_Gut_Standard_D6331_subset that is ~340MB, and will take longer (or much longer) for larger (or much larger) input files.
 
 | Flye | Bandage Image | ABRicate |
@@ -46,22 +47,20 @@ Antimicrobial resistance is the ability of microbes to evade one or more antibio
 
 #### Instructions
 
-**1. Run Flye in Galaxy using Zymo Gut Standard D6331 subset to assemble gut microbial genomes.**
+**1. Run Flye in Galaxy** - using Zymo Gut Standard D6331 subset to assemble gut microbial genomes.
 
-a. Obtain .fastq file from `Zymo_Gut_Standard_D6331_subset`.
-[https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1)
+a. Obtain .fastq file from `Zymo_Gut_Standard_D6331_subset`: [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1)
 
 b. Name your new history **“Finding gut AMRs”**.
 
-c. Run Flye  tool to assess sequence quality using the following Tool Parameters:
+c. Run Flye tool to assess sequence quality using the following Tool Parameters:
 
 - Under **Input Reads**: select your `Zymo_Gut_Standard_D6331` **.fastq** dataset.
 - Under Mode: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
 - Under **Perform metagenomic assembly**: select `Yes`
 - Under **Generate a log file**: select `Yes`
 
-**2. View Flye results**
-- Explore Flye output files and answer questions below
+**2. View Flye results** - Explore Flye output files and answer questions below.
 
 #### Questions
 
@@ -98,21 +97,19 @@ A. Based on your Flye output `log report file`: At the very bottom of the very l
 
 |C. What proportion of input was assembled into contigs?|
 |:--|
-| - At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length)
-- Compare to the total length after assembly from your answer to question 4 above) |
+| *`At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above`* |
+|
 | |
 <br>
 
 **3. Explore Flye assembly info file.**
 
-|A. Based on your Flye output `assembly info file`[which is sorted by length (in base pairs, bp) of the contig (high to low). 
-]: What is the longest `contig size?|
+|A. Based on your Flye output `assembly info file` sorted by contig length (high to low, in base pairs, bp) - What is the longest `contig size?|
 |:--|
 | |
 <br>
 
-|B. Based on your Flye output `assembly info file`[which is sorted by length (in base pairs, bp) of the contig (high to low). 
-]: What is the shortest contig size?|
+|B. Based on your Flye output `assembly info file` sorted by contig length (high to low, in base pairs, bp) - What is the shortest contig size?|
 |:--|
 | |
 <br>
@@ -126,16 +123,15 @@ A. Based on your Flye output `log report file`: At the very bottom of the very l
 
 |B. How does FASTA sequence format differ from FASTQ sequence format?|
 |:--|
-|See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)
- |
+|*`See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html`*)|
 | |
 <br>
 
-**5. Test your general understanding of genome assembly.
+**5. Test your general understanding of genome assembly.**
 
 |A. Summarize your experience with assembling a genome with Flye.|
 |:--|
-| E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?|
+| *`E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?`*|
 | |
 <br>
 
