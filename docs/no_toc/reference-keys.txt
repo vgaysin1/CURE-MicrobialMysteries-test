@@ -229,6 +229,13 @@ activity-1-flye-assembly
 instructions-41
 questions-25
 activity-2-visualizing-contigs
+instructions-42
+questions-26
+activity-3-finding-amrs
+instructions-43
+questions-27
+grading-criteria-15
+footnotes-20
 lecture-scientific-posters
 homework-scientific-posters-activity
 homework-r4ds
