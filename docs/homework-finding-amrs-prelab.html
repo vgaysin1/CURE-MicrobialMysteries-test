@@ -264,6 +264,9 @@
 <li class="chapter" data-level="5.2.3" data-path="homework-finding-amrs-prelab.html"><a href="homework-finding-amrs-prelab.html#introduction-13"><i class="fa fa-check"></i><b>5.2.3</b> Introduction</a></li>
 <li class="chapter" data-level="5.2.4" data-path="homework-finding-amrs-prelab.html"><a href="homework-finding-amrs-prelab.html#activity-1-flye-assembly"><i class="fa fa-check"></i><b>5.2.4</b> Activity 1 – Flye assembly</a></li>
 <li class="chapter" data-level="5.2.5" data-path="homework-finding-amrs-prelab.html"><a href="homework-finding-amrs-prelab.html#activity-2-visualizing-contigs"><i class="fa fa-check"></i><b>5.2.5</b> Activity 2 – Visualizing contigs</a></li>
+<li class="chapter" data-level="5.2.6" data-path="homework-finding-amrs-prelab.html"><a href="homework-finding-amrs-prelab.html#activity-3-finding-amrs"><i class="fa fa-check"></i><b>5.2.6</b> Activity 3 – Finding AMRs</a></li>
+<li class="chapter" data-level="5.2.7" data-path="homework-finding-amrs-prelab.html"><a href="homework-finding-amrs-prelab.html#grading-criteria-15"><i class="fa fa-check"></i><b>5.2.7</b> Grading Criteria</a></li>
+<li class="chapter" data-level="5.2.8" data-path="homework-finding-amrs-prelab.html"><a href="homework-finding-amrs-prelab.html#footnotes-20"><i class="fa fa-check"></i><b>5.2.8</b> Footnotes</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="lecture-scientific-posters.html"><a href="lecture-scientific-posters.html"><i class="fa fa-check"></i><b>5.3</b> Lecture: Scientific Posters</a></li>
 <li class="chapter" data-level="5.4" data-path="homework-scientific-posters-activity.html"><a href="homework-scientific-posters-activity.html"><i class="fa fa-check"></i><b>5.4</b> Homework: Scientific Posters Activity</a></li>
@@ -577,6 +580,255 @@
 </div>
 <div id="activity-2-visualizing-contigs" class="section level3 hasAnchor" number="5.2.5">
 <h3><span class="header-section-number">5.2.5</span> Activity 2 – Visualizing contigs<a href="homework-finding-amrs-prelab.html#activity-2-visualizing-contigs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 15 min</em></p>
+<div id="instructions-42" class="section level4 hasAnchor" number="5.2.5.1">
+<h4><span class="header-section-number">5.2.5.1</span> Instructions<a href="homework-finding-amrs-prelab.html#instructions-42" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Run <strong>Bandage Image</strong> tool in Galaxy on your Flye: <strong>graphical fragment assembly</strong> output (in gfa1 format) using default parameters.</p>
+</div>
+<div id="questions-26" class="section level4 hasAnchor" number="5.2.5.2">
+<h4><span class="header-section-number">5.2.5.2</span> Questions<a href="homework-finding-amrs-prelab.html#questions-26" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. Paste the resulting image below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2. Describe contig profile based on the Bandage Image.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3. Do you expect to obtain more contigs, larger or circular contigs with more sequencing reads? why?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="activity-3-finding-amrs" class="section level3 hasAnchor" number="5.2.6">
+<h3><span class="header-section-number">5.2.6</span> Activity 3 – Finding AMRs<a href="homework-finding-amrs-prelab.html#activity-3-finding-amrs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 30 min</em></p>
+<div id="instructions-43" class="section level4 hasAnchor" number="5.2.6.1">
+<h4><span class="header-section-number">5.2.6.1</span> Instructions<a href="homework-finding-amrs-prelab.html#instructions-43" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Run <strong>ABRicate</strong> tool in Galaxy using Flye <strong>consensus</strong> as input using the following <code>Tool Parameters</code>:</li>
+</ol>
+<ul>
+<li>Under <strong>Input Reads</strong>: select your Flye: consensus output in FASTA format</li>
+<li>IMPORTANT: Under <strong>Advanced Option</strong>s: select <code>NCBI Bacterial Antimicrobial Resistance Reference Gene Database</code> as your database option; the default‘resfinder’ may not work well.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Explore <strong>ABRicate report file</strong>.</li>
+</ol>
+<p><strong>Abricate output report</strong> has the following information:</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Column</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">FILE</td>
+<td align="left">The filename this hit came from</td>
+</tr>
+<tr class="even">
+<td align="left">SEQUENCE</td>
+<td align="left">The sequence in the filename</td>
+</tr>
+<tr class="odd">
+<td align="left">START</td>
+<td align="left">Start coordinate in the sequence</td>
+</tr>
+<tr class="even">
+<td align="left">END</td>
+<td align="left">End coordinate in the sequence</td>
+</tr>
+<tr class="odd">
+<td align="left">GENE</td>
+<td align="left">ABR gene name</td>
+</tr>
+<tr class="even">
+<td align="left">COVERAGE</td>
+<td align="left">What proportion of the gene is in our sequence</td>
+</tr>
+<tr class="odd">
+<td align="left">COVERAGE_MAP</td>
+<td align="left">A visual represenation of coverage map (gaps or no gaps)</td>
+</tr>
+<tr class="even">
+<td align="left">GAPS</td>
+<td align="left">Was there any gaps in the alignment - possible pseudogene?</td>
+</tr>
+<tr class="odd">
+<td align="left">%COVERAGE</td>
+<td align="left">Proportion of gene covered</td>
+</tr>
+<tr class="even">
+<td align="left">%IDENTITY</td>
+<td align="left">Proportion of exact nucleotide matches</td>
+</tr>
+<tr class="odd">
+<td align="left">DATABASE</td>
+<td align="left">The database this sequence comes from</td>
+</tr>
+<tr class="even">
+<td align="left">ACCESSION</td>
+<td align="left">The genomic source of the sequence</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Answer questions below.</li>
+</ol>
+</div>
+<div id="questions-27" class="section level4 hasAnchor" number="5.2.6.2">
+<h4><span class="header-section-number">5.2.6.2</span> Questions<a href="homework-finding-amrs-prelab.html#questions-27" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><strong>1. Explore Abricate output report.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. How many AMR genes were detected? This is the number of rows in your file</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">B. How many DIFFERENT AMR genes were detected and what are their GENE names?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">C. What are the different AMR genes resistant to? What is their RESISTANCE?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">D. How many DIFFERENT contigs had AMRs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>**2. Research an AMR gene. |</p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. Research and write a small paragraph report on one of the AMR genes.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em>Use any search tools for your research, but we encourage you to use PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/">https://pubmed.ncbi.nlm.nih.gov/</a> where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</em></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">B. Ask one question you want to know about AMRs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="grading-criteria-15" class="section level3 hasAnchor" number="5.2.7">
+<h3><span class="header-section-number">5.2.7</span> Grading Criteria<a href="homework-finding-amrs-prelab.html#grading-criteria-15" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</li>
+</ul>
+</div>
+<div id="footnotes-20" class="section level3 hasAnchor" number="5.2.8">
+<h3><span class="header-section-number">5.2.8</span> Footnotes<a href="homework-finding-amrs-prelab.html#footnotes-20" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Resources</strong>
+- Google Doc</p>
+<p><strong>Contributions and Affiliations</strong></p>
+<ul>
+<li>Valeriya Gaysinskaya, Johns Hopkins University</li>
+<li>Frederick Tan, Johns Hopkins University</li>
+</ul>
+<p>Last Revised: May 2025</p>
 </div>
 </div>
 <hr>
