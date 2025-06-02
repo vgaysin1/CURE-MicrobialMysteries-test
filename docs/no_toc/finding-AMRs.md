@@ -60,7 +60,13 @@ c. Run Flye tool to assess sequence quality using the following Tool Parameters:
 - Under **Perform metagenomic assembly**: select `Yes`
 - Under **Generate a log file**: select `Yes`
 
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png" width="480" />
+
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png" width="480" />
+
 **2. View Flye results** - Explore Flye output files and answer questions below.
+
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_21.png" width="480" />
 
 #### Questions
 
