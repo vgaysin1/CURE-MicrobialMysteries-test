@@ -68,7 +68,7 @@ c. Run Flye tool to assess sequence quality using the following Tool Parameters:
 
 #### Questions
 
-**1. Explore Flye tool purpose and output**
+**1. Explore Flye tool purpose and output.**
 
 |A. In your own words describe the purpose of Flye based on the Introduction section, and from the `Purpose` section of Flye tool description.|
 |:--|
@@ -127,7 +127,7 @@ A. Based on your Flye output `log report file`: At the very bottom of the very l
 
 |B. How does FASTA sequence format differ from FASTQ sequence format?|
 |:--|
-|*`See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html`*)|
+|*`See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)`*|
 | |
 <br>
 
@@ -226,11 +226,11 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 ||
 <br>
 
-**2. Research an AMR gene. |
+**2. Research an AMR gene.**
 
 |A. Research and write a small paragraph report on one of the AMR genes.| 
 |:---|
-| *Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.*|
+| *`Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.`*|
 | |
 <br>
 
@@ -267,8 +267,107 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-
 
 ## Homework: Scientific Posters Activity
 
+### Activity
+
+*Estimated time: 50 min*
+
+#### Instructions
+
+1. Review “Presentations Guidelines for Posters”.
+
+- [https://ur.umbc.edu/urcad/resources/posters-guidelines](https://ur.umbc.edu/urcad/resources/posters-guidelines)
+
+2. Skim three posters from among the following (must be Biology if from UMBC Posters)
+
+  a. C-MOOR Posters – [https://help.c-moor.org/c/look-at-this/8](https://help.c-moor.org/c/look-at-this/8)
+
+  b. UMBC Posters – [https://ur.umbc.edu/poster-presentation-examples](https://ur.umbc.edu/poster-presentation-examples)
+
+  c. PacBio Poster – [https://www.pacb.com/wp-content/uploads/PAG-Portik.pdf](https://www.pacb.com/wp-content/uploads/PAG-Portik.pdf)
+
+3. Pick one poster and address the following points.
+
+a. **Notice** – What about this poster most interests you?
+
+b. **Wonder** – Two or three questions you would ask the authors.
+
+c. **Support** – Two or three suggestions on how the poster could be improved.
+
+4. Post your answers by replying to the “Project Work: Scientific Posters” topic in the Discussion Forum
+
+### Grading Criteria
+
+- <mark style="background-color: yellow">Submit URL to your reply on Canvas
+
+### Footnotes
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
+
+
+
 ## Homework: r4ds
 
+### Introduction
+
+[R for Data Science (2e)](https://r4ds.hadley.nz) covers how to do data science with R using the tidyverse collection of packages.  There are many possible reasons for the continued popularity of tidyverse, but one stand out principle the package authors embrace is that programs should be “easy to use by humans.  Computer efficiency is a secondary concern” (see this and more at the [tidy tools manifesto](https://tidyverse.tidyverse.org/articles/manifesto.html#design-for-humans0).  Here you will learn more about what kind of data can be organized into data.frames and possible ways to summarize, explore, and visualize datasets.
+
+### Activity
+
+*Estimated time: 50 min*
+
+#### Instructions
+
+1. Complete the “r4ds” LearnR tutorial.
+
+- In addition to the “OCS – Global Diets” section being optional, you similarly do not need to complete all of the Exercises in 3.3.1.
+
+2. Answer the questions below.
+
+#### Questions
+
+|1. data.frames – Data frames organize data into a 2-dimensional table of rows and columns like a spreadsheet with some special restrictions.  For the mpg data.frame, what do rows represent?  What do columns represent?|
+|:--|
+||
+<br>
+
+
+|2. Functions – Most R commands are functions (e.g. `mean()`) which take some input (a number, a vector, a dataframe...) and produce some output (a summary, a plot, a new vector...).  Describe one function you learned about that you anticipate being useful in the future.|
+|:--|
+||
+<br>
+
+|3. Common Problems – What are some common problems you ran into?  Refer to Part 2. Troubleshooting if you'd like some inspiration for how to put your experience into words.|
+|:--|
+||
+<br>
+
+|4. [*optional*] OCS - Global Diets Plotting – Which foods show a difference based on sex?|
+|:--|
+||
+<br>
+
+### Grading Criteria
+
+- Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+
+- Google Doc
+- [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
+
+**Contributions and Affiliations**
+
+- Katherine Cox, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
 
 ## Discussion: Finding AMRs Prelab
 
