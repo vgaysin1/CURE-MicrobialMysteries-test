@@ -7,7 +7,7 @@ rmd_files: ["index.Rmd",
             "microbial-genomes.Rmd",
             "taxonomy-profiling.Rmd",
             "finding-AMRs.Rmd",
-            "Appendix-A.Rmd",
+            "galaxy-tutorials.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
