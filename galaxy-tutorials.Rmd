@@ -2,6 +2,8 @@
 ottrpal::set_knitr_image_path()
 ```
 
+# (PART\*) TUTORIALS {-}
+
 # Galaxy Tutorials
 
 ## A short introduction to Galaxy
