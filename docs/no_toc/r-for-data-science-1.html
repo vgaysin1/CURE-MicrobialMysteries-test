@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>3.4 Homework: Microbial Genomes Project | Course Name</title>
+  <title>7.2 R for Data Science 1 | Course Name</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="3.4 Homework: Microbial Genomes Project | Course Name" />
+  <meta property="og:title" content="7.2 R for Data Science 1 | Course Name" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="3.4 Homework: Microbial Genomes Project | Course Name" />
+  <meta name="twitter:title" content="7.2 R for Data Science 1 | Course Name" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="discussion-microbial-genomes-prelab.html"/>
-<link rel="next" href="activity-test-driver.html"/>
+<link rel="prev" href="meet-r.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -348,655 +348,118 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="homework-microbial-genomes-project" class="section level2 hasAnchor" number="3.4">
-<h2><span class="header-section-number">3.4</span> Homework: Microbial Genomes Project<a href="homework-microbial-genomes-project.html#homework-microbial-genomes-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="purpose-6" class="section level3 hasAnchor" number="3.4.1">
-<h3><span class="header-section-number">3.4.1</span> Purpose<a href="homework-microbial-genomes-project.html#purpose-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific Data 2023 <a href="https://pubmed.ncbi.nlm.nih.gov/37563185/">https://pubmed.ncbi.nlm.nih.gov/37563185/</a>.</p>
+<div id="r-for-data-science-1" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> R for Data Science 1<a href="r-for-data-science-1.html#r-for-data-science-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="introduction-17" class="section level3 hasAnchor" number="7.2.1">
+<h3><span class="header-section-number">7.2.1</span> Introduction<a href="r-for-data-science-1.html#introduction-17" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><a href="https://r4ds.hadley.nz">R for Data Science (2e)</a> covers how to do data science with R using the tidyverse collection of packages. There are many possible reasons for the continued popularity of tidyverse, but one stand out principle the package authors embrace is that programs should be “easy to use by humans. Computer efficiency is a secondary concern” (see this and more at the <a href="https://tidyverse.tidyverse.org/articles/manifesto.html#design-for-humans0">tidy tools manifesto</a>. Here you will learn more about what kind of data can be organized into data.frames and possible ways to summarize, explore, and visualize datasets.</p>
 </div>
-<div id="learning-objectives-5" class="section level3 hasAnchor" number="3.4.2">
-<h3><span class="header-section-number">3.4.2</span> Learning Objectives<a href="homework-microbial-genomes-project.html#learning-objectives-5" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-18" class="section level3 hasAnchor" number="7.2.2">
+<h3><span class="header-section-number">7.2.2</span> Activity<a href="r-for-data-science-1.html#activity-18" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 50 min</em></p>
+<div id="instructions-48" class="section level4 hasAnchor" number="7.2.2.1">
+<h4><span class="header-section-number">7.2.2.1</span> Instructions<a href="r-for-data-science-1.html#instructions-48" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Explore and better understand MAGs and contigs by following up one MAG and one contig in NCBI.</li>
-<li>Utilize knowledge learned by navigating MAG information using previously learned tools such as GenBank, Sequence Browser, BV-BRC, Taxonomy Browser and Lifemap.</li>
-<li>Go deeper and see what you can find on the organism from your MAG of choice and a gene from a MAG of choice using any tools available to you (Pubmed, Google, BV-BRC, other databases).</li>
+<li>Complete the “r4ds” LearnR tutorial.</li>
+</ol>
+<ul>
+<li>In addition to the “OCS – Global Diets” section being optional, you similarly do not need to complete all of the Exercises in 3.3.1.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Answer the questions below.</li>
 </ol>
 </div>
-<div id="activity-1-mags-and-taxonomy" class="section level3 hasAnchor" number="3.4.3">
-<h3><span class="header-section-number">3.4.3</span> Activity 1 – MAGs and Taxonomy<a href="homework-microbial-genomes-project.html#activity-1-mags-and-taxonomy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: [40] min</em></p>
-<div id="activity-1---part-i-explore-a-mag" class="section level4 hasAnchor" number="3.4.3.1">
-<h4><span class="header-section-number">3.4.3.1</span> Activity 1 - Part I: Explore a MAG<a href="homework-microbial-genomes-project.html#activity-1---part-i-explore-a-mag" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-</div>
-<div id="instructions-17" class="section level4 hasAnchor" number="3.4.3.2">
-<h4><span class="header-section-number">3.4.3.2</span> Instructions<a href="homework-microbial-genomes-project.html#instructions-17" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ul>
-<li>In the research study by Zue Z et al, Nature Scientific Data 2023 <a href="https://pubmed.ncbi.nlm.nih.gov/37563185/">https://pubmed.ncbi.nlm.nih.gov/37563185/</a>, 17 of 103 uncovered MAGs from ballast water or sediment were of very high quality and completeness. You will follow up on one of them!</li>
-<li><strong>Choose one of these 17 MAGs</strong> (see 17 GenBank IDs below) to follow up in this activity.</li>
-<li>Use GenBank <a href="https://www.ncbi.nlm.nih.gov/nucleotide/">https://www.ncbi.nlm.nih.gov/nucleotide/</a> to answer questions.</li>
-</ul>
+<div id="questions-30" class="section level4 hasAnchor" number="7.2.2.2">
+<h4><span class="header-section-number">7.2.2.2</span> Questions<a href="r-for-data-science-1.html#questions-30" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
+<colgroup>
+<col width="100%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th align="left">GenBank IDs for 17 quality MAGs</th>
+<th align="left">1. data.frames – Data frames organize data into a 2-dimensional table of rows and columns like a spreadsheet with some special restrictions. For the mpg data.frame, what do rows represent? What do columns represent?</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">1. GCF_030147545.1</td>
+<td align="left"></td>
 </tr>
-<tr class="even">
-<td align="left">2. GCF_030148435.1</td>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. Functions – Most R commands are functions (e.g. <code>mean()</code>) which take some input (a number, a vector, a dataframe…) and produce some output (a summary, a plot, a new vector…). Describe one function you learned about that you anticipate being useful in the future.</th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
-<td align="left">3. GCF_030149225.1</td>
+<td align="left"></td>
 </tr>
-<tr class="even">
-<td align="left">4. GCF_030148195.1</td>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3. Common Problems – What are some common problems you ran into? Refer to Part 2. Troubleshooting if you’d like some inspiration for how to put your experience into words.</th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
-<td align="left">5. GCF_030148855.1</td>
+<td align="left"></td>
 </tr>
-<tr class="even">
-<td align="left">6. GCF_030148245.1</td>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">4. [<em>optional</em>] OCS - Global Diets Plotting – Which foods show a difference based on sex?</th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
-<td align="left">7. GCF_030149045.1</td>
-</tr>
-<tr class="even">
-<td align="left">8. GCF_030148385.1</td>
-</tr>
-<tr class="odd">
-<td align="left">9. GCF_030147715.1</td>
-</tr>
-<tr class="even">
-<td align="left">10. GCF_030149085.1</td>
-</tr>
-<tr class="odd">
-<td align="left">11. GCF_030149145.1</td>
-</tr>
-<tr class="even">
-<td align="left">12. GCF_030148125.1</td>
-</tr>
-<tr class="odd">
-<td align="left">13. GCF_030149425.1</td>
-</tr>
-<tr class="even">
-<td align="left">14. GCF_030149235.1</td>
-</tr>
-<tr class="odd">
-<td align="left">15. GCF_030148515.1</td>
-</tr>
-<tr class="even">
-<td align="left">16. GCF_030147875.1</td>
-</tr>
-<tr class="odd">
-<td align="left">17. GCF_030149465.1</td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
 </div>
-<div id="questions-11" class="section level4 hasAnchor" number="3.4.3.3">
-<h4><span class="header-section-number">3.4.3.3</span> Questions<a href="homework-microbial-genomes-project.html#questions-11" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>1. Record the GenBank ID number for one of 17 high quality MAGs for follow up below</strong>.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<p>In the GenBank <a href="https://www.ncbi.nlm.nih.gov/nucleotide/">https://www.ncbi.nlm.nih.gov/nucleotide/</a>, under the Nucleotide search tab <strong>enter</strong> the GenBank number of your MAG (e.g. GCF_030147545.1) and click <strong>Search</strong>.</p>
-<p><img src="resources/images/microbial-genomes_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_77.png" width="480" /></p>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>2. Record below the GENOME name for the MAG assembly associated with the GenBank ID you entered.</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<p>For the 1st MAG (GCF_030147545.1), the GENOME name is “Alcanivorax sp. genome ASM3014754v1”:</p>
-<p><img src="resources/images/microbial-genomes_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357b6795023_0_2.png" width="480" /></p>
-<p>Click on the GENOME name of your MAG to <strong>explore genome assembly summary</strong> information.</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>3. What is the Taxon of your MAG?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>4. What is the genome size of your MAG?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>5. How many contigs contributed to your MAG assembly?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>6. How many genes were annotated?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>7. How comparable is your MAG genome to the E. coli genome from the microbial-genomes-pre-lab, in terms of genome size and number of genes?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>8. As you can see, MAGs are made up of Contigs. Based on your lecture and reading material, and this exercise, in your own words define MAGs and Contigs below.</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">MAGs:</td>
-</tr>
-<tr class="even">
-<td align="left">Contigs:</td>
-</tr>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
 </div>
-<div id="activity-1---part-ii-explore-a-contig" class="section level4 hasAnchor" number="3.4.3.4">
-<h4><span class="header-section-number">3.4.3.4</span> Activity 1 - Part II: Explore a Contig<a href="homework-microbial-genomes-project.html#activity-1---part-ii-explore-a-contig" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-</div>
-<div id="instructions-18" class="section level4 hasAnchor" number="3.4.3.5">
-<h4><span class="header-section-number">3.4.3.5</span> Instructions<a href="homework-microbial-genomes-project.html#instructions-18" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="grading-criteria-20" class="section level3 hasAnchor" number="7.2.3">
+<h3><span class="header-section-number">7.2.3</span> Grading Criteria<a href="r-for-data-science-1.html#grading-criteria-20" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li>MAGs are made up of Contigs. To see which contigs make up your MAG, go back to GenBank <a href="https://www.ncbi.nlm.nih.gov/nucleotide/">https://www.ncbi.nlm.nih.gov/nucleotide/</a>, and search for your MAG using its GenBank ID (e.g.GCF_030147545.1).</li>
-<li>You will see that MAG GCF_030147545.1 is composed of 42 contigs:</li>
-</ul>
-<p><img src="resources/images/microbial-genomes_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_0.png" width="480" /></p>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>1. Each contig has its own accession number. Choose a contig of reasonably large size (&gt; 75 kb), click on the contig, then find and record below the Contig’s ID (Accession number/GenBank ID) for further examination.</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Tip: You can sort the entries by length via’ Sort by Sequence Length’ on top!</td>
-</tr>
-<tr class="even">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<ol style="list-style-type: lower-alpha">
-<li><p>For the contig you chose in activity above, under <strong>Related Information</strong> on the right, click on <strong>Taxonomy</strong> and <strong>then click again on the provided link</strong>.</p></li>
-<li><p>Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names.</p></li>
-</ol>
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>2. Record 7 core taxonomy ranks for your Contig.</strong></th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Kingdom:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Phylum:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Class:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Order:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Family:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Genus:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Species:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left"><br></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="activity-1---part-iii-visualize-contig-in-a-tree-of-life" class="section level4 hasAnchor" number="3.4.3.6">
-<h4><span class="header-section-number">3.4.3.6</span> Activity 1 - Part III: Visualize contig in a tree of life<a href="homework-microbial-genomes-project.html#activity-1---part-iii-visualize-contig-in-a-tree-of-life" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-</div>
-<div id="introduction-5" class="section level4 hasAnchor" number="3.4.3.7">
-<h4><span class="header-section-number">3.4.3.7</span> Introduction<a href="homework-microbial-genomes-project.html#introduction-5" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ol style="list-style-type: lower-alpha">
-<li><p>Use Lifemap to visually explore the contig taxonomy in the context of the tree of life. Go to <a href="https://lifemap-ncbi.univ-lyon1.fr">https://lifemap-ncbi.univ-lyon1.fr</a> and <strong>enter the lowest taxonomy rank observed for your contig</strong> (most likely the species or genus level, but can also correspond to order or family).</p></li>
-<li><p>On the tree map, use plus and minus tabs to zoom in and out and visualize your Contig entry relative to other organisms on the map. Zoom in and find nodes corresponding to the higher taxonomic ranks. For example, if your contig corresponds to genus level classification, you will not be able to identify species level information, but you will be able to identify the corresponding Family, Order, Class and Phylum.</p></li>
-</ol>
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>1. Record 7 core taxonomy ranks for your Contig.</strong></th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Kingdom:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Phylum:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Class:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Order:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Family:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Genus:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Species:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left"><br></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>2. What are some other members of the Genus to which your Contig belongs?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>3. What are some other members of the Family to which your Contig belongs?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>4. What are some other members of the Order to which your Contig belongs?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>5. What are some other members of the Class to which your Contig belongs?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left"><strong>6. What are some other members of the Phylum to which your Contig belongs?</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="activity-2-genomes-genes-and-databases" class="section level3 hasAnchor" number="3.4.4">
-<h3><span class="header-section-number">3.4.4</span> Activity 2 – Genomes, Genes, and Databases<a href="homework-microbial-genomes-project.html#activity-2-genomes-genes-and-databases" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: [20] min</em></p>
-<div id="instructions-19" class="section level4 hasAnchor" number="3.4.4.1">
-<h4><span class="header-section-number">3.4.4.1</span> Instructions<a href="homework-microbial-genomes-project.html#instructions-19" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ol style="list-style-type: lower-alpha">
-<li>In GenBank <a href="https://www.ncbi.nlm.nih.gov/nucleotide/">https://www.ncbi.nlm.nih.gov/nucleotide/</a>, for the contig you chose in activity 1 click on <strong>Graphics</strong> to explore the genome browser and the genes.</li>
-</ol>
-<p><img src="resources/images/microbial-genomes_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_15.png" width="480" /></p>
-<ol start="2" style="list-style-type: lower-alpha">
-<li><strong>Select genes of interest</strong>. A lot of genes found in the Contigs will have no ‘familiar’ short symbol and instead have a long alphabetical-and-numerical- name. Such genes are either uncharacterized, hypothetical or have functional or structural similarity to known genes/proteins, but have not been confirmed. However, some Contig genes will be annotated with a ‘familiar’ short gene symbol, matching known genes. Please use the genes with the short symbols for this activity, since the ‘other’ genes will not be found in the databases.</li>
-</ol>
-<p><img src="resources/images/microbial-genomes_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_31.png" width="480" /></p>
-<ol start="3" style="list-style-type: lower-alpha">
-<li>For the 3 genes of choice, use the BV-BRC <a href="https://www.bv-brc.org">bv-brc.org</a> to find more information on your genes.</li>
-</ol>
-</div>
-<div id="questions-12" class="section level4 hasAnchor" number="3.4.4.2">
-<h4><span class="header-section-number">3.4.4.2</span> Questions<a href="homework-microbial-genomes-project.html#questions-12" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">**1. Record 5 genes of interest for your Contig.</th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Gene1:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Gene2:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Gene3:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Gene4:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Gene5:</td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p>For the 3 genes above, in the <a href="https://www.bv-brc.org">bv-brc.org</a> <strong>Search</strong> space, a) from a dropdown menu select <strong>“Pathways”</strong> , b) type in the gene name and click enter. This will result in a lot of entries for different organisms. c) check one of the boxes corresponding to the gene of interest and enter below which species/strain (<strong>Genome Name</strong>) you selected.</p>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">**2. Record Genome Name associated with your 3 genes of interest in bv-brc database.</th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Gene</strong></td>
-<td align="left"><strong>Genome Name</strong></td>
-</tr>
-<tr class="even">
-<td align="left">Gene1:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Gene2:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Gene3:</td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">**3. Record gene Product associated with your genes of interest in bv-brc database.</th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Gene</strong></td>
-<td align="left"><strong>Product</strong></td>
-</tr>
-<tr class="even">
-<td align="left">Gene1:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Gene2:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Gene3:</td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">**4. Record Pathway Name associated with your genes of interest in bv-brc database.</th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Gene</strong></td>
-<td align="left"><strong>Pathway Name</strong></td>
-</tr>
-<tr class="even">
-<td align="left">Gene1:</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Gene2:</td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Gene3:</td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="activity-3-go-deeper" class="section level3 hasAnchor" number="3.4.5">
-<h3><span class="header-section-number">3.4.5</span> Activity 3 – Go Deeper!<a href="homework-microbial-genomes-project.html#activity-3-go-deeper" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: [30] min</em></p>
-<div id="instructions-20" class="section level4 hasAnchor" number="3.4.5.1">
-<h4><span class="header-section-number">3.4.5.1</span> Instructions<a href="homework-microbial-genomes-project.html#instructions-20" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Use any tools available at your disposal to follow up on your MAG and gene of interest from activities 1 and 2 above. Some suggested tools include PubMed, Google, <a href="https://mbgd.nibb.ac.jp">MBGD</a>, BV-BRC, <a href="https://bacdive.dsmz.de">BacDive</a>.</p>
-<ol style="list-style-type: decimal">
-<li>For the <strong>taxa</strong> you identified for your chosen MAG in activity 1, what can you learn about this organism (species or genus for example) in 15 minutes using any tools at your disposal?</li>
-</ol>
-<table>
-<thead>
-<tr class="header">
-<th align="left">**a. What did you learn?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">**b. What tools did you use?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<ol start="2" style="list-style-type: decimal">
-<li>For one of the <strong>genes</strong> you identified for your chosen contig in activity 2, what can you learn about this gene in 15 minutes using any tools at your disposal?</li>
-</ol>
-<table>
-<thead>
-<tr class="header">
-<th align="left">**a. What did you learn?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">**b. What tools did you use?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="grading-criteria-6" class="section level3 hasAnchor" number="3.4.6">
-<h3><span class="header-section-number">3.4.6</span> Grading Criteria<a href="homework-microbial-genomes-project.html#grading-criteria-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ul>
-<li><mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</li>
+<li>Download as Microsoft Word (.docx) and upload on Canvas</li>
 </ul>
 </div>
-<div id="footnotes-8" class="section level3 hasAnchor" number="3.4.7">
-<h3><span class="header-section-number">3.4.7</span> Footnotes<a href="homework-microbial-genomes-project.html#footnotes-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="footnotes-25" class="section level3 hasAnchor" number="7.2.4">
+<h3><span class="header-section-number">7.2.4</span> Footnotes<a href="r-for-data-science-1.html#footnotes-25" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>Resources</strong></p>
 <ul>
 <li>Google Doc</li>
+<li><a href="https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md">R cheat sheet</a></li>
 </ul>
-<p><strong>Contributions and Affiliations</strong>
-- Valeriya Gaysinskaya, Johns Hopkins University
-- Gauri Paul, Clovis Community College
-- Frederick Tan, Johns Hopkins University</p>
-<p>Last Revised: May 2025</p>
+<p><strong>Contributions and Affiliations</strong></p>
+<ul>
+<li>Katherine Cox, Johns Hopkins University</li>
+<li>Frederick Tan, Johns Hopkins University</li>
+</ul>
+<p>Last Revised: February 2025</p>
+
 </div>
 </div>
+<!-- </div> -->
 <hr>
 <center> 
   <div class="footer">
@@ -1008,8 +471,8 @@
           </div>
         </div>
       </div>
-<a href="discussion-microbial-genomes-prelab.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="activity-test-driver.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="meet-r.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

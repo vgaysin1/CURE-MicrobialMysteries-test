@@ -261,3 +261,17 @@ instructions-46
 grading-criteria-18
 footnotes-23
 sciserver-tutorials
+meet-r
+introduction-16
+activity-17
+instructions-47
+questions-29
+grading-criteria-19
+footnotes-24
+r-for-data-science-1
+introduction-17
+activity-18
+instructions-48
+questions-30
+grading-criteria-20
+footnotes-25
