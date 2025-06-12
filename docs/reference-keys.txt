@@ -261,3 +261,10 @@ instructions-46
 grading-criteria-18
 footnotes-23
 sciserver-tutorials
+meet-r
+introduction-16
+activity-17
+instructions-47
+questions-29
+grading-criteria-19
+footnotes-24
