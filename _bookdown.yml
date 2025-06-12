@@ -6,7 +6,8 @@ rmd_files: ["index.Rmd",
             "scientific-literature.Rmd",
             "microbial-genomes.Rmd",
             "taxonomy-profiling.Rmd",
-            "finding-AMRs.Rmd",
+            "finding-AMRs.Rmd"
+            "Appendix.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
