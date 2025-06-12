@@ -2,7 +2,7 @@
 
 # Galaxy Tutorials
 
-## Activity: A short introduction to Galaxy
+## Galaxy: A short introduction
 
 ### Introduction
 
@@ -43,3 +43,39 @@ Galaxy [galaxyproject.org](galaxyproject.org) is a free, open-source system for 
 Last Revised: January 2025
 
 
+
+## Galaxy data collections
+
+### Introduction
+
+Collections in Galaxy can be useful when you have to deal with large numbers of datasets.  Examples of when you might use collections include when you have many DNA sequencing samples (e.g. .fastq files) or when you have many genome assembly contigs (e.g. .fasta files).  Dataset collections allow you to not only organize these datasets but they also allow you to manipulate them in a single batch operation.
+
+### Activity
+
+*Estimated time: 45 min*
+
+#### Instructions
+
+1. Review the “Datasets versus collections” FAQ
+
+- [training.galaxyproject.org/training-material/faqs/galaxy/histories_datasets_vs_collections.html](http://training.galaxyproject.org/training-material/faqs/galaxy/histories_datasets_vs_collections.html)
+
+2. Complete the “Using dataset collections” hands-on tutorial
+
+- [training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html](http://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html)
+
+### Grading Criteria
+
+- <mark style="background color: yellow">Submit URL to your shared Galaxy history on Canvas
+
+### Footnotes
+
+**Resources**
+
+- Using Galaxy and Managing your Data [topic]
+
+**Contributions and Affiliations**
+
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: January 2025

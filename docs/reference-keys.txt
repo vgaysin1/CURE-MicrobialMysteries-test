@@ -254,9 +254,15 @@ homework-finding-amrs-project
 activity-r4ds2
 presentation-finding-amrs-project
 galaxy-tutorials
-activity-a-short-introduction-to-galaxy-1
+galaxy-a-short-introduction
 introduction-15
 activity-16
 instructions-46
 grading-criteria-18
 footnotes-23
+galaxy-data-collections
+introduction-16
+activity-17
+instructions-47
+grading-criteria-19
+footnotes-24
