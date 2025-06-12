@@ -2,7 +2,7 @@
 
 # Introduction
 
-## Lecture: Welcome to Your Genomics Adventure!
+## Welcome to Your Genomics Adventure!
 
 [Slides: Welcome to Your Genomics Adventure!](https://docs.google.com/presentation/d/18hYo8xrYkyq3rG7RUy3n3-jWFK_JPs5NNW3HmM9HUeQ/edit?usp=sharing)
 
@@ -76,7 +76,7 @@ Fill out your username and insert a screenshot of that username in the boxes bel
 Last Revised: January 2025
 
 
-## Lecture: The Scientic Process 
+## The Scientic Process 
 
 [Slides: The Scientic Process](https://docs.google.com/presentation/d/1VQE-rXASXIdf8rWLP5UTcrAhM_DcznARVigPTHTfw8M/edit?usp=sharing)
 
