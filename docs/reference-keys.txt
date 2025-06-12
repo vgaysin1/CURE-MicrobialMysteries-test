@@ -253,3 +253,10 @@ discussion-finding-amrs-prelab
 homework-finding-amrs-project
 activity-r4ds2
 presentation-finding-amrs-project
+galaxy-tutorials
+activity-a-short-introduction-to-galaxy-1
+introduction-15
+activity-16
+instructions-46
+grading-criteria-18
+footnotes-23
