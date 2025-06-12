@@ -182,49 +182,6 @@ In this activity, repeat steps of the Activity 1 above, but now using [tax_data_
 Last Revised: January 2025
 
 
-
-## Activity: A short introduction to Galaxy
-
-### Introduction
-
-Galaxy [galaxyproject.org](galaxyproject.org) is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more.  Among the notable features:
-
-- [Graphical user interface](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html) (GUI) for interactively running tools
-- [Toolshed](https://toolshed.g2.bx.psu.edu/) with 10,000 tools ready to run
-- Full featured [workflow](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html) functionality
-- Terabytes of the latest, curated [reference data](https://galaxyproject.org/admin/reference-data-repo)
-- Extensive training [tutorials](https://training.galaxyproject.org/) and infrastructure
-- Large international [community](https://galaxyproject.org/community) of users and developers
-
-### Activity
-
-*Estimated time: 40 min*
-
-#### Instructions
-
-1. Review slides for “A short introduction to Galaxy”
-- [training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html](training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html)
-2. Complete the hands-on tutorial
-- [training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html](training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html)
-
-### Grading Criteria
-
-- Submit URL to your shared Galaxy history on Canvas
-
-### Footnotes
-
-**Resources**
-
-- Introduction to Galaxy Analyses [topic](https://training.galaxyproject.org/training-material/topics/introduction/)
-
-**Contributions and Affiliations**
-
-- Frederick Tan, Johns Hopkins University
-
-Last Revised: January 2025
-
-
-
 ## Homework: Scientific Literature Prelab
 
 ### Purpose 
