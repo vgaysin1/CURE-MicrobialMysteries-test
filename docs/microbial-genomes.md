@@ -547,87 +547,6 @@ Use any tools available at your disposal to follow up on your MAG and gene of in
 Last Revised: May 2025
 
 
-## Activity: test-driveR
-
-### Introduction
-
-SciServer ([sciserver.org](https://sciserver.org)) is an online platform for doing scientific data analysis. It is used by scientists studying astronomy, biology, oceanography, and more, and is free as long as you are using it for scientific research. Using SciServer means you do not need a fancy computer or need to install any special programs on your computer, you can just log in with your internet browser to start doing research. For this course, we have set up SciServer with customized collections of programs as well as the data that we’ll be analyzing. Once you sign up for SciServer and are added to the group for this course, you will be able to access these tools and begin your data analysis journey!
-
-### Activity
-
-*Estimated time: 25 min*
-
-#### Instructions
-
-1. Accept invitation to join class SciServer Group
-
-a. Navigate to [https://apps.sciserver.org/dashboard/groups](https://apps.sciserver.org/dashboard/groups)
-
-b. Click “Accept Invitation”
-
-2. Start up a "C-MOOR LearnR" compute container
-
-a. Navigate to [https://apps.sciserver.org/compute](https://apps.sciserver.org/compute)
-
-b. Click “Create container”
-
-c. Give your container a name (eg. my LearnR)
-
-d. In the “Compute Image” drop-down menu, select “C-MOOR LearnR”
-
-e. Under “Data Volumes”, check the box next to “C-MOOR Data”
-
-![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_9.png)
-
-f. Scroll down and click “Create”. This may take a moment.
-
-g. Start your C-MOOR LearnR container by clicking on its name
-
-- NOTE: If you see “Error: C-MOOR data volume not mounted!” you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
-
-3. Complete your first LearnR tutorial
-
-a. Click on “test-driveR”. The tutorial will open in a new tab.
-
-![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_27.png)
-
-b. Complete the tutorial and answer the questions below.
-
-
-#### Questions
-
-Use the blocks provided at the end of the tutorial to create variations of the code provided in the first three exercises (Sort Data, Extract Data, and Plot Data).  When you are done, submit the code and resulting output that you found most interesting.  Briefly describe why you found it most interesting.
-
-|**1. Code – Copy and paste your actual code as text.**
-|:--|
-| <br> |
-
-|**2. Output – Copy and paste as text if simple, otherwise use a screenshot.**
-|:--|
-| <br> |
-
-|**3. Explanation.**
-|:--|
-| <br> |
-
-### Grading Criteria
-
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
-
-### Footnotes
-
-**Resources**
-
-- Google Doc
-- [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
-
-**Contributions and Affiliations**
-
-- Katherine Cox, Johns Hopkins University
-- Frederick Tan, Johns Hopkins University
-
-Last Revised: February 2025
-
 ## Presentation: Microbial Genomes Project
 
 ### Activity
@@ -637,21 +556,18 @@ Last Revised: February 2025
 
 #### Instructions
 
-1. **Open the “Microbial Genomes Presentation” slidedeck** [here](https://docs.google.com/presentation/d/17hFixGrtYtM0EzEOcU1aAi0CVRu36OqtNIXtbuiu0Os/edit?usp=sharing)
+1. Open the “Microbial Genomes Presentation” [slidedeck](https://docs.google.com/presentation/d/17hFixGrtYtM0EzEOcU1aAi0CVRu36OqtNIXtbuiu0Os/edit?usp=sharing)
 
-2. **Create at least two slides (feel free to make more!) to present your findings** e.g.
+2. Create at least two slides (feel free to make more!) to present your findings. E.g.,
 
-a. Describe the MAG you explored (Activity 1) and some of its genes (Activity 2)
+- Describe the MAG you explored (Activity 1) and some of its genes (Activity 2)
+- What did you discover about your organism and gene (Activity 3)?
 
-b. What did you discover about your organism and gene (Activity 3)?
+3. Iterate your slides being sure to:
 
-3. **Iterate your slides being sure to**:
-
-a. Add bullet points on key details you understand (Notice) and questions you have (Wonder)
-
-b. Include one or more plots or images that support your points
-
-c. Create slide titles that summarize your main takeaway
+- Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+- Include one or more plots or images that support your points
+- Create slide titles that summarize your main takeaway
 
 4. Present at next class (5 min each group)
 

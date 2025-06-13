@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>6.2 QC and Galaxy Workflows | Course Name</title>
+  <title>7.3 test-driveR | Course Name</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="6.2 QC and Galaxy Workflows | Course Name" />
+  <meta property="og:title" content="7.3 test-driveR | Course Name" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="6.2 QC and Galaxy Workflows | Course Name" />
+  <meta name="twitter:title" content="7.3 test-driveR | Course Name" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="a-short-introduction-to-galaxy.html"/>
-<link rel="next" href="galaxy-data-collections.html"/>
+<link rel="prev" href="r-for-data-science-1.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -342,55 +342,121 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="qc-and-galaxy-workflows" class="section level2 hasAnchor" number="6.2">
-<h2><span class="header-section-number">6.2</span> QC and Galaxy Workflows<a href="qc-and-galaxy-workflows.html#qc-and-galaxy-workflows" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="introduction-12" class="section level3 hasAnchor" number="6.2.1">
-<h3><span class="header-section-number">6.2.1</span> Introduction<a href="qc-and-galaxy-workflows.html#introduction-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In the “A short introduction to Galaxy” activity you learned how to upload a file, use a tool, view results, view histories, extract and run a workflow, and share a history. You will now practice using these skills to do one of the first things when encountering a new sequencing dataset – quality control (QC). After assessing the quality of both short and long reads, gain more practice with workflows by creating and editing a new workflow.</p>
+<div id="test-driver" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> test-driveR<a href="test-driver.html#test-driver" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="introduction-16" class="section level3 hasAnchor" number="7.3.1">
+<h3><span class="header-section-number">7.3.1</span> Introduction<a href="test-driver.html#introduction-16" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>SciServer <a href="https://www.sciserver.org">sciserver.org</a> is an online platform for doing scientific data analysis. It is used by scientists studying astronomy, biology, oceanography, and more, and is free as long as you are using it for scientific research. Using SciServer means you do not need a fancy computer or need to install any special programs on your computer, you can just log in with your internet browser to start doing research. For this course, we have set up SciServer with customized collections of programs as well as the data that we’ll be analyzing. Once you sign up for SciServer and are added to the group for this course, you will be able to access these tools and begin your data analysis journey!</p>
 </div>
-<div id="activity-1-quality-control-qc" class="section level3 hasAnchor" number="6.2.2">
-<h3><span class="header-section-number">6.2.2</span> Activity 1 – Quality Control (QC)<a href="qc-and-galaxy-workflows.html#activity-1-quality-control-qc" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 90 min</em></p>
-<div id="instructions-42" class="section level4 hasAnchor" number="6.2.2.1">
-<h4><span class="header-section-number">6.2.2.1</span> Instructions<a href="qc-and-galaxy-workflows.html#instructions-42" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-17" class="section level3 hasAnchor" number="7.3.2">
+<h3><span class="header-section-number">7.3.2</span> Activity<a href="test-driver.html#activity-17" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 25 min</em></p>
+<div id="instructions-47" class="section level4 hasAnchor" number="7.3.2.1">
+<h4><span class="header-section-number">7.3.2.1</span> Instructions<a href="test-driver.html#instructions-47" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Complete the “Quality Control” hands-on tutorial: <a href="https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html">training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial</a></li>
+<li>Accept invitation to join class SciServer Group</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Navigate to <a href="https://apps.sciserver.org/dashboard/groups">https://apps.sciserver.org/dashboard/groups</a></p></li>
+<li><p>Click “Accept Invitation”</p></li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>Start up a “C-MOOR LearnR” compute container</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Navigate to <a href="https://apps.sciserver.org/compute">https://apps.sciserver.org/compute</a></p></li>
+<li><p>Click “Create container”</p></li>
+<li><p>Give your container a name (eg. my LearnR)</p></li>
+<li><p>In the “Compute Image” drop-down menu, select “C-MOOR LearnR”</p></li>
+<li><p>Under “Data Volumes”, check the box next to “C-MOOR Data”</p></li>
+</ol>
+<p><img src="resources/images/sciserver-tutorials_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_9.png" width="480" />
+f. Scroll down and click “Create”. This may take a moment.</p>
+<ol start="7" style="list-style-type: lower-alpha">
+<li>Start your C-MOOR LearnR container by clicking on its name</li>
 </ol>
 <ul>
-<li><strong>NOTE</strong>: Do all hands-on steps in a single Galaxy history</li>
+<li>NOTE: If you see “Error: C-MOOR data volume not mounted!” you most likely forgot to check the box next to “C-MOOR Data” when you created the container.</li>
 </ul>
-</div>
-</div>
-<div id="activity-2-creating-editing-and-importing-galaxy-workflows" class="section level3 hasAnchor" number="6.2.3">
-<h3><span class="header-section-number">6.2.3</span> Activity 2 – Creating, Editing and Importing Galaxy Workflows<a href="qc-and-galaxy-workflows.html#activity-2-creating-editing-and-importing-galaxy-workflows" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 30 min</em></p>
-<div id="instructions-43" class="section level4 hasAnchor" number="6.2.3.1">
-<h4><span class="header-section-number">6.2.3.1</span> Instructions<a href="qc-and-galaxy-workflows.html#instructions-43" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ol style="list-style-type: decimal">
-<li>Complete the “Creating, Editing and Importing Galaxy Workflows” hands-on tutorial: <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html">training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial</a></li>
+<ol start="3" style="list-style-type: decimal">
+<li>Complete your first LearnR tutorial</li>
 </ol>
+<ol style="list-style-type: lower-alpha">
+<li>Click on “test-driveR”. The tutorial will open in a new tab.</li>
+</ol>
+<p><img src="resources/images/sciserver-tutorials_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_27.png" width="480" />
+Complete the tutorial and answer the questions below.</p>
+</div>
+<div id="questions-29" class="section level4 hasAnchor" number="7.3.2.2">
+<h4><span class="header-section-number">7.3.2.2</span> Questions<a href="test-driver.html#questions-29" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Use the blocks provided at the end of the tutorial to create variations of the code provided in the first three exercises (Sort Data, Extract Data, and Plot Data). When you are done, submit the code and resulting output that you found most interesting. Briefly describe why you found it most interesting.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. Code – Copy and paste your actual code as text.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. Output – Copy and paste as text if simple, otherwise use a screenshot.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3. Description.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 </div>
 </div>
-<div id="grading-criteria-15" class="section level3 hasAnchor" number="6.2.4">
-<h3><span class="header-section-number">6.2.4</span> Grading Criteria<a href="qc-and-galaxy-workflows.html#grading-criteria-15" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="grading-criteria-19" class="section level3 hasAnchor" number="7.3.3">
+<h3><span class="header-section-number">7.3.3</span> Grading Criteria<a href="test-driver.html#grading-criteria-19" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li><mark style="background-color: yellow">Submit URL to your shared Galaxy “Quality Control” history on Canvas</li>
+<li><mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</li>
 </ul>
 </div>
-<div id="footnotes-20" class="section level3 hasAnchor" number="6.2.5">
-<h3><span class="header-section-number">6.2.5</span> Footnotes<a href="qc-and-galaxy-workflows.html#footnotes-20" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="footnotes-24" class="section level3 hasAnchor" number="7.3.4">
+<h3><span class="header-section-number">7.3.4</span> Footnotes<a href="test-driver.html#footnotes-24" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>Resources</strong></p>
 <ul>
-<li>Using Galaxy and Managing your Data <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/">topic</a></li>
-<li>Introduction to Galaxy and Sequence analysis <a href="https://training.galaxyproject.org/training-material/learning-pathways/intro-to-galaxy-and-genomics.html">pathway</a></li>
+<li>Google Doc</li>
+<li><a href="https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md">R cheat sheet</a></li>
 </ul>
 <p><strong>Contributions and Affiliations</strong></p>
 <ul>
+<li>Katherine Cox, Johns Hopkins University</li>
 <li>Frederick Tan, Johns Hopkins University</li>
 </ul>
 <p>Last Revised: February 2025</p>
+
 </div>
 </div>
+<!-- </div> -->
 <hr>
 <center> 
   <div class="footer">
@@ -402,8 +468,8 @@
           </div>
         </div>
       </div>
-<a href="a-short-introduction-to-galaxy.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="galaxy-data-collections.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="r-for-data-science-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

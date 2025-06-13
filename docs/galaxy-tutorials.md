@@ -1,5 +1,7 @@
 
 
+# (PART\*) TUTORIALS {-}
+
 # Galaxy Tutorials
 
 ## A short introduction to Galaxy
