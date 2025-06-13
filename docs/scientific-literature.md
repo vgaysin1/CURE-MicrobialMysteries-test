@@ -180,7 +180,7 @@ In this activity, repeat steps of the Activity 1 above, but now using [tax_data_
 Last Revised: January 2025
 
 
-## Homework: Scientific Literature Prelab
+## Pre-lab: Scientific Literature
 
 ### Purpose 
 
@@ -231,7 +231,7 @@ Download as Microsoft Word (.docx) and upload on Canvas
 - Frederick Tan, Johns Hopkins University
 
 
-## Discussion: Scientific Literature Prelab
+## Discussion: Scientific Literature
 
 ### Activity
 
@@ -257,7 +257,7 @@ b. Summarize -- Identify best answer and add to slidedeck
 
 [Slides: Scientific Literature](https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?usp=sharing)
 
-## Homework: Scientific Literature Activity
+## Activity: Scientific Literature
 
 ### Purpose
 
@@ -355,7 +355,7 @@ Determine the main objectives and purpose of the paper. Read the Abstract and th
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-## Presentation: Scientific Literature Activity
+## Presentation: Scientific Literature
 
 ### Activity
 
