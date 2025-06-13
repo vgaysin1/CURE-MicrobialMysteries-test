@@ -210,7 +210,6 @@ grading-criteria-11
 footnotes-16
 discussion-finding-amrs-prelab
 homework-finding-amrs-project
-activity-r4ds2
 presentation-finding-amrs-project
 galaxy-tutorials
 a-short-introduction-to-galaxy
