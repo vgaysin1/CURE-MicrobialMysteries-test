@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Course Name</title>
+  <title>5.2 Pre-lab: Finding AMRs | Course Name</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Course Name" />
+  <meta property="og:title" content="5.2 Pre-lab: Finding AMRs | Course Name" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Course Name" />
+  <meta name="twitter:title" content="5.2 Pre-lab: Finding AMRs | Course Name" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-
-<link rel="next" href="introduction.html"/>
+<link rel="prev" href="lecture-finding-amrs.html"/>
+<link rel="next" href="discussion-finding-amrs.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -331,141 +331,528 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="header">
-<h1 class="title">Course Name</h1>
-<p class="date"><em>June 13, 2025</em></p>
+<div id="pre-lab-finding-amrs" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Pre-lab: Finding AMRs<a href="pre-lab-finding-amrs.html#pre-lab-finding-amrs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-9" class="section level3 hasAnchor" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> Purpose<a href="pre-lab-finding-amrs.html#purpose-9" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To use a Galaxy tools to perform de novo genome assembly of sequencing reads into contigs, visualize the contigs and find antimicrobial resistance (AMR) genes.</p>
 </div>
-<div id="about" class="section level1 unnumbered hasAnchor">
-<h1>About<a href="index.html#about" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>What is the essence/purpose of this course or module (2-3 sentences).</p>
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
-<img src="assets/C-MOOR_Template/c-moor-logo-horizontal.png" alt="C-MOOR logo" width="789" />
-<p class="caption">
-Figure 0.1: C-MOOR logo
-</p>
-</div>
-<div id="audience-and-prerequisites" class="section level3 unnumbered unlisted hasAnchor">
-<h3>Audience and Prerequisites<a href="index.html#audience-and-prerequisites" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>What is the target audience?</p>
-<!-- Example:
-This module is designed for introductory biology courses.  Key ideas center around genes and homologs, and the proteins they encode.  We typically include this module as part of a Molecular Biology unit.
--->
-<p><strong>Prerequisites</strong>:</p>
-<ul>
-<li>Prereq 1</li>
-<li>Prereq 2</li>
-</ul>
-<p>Why are these needed? Provide a brief explanation that will help instructors decide whether it’s a good fit for their students.</p>
-<!-- Example:
-
-**Prerequisites**: Basic understanding of genes and homology
-
-The project portion of the module involves looking up genes in different databases (human and model organism). Students should have a basic understanding of what a gene is (and why we care about them), and why it makes sense to study similar genes (i.e. homologs) across different organisms.  This module will help solidify these concepts by having students investigate concrete examples of genes and their homologs.
-
--->
-</div>
-<div id="format" class="section level3 unnumbered unlisted hasAnchor">
-<h3>Format<a href="index.html#format" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<!--
-Class Type should be one of the following (from CourseSource):
-- Lecture
-- Lab
-- Seminar
-- Discussion Section
-- On-line
-- Other
--->
-<!--
-Lesson Length should be one of the following (from CourseSource):
-- Portion of one class period
-- One class period
-- Multiple class periods
-- One term (semester or quarter)
-- One year
-- Other
-
-You can then provide additional details
-
-Example:
-
-- **Class Type:** Lab (computer based)
-- **Lesson Length:** One class period (2-3 hr lab)
-    - 40 min setup and introduction (for shorter lab periods, these can be done ahead of time)
-    - 2 hr core lab exercises
-    - Optional 20 min "challenge" exercise
-    
-Another example:
-
-- **Class Type:** Lab (computer based)
-- **Lesson Length:** One class period (2-3 hr lab)
-    - 30 min pre-lab introducing ...
-    - 15 min lab-lecture
-    - 1.5 hr core lab exercises
-      - 45 min exercises covering...
-      - 45 min project investigating...
-    - (flexible) write-up and/or present findings
-
--->
-<ul>
-<li><strong>Class Type:</strong></li>
-<li><strong>Lesson Length:</strong></li>
-</ul>
-</div>
-<div id="learning-goals" class="section level3 unnumbered hasAnchor">
-<h3>Learning Goals<a href="index.html#learning-goals" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="learning-objectives-8" class="section level3 hasAnchor" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> Learning Objectives<a href="pre-lab-finding-amrs.html#learning-objectives-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Use Galaxy tools to:</p>
 <ol style="list-style-type: decimal">
-<li>Goal 1</li>
-<li>Goal 2</li>
-<li>Goal 3</li>
+<li>Use Flye tool to perform de novo genome assembly of long reads into ‘contigs’</li>
+<li>Visualize contigs with Bandage Image tool</li>
+<li>Use ABRicate tool to find AMRs in contig assemblies</li>
 </ol>
 </div>
-<div id="core-competencies" class="section level3 unnumbered unlisted hasAnchor">
-<h3>Core Competencies<a href="index.html#core-competencies" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>This activity addresses the following core concepts and competencies:</p>
+<div id="introduction-8" class="section level3 hasAnchor" number="5.2.3">
+<h3><span class="header-section-number">5.2.3</span> Introduction<a href="pre-lab-finding-amrs.html#introduction-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Genome assembly is the process of reconstructing genomes from DNA sequence reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. Flye, is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using Flye we will hope to be able to reconstruct bacterial genomes and plasmids and enable detection of important genes like AMRs. Ideally, after assembly we want to get back circular contigs as that would typically indicate an entire microbial genome(s) or plasmid(s).</p>
+<p><br></p>
+<p>Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMR. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: <a href="https://doi.org/10.1038/nrmicro2312">10.1038/nrmicro2312</a> and <a href="https://doi.org/10.3390/antibiotics13121112">10.3390/antibiotics13121112</a>.</p>
+<p><br></p>
+<p><strong>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
+<ul>
+<li>Note, these times apply only to the specific input file we will be using in this activity, the Zymo_Gut_Standard_D6331_subset that is ~340MB, and will take longer (or much longer) for larger (or much larger) input files.</li>
+</ul>
 <table>
+<thead>
+<tr class="header">
+<th align="left">Flye</th>
+<th align="left">Bandage Image</th>
+<th align="left">ABRicate</th>
+</tr>
+</thead>
 <tbody>
-<tr>
-<td style="text-align:left;">
-<strong>Vision and Change</strong>
-</td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<strong>Genetics</strong>
-</td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<strong>Bioinformatics</strong>
-</td>
-<td style="text-align:left;">
-</td>
+<tr class="odd">
+<td align="left">5 min</td>
+<td align="left">&lt; 5 min</td>
+<td align="left">&lt; 5 min</td>
 </tr>
 </tbody>
 </table>
-<p>Core concepts and competencies are taken from the following sources:</p>
+</div>
+<div id="activity-1-flye-assembly" class="section level3 hasAnchor" number="5.2.4">
+<h3><span class="header-section-number">5.2.4</span> Activity 1 – Flye assembly<a href="pre-lab-finding-amrs.html#activity-1-flye-assembly" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 45 min</em></p>
+<div id="instructions-35" class="section level4 hasAnchor" number="5.2.4.1">
+<h4><span class="header-section-number">5.2.4.1</span> Instructions<a href="pre-lab-finding-amrs.html#instructions-35" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><strong>1. Run Flye in Galaxy</strong> - using Zymo Gut Standard D6331 subset to assemble gut microbial genomes.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Obtain .fastq file from <code>Zymo_Gut_Standard_D6331_subset</code>: <a href="https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1">https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1</a></p></li>
+<li><p>Name your new history <strong>“Finding gut AMRs”</strong>.</p></li>
+<li><p>Run Flye tool to assess sequence quality using the following Tool Parameters:</p></li>
+</ol>
 <ul>
-<li><a href="https://visionandchange.org/">Vision and Change in Undergraduate Biology Education</a> AAAS report</li>
-<li><a href="https://genetics-gsa.org/education/genetics-learning-framework/">Genetics Core Competencies</a> by <a href="https://genetics-gsa.org/">GSA</a></li>
-<li><a href="https://doi.org/10.1371/journal.pone.0196878">Bioinformatics core competencies for undergraduate life sciences education</a> by <a href="https://qubeshub.org/community/groups/niblse">NIBLSE</a></li>
+<li>Under <strong>Input Reads</strong>: select your <code>Zymo_Gut_Standard_D6331</code> <strong>.fastq</strong> dataset.</li>
+<li>Under Mode: select <code>PacBio HiFi (--pacbio-hifi)</code> option, since the sequences were obtained using PacBio HiFi sequencing technology.</li>
+<li>Under <strong>Perform metagenomic assembly</strong>: select <code>Yes</code></li>
+<li>Under <strong>Generate a log file</strong>: select <code>Yes</code></li>
+</ul>
+<p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png" width="480" /></p>
+<p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png" width="480" /></p>
+<p><strong>2. View Flye results</strong> - Explore Flye output files and answer questions below.</p>
+<p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_21.png" width="480" /></p>
+</div>
+<div id="questions-23" class="section level4 hasAnchor" number="5.2.4.2">
+<h4><span class="header-section-number">5.2.4.2</span> Questions<a href="pre-lab-finding-amrs.html#questions-23" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><strong>1. Explore Flye tool purpose and output.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. In your own words describe the purpose of Flye based on the Introduction section, and from the <code>Purpose</code> section of Flye tool description.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">B. How many Flye output files did you get back, and what are they?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">C. What are the file extensions (formats) for the following Flye output files?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">consensus</td>
+</tr>
+<tr class="even">
+<td align="left">graphical fragment assembly</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>2. Explore Flye log report file.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. Based on your Flye output <code>log report file</code>: At the very bottom of the very long file find how many bases were assembled. What is the <code>Total length</code>?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">B. Based on your Flye output <code>log report file</code>: At the very bottom of the file find the length of the longest assembled fragment? Look for <code>Largest frg</code>?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">C. What proportion of input was assembled into contigs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em><code>At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above</code></em></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>3. Explore Flye assembly info file.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. Based on your Flye output <code>assembly info file</code> sorted by contig length (high to low, in base pairs, bp) - What is the longest `contig size?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">B. Based on your Flye output <code>assembly info file</code> sorted by contig length (high to low, in base pairs, bp) - What is the shortest contig size?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>4. Explore Flye output consensus file (in FASTA format).</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">A. What is the beginning line of the FASTA format?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">B. How does FASTA sequence format differ from FASTQ sequence format?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em><code>See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)</code></em></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>5. Test your general understanding of genome assembly.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. Summarize your experience with assembling a genome with Flye.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em><code>E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?</code></em></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">B. What would you want the ideal genome assembly tool to do?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="activity-2-visualizing-contigs" class="section level3 hasAnchor" number="5.2.5">
+<h3><span class="header-section-number">5.2.5</span> Activity 2 – Visualizing contigs<a href="pre-lab-finding-amrs.html#activity-2-visualizing-contigs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 15 min</em></p>
+<div id="instructions-36" class="section level4 hasAnchor" number="5.2.5.1">
+<h4><span class="header-section-number">5.2.5.1</span> Instructions<a href="pre-lab-finding-amrs.html#instructions-36" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Run <strong>Bandage Image</strong> tool in Galaxy on your Flye: <strong>graphical fragment assembly</strong> output (in gfa1 format) using default parameters.</p>
+</div>
+<div id="questions-24" class="section level4 hasAnchor" number="5.2.5.2">
+<h4><span class="header-section-number">5.2.5.2</span> Questions<a href="pre-lab-finding-amrs.html#questions-24" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. Paste the resulting image below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2. Describe contig profile based on the Bandage Image.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3. Do you expect to obtain more contigs, larger or circular contigs with more sequencing reads? why?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="activity-3-finding-amrs" class="section level3 hasAnchor" number="5.2.6">
+<h3><span class="header-section-number">5.2.6</span> Activity 3 – Finding AMRs<a href="pre-lab-finding-amrs.html#activity-3-finding-amrs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 30 min</em></p>
+<div id="instructions-37" class="section level4 hasAnchor" number="5.2.6.1">
+<h4><span class="header-section-number">5.2.6.1</span> Instructions<a href="pre-lab-finding-amrs.html#instructions-37" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Run <strong>ABRicate</strong> tool in Galaxy using Flye <strong>consensus</strong> as input using the following <code>Tool Parameters</code>:</li>
+</ol>
+<ul>
+<li>Under <strong>Input Reads</strong>: select your Flye: consensus output in FASTA format</li>
+<li>IMPORTANT: Under <strong>Advanced Option</strong>s: select <code>NCBI Bacterial Antimicrobial Resistance Reference Gene Database</code> as your database option; the default‘resfinder’ may not work well.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Explore <strong>ABRicate report file</strong>.</li>
+</ol>
+<p><strong>Abricate output report</strong> has the following information:</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Column</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">FILE</td>
+<td align="left">The filename this hit came from</td>
+</tr>
+<tr class="even">
+<td align="left">SEQUENCE</td>
+<td align="left">The sequence in the filename</td>
+</tr>
+<tr class="odd">
+<td align="left">START</td>
+<td align="left">Start coordinate in the sequence</td>
+</tr>
+<tr class="even">
+<td align="left">END</td>
+<td align="left">End coordinate in the sequence</td>
+</tr>
+<tr class="odd">
+<td align="left">GENE</td>
+<td align="left">ABR gene name</td>
+</tr>
+<tr class="even">
+<td align="left">COVERAGE</td>
+<td align="left">What proportion of the gene is in our sequence</td>
+</tr>
+<tr class="odd">
+<td align="left">COVERAGE_MAP</td>
+<td align="left">A visual represenation of coverage map (gaps or no gaps)</td>
+</tr>
+<tr class="even">
+<td align="left">GAPS</td>
+<td align="left">Was there any gaps in the alignment - possible pseudogene?</td>
+</tr>
+<tr class="odd">
+<td align="left">%COVERAGE</td>
+<td align="left">Proportion of gene covered</td>
+</tr>
+<tr class="even">
+<td align="left">%IDENTITY</td>
+<td align="left">Proportion of exact nucleotide matches</td>
+</tr>
+<tr class="odd">
+<td align="left">DATABASE</td>
+<td align="left">The database this sequence comes from</td>
+</tr>
+<tr class="even">
+<td align="left">ACCESSION</td>
+<td align="left">The genomic source of the sequence</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Answer questions below.</li>
+</ol>
+</div>
+<div id="questions-25" class="section level4 hasAnchor" number="5.2.6.2">
+<h4><span class="header-section-number">5.2.6.2</span> Questions<a href="pre-lab-finding-amrs.html#questions-25" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><strong>1. Explore Abricate output report.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. How many AMR genes were detected? This is the number of rows in your file</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">B. How many DIFFERENT AMR genes were detected and what are their GENE names?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">C. What are the different AMR genes resistant to? What is their RESISTANCE?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">D. How many DIFFERENT contigs had AMRs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>2. Research an AMR gene.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">A. Research and write a small paragraph report on one of the AMR genes.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em><code>Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</code></em></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">B. Ask one question you want to know about AMRs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="grading-criteria-10" class="section level3 hasAnchor" number="5.2.7">
+<h3><span class="header-section-number">5.2.7</span> Grading Criteria<a href="pre-lab-finding-amrs.html#grading-criteria-10" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</li>
 </ul>
 </div>
-<div id="c-moor-content-collection" class="section level3 unnumbered unlisted hasAnchor">
-<h3>C-MOOR Content Collection<a href="index.html#c-moor-content-collection" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>This content is part of a collection of teaching resources developed by C-MOOR. C-MOOR works to break down barriers to scientific participation and build pathways for the next generation of data scientists through authentic research experiences. Learn more about C-MOOR by <a href="https://github.com/c-moor">viewing our projects</a>, or read about how C-MOOR is <a href="https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html">integrating research experience into undergraduate biology courses</a> at Clovis Community College.</p>
-<!-- ## Available course formats
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
-
-- The material for this course can be viewed without login requirement on this [Bookdown website](LINK HERE). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](LINK HERE).
-- This course can be taken on [Coursera for certification here](LINK HERE) (but it is not available for free on Coursera).
-- Our courses are open source, you can find the [source material for this course on GitHub](LINK HERE). 
--->
-
+<div id="footnotes-15" class="section level3 hasAnchor" number="5.2.8">
+<h3><span class="header-section-number">5.2.8</span> Footnotes<a href="pre-lab-finding-amrs.html#footnotes-15" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Resources</strong>
+- Google Doc</p>
+<p><strong>Contributions and Affiliations</strong></p>
+<ul>
+<li>Valeriya Gaysinskaya, Johns Hopkins University</li>
+<li>Frederick Tan, Johns Hopkins University</li>
+</ul>
+<p>Last Revised: May 2025</p>
 </div>
 </div>
 <hr>
@@ -479,8 +866,8 @@ This course is available in multiple formats which allows you to take it in the 
           </div>
         </div>
       </div>
-
-<a href="introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="lecture-finding-amrs.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="discussion-finding-amrs.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
