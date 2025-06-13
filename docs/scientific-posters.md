@@ -1,11 +1,10 @@
-
-
 # (PART\*) SCIENTIFIC POSTERS {-}
 
+# SCIENTIFIC POSTERS
 
 ## Lecture: Scientific Posters
 
-![](resources/images/scientific-posters_files/figure-docx//1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U_g35f391192_00.png)
+![](scientific-posters_files/figure-docx//1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U_g35f391192_00.png)
 
 [Slides: Finding AMRs](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
