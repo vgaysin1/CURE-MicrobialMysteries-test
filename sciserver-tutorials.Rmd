@@ -177,7 +177,7 @@ a. Click on “test-driveR”. The tutorial will open in a new tab.
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g35ea50429a3_0_27#slide=id.g35ea50429a3_0_27")
-
+```
 Complete the tutorial and answer the questions below.
 
 #### Questions
