@@ -254,6 +254,7 @@ instructions-45
 questions-28
 grading-criteria-17
 footnotes-22
+scientific-posters
 lecture-scientific-posters-1
 homework-scientific-posters-activity-1
 activity-16
