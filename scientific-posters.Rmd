@@ -1,9 +1,6 @@
-```{r, include = FALSE}
-ottrpal::set_knitr_image_path()
-```
-
 # (PART\*) SCIENTIFIC POSTERS {-}
 
+# SCIENTIFIC POSTERS
 
 ## Lecture: Scientific Posters
 
