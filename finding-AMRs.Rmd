@@ -327,7 +327,5 @@ Last Revised: February 2025
 ## Homework: Finding AMRs Project
 
 
-## Activity: r4ds2
-
 
 ## Presentation: Finding AMRs Project
