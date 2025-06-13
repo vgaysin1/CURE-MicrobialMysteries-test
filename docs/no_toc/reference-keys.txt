@@ -35,7 +35,7 @@ instructions-4
 questions-2
 grading-criteria-2
 footnotes-2
-homework-scientific-literature-prelab
+pre-lab-scientific-literature
 purpose-3
 learning-objectives-2
 introduction-3
@@ -44,11 +44,11 @@ instructions-5
 questions-3
 grading-criteria-3
 footnotes-3
-discussion-scientific-literature-prelab
+discussion-scientific-literature
 activity-2
 instructions-6
 lecture-scientific-literature
-homework-scientific-literature-activity
+activity-scientific-literature
 purpose-4
 learning-objectives-3
 introduction-4
@@ -62,7 +62,7 @@ conclusions-homework
 future-directions-homework
 grading-criteria-4
 footnotes-4
-presentation-scientific-literature-activity
+presentation-scientific-literature
 activity-4
 instructions-8
 footnotes-5
