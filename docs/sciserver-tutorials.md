@@ -212,3 +212,68 @@ Use the blocks provided at the end of the tutorial to create variations of the c
 Last Revised: February 2025
 
 
+
+## R for Data Science 2
+
+### Introduction
+
+[R for Data Science (2e)](https://r4ds.hadley.nz) describes the importance of data visualization by saying that “a good visualization will show you things you did not expect or raise new questions about the data”.  Here you will learn more about the [ggplot2](https://ggplot2.tidyverse.org) system for making graphs which is an elegant and versatile complement to what is available through software like Google Sheets.  Increasingly more software packages use the ggplot2 system such as the Bioconductor [phyloseq](https://bioconductor.org/packages/phyloseq) package used for 16S rDNA analysis.
+
+
+### Activity
+
+*Estimated time: 25 min*
+
+#### Instructions
+
+1. Start the “r4ds2” LearnR tutorial.
+
+- Focus on the first half of the tutorial, up to and including “4. Structure of a ggplot() command”
+
+2. Bug fixes
+
+a. For the Chapter 3, Quiz 2 on geom_bar() aesthetics, you must check “size”
+
+b. For the Chapter 4 exercises, you will need to add this code to the top of each code block
+
+
+`measles <- filter(us_contagious_diseases, disease=="Measles")
+measles_MD <- filter(measles, state=="Maryland")
+measles_VA <- filter(measles, state=="Virginia")`
+
+#### Questions
+
+There are seven examples of broken ggplot code at the end of “4. Structure of a ggplot() command”.  Fix at least three of them and for one of them explain what was wrong and how you were able to figure it out.  Remember that you must add the above three lines to the top of each code block.
+
+|1. What was the error?|
+|:--|:--|
+| |
+<br>
+
+|2. How did you figure it out?|
+|:--|:--|
+| |
+<br>
+
+
+### Grading Criteria
+
+- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+
+- Google Doc
+- [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
+- [ggplot2 cheat sheet](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
+
+**Contributions and Affiliations**
+
+- Katherine Cox, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
+
+
+
