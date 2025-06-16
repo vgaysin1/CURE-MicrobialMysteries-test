@@ -272,8 +272,120 @@ Last Revised: May 2025
 
 ## Discussion: Finding AMRs
 
+### Activity
+
+*Estimated time: 25 min*
+
+#### Instructions
+
+1. Form new groups of four
+- [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
+
+2. Pair up into groups (10 min)
+
+a. Discuss -- Each group member briefly describes answers to prelab assignment
+
+b. Summarize -- Identify best answer and add to slidedeck
+
+- [https://docs.google.com/presentation/d/1ZC8yjuk8V5pt3yh1p4_jkhTw0Pu4mHViAmNF-UPWAHs/edit?usp=sharing](https://docs.google.com/presentation/d/1ZC8yjuk8V5pt3yh1p4_jkhTw0Pu4mHViAmNF-UPWAHs/edit?usp=sharing)
+
+3. Share group discussion (2 min each group)
+
+
 ## Project: Finding AMRs
 
+### Purpose
 
+To explore soil metagenomics using Galaxy tools for de novo genome assembly (Flye), assembled contig visualization (Bandage),  finding antimicrobial resistance (AMR) genes (ABRicate) and binning contigs into larger groups/bins (MetaBAT2). You will also explore information about the taxonomic classifier GTDB-Tk.  This will allow you to compare genomic assemblies and AMRs between soil and Zymo gut standard.
+
+
+### Learning Objectives
+
+1. Use **Galaxy** tools to
+2. Use **Flye** tool to perform de novo genome assembly of long reads into ‘contigs’ 
+3. Visualize the contigs with **Bandage** visualization tool
+4. Use **ABRicate** tool to find AMRs in contig assemblies
+5. Use **MetaBAT2** to bin contigs into larger MAGs
+6. Learn about **GTDB-Tk** taxonomy classifier tool
+
+### Introduction
+
+In this activity we will practice de novo genome assembly with Flye, using soil metagenomes from Nanopore sequencing . You will have an opportunity to compare and contrast assembled contigs and antimicrobial resistance profiles of soil and gut and think about the differences and similarities in microbial diversity of the two environments.
+<br>
+In this project you will also learn about MetaBAT2 and GTDB-Tk. Let's start now. The most up to date long read metagenomics workflow includes contig assembly (e.g. using Flye tool), followed by contig binning into larger metagenome-assembled genomes (MAGs) (with e.g. MetaBAT2 tool) and finally MAG classification (e.g. with GTDB-Tk). MetaBAT2 is an algorithm that bins (or groups) sequence fragments (contigs) into larger MAGs or draft genomes. Subsequently, MAGs can be taxonomically classified by GTDB-Tk.
+<br>
+`You will not be executing GTDB-Tk in this activity to stay within a reasonable activity time frame.` However, for your project work, you will have a chance to test GTDB-Tk on your genome assemblies and bins. A note to your future self working on a project - as a rule, after genome assembly, if your contigs are 500 kb or above, they will be considered large enough to be passed to GTDB-Tk without the need for binning. Contigs of < 500 kb will be binned and passed on to GTDB-Tk for taxonomy classification as bins.
+
+**Table of approximate minimum times for a job to be completed on Galaxy using specified tools.** 
+- Note, these times apply only to the specific input file we will be using in this activity, the nanopore-soil-subset that is 5.4 GB
+| Flye | Bandage | ABRicate | MetaBAT2|
+| :--|:-- |:--  | :-- | 
+|5 hours | < 5 min | < 10 min | < 10 min|
+<br>
+
+### Activity 1 – Genome assembly with Flye
+
+*Estimated time: 30 min (activity time DOES NOT include the Flye run time on Galaxy)*
+
+#### Instructions
+
+1. Run Flye in Galaxy on quality filtered (with fastp tool) nanopore soil pilot subset [nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered) to de novo assemble soil microbial genomes. 
+
+a. Obtain .fastq file from a subset of Nanopore-sequencing soil study
+
+- [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered]( [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered)
+
+b. Name your new history **“Finding soil AMRs”**
+
+c. Run **Flye** tool to assess sequence quality using the following **Tool Parameters**
+
+- Under **Input Reads**: select your nano `pore-soil-subset-filtered` **.fastq** dataset.
+- Under **Mode**: select `--nano-raw` option, since the sequences were obtained using Nanopore sequencing technology.
+- Under **Perform metagenomic assembly**: select `Yes`
+- Under **Generate a log file**: select `Yes`
+
+2. Explore Flye output **assembly info** file which is sorted by length (in base pairs, bp) of the contig (high to low). 
+
+#### Questions 
+
+| 1. How many contigs were assembled?|
+|:-----|
+|`Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs`|
+| | 
+<br>
+
+| 2. What is the longest contig size?|
+|:-----|
+| | 
+<br>
+
+| 3. What percent of input was assembled into contigs? |
+|:-----|
+|- `Based on the log file, the input going into flye assembly was 6,103,654,873 bases.` 
+- `Based on the log file, the output going of flye assembly was 154,251,885 bases` |
+| | 
+<br>
+
+| 4. Why do you think only a small fraction of reads was assembled into contigs? |
+|:-----|
+| | 
+<br>
+
+**5. Compare soil assembly to the Zymo gut standard assembly provided the following observations:**
+
+- For this activity you can consult back to your Prelab: Finding AMRs.
+- The number of contigs assembled from **339.9 MB** of sequencing data from the Zymo gut standard D6331 subset was **265**, much smaller than for the filtered soil sample of 5.4 GB! Yet, the largest contig size for the Zymo gut standard was **2,158,044** (almost 9 times larger) and circular (while the largest contig for the soil sample was linear).
+
+| 5A. Why do you think the number of contigs in the soil sample was so much higher than the number of contigs in the Zymo gut standard?  |
+|:-----|
+|- `Hint1 - it is NOT because of the difference in the size of the sequencing file` 
+- `Hint2 - Think about possible differences in the microbial diversity of the two samples` |
+| | 
+<br>
+
+| 5B. Why do you think it was possible to assemble a much larger and circular contig with the Zymo gut standard sample compared to the soil sample? |
+|:-----|
+| | 
+<br>
 
 ## Presentation: Finding AMRs
