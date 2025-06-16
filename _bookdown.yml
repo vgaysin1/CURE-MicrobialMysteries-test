@@ -9,7 +9,7 @@ rmd_files: ["index.Rmd",
             "finding-AMRs.Rmd",
             "galaxy-tutorials.Rmd",
             "sciserver-tutorials.Rmd",
-            "scientific-posters.Rmd",
+            "community-analysis-and-feedback.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
