@@ -205,6 +205,9 @@ footnotes-15
 discussion-finding-amrs
 project-finding-amrs
 presentation-finding-amrs
+project-work-preparation
+lecture-taxonomy-profiling-1
+kickstart-project-work
 galaxy-tutorials
 a-short-introduction-to-galaxy
 introduction-9
