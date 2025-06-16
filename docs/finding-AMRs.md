@@ -347,7 +347,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 1. How many contigs were assembled?|
 |:-----|
-|`*Note: Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs*`|
+|*Note: Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs*|
 | | 
 <br>
 
@@ -358,8 +358,8 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 3. What percent of input was assembled into contigs? |
 |:-----|
-|- `*Note: Based on the log file, the input going into flye assembly was 6,103,654,873 bases. 
-- Based on the log file, the output going of flye assembly was 154,251,885 bases*` |
+|- *Note 1: Based on the log file, the input going into flye assembly was 6,103,654,873 bases.*| 
+|- *Note 1: Based on the log file, the output going of flye assembly was 154,251,885 bases.* |
 | | 
 <br>
 
@@ -375,8 +375,8 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 5A. Why do you think the number of contigs in the soil sample was so much higher than the number of contigs in the Zymo gut standard?  |
 |:-----|
-|- `Hint1 - it is NOT because of the difference in the size of the sequencing file 
-- Hint2 - Think about possible differences in the microbial diversity of the two samples` |
+|- *Hint1 - it is NOT because of the difference in the size of the sequencing file.*| 
+|- *Hint2 - Think about possible differences in the microbial diversity of the two samples.* |
 | | 
 <br>
 
@@ -384,5 +384,219 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 |:-----|
 | | 
 <br>
+
+
+
+### Activity 2 – Contig visualization with Bandage
+
+*Estimated time: 15 min *
+
+#### Instructions
+
+1. Run **Bandage** Image tool in Galaxy to visualize contigs. 
+
+- Run **Bandage Image** tool  in Galaxy using  your **Flye: graphical fragment assembly file** (in gfa1 format) as input, using default parameters.
+
+#### Questions
+
+| 1. Paste the resulting image below. |
+|:-----|
+| | 
+<br> 
+
+| 2. Describe contig profile based on the Bandage Image result. |
+|:-----|
+| | 
+<br> 
+
+
+### Activity 3 – Finding AMRs
+
+*Estimated time: 30 min *
+
+#### Instructions
+
+1. Run **ABRicate** tool in Galaxy using Flye consensus as input using the following **Tool Parameters**:
+
+- Under **Input Reads**: select your `Flye: consensus` output in FASTA format
+- IMPORTANT: Under **Advanced Options**: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default ‘resfinder’ may not work well.
+
+2. Explore **ABRicate report** file.
+
+- Note, Abricate output report has the following information:
+
+|Column |Description |
+|:--| :--|
+|FILE | The filename this hit came from |
+| SEQUENCE | The sequence in the filename |
+| START | Start coordinate in the sequence |
+| END | End coordinate in the sequence |
+| GENE | ABR gene name |
+|COVERAGE | What proportion of the gene is in our sequence |
+| COVERAGE_MAP | A visual represenation of coverage map (gaps or no gaps)|
+| GAPS | Was there any gaps in the alignment - possible pseudogene? |
+| %COVERAGE | Proportion of gene covered |
+| %IDENTITY | Proportion of exact nucleotide matches |
+| DATABASE | The database this sequence comes from |
+| ACCESSION | The genomic source of the sequence |
+<br>
+
+#### Questions
+
+| 1. How  many AMR genes were detected? This is the number of rows in your file. |
+|:-----|
+| | 
+<br> 
+
+| 2. How many DIFFERENT AMR genes were detected and what are their GENE names? |
+|:-----|
+| | 
+<br> 
+
+| 3. What are the different AMR genes resistant to? What is their RESISTANCE? |
+|:-----|
+| | 
+<br> 
+
+| 4. How many DIFFERENT contigs had AMRs? |
+|:-----|
+| | 
+<br> 
+
+**5. Research and write a small paragraph report on one of the AMR genes you found.**
+
+- Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input.
+- Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.
+
+| 5A. Report on one of the AMR genes you found. |
+|:-----|
+| | 
+<br> 
+
+| 5B. Why do you think the AMRs you found in soil differ from the AMRs you found in the gut (from your pre-lab)? |
+|:-----|
+| | 
+<br> 
+
+### Activity 4 – Bin contigs with MetaBAT2
+
+*Estimated time: 20 min *
+
+#### Instructions
+
+1. In Galaxy, find and click on **MetaBAT2** tool and explore tool parameters.
+2. Run **MetaBAT2** tool in Galaxy using `Flye consensus` as input using the **following Tool Parameters**:
+
+- Under **Fasta file containing contigs**: select your Flye: consensus output in FASTA format
+- Under **Output options**: from the **Extra outputs** dropdown menu select: `Process log file`.
+
+#### Questions
+
+**1. Explore MetaBAT2 tool and parameters.**
+
+| 1A. What is the function of MetaBAT2 tool based on Galaxy tool description on top? |
+|:-----|
+| | 
+<br> 
+
+| 1B. Under Tool Parameters for MetaBAT2, find and record below the Minimum size of a contig for binning (a value given in basepairs, bp). |
+|:-----|
+| | 
+<br>
+
+| 1C. Under Tool Parameters and Output options for MetaBAT2, find and record below the Minimum size of a bin as the output. |
+|:-----|
+| | 
+<br>
+
+**2. Explore MetaBAT2 tool output.**
+
+
+| 2A. Open MetaBAT2 Process log output file and record how many bins were formed from contigs. |
+|:-----|
+| | 
+<br> 
+
+| 2B. Open MetaBAT2 Process log output file and record how many bases in total  were used to form bins. |
+|:-----|
+| | 
+<br> 
+
+| 2C. What percent of contig bases formed bins (given that 154,251,885 bases were in Flye output)? |
+|:-----|
+| | 
+<br> 
+
+| 2D. Based on percent of contigs that formed bins (from activity 4-2.1 above) did metaBAT2 do a good job of binning the contigs? |
+|:-----|
+| | 
+<br> 
+
+**3. Examine MetaBAT2 Bin sequences output, which is a `DATASET COLLECTION`, where each collection is a separate bin.**
+
+| 3A. Click on the MetaBAT2 Bin sequences output. How many bins (or Galaxy ‘folders’) are there? |
+|:-----|
+| | 
+<br> 
+
+| 3B. Click on the MetaBAT2 Bin sequences output and then on bin 1. Without ‘eyeballing’ the fasta file, note how many sequences (contigs) were included in bin 1. |
+|:-----|
+| | 
+<br> 
+
+| 3C. Click on the MetaBAT2 Bin sequences output and then on bin 2. Without ‘eyeballing’ the fasta file, note how many sequences (contigs) were included in bin 2? |
+|:-----|
+| | 
+<br>
+
+### Activity 5 – Read about GTDBtk tool in Galaxy 
+
+*Estimated time: 15 min *
+
+#### Instructions
+
+1. In Galaxy, find and click on **GTDB-Tk Classify genomes.** 
+
+#### Questions
+
+| 1. Read the GTDB-Tk Classify genomes tool’s “What it does” part  and summarize what GTDB-Tk does. |
+|:-----|
+| | 
+<br>
+
+| 2. What is the ideal input sequence for GTDB-Tk classification: 1) raw sequences, 2) contigs or 3) large contigs(>500kb) and MAGs? |
+|:-----|
+| | 
+<br>
+
+**3. Visit [https://gtdb.ecogenomic.org/stats/r220](https://gtdb.ecogenomic.org/stats/r220](https://gtdb.ecogenomic.org/stats/r220](https://gtdb.ecogenomic.org/stats/r220) to explore the database statistics.**
+
+| 3A. How many bacterial species are present in GTDB database Release 220? |
+|:-----|
+| | 
+<br>
+
+| 3B. Scroll through website . Although it has a lot of complex information, what is one thing you found interesting about GTDB-Tk content? |
+|:-----|
+| | 
+<br>
+
+### Grading Criteria
+
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+
+- Google Doc
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: June 2025
+
 
 ## Presentation: Finding AMRs
