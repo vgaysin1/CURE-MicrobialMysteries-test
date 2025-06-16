@@ -301,16 +301,23 @@ To explore soil metagenomics using Galaxy tools for de novo genome assembly (Fly
 ### Introduction
 
 In this activity we will practice de novo genome assembly with Flye, using soil metagenomes from Nanopore sequencing . You will have an opportunity to compare and contrast assembled contigs and antimicrobial resistance profiles of soil and gut and think about the differences and similarities in microbial diversity of the two environments.
+
 <br>
+
 In this project you will also learn about MetaBAT2 and GTDB-Tk. Let's start now. The most up to date long read metagenomics workflow includes contig assembly (e.g. using Flye tool), followed by contig binning into larger metagenome-assembled genomes (MAGs) (with e.g. MetaBAT2 tool) and finally MAG classification (e.g. with GTDB-Tk). MetaBAT2 is an algorithm that bins (or groups) sequence fragments (contigs) into larger MAGs or draft genomes. Subsequently, MAGs can be taxonomically classified by GTDB-Tk.
+
 <br>
+
 `You will not be executing GTDB-Tk in this activity to stay within a reasonable activity time frame.` However, for your project work, you will have a chance to test GTDB-Tk on your genome assemblies and bins. A note to your future self working on a project - as a rule, after genome assembly, if your contigs are 500 kb or above, they will be considered large enough to be passed to GTDB-Tk without the need for binning. Contigs of < 500 kb will be binned and passed on to GTDB-Tk for taxonomy classification as bins.
 
 **Table of approximate minimum times for a job to be completed on Galaxy using specified tools.** 
+
 - Note, these times apply only to the specific input file we will be using in this activity, the nanopore-soil-subset that is 5.4 GB
+
 | Flye | Bandage | ABRicate | MetaBAT2|
 | :--|:-- |:--  | :-- | 
 |5 hours | < 5 min | < 10 min | < 10 min|
+
 <br>
 
 ### Activity 1 – Genome assembly with Flye
@@ -340,7 +347,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 1. How many contigs were assembled?|
 |:-----|
-|`Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs`|
+|`*Note: Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs*`|
 | | 
 <br>
 
@@ -351,8 +358,8 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 3. What percent of input was assembled into contigs? |
 |:-----|
-|- `Based on the log file, the input going into flye assembly was 6,103,654,873 bases.` 
-- `Based on the log file, the output going of flye assembly was 154,251,885 bases` |
+|- `*Note: Based on the log file, the input going into flye assembly was 6,103,654,873 bases. 
+- Based on the log file, the output going of flye assembly was 154,251,885 bases*` |
 | | 
 <br>
 
@@ -368,8 +375,8 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 5A. Why do you think the number of contigs in the soil sample was so much higher than the number of contigs in the Zymo gut standard?  |
 |:-----|
-|- `Hint1 - it is NOT because of the difference in the size of the sequencing file` 
-- `Hint2 - Think about possible differences in the microbial diversity of the two samples` |
+|- `Hint1 - it is NOT because of the difference in the size of the sequencing file 
+- Hint2 - Think about possible differences in the microbial diversity of the two samples` |
 | | 
 <br>
 
