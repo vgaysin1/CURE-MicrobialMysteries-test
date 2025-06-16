@@ -369,7 +369,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 | 3. What percent of input was assembled into contigs? |
 |:-----|
 |- *Note 1: Based on the log file, the input going into flye assembly was 6,103,654,873 bases.*| 
-|- *Note 1: Based on the log file, the output going of flye assembly was 154,251,885 bases.* |
+|- *Note 2: Based on the log file, the output going of flye assembly was 154,251,885 bases.* |
 | | 
 <br>
 
@@ -385,8 +385,8 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 5A. Why do you think the number of contigs in the soil sample was so much higher than the number of contigs in the Zymo gut standard?  |
 |:-----|
-|- *Hint1 - it is NOT because of the difference in the size of the sequencing file.*| 
-|- *Hint2 - Think about possible differences in the microbial diversity of the two samples.* |
+|- *Hint 1 - it is NOT because of the difference in the size of the sequencing file.*| 
+|- *Hint 2 - Think about possible differences in the microbial diversity of the two samples.* |
 | | 
 <br>
 
@@ -579,7 +579,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 | | 
 <br>
 
-**3. Visit [https://gtdb.ecogenomic.org/stats/r220](https://gtdb.ecogenomic.org/stats/r220](https://gtdb.ecogenomic.org/stats/r220](https://gtdb.ecogenomic.org/stats/r220) to explore the database statistics.**
+**3. Visit [https://gtdb.ecogenomic.org/stats/r220](https://gtdb.ecogenomic.org/stats/r220) to explore the database and database statistics.**
 
 | 3A. How many bacterial species are present in GTDB database Release 220? |
 |:-----|
@@ -610,3 +610,46 @@ Last Revised: June 2025
 
 
 ## Presentation: Finding AMRs
+
+### Activity
+
+*Estimated time: 25 min*
+
+#### Instructions
+
+1. Open the “Finding AMRs Presentation” slidedeck
+
+- [https://docs.google.com/presentation/d/1AXZkQ0CyIasnkwyz0uvPsFic9eFrnPDQX_DbyffNmxQ/edit?usp=sharing](https://docs.google.com/presentation/d/1AXZkQ0CyIasnkwyz0uvPsFic9eFrnPDQX_DbyffNmxQ/edit?usp=sharing)
+
+2. Create slides covering at least two of these topics
+
+a. Summarize the metagenome assembly statistics for the BioDIGS soil sample (Results)
+
+b. Report on one of the AMR genes you found (Discussion)
+
+c. Describe GTDB and the associated GTDB-Tk software toolkit (Methods)
+
+
+3. Iterate your slides being sure to
+
+a. Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+
+b. Include one or more plots or images that support your points
+
+c. Create slide titles that summarize your main takeaway
+
+4. Present at next class (5 min each group)
+
+#### Footnotes
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
+
+
+
+
+
