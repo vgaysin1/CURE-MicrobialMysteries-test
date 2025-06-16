@@ -10,7 +10,7 @@
 [Slides: Taxonomy Profiling](https://docs.google.com/presentation/d/10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY/edit?usp=sharing)
 
 
-## Homework: Taxonomy Profiling Prelab
+## Prelab: Taxonomy Profiling
 
 ### Purpose
 
@@ -320,7 +320,7 @@ Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an int
 Last Revised: May 2025
 
 
-## Discussion: Taxonomy Profiling Prelab
+## Discussion: Taxonomy Profiling
 
 ### Activity
 
@@ -352,7 +352,7 @@ Last Revised: February 2025
 
 
 
-## Homework: Taxonomy Profiling Project
+## Project: Taxonomy Profiling
 
 ### Purpose
 
@@ -641,7 +641,7 @@ c. Answer questions below
 Last Revised: May 2025
 
 
-## Presentation: Taxonomy Profiling Project
+## Presentation: Taxonomy Profiling
 
 ### Activity
 

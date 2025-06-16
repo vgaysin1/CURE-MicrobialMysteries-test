@@ -125,7 +125,7 @@ instructions-21
 footnotes-9
 taxonomy-profiling
 lecture-taxonomy-profiling
-homework-taxonomy-profiling-prelab
+prelab-taxonomy-profiling
 purpose-7
 learning-objectives-6
 introduction-6
@@ -148,11 +148,11 @@ instructions-26
 questions-17
 grading-criteria-7
 footnotes-10
-discussion-taxonomy-profiling-prelab
+discussion-taxonomy-profiling
 activity-7
 instructions-27
 footnotes-11
-homework-taxonomy-profiling-project
+project-taxonomy-profiling
 purpose-8
 learning-objectives-7
 introduction-7
@@ -175,7 +175,7 @@ instructions-32
 questions-22
 grading-criteria-8
 footnotes-12
-presentation-taxonomy-profiling-project
+presentation-taxonomy-profiling
 activity-8
 instructions-33
 footnotes-13
