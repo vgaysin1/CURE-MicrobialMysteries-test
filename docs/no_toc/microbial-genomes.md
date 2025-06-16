@@ -8,7 +8,7 @@
 
 [Slides: Microbial Genomes](https://docs.google.com/presentation/d/1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU/edit?usp=sharing)
 
-## Homework: Microbial Genomes Prelab
+## Pre-lab: Microbial Genomes
 
 ### Purpose
 
@@ -255,7 +255,7 @@ b) On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus t
 Last Revised: February 2025
 
 
-## Discussion: Microbial Genomes Prelab
+## Discussion: Microbial Genomes
 
 
 ### Activity 
@@ -284,7 +284,7 @@ b. Summarize -- Identify best answer and add to slidedeck [here](https://docs.go
 Last Revised: February 2025
 
 
-## Homework: Microbial Genomes Project
+## Project: Microbial Genomes
 
 ### Purpose
 
@@ -547,7 +547,7 @@ Use any tools available at your disposal to follow up on your MAG and gene of in
 Last Revised: May 2025
 
 
-## Presentation: Microbial Genomes Project
+## Presentation: Microbial Genomes
 
 ### Activity
 
