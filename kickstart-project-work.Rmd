@@ -2,7 +2,13 @@
 ottrpal::set_knitr_image_path()
 ```
 
+# Kickstart Project Work
+
 # Project Work Preparation
+
+## Purpose 
+
+The purpose of kickstart project work is to gain practice in scientific exploration and research, communication, and work on your scientific poster! A few ideas to get you started can be found in the **Possible Datasets** Lecture and Acvitivity below.
 
 ## Lecture: Possible Datasets
 
@@ -64,5 +70,5 @@ c) Wonder – Two or three questions you would like to ask using this (and any o
 
 Last Revised: May 2022
 
-# Kickstart Project Work
 
+# Project Work Organizer
