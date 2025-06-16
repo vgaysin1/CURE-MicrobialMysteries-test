@@ -225,8 +225,6 @@ activity-10
 instructions-43
 footnotes-16
 kickstart-project-work
-project-work-preparation
-purpose-11
 lecture-possible-datasets
 activity-possible-datasets
 activity-11
@@ -234,6 +232,10 @@ instructions-44
 grading-criteria-11
 footnotes-17
 project-work-organizer
+purpose-kickstart-project-work
+purpose-project-work-organizer
+organizer-in-class-round-table-data-and-troubleshooting
+organizer-individual-group-information
 galaxy-tutorials
 a-short-introduction-to-galaxy
 introduction-10
