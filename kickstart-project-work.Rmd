@@ -78,12 +78,12 @@ Last Revised: May 2022
 1. The Project Work phase contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews. 
 2. Use this organizer to find instructions and track documents.
 
-a. Instructor will create a single Slidedeck - Round Table Data for all groups
-b. Instructor will create a single Slidedeck - Round Table Troubleshooting  for all groups
-c. Instructor will create a single Slidedeck - Poster for all groups
-d. Instructor will create a single Slidedeck - Final Presentation for all groups
+a. Instructor will create a single Slidedeck - **Round Table Data** for all groups
+b. Instructor will create a single Slidedeck - **Round Table Troubleshooting**  for all groups
+c. Instructor will create a single Slidedeck - **Poster** for all groups
+d. Instructor will create a single Slidedeck - **Final Presentation** for all groups
 
-2. Update the slidedecks above with bi-weekly progress reports. See sample organizer below:
+3. See sample organizer below for your Project Work updates.
 
 |Course Week | Day 1 | Day 2
 |:--| --|-- | 
@@ -93,9 +93,54 @@ d. Instructor will create a single Slidedeck - Final Presentation for all groups
 |10| Slidedeck - Round Table Data| Round Table Troubleshooting |
 |11| Slidedeck Poster Review| Poster Review |
 |12| Science Talks| |
-13| Final Presentations | |
+|13| Final Presentations | |
+<br>
 
 ### Organizer:  Individual Group Information
 
+1. The Project Work phase contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews. 
+2. Use this organizer to find instructions and track documents.
+
+a. For each group, instructor will create a Slidedeck - **Doc** 
+b. For each group, instructor will create a Slidedeck - **Slides**
+c. Advisory Meeting - Each group will schedule a meeting with the instructors to discuss their progress.  These meetings will take place outside of class and should be scheduled before the deadline.  A link to the when2meet schedule can be found in the Group Information section.
+
+3. See sample organizer below for your Project Work updates.
+
+|Group | Check-in | Poster | Meeting #1 | Meeting # 2|
+|:--| :--| :-- | :-- | :-- | 
+|Group A| Doc | Slides | Date 1 | Date 2| 
+|Group B| Doc | Slides | Date 1 | Date 2| 
+|Group C| Doc | Slides | Date 1 | Date 2| 
+|Group D| Doc | Slides | Date 1 | Date 2| 
+<br>
+
+4. Components of Written Documents (Docs)
+
+a. **Written Check-in** - Progress will be assessed through several written check-ins.  These documents will allow you to summarize the work you’ve done, receive feedback from colleagues, and provide another opportunity to ask for help.  Your check-in should be concise but complete (full sentences) and include the following information:
+
+- New progress since last submission (15 pts)
+- How you’ve addressed prior feedback (15 pts)
+- Poster organization (10 pts)
+- Struggles you are encountering and questions you would like advice on (10 pts)
+
+b. **Written Check-in (Poster)** - The second written check-in will focus on starting your poster using material you developed for your Round Table updates.  Posters should be 30 inches wide and we have provided a template with example two and three column formats.  You can make your own design by selecting the Blank layout.  Kickstart your poster by adding the following details:
+
+- Title and authors (10 pts)
+- Hypothesis along with diagram or figure (10 pts)
+- Dataset table with sample metadata including accession ID, collection method, etc. (10 pts)
+- Methods in the form of details and figure (10 pts)
+- Results (10 pts)
+
+c. **Peer Review** - Each person will work individually to peer review two separate projects.  Review the poster associated with each project and provide feedback in their Check-in document on the following:
+
+- Aspects of the project that you find fascinating
+- Questions you have about the approach or results
+- Suggestions on next steps, poster organization, etc.
+
+5. Final Presentation Slides
+
+Each group will present their capstone project during an in-class poster presentation.  Posters are due one week before on April 14th to provide sufficient time for printing.
 
 
+### Footnotes
