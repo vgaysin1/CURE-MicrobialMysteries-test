@@ -1,6 +1,6 @@
 # (PART\*) COMMUNITY ANALYSIS AND FEEDBACK {-}
 
-# SCIENTIFIC POSTERS
+# Scientific Posters
 
 ## Lecture: Scientific Posters
 
@@ -8,7 +8,7 @@
 
 [Slides: Finding AMRs](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
-## Homework: Scientific Posters Activity
+## Activity: Scientific Posters
 
 ### Activity
 
