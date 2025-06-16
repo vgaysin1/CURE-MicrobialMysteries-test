@@ -4,12 +4,6 @@ ottrpal::set_knitr_image_path()
 
 # Kickstart Project Work
 
-# Project Work Preparation
-
-## Purpose 
-
-The purpose of kickstart project work is to gain practice in scientific exploration and research, communication, and work on your scientific poster! A few ideas to get you started can be found in the **Possible Datasets** Lecture and Acvitivity below.
-
 ## Lecture: Possible Datasets
 
 ```{r, echo=FALSE, fig.alt=''}
@@ -71,4 +65,39 @@ c) Wonder – Two or three questions you would like to ask using this (and any o
 Last Revised: May 2022
 
 
-# Project Work Organizer
+## Project Work Organizer
+
+### Purpose: Kickstart Project Work
+
+The purpose of kickstart project work is to gain practice in scientific exploration and research, communication, and work on your scientific poster! A few ideas to get you started can be found in the **Possible Datasets** Lecture and Acvitivity below.
+
+### Purpose: Project Work Organizer
+
+Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.  The slidedeck for the final poster presentation is also linked for April 22nd.
+
+### Organizer: In Class Round Table Data and Troubleshooting
+
+1. The Project Work phase contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews. 
+2. Use this organizer to find instructions and track documents.
+
+a. Instructor will create a single Slidedeck - Round Table Data for all groups
+b. Instructor will create a single Slidedeck - Round Table Troubleshooting  for all groups
+c. Instructor will create a single Slidedeck - Poster for all groups
+d. Instructor will create a single Slidedeck - Final Presentation for all groups
+
+2. Update the slidedecks above with bi-weekly progress reports. See sample organizer below:
+
+|Course Week | Day 1 | Day 2
+|:--| --|-- | 
+|7| Round Table Data| |
+|8| Round Table Troubleshooting| | 
+|9| Slidedeck - Round Table Data| Round Table Troubleshooting |
+|10| Slidedeck - Round Table Data| Round Table Troubleshooting |
+|11| Slidedeck Poster Review| Poster Review |
+|12| Science Talks| |
+13| Final Presentations | |
+
+### Organizer:  Individual Group Information
+
+
+
