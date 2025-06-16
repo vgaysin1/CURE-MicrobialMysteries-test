@@ -293,5 +293,6 @@ activity-18
 instructions-53
 grading-criteria-19
 footnotes-26
-content-overview
+course-description
+course-content
 sample-schedules
