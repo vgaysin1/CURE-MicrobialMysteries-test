@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>10.1 Lecture: Scientific Posters | Course Name</title>
+  <title>4.1 Activity: Taxonomy Profiling Spreadsheet | Course Name</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="10.1 Lecture: Scientific Posters | Course Name" />
+  <meta property="og:title" content="4.1 Activity: Taxonomy Profiling Spreadsheet | Course Name" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="10.1 Lecture: Scientific Posters | Course Name" />
+  <meta name="twitter:title" content="4.1 Activity: Taxonomy Profiling Spreadsheet | Course Name" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="scientific-posters.html"/>
-<link rel="next" href="homework-scientific-posters-activity.html"/>
+<link rel="prev" href="taxonomy-profiling.html"/>
+<link rel="next" href="lecture-taxonomy-profiling.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -370,10 +370,326 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="lecture-scientific-posters" class="section level2 hasAnchor" number="10.1">
-<h2><span class="header-section-number">10.1</span> Lecture: Scientific Posters<a href="lecture-scientific-posters.html#lecture-scientific-posters" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p><img src="community-analysis-and-feedback_files/figure-html/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U_g35f391192_00.png" width="480" /></p>
-<p><a href="https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing">Slides: Finding AMRs</a></p>
+<div id="activity-taxonomy-profiling-spreadsheet-1" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Activity: Taxonomy Profiling Spreadsheet<a href="activity-taxonomy-profiling-spreadsheet-1.html#activity-taxonomy-profiling-spreadsheet-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-7" class="section level3 hasAnchor" number="4.1.1">
+<h3><span class="header-section-number">4.1.1</span> Purpose<a href="activity-taxonomy-profiling-spreadsheet-1.html#purpose-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>First hands-on experience with real data! Compare kraken2 output for <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF">Zymo Gut Microbiome Standard</a> and <a href="https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf">Zymo Human Fecal Reference</a>. Introduce concepts of taxa and relationships, begin forming data analysis goals like comparing how many species, most abundant species, etc. See accompanying <a href="http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk">slides</a>.</p>
+</div>
+<div id="learning-objectives-6" class="section level3 hasAnchor" number="4.1.2">
+<h3><span class="header-section-number">4.1.2</span> Learning Objectives<a href="activity-taxonomy-profiling-spreadsheet-1.html#learning-objectives-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Explore taxonomy with Kraken 2 taxonomic assignment output.</li>
+<li>Compare and contrast taxonomy between Zymo Gut Microbiome Standard and Zymo Human Fecal Reference.</li>
+</ol>
+</div>
+<div id="introduction-6" class="section level3 hasAnchor" number="4.1.3">
+<h3><span class="header-section-number">4.1.3</span> Introduction<a href="activity-taxonomy-profiling-spreadsheet-1.html#introduction-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Metagenomics is the direct analysis of the genomes through genome sequencing of an environmental sample (soil, water, gut, etc). The purpose of the taxonomic classification of metagenomic sequences is to catalogue, classify and identify the species inhabiting a given environment. In the process, new species may get identified! After sampling, DNA extraction, DNA sequencing and genome assembly, genome annotation is used to assign taxonomy to the sequenced sample DNA. Here is where the Kraken 2 tool comes in; Kraken 2 is a taxonomic classification tool which assigns taxonomy to sequencing reads.</p>
+</div>
+<div id="activity-1-explore-zymo-gut-standard-metagenomic-diversity-1" class="section level3 hasAnchor" number="4.1.4">
+<h3><span class="header-section-number">4.1.4</span> Activity 1 – Explore Zymo Gut Standard Metagenomic Diversity<a href="activity-taxonomy-profiling-spreadsheet-1.html#activity-1-explore-zymo-gut-standard-metagenomic-diversity-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 25 min</em></p>
+<div id="instructions-22" class="section level4 hasAnchor" number="4.1.4.1">
+<h4><span class="header-section-number">4.1.4.1</span> Instructions<a href="activity-taxonomy-profiling-spreadsheet-1.html#instructions-22" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Perform the activity below and answer the embedded <strong>questions</strong>.</p>
+<ol style="list-style-type: decimal">
+<li><p>Access tax-data-gut.tsv and open with Google Sheets <a href="http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-">here</a></p></li>
+<li><p>Identify what information is provided in columns of the tax-data-gut taxonomy file.</p></li>
+</ol>
+<ul>
+<li><p>Col A = Counts</p></li>
+<li><p>Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)</p></li>
+<li><p>Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.</p></li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Create a header row and enter column information.</li>
+</ol>
+</div>
+<div id="questions-13" class="section level4 hasAnchor" number="4.1.4.2">
+<h4><span class="header-section-number">4.1.4.2</span> Questions<a href="activity-taxonomy-profiling-spreadsheet-1.html#questions-13" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><strong>1. Evaluate what proportion of data was taxonomically classified.</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.</p></li>
+<li><p>In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.</p></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1A. How many total counts are there?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>In e.g. cell A3, determine the percentage of unclassified reads.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1B. What percentage of reads are unclassified?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>In e.g. cell A4, determine the percentage of classified reads.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1C. What percentage of reads are classified?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>2. Identify abundant taxa (those at &gt;1%).</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li>Select columns B through I</li>
+<li>In the Data menu, select “Sort range by column B (Z to A)”</li>
+<li>Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.</li>
+<li>In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.</li>
+<li>Quantify abundant taxa.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2A. How many abundant taxa (at &gt;1%) do you observe?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<ol start="3" style="list-style-type: decimal">
+<li>List abundant taxa you identified in a table below.</li>
+</ol>
+<ul>
+<li>To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at &gt;1%) taxa.</li>
+<li>Then, enter the results into a table below.</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3A. What abundant taxa do you observe?</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>% abundance</strong></td>
+<td align="left"><strong>Taxonomy</strong></td>
+</tr>
+<tr class="even">
+<td align="left">20.1</td>
+<td align="left">s_Faecalibacterium_prausnitzii</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>4. Compare your results with the expected taxa and abundance for <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd">Zymo gut standard documentation</a>?</strong></p>
+<ul>
+<li>Note, the Kraken2 output does not distinguish different <em>E. coli</em> strains, so just combine them all into a single <em>E. coli group</em>!</li>
+</ul>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">4A. How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>5. Calculate ‘Low abundance’ for &lt; 1% abundant taxa by adding together taxa at &lt;1%. </strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">5A. What percentage of reads are classified in a low abundance taxa?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>6. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart.</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">6A. Paste your barplot of % abundance for the 12 most abundant taxa.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="activity-2-optional-compare-with-zymo-fecal-reference-1" class="section level3 hasAnchor" number="4.1.5">
+<h3><span class="header-section-number">4.1.5</span> Activity 2 (OPTIONAL) – Compare with Zymo Fecal Reference<a href="activity-taxonomy-profiling-spreadsheet-1.html#activity-2-optional-compare-with-zymo-fecal-reference-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 20 min</em></p>
+<div id="instructions-23" class="section level4 hasAnchor" number="4.1.5.1">
+<h4><span class="header-section-number">4.1.5.1</span> Instructions<a href="activity-taxonomy-profiling-spreadsheet-1.html#instructions-23" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Perform the optional activity below and answer the embedded <strong>questions</strong>.</p>
+<p>In this activity, repeat steps of the Activity 1 above, but now using <a href="http://drive.google.com/file/d/1CLQw9yqoqWl5caLm-ZmiHpLNtUo_Zo4s">tax_data_fecal.tsv</a> dataset corresponding to Zymo fecal reference. The tax_data_fecal.tsv dataset comes from a real human fecal sample, in contrast to the tax_data_gut.tsv sample you explored in the Activity 1, which corresponds to cultured and pooled known species combined at specific proportions to make up a predictable standard population.</p>
+<ul>
+<li>Perform Activity 1 exercises using tax_data_fecal data, then, use questions below to compare the two datasets.</li>
+<li>See D6323 Zymo Fecal Microbiome References documentation (pg. 4) in the Resources section below.</li>
+</ul>
+</div>
+<div id="questions-14" class="section level4 hasAnchor" number="4.1.5.2">
+<h4><span class="header-section-number">4.1.5.2</span> Questions<a href="activity-taxonomy-profiling-spreadsheet-1.html#questions-14" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>1. Which dataset is classified better, gut or fecal??</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>2. Are there any abundant taxa (at &gt;1%) in common between the gut standard and fecal reference?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>3. In your opinion, does the gut standard mimic the fecal reference well or not?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="grading-criteria-7" class="section level3 hasAnchor" number="4.1.6">
+<h3><span class="header-section-number">4.1.6</span> Grading Criteria<a href="activity-taxonomy-profiling-spreadsheet-1.html#grading-criteria-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Download this assignment as Microsoft Word (.docx) and upload on Canvas</li>
+<li>Download your Google Sheet as Microsoft Excel (.xlsx) and upload on Canvas</li>
+</ul>
+</div>
+<div id="footnotes-10" class="section level3 hasAnchor" number="4.1.7">
+<h3><span class="header-section-number">4.1.7</span> Footnotes<a href="activity-taxonomy-profiling-spreadsheet-1.html#footnotes-10" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Resources</strong></p>
+<ul>
+<li>Google Doc</li>
+<li><a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd">D6331 Zymo Gut Microbiome Standard documentation</a></li>
+<li><a href="https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf?_gl=1*cych1b*_gcl_au*MzEzNzgzNjc0LjE3MzQ5NTk3NzY">D6323 Zymo Fecal Microbiome References documentation</a></li>
+</ul>
+<p><strong>Contributions and Affiliations</strong></p>
+<ul>
+<li>Valeriya Gaysinskaya, Johns Hopkins University</li>
+<li>Gauri Paul, Clovis Community College</li>
+<li>Frederick Tan, Johns Hopkins University</li>
+</ul>
+<p>Last Revised: January 2025</p>
+</div>
 </div>
 <hr>
 <center> 
@@ -386,8 +702,8 @@
           </div>
         </div>
       </div>
-<a href="scientific-posters.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="homework-scientific-posters-activity.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="taxonomy-profiling.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="lecture-taxonomy-profiling.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
