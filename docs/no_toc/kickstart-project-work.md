@@ -63,16 +63,16 @@ Last Revised: May 2022
 
 ## Project Work Organizer
 
-### Purpose: 
+### Purpose
 
 **Kickstart Project Work** - The purpose of kickstart project work is to gain practice in scientific exploration and research, communication, and work on your scientific poster! A few ideas to get you started can be found in the **Possible Datasets** Lecture and Acvitivity below.
 
 **Project Work Organizer** - Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.  The slidedeck for the final poster presentation is also linked for April 22nd.
 
-### Organizer: In Class Round Table Data and Troubleshooting
+### Round Table Data & Troubleshooting
 
 1. The Project Work phase contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews. 
-2. Use this organizer to find instructions and track documents related to in-class updates.
+2. Use this organizer to find instructions and track documents related to **slidedeck-based updates you will give in class**:
 
 a. Instructor will create a single Slidedeck - **Round Table Data** for all groups
 b. Instructor will create a single Slidedeck - **Round Table Troubleshooting**  for all groups
@@ -92,7 +92,7 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 |13| Final Presentations | |
 <br>
 
-### Organizer:  Individual Group Information
+### Group Information
 
 1. The Project Work phase contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews. 
 2. Use this organizer to find instructions and track documents.
@@ -123,7 +123,6 @@ c. **Peer Review** - Each person will work individually to peer review two separ
 4. For each group, instructor will create a Slidedeck for Final Presentation Slides - **Slides**
 
 a. Each group will present their capstone project during an in-class poster presentation.  Posters are due one week before on April 14th to provide sufficient time for printing.
-
 
 5. **Advisory Meeting** - Each group will schedule a meeting with the instructors to discuss their progress.  These meetings will take place outside of class and should be scheduled before the deadline.  A link to the when2meet schedule can be found in the Group Information section.
 
