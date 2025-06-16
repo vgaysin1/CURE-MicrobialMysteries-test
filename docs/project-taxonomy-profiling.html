@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>9.1 Meet R! | Course Name</title>
+  <title>4.4 Project: Taxonomy Profiling | Course Name</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="9.1 Meet R! | Course Name" />
+  <meta property="og:title" content="4.4 Project: Taxonomy Profiling | Course Name" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="9.1 Meet R! | Course Name" />
+  <meta name="twitter:title" content="4.4 Project: Taxonomy Profiling | Course Name" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="sciserver-tutorials.html"/>
-<link rel="next" href="r-for-data-science-1.html"/>
+<link rel="prev" href="discussion-taxonomy-profiling.html"/>
+<link rel="next" href="presentation-taxonomy-profiling.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -342,54 +342,121 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="meet-r" class="section level2 hasAnchor" number="9.1">
-<h2><span class="header-section-number">9.1</span> Meet R!<a href="meet-r.html#meet-r" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="introduction-12" class="section level3 hasAnchor" number="9.1.1">
-<h3><span class="header-section-number">9.1.1</span> Introduction<a href="meet-r.html#introduction-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>R is a popular programming language for statistical computing and data visualization [wikipedia](<a href="https://wikipedia.org/wiki/R_(programming_language)" class="uri">https://wikipedia.org/wiki/R_(programming_language)</a>. Notable features include the <a href="https://posit.co/products/open-source/rstudio">RStudio IDE</a> built to help you be more productive with R (and Python); the <a href="https://tidyverse.org/packages">tidyverse</a> collection of packages that aims to make data science faster, easier, and more fun; and importantly the <a href="https://bioconductor.org">Bioconductor</a> project with its active support community and robust genomics tooling. Now that you completed “test-driveR” and got a taste of analyzing a real world genomics dataset using R it’s time to learn more about how R stores and operates on data using concepts such as variables, vectors, and data.frames.</p>
+<div id="project-taxonomy-profiling" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Project: Taxonomy Profiling<a href="project-taxonomy-profiling.html#project-taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-8" class="section level3 hasAnchor" number="4.4.1">
+<h3><span class="header-section-number">4.4.1</span> Purpose<a href="project-taxonomy-profiling.html#purpose-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To use a variety of Galaxy tools to perform Quality Control (QC), sequence quality filtering, taxonomy profiling, and visualization of a metagenomics soil sample sequenced with long-read Nanopore technology.</p>
 </div>
-<div id="activity-12" class="section level3 hasAnchor" number="9.1.2">
-<h3><span class="header-section-number">9.1.2</span> Activity<a href="meet-r.html#activity-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 25 min</em></p>
-<div id="instructions-42" class="section level4 hasAnchor" number="9.1.2.1">
-<h4><span class="header-section-number">9.1.2.1</span> Instructions<a href="meet-r.html#instructions-42" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="learning-objectives-7" class="section level3 hasAnchor" number="4.4.2">
+<h3><span class="header-section-number">4.4.2</span> Learning Objectives<a href="project-taxonomy-profiling.html#learning-objectives-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In this exercise, using Galaxy tools you will be
+1. Performing QC and quality filtering of your soil metagenomics data with NanoPlot and fastp tools.
+2. Running a workflow to perform taxonomy profiling and visualization of a soil metagenome.</p>
+<p>Throughout these objectives you will be comparing soil and gut metagenomes.</p>
+</div>
+<div id="introduction-7" class="section level3 hasAnchor" number="4.4.3">
+<h3><span class="header-section-number">4.4.3</span> Introduction<a href="project-taxonomy-profiling.html#introduction-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The total time for a Galaxy step to complete depends on and will increase based on multiple factors such as large input file size, long queue when many other people are analyzing data, the complexity of the job itself, or an error. See table below for the minimum time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete.
+<br></p>
+<p>Note, that you can save time by 1) submitting multiple jobs that use the same input (NanoPlot and fastp) and 2) submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job finishes.</p>
+<p><strong>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Nanoplot</th>
+<th align="left">fastp</th>
+<th align="left">taxonomy workflow</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">15 min</td>
+<td align="left">15 min</td>
+<td align="left">30 min</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="activity-1-qc" class="section level3 hasAnchor" number="4.4.4">
+<h3><span class="header-section-number">4.4.4</span> Activity 1 – QC<a href="project-taxonomy-profiling.html#activity-1-qc" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 50 min</em></p>
+<div id="activity-1---part-i-import-data-and-run-nanoplot" class="section level4 hasAnchor" number="4.4.4.1">
+<h4><span class="header-section-number">4.4.4.1</span> Activity 1 - Part I: Import data and run NanoPlot<a href="project-taxonomy-profiling.html#activity-1---part-i-import-data-and-run-nanoplot" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="instructions-28" class="section level4 hasAnchor" number="4.4.4.2">
+<h4><span class="header-section-number">4.4.4.2</span> Instructions<a href="project-taxonomy-profiling.html#instructions-28" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Resume your C-MOOR LearnR container</li>
+<li>Import dataset into Galaxy.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
-<li><p>Open sciserver.org in a web browser and log in to your account.</p></li>
-<li><p>Click “Home” in the top menu to return to the home page.</p></li>
-<li><p>Scroll down to the second set of boxes and click “Compute”.</p></li>
-<li><p>Resume your C-MOOR LearnR container by clicking on its name.</p></li>
+<li><p>Open the nanopore-soil-pilot public history <a href="https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1</a></p></li>
+<li><p>Click on <code>Import this history</code>, select Copy only the active, non-deleted datasets and then Copy History.</p></li>
+<li><p>Confirm <mark style="background color: green">Nanopore-soil-pilot-subset</mark> exists in your history by clicking on the Home button on top left ().</p></li>
 </ol>
 <ol start="2" style="list-style-type: decimal">
-<li>Complete your next LearnR tutorial</li>
+<li>Run <strong>NanoPlot</strong> tool in Galaxy to assess sequence quality using <strong>default settings</strong>.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
-<li><p>Click on “Meet R!”. The tutorial will open in a new tab.</p></li>
-<li><p>Complete the tutorial and answer the questions below.</p></li>
+<li><p>Click on the Tools icon. Then, in the search bar enter ‘NanoPlot’ and select the NanoPlot tool.</p></li>
+<li><p>Under <strong>files</strong> browse to select your Nanopore-soil-pilot-subset fastq dataset.</p></li>
+<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the NanoPlot job is scheduled, run, and complete.</p></li>
 </ol>
 </div>
-<div id="questions-26" class="section level4 hasAnchor" number="9.1.2.2">
-<h4><span class="header-section-number">9.1.2.2</span> Questions<a href="meet-r.html#questions-26" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="questions-18" class="section level4 hasAnchor" number="4.4.4.3">
+<h4><span class="header-section-number">4.4.4.3</span> Questions<a href="project-taxonomy-profiling.html#questions-18" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">1. Variables – Define what is a variable, give a line of R code that stores information in a variable, and explain how one would view the data stored in a variable.</th>
+<th align="left">1. Click on the Display icon (eyeball) next to the NanoPlot output NanoStats report and record:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Define variable:</td>
+<td align="left">Read mean length (mean read length):</td>
 </tr>
 <tr class="even">
-<td align="left">Code:</td>
+<td align="left">Read Mean quality (mean_qual):</td>
 </tr>
 <tr class="odd">
-<td align="left">Explain:</td>
+<td align="left">Proportion of reads with quality &gt; Q20 (Reads &gt; Q20):</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>2. Compare NanoPlot results.</strong></p>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left">Nanopore soil pilot (this activity)</th>
+<th align="left">Zymo gut standard (taxonomy profiling pre-lab)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">mean read length:</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">mean_qual:</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Reads &gt; Q20:</td>
+<td align="left"></td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
@@ -400,15 +467,64 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2. Vectors – Provide two lines of R code, one which stores a vector of numbers in a variable, and one which performs a mathematical operation on each element of that variable (e.g. multiplication).</th>
+<th align="left">3. Which dataset has better sequence quality, Zymo-gut-standard (taxonomy profiling pre-lab) or Nanopore-soil pilot (taxonomy profiling project)? Why?</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Code 1:</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="activity-1---part-ii-quality-filtering-with-fastp" class="section level4 hasAnchor" number="4.4.4.4">
+<h4><span class="header-section-number">4.4.4.4</span> Activity 1 - Part II: Quality filtering with fastp<a href="project-taxonomy-profiling.html#activity-1---part-ii-quality-filtering-with-fastp" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="instructions-29" class="section level4 hasAnchor" number="4.4.4.5">
+<h4><span class="header-section-number">4.4.4.5</span> Instructions<a href="project-taxonomy-profiling.html#instructions-29" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Although the majority of bases in the soil dataset are of high quality ( &gt;Q20, or 1 in 100 base error), we can filter out very low quality reads to further improve dataset quality. In this activity run fastp tool to filter out reads with a high proportion of low quality bases (&lt;Q15) using default settings.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Click on the Tools icon. Then, in the search bar enter <strong>fastp</strong> and select the fastp tool.</p></li>
+<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the fastp job is scheduled, run, and complete.</p></li>
+</ol>
+</div>
+<div id="questions-19" class="section level4 hasAnchor" number="4.4.4.6">
+<h4><span class="header-section-number">4.4.4.6</span> Questions<a href="project-taxonomy-profiling.html#questions-19" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><strong>1. Compare your dataset before and after filtering using fastp: HTML report output.</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left"><strong>Before</strong></th>
+<th align="left"><strong>After</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Mean Length</td>
+<td align="left"></td>
+<td align="left"></td>
 </tr>
 <tr class="even">
-<td align="left">Code 2:</td>
+<td align="left">total reads</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">total bases</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Q20 bases (%):</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Q30 bases (%):</td>
+<td align="left"></td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
@@ -419,40 +535,353 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3. Plotting – Copy and paste as text your code from the final code block in the tutorial. Also insert a screenshot of your resulting plot.</th>
+<th align="left">2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering. <code>Hint 1</code>: look at 5’ end, 3’ end and the middle? <code>Hint 2</code>: Pay attention to the y-axis</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Code text:</td>
-</tr>
-<tr class="even">
-<td align="left">Plot screenshot:</td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
 </div>
 </div>
-<div id="grading-criteria-14" class="section level3 hasAnchor" number="9.1.3">
-<h3><span class="header-section-number">9.1.3</span> Grading Criteria<a href="meet-r.html#grading-criteria-14" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-2-taxonomy-profiling" class="section level3 hasAnchor" number="4.4.5">
+<h3><span class="header-section-number">4.4.5</span> Activity 2 – Taxonomy Profiling<a href="project-taxonomy-profiling.html#activity-2-taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 50 min (~35 min computing)</em></p>
+<div id="activity-2---part-i-run-taxonomy-profiling-workflow" class="section level4 hasAnchor" number="4.4.5.1">
+<h4><span class="header-section-number">4.4.5.1</span> Activity 2 - Part I: Run Taxonomy Profiling Workflow<a href="project-taxonomy-profiling.html#activity-2---part-i-run-taxonomy-profiling-workflow" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="instructions-30" class="section level4 hasAnchor" number="4.4.5.2">
+<h4><span class="header-section-number">4.4.5.2</span> Instructions<a href="project-taxonomy-profiling.html#instructions-30" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Run ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view results.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Open the taxonomy-profiling public workflow <a href="https://usegalaxy.org/u/cutsort/w/taxonomy-profiling">https://usegalaxy.org/u/cutsort/w/taxonomy-profiling</a></p></li>
+<li><p>Click on Run</p></li>
+<li><p>Browse to select your fastp-filtered fastq dataset <mark style="background color: green">“fastp on data1:Read 1 output”</mark> dataset by clicking on the <code>‘...’</code> tab.</p></li>
+<li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">’Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).</p></li>
+<li><p>Click <strong>Run Workflow</strong></p></li>
+</ol>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.</p></li>
+<li><p>Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore metagenomic diversity of soil by performing taxonomy profiling spreadsheet activity you did during week 1.</p></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><p>Click on <strong>converted_kraken_report</strong>, find the download button and <strong>download</strong> the report.</p></li>
+<li><p><mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv.</p></li>
+<li><p>Upload your taxonomy .tsv file to Google Drive and open with Google Sheets.</p></li>
+<li><p>Create a header row and enter column Information.</p></li>
+</ol>
+<ul>
+<li>Col A = Counts</li>
+<li>Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).</li>
+<li>Each row corresponds to a different taxa.</li>
+</ul>
+<ol start="5" style="list-style-type: lower-alpha">
+<li>Evaluate what proportion of data was taxonomically classified.</li>
+</ol>
+<ul>
+<li>Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.</li>
+<li>In e.g. cell A2, calculate the sum of all reads observed in the soil sample.</li>
+</ul>
+</div>
+<div id="questions-20" class="section level4 hasAnchor" number="4.4.5.3">
+<h4><span class="header-section-number">4.4.5.3</span> Questions<a href="project-taxonomy-profiling.html#questions-20" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. How many total read counts are there?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2. Determine percentage of reads that are unclassified</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3. What percentage of reads are classified?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>4. Identify the most abundant taxa (those at &gt;0.1%).</strong>
+- Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Select columns B through I</p></li>
+<li><p>In the Data menu, select “Sort range by column B (Z to A)”</p></li>
+<li><p>Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.</p></li>
+<li><p>In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.</p></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">How many ‘abundant’ taxa (at &gt; 0.1%) do you observe?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">5. What are the taxonomic ranks of most abundant taxa?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">6. What is the most abundant eukaryote observed and its read count?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">7. What is the most abundant archaea observed and its read count?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">8. What is the most abundant virus observed and its read count?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="activity-2---part-ii-analyze-kraken2-results" class="section level4 hasAnchor" number="4.4.5.4">
+<h4><span class="header-section-number">4.4.5.4</span> Activity 2 - Part II: Analyze Kraken2 results<a href="project-taxonomy-profiling.html#activity-2---part-ii-analyze-kraken2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="instructions-31" class="section level4 hasAnchor" number="4.4.5.5">
+<h4><span class="header-section-number">4.4.5.5</span> Instructions<a href="project-taxonomy-profiling.html#instructions-31" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>. This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:</li>
+</ol>
+<ul>
+<li>Column 1: Percentage (%) of a given taxon</li>
+<li>Column 2: # of reads per given taxon</li>
+<li>Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.</li>
+<li>Column 6: Identified taxa/scientific name.
+<br></li>
+</ul>
+<p><code>Of note</code>: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has hundreds of lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.</p>
+</div>
+<div id="questions-21" class="section level4 hasAnchor" number="4.4.5.6">
+<h4><span class="header-section-number">4.4.5.6</span> Questions<a href="project-taxonomy-profiling.html#questions-21" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1. What is the percentage of Unclassified taxa? Does it match your calculations in Activity 2 - Part I?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. What percentage of bacteria is Proteobacteria, the most abundant Phyla observed?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3. What is the most abundant class observed and at what percentage?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="activity-2---part-iii-krona-pie-chart" class="section level4 hasAnchor" number="4.4.5.7">
+<h4><span class="header-section-number">4.4.5.7</span> Activity 2 - Part III: Krona Pie Chart<a href="project-taxonomy-profiling.html#activity-2---part-iii-krona-pie-chart" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="instructions-32" class="section level4 hasAnchor" number="4.4.5.8">
+<h4><span class="header-section-number">4.4.5.8</span> Instructions<a href="project-taxonomy-profiling.html#instructions-32" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes.</p>
+<ol style="list-style-type: lower-alpha">
+<li>View Krona results: Click on the Display icon (eyeball) next to the output file named <strong>krona_pie_chart</strong>.</li>
+<li>Double click on Bacteria kingdom (k_Bacteria) to explore further.</li>
+<li>Answer questions below</li>
+</ol>
+</div>
+<div id="questions-22" class="section level4 hasAnchor" number="4.4.5.9">
+<h4><span class="header-section-number">4.4.5.9</span> Questions<a href="project-taxonomy-profiling.html#questions-22" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. What are the 2 main phyla you observe?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2. What appears to be the more diverse phyla of the two?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><strong>3. Compare your taxonomy from soil, to the gut taxonomy results from your taxonomy-prelab</strong> (Zymo-gut-standard <a href="https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..">ZymoBIOMICS® Gut Microbiome Standard</a>.|</p>
+<p><strong>3A. Fill out the comparison table below</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left">Nanopore soil pilot</th>
+<th align="left">Zymo gut standard</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">What are 2 most abundant phyla</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">What are 2 most abundant species</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">% Classified taxa</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">% Unclassified taxa</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3B. Discuss taxonomy diversity between soil and gut, providing 3 points:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1)</td>
+</tr>
+<tr class="even">
+<td align="left">2)</td>
+</tr>
+<tr class="odd">
+<td align="left">3)</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="grading-criteria-8" class="section level3 hasAnchor" number="4.4.6">
+<h3><span class="header-section-number">4.4.6</span> Grading Criteria<a href="project-taxonomy-profiling.html#grading-criteria-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</li>
 </ul>
 </div>
-<div id="footnotes-19" class="section level3 hasAnchor" number="9.1.4">
-<h3><span class="header-section-number">9.1.4</span> Footnotes<a href="meet-r.html#footnotes-19" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><strong>Resources</strong></p>
-<ul>
-<li>Google Doc</li>
-<li><a href="https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md">R cheat sheet</a></li>
-</ul>
+<div id="footnotes-12" class="section level3 hasAnchor" number="4.4.7">
+<h3><span class="header-section-number">4.4.7</span> Footnotes<a href="project-taxonomy-profiling.html#footnotes-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Resources</strong>
+- Google Doc
+- Species composition in the Gut Microbiome Standard dataset: <a href="https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..">ZymoBIOMICS® Gut Microbiome Standard</a></p>
 <p><strong>Contributions and Affiliations</strong></p>
 <ul>
-<li>Katherine Cox, Johns Hopkins University</li>
+<li>Valeriya Gaysinskaya, Johns Hopkins University</li>
 <li>Frederick Tan, Johns Hopkins University</li>
 </ul>
-<p>Last Revised: February 2025</p>
+<p>Last Revised: May 2025</p>
 </div>
 </div>
 <hr>
@@ -466,8 +895,8 @@
           </div>
         </div>
       </div>
-<a href="sciserver-tutorials.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="r-for-data-science-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="discussion-taxonomy-profiling.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="presentation-taxonomy-profiling.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
