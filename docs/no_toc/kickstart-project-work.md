@@ -63,13 +63,11 @@ Last Revised: May 2022
 
 ## Project Work Organizer
 
-### Purpose: Kickstart Project Work
+### Purpose: 
 
-The purpose of kickstart project work is to gain practice in scientific exploration and research, communication, and work on your scientific poster! A few ideas to get you started can be found in the **Possible Datasets** Lecture and Acvitivity below.
+**Kickstart Project Work** - The purpose of kickstart project work is to gain practice in scientific exploration and research, communication, and work on your scientific poster! A few ideas to get you started can be found in the **Possible Datasets** Lecture and Acvitivity below.
 
-### Purpose: Project Work Organizer
-
-Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.  The slidedeck for the final poster presentation is also linked for April 22nd.
+**Project Work Organizer** - Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.  The slidedeck for the final poster presentation is also linked for April 22nd.
 
 ### Organizer: In Class Round Table Data and Troubleshooting
 
