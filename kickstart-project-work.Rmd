@@ -76,7 +76,7 @@ Last Revised: May 2022
 ### Organizer: In Class Round Table Data and Troubleshooting
 
 1. The Project Work phase contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews. 
-2. Use this organizer to find instructions and track documents.
+2. Use this organizer to find instructions and track documents related to in-class updates.
 
 a. Instructor will create a single Slidedeck - **Round Table Data** for all groups
 b. Instructor will create a single Slidedeck - **Round Table Troubleshooting**  for all groups
@@ -101,21 +101,7 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 1. The Project Work phase contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews. 
 2. Use this organizer to find instructions and track documents.
 
-a. For each group, instructor will create a Slidedeck - **Doc** 
-b. For each group, instructor will create a Slidedeck - **Slides**
-c. Advisory Meeting - Each group will schedule a meeting with the instructors to discuss their progress.  These meetings will take place outside of class and should be scheduled before the deadline.  A link to the when2meet schedule can be found in the Group Information section.
-
-3. See sample organizer below for your Project Work updates.
-
-|Group | Check-in | Poster | Meeting #1 | Meeting # 2|
-|:--| :--| :-- | :-- | :-- | 
-|Group A| Doc | Slides | Date 1 | Date 2| 
-|Group B| Doc | Slides | Date 1 | Date 2| 
-|Group C| Doc | Slides | Date 1 | Date 2| 
-|Group D| Doc | Slides | Date 1 | Date 2| 
-<br>
-
-4. Components of Written Documents (Docs)
+3. For each group, instructor will create a text **Doc** which will include the following sections:
 
 a. **Written Check-in** - Progress will be assessed through several written check-ins.  These documents will allow you to summarize the work you’ve done, receive feedback from colleagues, and provide another opportunity to ask for help.  Your check-in should be concise but complete (full sentences) and include the following information:
 
@@ -138,9 +124,30 @@ c. **Peer Review** - Each person will work individually to peer review two separ
 - Questions you have about the approach or results
 - Suggestions on next steps, poster organization, etc.
 
-5. Final Presentation Slides
+4. For each group, instructor will create a Slidedeck for Final Presentation Slides - **Slides**
 
-Each group will present their capstone project during an in-class poster presentation.  Posters are due one week before on April 14th to provide sufficient time for printing.
+a. Each group will present their capstone project during an in-class poster presentation.  Posters are due one week before on April 14th to provide sufficient time for printing.
+
+
+5. **Advisory Meeting** - Each group will schedule a meeting with the instructors to discuss their progress.  These meetings will take place outside of class and should be scheduled before the deadline.  A link to the when2meet schedule can be found in the Group Information section.
+
+6. See sample organizer below for your Project Work updates.
+
+|Group | Check-in | Poster | Meeting #1 | Meeting # 2|
+|:--| :--| :-- | :-- | :-- | 
+|Group A| Doc | Slides | Date 1 | Date 2| 
+|Group B| Doc | Slides | Date 1 | Date 2| 
+|Group C| Doc | Slides | Date 1 | Date 2| 
+|Group D| Doc | Slides | Date 1 | Date 2| 
+<br>
 
 
 ### Footnotes
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: June 2025
+
