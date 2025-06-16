@@ -295,4 +295,4 @@ grading-criteria-19
 footnotes-26
 course-description
 course-content
-sample-schedules
+sample-schedule
