@@ -2,63 +2,147 @@
 
 # Kickstart Project Work
 
-## Lecture: Possible Datasets
+## Lecture: Kickstart Project Work
 
-![](resources/images/kickstart-project-work_files/figure-docx//1VxwSmAY8BUs3EfVcxPm3I8kNYJWjVqoHJrGOX3X3sog_g35f391192_00.png)
+![](resources/images/kickstart-project-work_files/figure-docx//1j1u4frdYt18nVmjMs6ZPRoP1KfXxognVUYG-2itH6kE_g35f391192_00.png)
 
-[Slides: Possible Datasets](https://docs.google.com/presentation/d/1VxwSmAY8BUs3EfVcxPm3I8kNYJWjVqoHJrGOX3X3sog/edit?usp=sharing)
+[Slides: Possible Datasets](https://docs.google.com/presentation/d/1j1u4frdYt18nVmjMs6ZPRoP1KfXxognVUYG-2itH6kE/edit?usp=sharing)
 
 
-## Activity: Possible Datasets
+## Activity: Kickstart Project Work
 
-### Activity
+### Learning Objectives
 
-*Estimated time: 50 min*
+1. Import an example SRA sequencing data file by accession id (e.g. SRR) 
+2. Perform classification of nanopore-sequenced soil MAGs with GTDB-Tk
+3. Import an SRA dataset you would like to analyze for your research project
+4. Use a new Galaxy tool that we have not worked through in class
+
+
+### Activity 1 - Import an example SRA file into Galaxy
 
 #### Instructions
 
-1. Skim three abstracts
+1. Upload sequencing reads for accession id SRR29980924 in Galaxy using **Faster Download and Extract Reads in FASTQ** tool .
+2. Make your Galaxy history sharable.
 
-2. Pick one and answer the following questions
+#### Questions
 
-a) Notice – What about this abstract most interests you?
+|1. Share your Galaxy history with SRR29980924fastq data you downloaded with Faster Download and Extract Reads in FASTQ tool.|
+|:--------|
+| Galaxy history Link: |
+<br>
 
-b) Dataset – Summarize at a high level where the samples came from, how many there are, and what technology was used for sequencing.
 
-c) Wonder – Two or three questions you would like to ask using this (and any other) datasets.
+|2. Find and record the following features of your downloaded dataset below.|
+|:--------|
+| File size: |
+|File format:|
+|Job Runtime (Wall Clock):|
+|First line of the sequencing file:|
+<br>
 
-3. Post your answers by replying to the “Project Work: Possible Datasets” topic in the Discussion Forum
+|3. Inspect SRR29980924 entry in NCBI https://www.ncbi.nlm.nih.gov/sra. Obtain the following sequencing information.|
+|:--------|
+|Organism: |
+|Instrument:|
+|Strategy:|
+|Run:|
+<br>
 
-|Possible Datasets (Long-read PacBio)|
-|:--|:--|:--|:--|
-|**Soil**| | | |
-| |Antarctic |PRJNA1126331 | https://pubmed.gov/39300163/| 
-| |Biocrust |PRJNA691698 | https://pubmed.gov/34795375/| 
-|**Water**| | | |
-| |Fresh Water |PRJNA924152 | https://pubmed.gov/36823661/|
-| |Ocean Water |PRJNA853328 | https://pubmed.gov/36448813/|
-|**Human Gut**| | | |
-| |Vegan/Omnivore |PRJNA750084 | http://pubmed.gov/36289209|
-| |Infant Nutrition |PRJNA1139951 | http://pubmed.gov/31022095|
-|**and More!**| | | |
-| |Lamb Gut |PRJNA595610 |http://pubmed.gov/34980911|
-| |Deadwood |PRJNA603240 | http://pubmed.gov/39627869|
-| |Cheese |PRJNA778418 | http://pubmed.gov/9948695|
-| |Whey |PRJNA454439, PRJNA477604 | http://pubmed.gov/6593500 |
+### Activity 2 – Taxonomically classify nanopore-soil-subset MAGs with GTDB-Tk in Galaxy
+
+#### Instructions
+
+Using **GTDB-Tk Classify genomes** tool, classify the nanopore-soil MAGs you obtained  from **MetaBAT2** binning of contigs during Project: Finding AMRs, Activity 4. Note, `MetaBAT2 bins are a collection`, so try using **Dataset collection** (instead of multiple individual files) as input. 
+
+#### Questions
+
+|1. Record summary of MAG classification of Bacteria below.|
+|:--------|
+||
+<br>
+
+|2. Record summary of MAG classification of Archaea below.|
+|:--------|
+||
+<br>
+
+|3. Share your Galaxy history to GTDBtk classification below.|
+|:--------|
+||
+<br>
+
+### Activity 3 – Import an SRA dataset of interest for your research project
+
+#### Instructions
+
+Upload sequencing reads from a dataset of interest using the **Faster Download and Extract Reads in FASTQ** tool.  Refer back to the table in the **Activity: Possible Datasets** for BioProjects with known long read metagenomics datasets.
+
+#### Questions
+
+|1. Record the following features of your downloaded dataset below.|
+|:--------|
+|Accession ID:  |
+|File size: |
+|Job Runtime (Wall Clock): |
+<br>
+
+|2. Inspect your SRA entry in NCBI https://www.ncbi.nlm.nih.gov/sra. Obtain the following sequencing information.|
+|:--------|
+|Organism:   |
+| Instrument:  |
+|Strategy: |
+| Run: |
+<br>
+
+
+### Activity 4 – Use a new Galaxy tool that may be useful for your project
+
+#### Instructions
+
+Find one new Galaxy tool that you think may be useful for your research project.  A few possibilities to get you started include:
+
+- Prokka [Galaxy tutorial](http://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html)
+- Bakta [Galaxy Tutorial](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/bacterial-genome-annotation/tutorial.html)
+- antiSMASH [Galaxy tutorial](http://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/secondary-metabolite-discovery/tutorial.html 
+- CheckM2 [Galaxy tutorial](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/bacterial-genome-quality-control/tutorial.html)
+- Tools mentioned in tutorials like [GTN: Bacterial Genome Annotation](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/bacterial-genome-annotation/tutorial.html)
+- Tools used in workflows like [https://nf-co.re/mag](https://nf-co.re/mag) (not all tools will be available on Galaxy)
+
+#### Questions
+
+|1. Briefly describe the tool e.g. how it works, what it takes as input, and what it produces as output.|
+|:--------|
+||
+<br>
+
+|2. Describe briefly any problems you had running the tool and troubleshooting steps you tried.|
+|:--------|
+||
+<br>
+
+|3.  If you were able to get the tool to run, describe the results and whether they provide additional information for your project.|
+|:--------|
+||
 <br>
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Submit URL to your reply on Canvas
+- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
+
+**Resources**
+
+- Google Doc
 
 **Contributions and Affiliations**
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: May 2022
+Last Revised: June, 2025
 
 
 ## Project Work Organizer
