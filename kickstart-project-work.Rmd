@@ -23,7 +23,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1j1u4frdYt18nVmjM
 4. Use a new Galaxy tool that we have not worked through in class
 
 
-### Activity 1 - Import an example SRA file into Galaxy
+### Activity 1 - Import an SRA file into Galaxy
 
 #### Instructions
 
