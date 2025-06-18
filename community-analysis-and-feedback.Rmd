@@ -1,7 +1,7 @@
 # (PART\*) COMMUNITY ANALYSIS AND FEEDBACK {-}
 
 
-# Scientific Posters
+# Scientific Communication
 
 ## Lecture: Scientific Posters
 
@@ -196,6 +196,10 @@ ottrpal::include_slide("")
 
 [slide]()
 
+
+## Activity: Scientific Communication
+
+# Next Steps
 
 
 
