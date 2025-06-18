@@ -13,7 +13,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-
 
 ## Activity: Scientific Posters
 
-## Activity
+### Activity
 
 *Estimated time: 50 min*
 
@@ -190,7 +190,7 @@ Last Revised:
 
 ## Poster Template
 
-## Activity: Scientific Communication
+## Activity: Share and present your poster
 
 ### Introduction
 
