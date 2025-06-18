@@ -190,16 +190,13 @@ Last Revised:
 
 ## Poster Template
 
-```{r, echo=FALSE, fig.alt=''}
-ottrpal::include_slide("")
-```
-
-[slide]()
-
-
 ## Activity: Scientific Communication
 
 # Next Steps
+
+## Lecture: Next Steps
+
+## Activity: Next Steos
 
 
 
