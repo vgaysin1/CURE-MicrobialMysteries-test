@@ -11,7 +11,7 @@
 
 ## Activity: Scientific Posters
 
-## Activity
+### Activity
 
 *Estimated time: 50 min*
 
@@ -188,13 +188,102 @@ Last Revised:
 
 ## Poster Template
 
-## Activity: Scientific Communication
+## Activity: Share and present your poster
+
+### Introduction
+
+It's almost time!  Prepare for your final presentation by thinking about how to describe the great work that you've done this semester in both written and oral form.  Assume that your audience has a basic scientific background but does not know a lot about your particular field.  Provide enough context to give your listener a reason to care about your project and each of the results you will describe.  You have five minutes to get your story across so have a plan and practice.
+
+#### Activity 1 – Share Your Poster
+
+*Estimated time: 20 min*
+
+#### Instructions
+
+1. Download your poster as a .png file
+- [https://drive.google.com/drive/folders/1y_GCJl7VIYTS_5y7057u2s58ZCdm_PxM](https://drive.google.com/drive/folders/1y_GCJl7VIYTS_5y7057u2s58ZCdm_PxM)
+
+2. (One person on behalf of the group) Create a New Topic on the Discussion Forum with the title of your poster as the topic title and your .png file as the contents in either the
+
+a. Look at This! category if every member of your group is ok sharing your work publicly
+[https://help.c-moor.org/c/look-at-this/8](https://help.c-moor.org/c/look-at-this/8)
+
+b. JHU 2025 Spring category if you need to keep your work private
+https://help.c-moor.org/c/jhu-2025-spring/46
+
+3. (Each person in the group) Reply to your topic using your own words with the following two bolded sections using the following template
+
+|  |
+|:--|
+|**What I Did**|
+|<Briefly describe what you did including what you found most interesting>|
+|**How You Can Help**|
+|<Briefly describe how others could continue this analysis especially what you would do next if you were to continue this project>|
+<br>
+
+#### Questions
+
+| 1. Provide URL of your Discussion Forum post |
+|:--|
+||
+<br>
+
+### Activity 2 – Present Your Poster
+
+*Estimated time: 40 min*
+
+#### Instructions
+
+1. Create a plan for a 5 min presentation taking into consideration
+
+a. Who will speak when
+
+b. What each person will cover
+
+2. Practice your presentation
+
+a. In your group
+
+b. To the class
+
+
+#### Questions
+
+| Create a bullet point outline of who will speak what when: |
+|:--|
+|Overview (question, background, hypothesis)|
+|Approach (dataset, general methods) |
+| Results (detailed methods, notable results)|
+|Conclusions (summary, next steps)|
+<br>
+
+### Grading Criteria
+
+- Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+
+- [Google Doc]
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: April 2025
+
 
 # Next Steps
 
 ## Lecture: Next Steps
 
-## Activity: Next Steos
+
+[Slides: Next Steps](https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit?usp=sharing)
+
+
+## Activity: Next Steps
 
 
 
