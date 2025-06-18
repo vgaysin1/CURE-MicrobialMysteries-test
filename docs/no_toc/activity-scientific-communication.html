@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>7.2 Activity: Kickstart Project Work | Course Name</title>
+  <title>10.6 Activity: Scientific Communication | Course Name</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="7.2 Activity: Kickstart Project Work | Course Name" />
+  <meta property="og:title" content="10.6 Activity: Scientific Communication | Course Name" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="7.2 Activity: Kickstart Project Work | Course Name" />
+  <meta name="twitter:title" content="10.6 Activity: Scientific Communication | Course Name" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="lecture-kickstart-project-work.html"/>
-<link rel="next" href="project-work-organizer.html"/>
+<link rel="prev" href="poster-template.html"/>
+<link rel="next" href="next-steps.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -403,285 +403,10 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="activity-kickstart-project-work" class="section level2 hasAnchor" number="7.2">
-<h2><span class="header-section-number">7.2</span> Activity: Kickstart Project Work<a href="activity-kickstart-project-work.html#activity-kickstart-project-work" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="learning-objectives-10" class="section level3 hasAnchor" number="7.2.1">
-<h3><span class="header-section-number">7.2.1</span> Learning Objectives<a href="activity-kickstart-project-work.html#learning-objectives-10" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ol style="list-style-type: decimal">
-<li>Import an example SRA sequencing data file by accession id (e.g. SRR)</li>
-<li>Perform classification of nanopore-sequenced soil MAGs with GTDB-Tk</li>
-<li>Import an SRA dataset you would like to analyze for your research project</li>
-<li>Use a new Galaxy tool that we have not worked through in class</li>
-</ol>
+<div id="activity-scientific-communication" class="section level2 hasAnchor" number="10.6">
+<h2><span class="header-section-number">10.6</span> Activity: Scientific Communication<a href="activity-scientific-communication.html#activity-scientific-communication" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
-<div id="activity-1---import-an-sra-file-into-galaxy" class="section level3 hasAnchor" number="7.2.2">
-<h3><span class="header-section-number">7.2.2</span> Activity 1 - Import an SRA file into Galaxy<a href="activity-kickstart-project-work.html#activity-1---import-an-sra-file-into-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="instructions-45" class="section level4 hasAnchor" number="7.2.2.1">
-<h4><span class="header-section-number">7.2.2.1</span> Instructions<a href="activity-kickstart-project-work.html#instructions-45" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ol style="list-style-type: decimal">
-<li>Upload sequencing reads for accession id SRR29980924 in Galaxy using <strong>Faster Download and Extract Reads in FASTQ</strong> tool .</li>
-<li>Make your Galaxy history sharable.</li>
-</ol>
-</div>
-<div id="questions-31" class="section level4 hasAnchor" number="7.2.2.2">
-<h4><span class="header-section-number">7.2.2.2</span> Questions<a href="activity-kickstart-project-work.html#questions-31" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">1. Share your Galaxy history with SRR29980924fastq data you downloaded with Faster Download and Extract Reads in FASTQ tool.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Galaxy history Link:</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">2. Find and record the following features of your downloaded dataset below.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">File size:</td>
-</tr>
-<tr class="even">
-<td align="left">File format:</td>
-</tr>
-<tr class="odd">
-<td align="left">Job Runtime (Wall Clock):</td>
-</tr>
-<tr class="even">
-<td align="left">First line of the sequencing file:</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">3. Inspect SRR29980924 entry in NCBI <a href="https://www.ncbi.nlm.nih.gov/sra" class="uri">https://www.ncbi.nlm.nih.gov/sra</a>. Obtain the following sequencing information.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Organism:</td>
-</tr>
-<tr class="even">
-<td align="left">Instrument:</td>
-</tr>
-<tr class="odd">
-<td align="left">Strategy:</td>
-</tr>
-<tr class="even">
-<td align="left">Run:</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-</div>
-<div id="activity-2-taxonomically-classify-nanopore-soil-subset-mags-with-gtdb-tk-in-galaxy" class="section level3 hasAnchor" number="7.2.3">
-<h3><span class="header-section-number">7.2.3</span> Activity 2 – Taxonomically classify nanopore-soil-subset MAGs with GTDB-Tk in Galaxy<a href="activity-kickstart-project-work.html#activity-2-taxonomically-classify-nanopore-soil-subset-mags-with-gtdb-tk-in-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="instructions-46" class="section level4 hasAnchor" number="7.2.3.1">
-<h4><span class="header-section-number">7.2.3.1</span> Instructions<a href="activity-kickstart-project-work.html#instructions-46" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Using <strong>GTDB-Tk Classify genomes</strong> tool, classify the nanopore-soil MAGs you obtained from <strong>MetaBAT2</strong> binning of contigs during Project: Finding AMRs, Activity 4. Note, <code>MetaBAT2 bins are a collection</code>, so try using <strong>Dataset collection</strong> (instead of multiple individual files) as input.</p>
-</div>
-<div id="questions-32" class="section level4 hasAnchor" number="7.2.3.2">
-<h4><span class="header-section-number">7.2.3.2</span> Questions<a href="activity-kickstart-project-work.html#questions-32" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">1. Record summary of MAG classification of Bacteria below.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">2. Record summary of MAG classification of Archaea below.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">3. Share your Galaxy history to GTDBtk classification below.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-</div>
-<div id="activity-3-import-an-sra-dataset-of-interest-for-your-research-project" class="section level3 hasAnchor" number="7.2.4">
-<h3><span class="header-section-number">7.2.4</span> Activity 3 – Import an SRA dataset of interest for your research project<a href="activity-kickstart-project-work.html#activity-3-import-an-sra-dataset-of-interest-for-your-research-project" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="instructions-47" class="section level4 hasAnchor" number="7.2.4.1">
-<h4><span class="header-section-number">7.2.4.1</span> Instructions<a href="activity-kickstart-project-work.html#instructions-47" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Upload sequencing reads from a dataset of interest using the <strong>Faster Download and Extract Reads in FASTQ</strong> tool. Refer back to the table in the <strong>Activity: Possible Datasets</strong> for BioProjects with known long read metagenomics datasets.</p>
-</div>
-<div id="questions-33" class="section level4 hasAnchor" number="7.2.4.2">
-<h4><span class="header-section-number">7.2.4.2</span> Questions<a href="activity-kickstart-project-work.html#questions-33" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">1. Record the following features of your downloaded dataset below.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Accession ID:</td>
-</tr>
-<tr class="even">
-<td align="left">File size:</td>
-</tr>
-<tr class="odd">
-<td align="left">Job Runtime (Wall Clock):</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">2. Inspect your SRA entry in NCBI <a href="https://www.ncbi.nlm.nih.gov/sra" class="uri">https://www.ncbi.nlm.nih.gov/sra</a>. Obtain the following sequencing information.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Organism:</td>
-</tr>
-<tr class="even">
-<td align="left">Instrument:</td>
-</tr>
-<tr class="odd">
-<td align="left">Strategy:</td>
-</tr>
-<tr class="even">
-<td align="left">Run:</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-</div>
-<div id="activity-4-use-a-new-galaxy-tool-that-may-be-useful-for-your-project" class="section level3 hasAnchor" number="7.2.5">
-<h3><span class="header-section-number">7.2.5</span> Activity 4 – Use a new Galaxy tool that may be useful for your project<a href="activity-kickstart-project-work.html#activity-4-use-a-new-galaxy-tool-that-may-be-useful-for-your-project" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="instructions-48" class="section level4 hasAnchor" number="7.2.5.1">
-<h4><span class="header-section-number">7.2.5.1</span> Instructions<a href="activity-kickstart-project-work.html#instructions-48" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Find one new Galaxy tool that you think may be useful for your research project. A few possibilities to get you started include:</p>
-<ul>
-<li>Prokka <a href="http://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html">Galaxy tutorial</a></li>
-<li>Bakta <a href="https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/bacterial-genome-annotation/tutorial.html">Galaxy Tutorial</a></li>
-<li>antiSMASH [Galaxy tutorial](<a href="http://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/secondary-metabolite-discovery/tutorial.html" class="uri">http://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/secondary-metabolite-discovery/tutorial.html</a></li>
-<li>CheckM2 <a href="https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/bacterial-genome-quality-control/tutorial.html">Galaxy tutorial</a></li>
-<li>Tools mentioned in tutorials like <a href="https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/bacterial-genome-annotation/tutorial.html">GTN: Bacterial Genome Annotation</a></li>
-<li>Tools used in workflows like <a href="https://nf-co.re/mag">https://nf-co.re/mag</a> (not all tools will be available on Galaxy)</li>
-</ul>
-</div>
-<div id="questions-34" class="section level4 hasAnchor" number="7.2.5.2">
-<h4><span class="header-section-number">7.2.5.2</span> Questions<a href="activity-kickstart-project-work.html#questions-34" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">1. Briefly describe the tool e.g. how it works, what it takes as input, and what it produces as output.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">2. Describe briefly any problems you had running the tool and troubleshooting steps you tried.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">3. If you were able to get the tool to run, describe the results and whether they provide additional information for your project.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</div>
-</div>
-<div id="grading-criteria-12" class="section level3 hasAnchor" number="7.2.6">
-<h3><span class="header-section-number">7.2.6</span> Grading Criteria<a href="activity-kickstart-project-work.html#grading-criteria-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<ul>
-<li><mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</li>
-</ul>
-</div>
-<div id="footnotes-18" class="section level3 hasAnchor" number="7.2.7">
-<h3><span class="header-section-number">7.2.7</span> Footnotes<a href="activity-kickstart-project-work.html#footnotes-18" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><strong>Resources</strong></p>
-<ul>
-<li>Google Doc</li>
-</ul>
-<p><strong>Contributions and Affiliations</strong></p>
-<ul>
-<li>Valeriya Gaysinskaya, Johns Hopkins University</li>
-<li>Frederick Tan, Johns Hopkins University</li>
-</ul>
-<p>Last Revised: June, 2025</p>
-</div>
-</div>
+<!-- </div> -->
 <hr>
 <center> 
   <div class="footer">
@@ -693,8 +418,8 @@
           </div>
         </div>
       </div>
-<a href="lecture-kickstart-project-work.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="project-work-organizer.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="poster-template.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="next-steps.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
