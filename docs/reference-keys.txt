@@ -235,7 +235,7 @@ kickstart-project-work
 lecture-kickstart-project-work
 activity-kickstart-project-work
 learning-objectives-10
-activity-1---import-an-example-sra-file-into-galaxy
+activity-1---import-an-sra-file-into-galaxy
 instructions-45
 questions-31
 activity-2-taxonomically-classify-nanopore-soil-subset-mags-with-gtdb-tk-in-galaxy

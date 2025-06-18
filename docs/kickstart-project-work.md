@@ -19,7 +19,7 @@
 4. Use a new Galaxy tool that we have not worked through in class
 
 
-### Activity 1 - Import an example SRA file into Galaxy
+### Activity 1 - Import an SRA file into Galaxy
 
 #### Instructions
 
