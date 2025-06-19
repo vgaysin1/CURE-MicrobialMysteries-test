@@ -1,7 +1,7 @@
 # (PART\*) COMMUNITY ANALYSIS AND FEEDBACK {-}
 
 
-# Scientific Communication
+# Scientific Posters
 
 ## Lecture: Scientific Posters
 
@@ -54,7 +54,7 @@ c. **Support** – Two or three suggestions on how the poster could be improved.
 
 Last Revised: February 2025
 
-## Group Poster
+## Group Poster 
 
 ### Introduction
 
@@ -62,7 +62,6 @@ An important part of scientific research is presenting your findings. This might
 
 ### Part 1 - Choose a Template
 
-1. Read through the [grading criteria] at the end of this document.
 1. With your group, open a suggested [poster template] to use for your poster. 
 1. Discuss with your group how you will divide up the work and exchange important information (e.g. phone numbers, email). Consider the following sections: 
 
