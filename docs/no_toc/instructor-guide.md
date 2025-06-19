@@ -19,25 +19,9 @@ The Microbial Mysteries course content was organized and presented by way of mod
 | **Name** | **Length** | **Notes** |
 | :--- | :---: | :---: |
 
-## Sample schedule
 
-Microbial Mysteries CURE was offered at the Johns Hopkins University in the Spring of 2025 as AS.020.126.01.SP25 Microbial Mysteries: Genomics from Ground to Gut. 
 
-- Below is the schedule this Course followed. 
-- Each module contains materials for both, the dedicated module contents, and assignments from adjacent modules.
 
-Core Labs:
 
-- Unit 0 – Introduction (Jan 21 - Jan 22)
-- Unit 1 – Scientific Literature (Jan 23 - Jan 30)
-- Unit 2 – Microbial Genomes (Jan 30 - Feb 6)
-- Unit 3 – Taxonomy Profiling (Feb 6 - Feb 13)
-- Unit 4 – Finding AMRs (Feb 13 - Feb 20) 
-- Unit 5 – Kickstart Project Work (Feb 20 - Feb 27)
-<br>
-
-Other modules:
-- Module Project Work ( Mar 4 - April 25)
-- Professional Development ( Mar 6 - April 24)
 
 

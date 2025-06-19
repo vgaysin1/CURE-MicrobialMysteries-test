@@ -345,4 +345,3 @@ lecture-next-steps
 activity-next-steps
 course-description
 course-content
-sample-schedule
