@@ -14,10 +14,31 @@ This course progresses through a series of Core Labs that introduce important co
 
 ## Course Content
 
-The Microbial Mysteries course content was organized and presented by way of modules below:
+The Microbial Mysteries course content was organized and presented by way of Unit modules below. 
 
-| **Name** | **Length** | **Notes** |
-| :--- | :---: | :---: |
+- **Week 1**
+
+| Unit 0: Introduction | Type|
+|:--|:--|
+| Lecture: Welcome to Your Genomics Adventure!| in-class|
+| Create Accounts| Homework |
+| Lecture: The Scientific Process| in-class|
+| Post Introcuctions | Homework|
+<br>
+
+- **Week 2**
+
+| Unit 1: Scientific Literature | Type| 
+|:--|:--|
+| Lecture: What's in your XYZ? | in-class|
+| Activity: Taxonomy Profiling Spreadsheet| Homework |
+| A short introduction to Galaxy| Homework|
+| Pre-lab: Scientific Literature | Homework|
+| Discussion: Scientific Literature | in-class|
+|Lecture: Scientific Literature| in-class|
+|Activity: Scientific Literature| Homework|
+|Presentation: Scientific Literature | in-class|
+<br>
 
 
 
