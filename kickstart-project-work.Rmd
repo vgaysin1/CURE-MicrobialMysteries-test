@@ -161,9 +161,11 @@ Last Revised: June, 2025
 
 <br>
 
-- [ ] **1. Round Table Data & Troubleshooting - Reviewed and discussed as a community In-Class** 
-- [ ] **2. Written Check-Ins** - Group-specific write-ups checked by instructor(s)**
-- [ ] **3. Advisory Meetings** - Group-specific in-person meetings between individual groups and instructor(s)**
+::: info
+- **1. Round Table Data & Troubleshooting** - Reviewed and discussed as a community In-Class 
+- **2. Written Check-Ins** - Group-specific write-ups checked by instructor(s)**
+- **3. Advisory Meetings** - Group-specific in-person meetings between individual groups and instructor(s)**
+:::
 
 
 <br>
