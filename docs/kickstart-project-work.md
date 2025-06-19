@@ -149,22 +149,43 @@ Last Revised: June, 2025
 
 ### Purpose
 
-**Kickstart Project Work** - The purpose of kickstart project work is to gain practice in scientific exploration and research, communication, and work on your scientific poster! A few ideas to get you started can be found in the **Possible Datasets** Lecture and Acvitivity below.
+**Kickstart Project Work** - The purpose of kickstart project work is to gain practice in scientific exploration and research, communication, and work on your scientific poster! A few ideas to get you started can be found in the **Possible Datasets** Lecture and Acvitivity below. **Your project work will culminate in Poster making, sharing and presentation.** a. Each group will present their capstone project during an in-class poster presentation. 
 
-**Project Work Organizer** - Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.  The slidedeck for the final poster presentation is also linked for April 22nd.
+<br>
+
+**Project Work phase** contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews.  During the Project Work phase, you will be documenting, summarizing and updating relevant documenents which will fall under 3 categories:
+
+<br>
+
+<div class="boxy boxy-yellow boxy-clipboard-list">">
+**1. Round Table Data & Troubleshooting - Reviewed and discussed as a community In-Class** 
+**2. Written Check-Ins** - Group-specific write-ups checked by instructor(s)**
+**3. Advisory Meetings** - Group-specific in-person meetings between individual groups and instructor(s)**
+</div>
+
+<br>
+
+**Project Work Organizer** - Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.
+<br>
+
 
 ### Round Table Data & Troubleshooting
 
-1. The Project Work phase contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews. 
-2. Use this organizer to find instructions and track documents related to **slidedeck-based updates you will give in class**:
+Research lab meetings are great forums to receive community analysis and feedback. In-class round table data and troubleshooting sessions and slidedecks will be used to report on and get feedback on your ongoing research. Consider these in-class project work updates your research lab meetings!
 
-a. Instructor will create a single Slidedeck - **Round Table Data** for all groups
+1. Slidedecks to track and share your work and progress 
+
+a. Instructor will create a single Slidedeck - **Round Table Data** for all groups 
+
 b. Instructor will create a single Slidedeck - **Round Table Troubleshooting**  for all groups
+
 c. Instructor will create a single Slidedeck - **Poster** for all groups
+
 d. Instructor will create a single Slidedeck - **Final Presentation** for all groups
 
-3. See sample organizer below for your Project Work updates.
+2. Sample organizer for your In-class Project Work updates.
 
+<div class="boxy">
 |Course Week | Day 1 | Day 2
 |:--| --|-- | 
 |7| Round Table Data| |
@@ -174,14 +195,15 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 |11| Slidedeck Poster Review| Poster Review |
 |12| Science Talks| |
 |13| Final Presentations | |
+</div>
+
 <br>
 
-### Group Information
+### Written check-ins
 
-1. The Project Work phase contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews. 
-2. Use this organizer to find instructions and track documents.
+Written check-ins encompass a written document for groups-instructor interaction, and will also be used for peer reviews. 
 
-3. For each group, instructor will create a text **Doc** which will include the following sections:
+1. For each group, instructor will create a text document **Doc** which will include the following sections:
 
 a. **Written Check-in** - Progress will be assessed through several written check-ins.  These documents will allow you to summarize the work you’ve done, receive feedback from colleagues, and provide another opportunity to ask for help.  Your check-in should be concise but complete (full sentences) and include the following information:
 
@@ -204,13 +226,11 @@ c. **Peer Review** - Each person will work individually to peer review two separ
 - Questions you have about the approach or results
 - Suggestions on next steps, poster organization, etc.
 
-4. For each group, instructor will create a Slidedeck for Final Presentation Slides - **Slides**
+### Advisory Meetings
 
-a. Each group will present their capstone project during an in-class poster presentation.  Posters are due one week before on April 14th to provide sufficient time for printing.
+**Advisory Meeting** - Each group will schedule a meeting with the instructors to discuss their progress.  These meetings will take place outside of class and should be scheduled before the deadline.  A link to the when2meet schedule can be found in the Group Information section.
 
-5. **Advisory Meeting** - Each group will schedule a meeting with the instructors to discuss their progress.  These meetings will take place outside of class and should be scheduled before the deadline.  A link to the when2meet schedule can be found in the Group Information section.
-
-6. See sample organizer below for your Project Work updates.
+- See sample organizer below for your Project Work updates. 
 
 |Group | Check-in | Poster | Meeting #1 | Meeting # 2|
 |:--| :--| :-- | :-- | :-- | 
