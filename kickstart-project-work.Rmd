@@ -161,11 +161,10 @@ Last Revised: June, 2025
 
 <br>
 
-<div class="boxy boxy-yellow boxy-clipboard-list">">
-**1. Round Table Data & Troubleshooting - Reviewed and discussed as a community In-Class** 
-**2. Written Check-Ins** - Group-specific write-ups checked by instructor(s)**
-**3. Advisory Meetings** - Group-specific in-person meetings between individual groups and instructor(s)**
-</div>
+- [ ] **1. Round Table Data & Troubleshooting - Reviewed and discussed as a community In-Class** 
+- [ ] **2. Written Check-Ins** - Group-specific write-ups checked by instructor(s)**
+- [ ] **3. Advisory Meetings** - Group-specific in-person meetings between individual groups and instructor(s)**
+
 
 <br>
 
@@ -189,7 +188,7 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 
 2. Sample organizer for your In-class Project Work updates.
 
-<div class="boxy">
+
 |Course Week | Day 1 | Day 2
 |:--| --|-- | 
 |7| Round Table Data| |
@@ -199,9 +198,7 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 |11| Slidedeck Poster Review| Poster Review |
 |12| Science Talks| |
 |13| Final Presentations | |
-</div>
 
-<br>
 
 ### Written check-ins
 
@@ -209,14 +206,14 @@ Written check-ins encompass a written document for groups-instructor interaction
 
 1. For each group, instructor will create a text document **Doc** which will include the following sections:
 
-a. **Written Check-in** - Progress will be assessed through several written check-ins.  These documents will allow you to summarize the work you’ve done, receive feedback from colleagues, and provide another opportunity to ask for help.  Your check-in should be concise but complete (full sentences) and include the following information:
+**a. Written Check-in (Doc)** - Progress will be assessed through several written check-ins.  These documents will allow you to summarize the work you’ve done, receive feedback from colleagues, and provide another opportunity to ask for help.  Your check-in should be concise but complete (full sentences) and include the following information:
 
 - New progress since last submission (15 pts)
 - How you’ve addressed prior feedback (15 pts)
 - Poster organization (10 pts)
 - Struggles you are encountering and questions you would like advice on (10 pts)
 
-b. **Written Check-in (Poster)** - The second written check-in will focus on starting your poster using material you developed for your Round Table updates.  Posters should be 30 inches wide and we have provided a template with example two and three column formats.  You can make your own design by selecting the Blank layout.  Kickstart your poster by adding the following details:
+**b. Written Check-in (Poster)** - The second written check-in will focus on starting your poster using material you developed for your Round Table updates.  Posters should be 30 inches wide and we have provided a template with example two and three column formats.  You can make your own design by selecting the Blank layout.  Kickstart your poster by adding the following details:
 
 - Title and authors (10 pts)
 - Hypothesis along with diagram or figure (10 pts)
@@ -224,7 +221,7 @@ b. **Written Check-in (Poster)** - The second written check-in will focus on sta
 - Methods in the form of details and figure (10 pts)
 - Results (10 pts)
 
-c. **Peer Review** - Each person will work individually to peer review two separate projects.  Review the poster associated with each project and provide feedback in their Check-in document on the following:
+**c. Peer Review** - Each person will work individually to peer review two separate projects.  Review the poster associated with each project and provide feedback in group's Check-in document on the following:
 
 - Aspects of the project that you find fascinating
 - Questions you have about the approach or results
