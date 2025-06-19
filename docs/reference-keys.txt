@@ -304,7 +304,7 @@ instructions-56
 questions-38
 grading-criteria-19
 footnotes-26
-scientific-communication
+scientific-posters
 lecture-scientific-posters
 activity-scientific-posters
 activity-18
