@@ -252,7 +252,8 @@ footnotes-18
 project-work-organizer
 purpose-11
 round-table-data-troubleshooting
-group-information
+written-check-ins
+advisory-meetings
 footnotes-19
 galaxy-tutorials
 a-short-introduction-to-galaxy
