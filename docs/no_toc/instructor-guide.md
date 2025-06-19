@@ -32,7 +32,7 @@ The Microbial Mysteries course content was organized and presented by way of Uni
 |:--|:--|
 | Lecture: What's in your XYZ? | in-class|
 | Activity: Taxonomy Profiling Spreadsheet| Homework |
-| A short introduction to Galaxy| Homework|
+| Galaxy Tutorial: A short introduction to Galaxy| Homework|
 | Pre-lab: Scientific Literature | Homework|
 | Discussion: Scientific Literature | in-class|
 |Lecture: Scientific Literature| in-class|
@@ -40,9 +40,33 @@ The Microbial Mysteries course content was organized and presented by way of Uni
 |Presentation: Scientific Literature | in-class|
 <br>
 
+- **Week 3**
+
+| Unit 2: Microbial Genomes | Type| 
+|:--|:--|
+| Lecture: Microbial Genomes | in-class|
+| Pre-lab: Microbial Genomes| Homework |
+| Galaxy Tutorial: QC & Galaxy Workflows | Homework|
+| Discussion: Microbial Genomes | in-class|
+|Project: Microbial Genomes| Homework|
+|SciServer Tutorial: test-drive R | Homework|
+|Presentation: Microbial Genomes | in-class|
+<br>
 
 
+- **Week 4**
 
-
+| Unit 3: Taxonomy Profiling | Type| 
+|:--|:--|
+| Lecture: Taxonomy Profiling | in-class|
+| Pre-lab: Taxonomy Profiling| Homework |
+| Lecture: Possible Datasets| in-class|
+| Activity: Possible Datasets | in-class|
+| Galaxy Tutorial: Using dataset collections | Homework|
+| Discussion: Taxonomy Profiling | in-class|
+| Project: Taxonomy Profiling | Homework|
+| SciServer Tutorial: Meet R! Homework|
+| Presentation: Taxonomy Profiling Project| Homework |
+<br>
 
 
