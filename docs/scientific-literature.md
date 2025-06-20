@@ -2,14 +2,14 @@
 
 # Scientific Literature
 
-## Lecture: What’s in Your XYZ?
+## Lecture - What’s in Your XYZ?
 
 ![](scientific-literature_files/figure-docx//1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws_g35f391192_00.png)
 
 [Slides: What's in Your XYZ?](https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?usp=sharing)
 
 
-## Pre-lab: Scientific Literature
+## Pre-lab - Scientific Literature
 
 ### Purpose 
 
@@ -60,7 +60,7 @@ Download as Microsoft Word (.docx) and upload on Canvas
 - Frederick Tan, Johns Hopkins University
 
 
-## Discussion: Scientific Literature
+## Discussion - Scientific Literature
 
 ### Activity
 
@@ -80,13 +80,13 @@ b. Summarize -- Identify best answer and add to slidedeck
 3. Share group discussion (2 min each group)
 
 
-## Lecture: Scientific Literature
+## Lecture - Scientific Literature
 
 ![](scientific-literature_files/figure-docx//1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM_g35f391192_00.png)
 
 [Slides: Scientific Literature](https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?usp=sharing)
 
-## Activity: Scientific Literature
+## Activity - Scientific Literature
 
 ### Purpose
 
@@ -184,7 +184,7 @@ Determine the main objectives and purpose of the paper. Read the Abstract and th
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-## Presentation: Scientific Literature
+## Presentation - Scientific Literature
 
 ### Activity
 

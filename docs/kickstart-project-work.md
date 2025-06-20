@@ -2,14 +2,14 @@
 
 # Kickstart Project Work
 
-## Lecture: Kickstart Project Work
+## Lecture - Kickstart Project Work
 
 ![](resources/images/kickstart-project-work_files/figure-docx//1j1u4frdYt18nVmjMs6ZPRoP1KfXxognVUYG-2itH6kE_g35f391192_00.png)
 
 [Slides: Possible Datasets](https://docs.google.com/presentation/d/1j1u4frdYt18nVmjMs6ZPRoP1KfXxognVUYG-2itH6kE/edit?usp=sharing)
 
 
-## Activity: Kickstart Project Work
+## Activity - Kickstart Project Work
 
 ### Learning Objectives
 
