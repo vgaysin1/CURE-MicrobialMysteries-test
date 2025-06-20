@@ -2,7 +2,7 @@
 
 # Scientific Literature
 
-## Lecture - What’s in Your XYZ?
+## Lecture - What’s in Your XYZ
 
 ![](scientific-literature_files/figure-docx//1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws_g35f391192_00.png)
 

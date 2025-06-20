@@ -2,7 +2,7 @@
 
 # Introduction
 
-## Welcome to Your Genomics Adventure!
+## Welcome to Your Genomics Adventure
 
 [Slides: Welcome to Your Genomics Adventure!](https://docs.google.com/presentation/d/18hYo8xrYkyq3rG7RUy3n3-jWFK_JPs5NNW3HmM9HUeQ/edit?usp=sharing)
 
