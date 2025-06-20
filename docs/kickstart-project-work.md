@@ -157,11 +157,11 @@ Last Revised: June, 2025
 
 <br>
 
-::: info
+```
 - **1. Round Table Data & Troubleshooting** - Reviewed and discussed as a community In-Class 
 - **2. Written Check-Ins** - Group-specific write-ups checked by instructor(s)**
 - **3. Advisory Meetings** - Group-specific in-person meetings between individual groups and instructor(s)**
-:::
+```
 
 
 <br>
@@ -186,7 +186,7 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 
 2. Sample organizer for your In-class Project Work updates.
 
-
+```
 |Course Week | Day 1 | Day 2
 |:--| --|-- | 
 |7| Round Table Data| |
@@ -196,7 +196,7 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 |11| Slidedeck Poster Review| Poster Review |
 |12| Science Talks| |
 |13| Final Presentations | |
-
+```
 
 ### Written check-ins
 
@@ -231,6 +231,7 @@ Written check-ins encompass a written document for groups-instructor interaction
 
 - See sample organizer below for your Project Work updates. 
 
+```
 |Group | Check-in | Poster | Meeting #1 | Meeting # 2|
 |:--| :--| :-- | :-- | :-- | 
 |Group A| Doc | Slides | Date 1 | Date 2| 
@@ -238,7 +239,7 @@ Written check-ins encompass a written document for groups-instructor interaction
 |Group C| Doc | Slides | Date 1 | Date 2| 
 |Group D| Doc | Slides | Date 1 | Date 2| 
 <br>
-
+```
 
 ### Footnotes
 
