@@ -2,7 +2,7 @@
 
 # Scientific Literature
 
-## Lecture - What’s in Your XYZ?
+## Lecture - What’s in Your XYZ
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?slide=id.g35f391192_00#slide=id.g35f391192_00")
