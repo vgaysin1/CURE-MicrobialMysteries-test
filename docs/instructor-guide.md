@@ -23,8 +23,9 @@ The Microbial Mysteries course content was organized and presented by way of Uni
 
 Course content was organized broadly into 2 categories:
 
-1. Structured Units
-2. Researrch Modules
+1. Structured Units - on weekly basis
+2. Research Module - over the course of 7 weeks
+3. Professional Development Module - over the course of 4 weeks
 
 ### Structured Units 
 
@@ -36,7 +37,6 @@ Course content was organized broadly into 2 categories:
 | Create Accounts| Homework |
 | Lecture: The Scientific Process| in-class|
 | Post Introcuctions | Homework|
-<br>
 
 - **Week 2** - 2 classes a week
 
@@ -50,7 +50,6 @@ Course content was organized broadly into 2 categories:
 |Lecture: Scientific Literature| in-class|
 |Activity: Scientific Literature| Homework|
 |Presentation: Scientific Literature | in-class|
-<br>
 
 - **Week 3** - 2 classes a week
 
@@ -63,8 +62,6 @@ Course content was organized broadly into 2 categories:
 |Project: Microbial Genomes| Homework|
 |SciServer Tutorial: test-drive R | Homework|
 |Presentation: Microbial Genomes | in-class|
-<br>
-
 
 - **Week 4** - 2 classes a week
 
@@ -79,7 +76,6 @@ Course content was organized broadly into 2 categories:
 | Project: Taxonomy Profiling | Homework|
 | SciServer Tutorial: Meet R! Homework|
 | Presentation: Taxonomy Profiling Project| Homework |
-<br>
 
 - **Week 5** - 2 classes a week
 
@@ -104,13 +100,43 @@ Course content was organized broadly into 2 categories:
 | Round Table Data - slidedeck| in class |
 | Round Table Troubleshooting - slidedeck | in class |
 
-### Research Modules 
+### Research Module 
+
+- **Weeks 7-13** - 2 classes a week
 
 | Module: Project Work | Type|
 |:--|:--|
 | Project Work Organizer | Written Doc|
+| Written Check-in #1 | Written Doc|
+| Written Check-in # 2| Written Doc (Poster)|
+| Advisory Meeting # 1| Written Doc (Poster)|
+| Written Check-in # 3| Written Doc|
+| Peer-review # 1| Written Doc|
+| Advisory Meeting # 2| Written Doc (Poster)|
+| Written Check-in # 4| Written Doc|
+| Peer-review # 2| Written Doc|
+| Final Presentation | Poster Session|
+<br>
 
+Instructor and Students are encouraged to use this organizer to find instructions and track documents.
+- For setting up meeting times, we recommend using [when2meet](https://www.when2meet.com)
 
+```
+|Group | Check-in | Poster | Meeting #1 | Meeting # 2|
+|:--| :--| :-- | :-- | :-- | 
+|Group A| Doc | Slides | Date 1 | Date 2| 
+|Group B| Doc | Slides | Date 1 | Date 2| 
+|Group C| Doc | Slides | Date 1 | Date 2| 
+|Group D| Doc | Slides | Date 1 | Date 2| 
+```
+### Professional Development Module
 
-
-
+- **Weeks 9-13** 
+| Module: Project Work | Type|
+|:--|:--|
+| Activity: Science Talks | Homework|
+| Science Talks | Guest Lecture|
+| Activity: Science Talks | Homework|
+| Science Talks | Guest Lecture|
+| Activity: Scientific Communication | Homework|
+| Activity: Next Steps | Homework|

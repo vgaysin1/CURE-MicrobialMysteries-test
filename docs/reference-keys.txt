@@ -2,7 +2,8 @@ fig:unnamed-chunk-1
 course-description
 course-content
 structured-units
-research-modules
+research-module
+professional-development-module
 introduction
 welcome-to-your-genomics-adventure
 activity-create-accounts
