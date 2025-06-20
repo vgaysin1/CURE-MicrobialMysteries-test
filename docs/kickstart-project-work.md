@@ -167,14 +167,18 @@ Last Revised: June, 2025
 <br>
 
 **Project Work Organizer** - Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.
+
 <br>
 
+<mark style="background color: yellow">Use this organizer to find instructions and track documents.
 
 ### Round Table Data & Troubleshooting
 
 Research lab meetings are great forums to receive community analysis and feedback. In-class round table data and troubleshooting sessions and slidedecks will be used to report on and get feedback on your ongoing research. Consider these in-class project work updates your research lab meetings!
 
-1. Slidedecks to track and share your work and progress 
+#### Instructions
+
+**1. Track and share your work and progress using Slidedecks**
 
 a. Instructor will create a single Slidedeck - **Round Table Data** for all groups 
 
@@ -184,7 +188,7 @@ c. Instructor will create a single Slidedeck - **Poster** for all groups
 
 d. Instructor will create a single Slidedeck - **Final Presentation** for all groups
 
-2. Sample organizer for your In-class Project Work updates.
+**2. Use the following (sample) project Work organizer for your In-class Project Work updates.**
 
 ```
 |Course Week | Day 1 | Day 2
@@ -202,7 +206,11 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 
 Written check-ins encompass a written document for groups-instructor interaction, and will also be used for peer reviews. 
 
-1. For each group, instructor will create a text document **Doc** which will include the following sections:
+#### Instructions
+
+**1. Track and share your work and progress using test document**
+
+For each group, instructor will create a text document **Doc** which will include the following sections:
 
 **a. Written Check-in (Doc)** - Progress will be assessed through several written check-ins.  These documents will allow you to summarize the work you’ve done, receive feedback from colleagues, and provide another opportunity to ask for help.  Your check-in should be concise but complete (full sentences) and include the following information:
 
@@ -229,7 +237,9 @@ Written check-ins encompass a written document for groups-instructor interaction
 
 **Advisory Meeting** - Each group will schedule a meeting with the instructors to discuss their progress.  These meetings will take place outside of class and should be scheduled before the deadline.  A link to the when2meet schedule can be found in the Group Information section.
 
-- See sample organizer below for your Project Work updates. 
+### Sample project work organizer 
+
+With your instructor, during your Project Work, fill out the Project Work organizer below. 
 
 ```
 |Group | Check-in | Poster | Meeting #1 | Meeting # 2|
