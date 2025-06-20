@@ -3,7 +3,7 @@
 
 # Scientific Posters
 
-## Lecture: Scientific Posters
+## Lecture - Scientific Posters
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?slide=id.g35f391192_00#slide=id.g35f391192_00")
@@ -11,7 +11,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-
 
 [Slides: Finding AMRs](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
-## Activity: Scientific Posters
+## Activity - Scientific Posters
 
 ### Activity
 
@@ -187,7 +187,7 @@ Everyone in the group earns the same grade, so it is important to work together.
 
 Last Revised:
 
-## Activity: Share Your Poster
+## Activity - Share Your Poster
 
 ### Introduction
 
@@ -276,13 +276,13 @@ Last Revised: April 2025
 
 # Next Steps
 
-## Lecture: Next Steps
+## Lecture - Next Steps
 
 
 [Slides: Next Steps](https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit?usp=sharing)
 
 
-## Activity: Next Steps
+## Activity - Next Steps
 
 
 
