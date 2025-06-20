@@ -158,13 +158,11 @@ Last Revised: June, 2025
 <br>
 
 ```
-- **1. Round Table Data & Troubleshooting** - Reviewed and discussed as a community In-Class 
-- **2. Written Check-Ins** - Group-specific write-ups checked by instructor(s)**
-- **3. Advisory Meetings** - Group-specific in-person meetings between individual groups and instructor(s)**
+1. Round Table Data & Troubleshooting** - Reviewed and discussed as a community In-Class 
+2. Written Check-Ins** - Group-specific write-ups checked by instructor(s)
+3. Advisory Meetings** - Group-specific in-person meetings between individual groups and instructor(s)
 ```
 
-
-<br>
 
 **Project Work Organizer** - Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.
 
@@ -190,7 +188,7 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 
 **2. Use the following (sample) project Work organizer for your In-class Project Work updates.**
 
-```
+
 |Course Week | Day 1 | Day 2
 |:--| --|-- | 
 |7| Round Table Data| |
@@ -200,7 +198,7 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 |11| Slidedeck Poster Review| Poster Review |
 |12| Science Talks| |
 |13| Final Presentations | |
-```
+
 
 ### Written check-ins
 
@@ -241,15 +239,13 @@ For each group, instructor will create a text document **Doc** which will includ
 
 With your instructor, during your Project Work, fill out the Project Work organizer below. 
 
-```
+
 |Group | Check-in | Poster | Meeting #1 | Meeting # 2|
 |:--| :--| :-- | :-- | :-- | 
 |Group A| Doc | Slides | Date 1 | Date 2| 
 |Group B| Doc | Slides | Date 1 | Date 2| 
 |Group C| Doc | Slides | Date 1 | Date 2| 
 |Group D| Doc | Slides | Date 1 | Date 2| 
-<br>
-```
 
 ### Footnotes
 
