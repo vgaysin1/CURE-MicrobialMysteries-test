@@ -1,4 +1,6 @@
 fig:unnamed-chunk-1
+course-description
+course-content
 introduction
 welcome-to-your-genomics-adventure
 activity-create-accounts
@@ -343,5 +345,3 @@ footnotes-29
 next-steps
 lecture-next-steps
 activity-next-steps
-course-description
-course-content
