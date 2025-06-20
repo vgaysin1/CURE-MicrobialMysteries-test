@@ -3,7 +3,7 @@
 
 # Taxonomy Profiling
 
-## Activity: Taxonomy Profiling Spreadsheet
+## Activity - Taxonomy Profiling Spreadsheet
 
 ### Purpose
 
@@ -172,14 +172,14 @@ In this activity, repeat steps of the Activity 1 above, but now using [tax_data_
 
 Last Revised: January 2025
 
-## Lecture: Taxonomy Profiling
+## Lecture - Taxonomy Profiling
 
 <img src="resources/images/taxonomy-profiling_files/figure-html//10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY_g35f391192_00.png" width="480" />
 
 [Slides: Taxonomy Profiling](https://docs.google.com/presentation/d/10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY/edit?usp=sharing)
 
 
-## Prelab: Taxonomy Profiling
+## Prelab - Taxonomy Profiling
 
 ### Purpose
 
@@ -206,7 +206,7 @@ To find out which microorganisms are present in the sample, it is important to h
 
 *Estimated time: 50 min*
 
-#### Activity 1 - Part I: Import dataset into Galaxy
+#### Activity 1 - Part I - Import dataset into Galaxy
 
 *Estimated time: 15 min*
 
@@ -243,7 +243,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 |Line 4:| 
 <break>
 
-#### Activity 1 - Part II: Run Nanoplot in Galaxy to assess sequence quality
+#### Activity 1 - Part II - Run Nanoplot in Galaxy to assess sequence quality
 
 *Estimated time: 15 min*
 
@@ -281,7 +281,7 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 <br>  
 
 
-#### Activity 1 - Part III: View NanoPlot Results in Galaxy
+#### Activity 1 - Part III - View NanoPlot Results in Galaxy
 
 *Estimated time: 15 min*
 
@@ -327,7 +327,7 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 *Estimated time: 50 min*
 
-#### Activity 2 - Part I: Run ‘Taxonomy Profiling’ workflow in Galaxy
+#### Activity 2 - Part I - Run ‘Taxonomy Profiling’ workflow in Galaxy
 
 *Estimated time: 15 min*
 
@@ -369,7 +369,7 @@ b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 <br>
 
 
-#### Activity 2 - Part II: View Kraken2 results
+#### Activity 2 - Part II - View Kraken2 results
 
 *Estimated time: 15 min*
 
@@ -489,7 +489,7 @@ Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an int
 Last Revised: May 2025
 
 
-## Discussion: Taxonomy Profiling
+## Discussion - Taxonomy Profiling
 
 ### Activity
 
@@ -521,7 +521,7 @@ Last Revised: February 2025
 
 
 
-## Project: Taxonomy Profiling
+## Project - Taxonomy Profiling
 
 ### Purpose
 
@@ -553,7 +553,7 @@ Note, that you can save time by 1) submitting multiple jobs that use the same in
 
 *Estimated time: 50 min*
 
-#### Activity 1 - Part I: Import data and run NanoPlot 
+#### Activity 1 - Part I - Import data and run NanoPlot 
 
 #### Instructions
 
@@ -596,7 +596,7 @@ c. Click on **Run Tool** and wait ~10 minutes as the NanoPlot job is scheduled, 
 | | 
 <br>
 
-#### Activity 1 - Part II: Quality filtering with fastp
+#### Activity 1 - Part II - Quality filtering with fastp
 
 #### Instructions
 
@@ -628,7 +628,7 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 
 *Estimated time: 50 min (~35 min computing)*
 
-#### Activity 2 - Part I: Run Taxonomy Profiling Workflow
+#### Activity 2 - Part I - Run Taxonomy Profiling Workflow
 
 #### Instructions
 
@@ -721,7 +721,7 @@ d. In new column C, calculate % abundance for each row by dividing each count va
 <br>
 
 
-#### Activity 2 - Part II: Analyze Kraken2 results
+#### Activity 2 - Part II - Analyze Kraken2 results
 
 #### Instructions
 
@@ -751,7 +751,7 @@ d. In new column C, calculate % abundance for each row by dividing each count va
 ||
 <br>
 
-#### Activity 2 - Part III: Krona Pie Chart
+#### Activity 2 - Part III - Krona Pie Chart
 
 #### Instructions
 
@@ -810,7 +810,7 @@ c. Answer questions below
 Last Revised: May 2025
 
 
-## Presentation: Taxonomy Profiling
+## Presentation - Taxonomy Profiling
 
 ### Activity
 

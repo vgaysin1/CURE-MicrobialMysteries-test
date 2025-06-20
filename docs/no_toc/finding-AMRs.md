@@ -2,13 +2,13 @@
 
 # Finding AMRs
 
-## Lecture: Finding AMRs
+## Lecture - Finding AMRs
 
 <img src="resources/images/finding-AMRs_files/figure-html//165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw_g35f391192_00.png" width="480" />
 
 [Slides: Finding AMRs](https://docs.google.com/presentation/d/165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw/edit?usp=sharing)
 
-## Pre-lab: Finding AMRs
+## Pre-lab - Finding AMRs
 
 ### Purpose
 
@@ -260,7 +260,7 @@ Last Revised: May 2025
 
 
 
-## Discussion: Finding AMRs
+## Discussion - Finding AMRs
 
 ### Activity
 
@@ -282,7 +282,7 @@ b. Summarize -- Identify best answer and add to slidedeck
 3. Share group discussion (2 min each group)
 
 
-## Project: Finding AMRs
+## Project - Finding AMRs
 
 ### Purpose
 
@@ -599,7 +599,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 Last Revised: June 2025
 
 
-## Presentation: Finding AMRs
+## Presentation - Finding AMRs
 
 ### Activity
 

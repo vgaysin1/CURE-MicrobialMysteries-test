@@ -6,7 +6,7 @@
 
 [Slides: Welcome to Your Genomics Adventure!](https://docs.google.com/presentation/d/18hYo8xrYkyq3rG7RUy3n3-jWFK_JPs5NNW3HmM9HUeQ/edit?usp=sharing)
 
-## Activity: Create Accounts
+## Activity - Create Accounts
 
 ### Purpose
 
@@ -80,7 +80,7 @@ Last Revised: January 2025
 
 [Slides: The Scientic Process](https://docs.google.com/presentation/d/1VQE-rXASXIdf8rWLP5UTcrAhM_DcznARVigPTHTfw8M/edit?usp=sharing)
 
-## Homework: Post Introductions
+## Homework - Post Introductions
 
 ### Purpose
 

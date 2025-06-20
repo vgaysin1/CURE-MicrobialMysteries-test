@@ -2,13 +2,13 @@
 
 # Microbial Genomes
 
-## Lecture: Microbial Genome
+## Lecture - Microbial Genome
 
 <img src="resources/images/microbial-genomes_files/figure-html//1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU_g35f391192_00.png" width="480" />
 
 [Slides: Microbial Genomes](https://docs.google.com/presentation/d/1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU/edit?usp=sharing)
 
-## Pre-lab: Microbial Genomes
+## Pre-lab - Microbial Genomes
 
 ### Purpose
 
@@ -255,7 +255,7 @@ b) On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus t
 Last Revised: February 2025
 
 
-## Discussion: Microbial Genomes
+## Discussion - Microbial Genomes
 
 
 ### Activity 
@@ -284,7 +284,7 @@ b. Summarize -- Identify best answer and add to slidedeck [here](https://docs.go
 Last Revised: February 2025
 
 
-## Project: Microbial Genomes
+## Project - Microbial Genomes
 
 ### Purpose
 
@@ -300,7 +300,7 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 *Estimated time: [40] min*
 
-#### Activity 1 - Part I: Explore a MAG
+#### Activity 1 - Part I - Explore a MAG
 
 #### Instructions 
 
@@ -376,7 +376,7 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 |<br>|
 
 
-#### Activity 1 - Part II: Explore a Contig
+#### Activity 1 - Part II - Explore a Contig
 
 #### Instructions
 
@@ -406,7 +406,7 @@ b) Find Lineage information. Full Lineage information contains 7 core taxonomy r
 |<br>|
 
 
-#### Activity 1 - Part III: Visualize contig in a tree of life
+#### Activity 1 - Part III - Visualize contig in a tree of life
 
 #### Introduction
 
@@ -547,7 +547,7 @@ Use any tools available at your disposal to follow up on your MAG and gene of in
 Last Revised: May 2025
 
 
-## Presentation: Microbial Genomes
+## Presentation - Microbial Genomes
 
 ### Activity
 
