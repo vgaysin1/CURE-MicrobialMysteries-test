@@ -19,7 +19,7 @@ Below is a sampling of some discussion forums that you may find useful:
 - [help.c-moor.org](https://help.c-moor.org){target="_blank"} for help with and example miniCUREs
 - [help.galaxyproject.org](https://help.galaxyproject.org){target="_blank"} for all things Galaxy
 - [support.bioconductor.org](https://support.bioconductor.org){target="_blank"} for all things R/Bioconductor
-- [help.anvilproject.org](https://help.anvilproject.org){target="_blank"} for interactions with the GDSCN BioDIGS consotrium
+- [help.anvilproject.org](https://help.anvilproject.org){target="_blank"} for interactions with the GDSCN BioDIGS consortium [https://biodigs.org/#home](https://biodigs.org/#home)
 
 ![](Appendix_files/figure-docx//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_16.png)
 
