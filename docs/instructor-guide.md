@@ -107,19 +107,20 @@ Course content was organized broadly into 2 categories:
 <br>
 
 Instructor and Students are encouraged to use this organizer to find instructions and track documents.
+
 - For setting up meeting times, we recommend using [when2meet](https://www.when2meet.com)
 
-```
 |Group | Check-in | Poster | Meeting #1 | Meeting # 2|
 |:--| :--| :-- | :-- | :-- | 
 |Group A| Doc | Slides | Date 1 | Date 2| 
 |Group B| Doc | Slides | Date 1 | Date 2| 
 |Group C| Doc | Slides | Date 1 | Date 2| 
 |Group D| Doc | Slides | Date 1 | Date 2| 
-```
+
 ### Professional Development Module
 
 - **Weeks 9-13** 
+
 | Module: Project Work | Type|
 |:--|:--|
 | Activity: Science Talks | Homework|
