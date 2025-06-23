@@ -351,3 +351,5 @@ footnotes-29
 next-steps
 lecture---next-steps
 activity---next-steps
+c-moor-scholars
+online-community
