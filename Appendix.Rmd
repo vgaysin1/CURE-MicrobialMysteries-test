@@ -1,6 +1,6 @@
 # (PART\*) APPENDIX {-}
 
-## C-MOOR Scholars
+# C-MOOR Scholars
 
 Share your interests via C-MOOR Scholars Interest Form and learn how C-MOOR community can support you.
 
@@ -10,7 +10,7 @@ Meet the C-MOOR Scholars and learn how you can support them
 
 - [https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html)
 
-## Online Community
+# Online Community
 
 The genomic data science community is a remarkably open community that continually strives to increase opportunitites and broaden access to the scientific enterprise (e.g. [GDSCN 2022](https://pubmed.gov/35858750){target="_blank"}).
 There are many opportunities to interact online with scientists that share a common research question, career stage, or even favorite tool!
