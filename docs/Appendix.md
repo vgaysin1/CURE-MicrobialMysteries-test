@@ -1,0 +1,17 @@
+# (PART\*) APPENDIX {-}
+
+## C-MOOR Scholars
+
+Share your interests via C-MOOR Scholars Interest Form and learn how C-MOOR community can support you.
+
+- [https://docs.google.com/forms/d/1GJDpfG28k2utCVVcRXQraE-1coLS_GCX83irUyio9KE/edit](https://docs.google.com/forms/d/1GJDpfG28k2utCVVcRXQraE-1coLS_GCX83irUyio9KE/edit)
+
+Meet the C-MOOR Scholars and learn how you can support them
+
+- [https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html)
+
+## Online Community
+
+Join the discussion, ask a question, share your work and more
+
+- [https://help.c-moor.org](https://help.c-moor.org]
