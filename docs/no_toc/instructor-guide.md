@@ -137,7 +137,7 @@ The activities in this CURE address several core concepts and competencies as id
   - [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
   - [Genetics Learning Framework](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
   - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
-- [Establishing a baseline of science communication skills in an undergraduate environmental science course}(https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-021-00304-0)
+- [Establishing a baseline of science communication skills in an undergraduate environmental science course](https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-021-00304-0)
 
 
 |**Genetics**|
@@ -147,12 +147,11 @@ The activities in this CURE address several core concepts and competencies as id
 | - Generate testable hypotheses|
 | - Generate and interpret graphs displaying experimental results|
 | - Critique data and datasets and use bioinformatics to assess genetics data|
-| 
-|**Bioinformatics**|
-|- Explain the role of computation in addressing hypothesis-driven and hypothesis-generating questions within the life sciences|
 | <br>|
+|**Bioinformatics**|
+| - Explain the role of computation in addressing hypothesis-driven and hypothesis-generating questions within the life sciences|
 | - Develop bioinformatics core competencies for undergraduate life sciences education| 
-|- Use bioinformatics tools to examine complex biological problems in genetics, evolution, information flow, and other important areas of biology|
+| - Use bioinformatics tools to examine complex biological problems in genetics, evolution, information flow, and other important areas of biology|
 | - Find, retrieve, and organize various types of biological data |
 | use bioinformatics tools to analyze genomic and/or metagenomic data | 
 | - Explore and/or model biological interactions and networks a using bioinformatics|
