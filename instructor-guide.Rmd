@@ -129,3 +129,35 @@ Instructor and Students are encouraged to use this organizer to find instruction
 | Science Talks | Guest Lecture|
 | Activity: Scientific Communication | Homework|
 | Activity: Next Steps | Homework|
+
+## Core Competencies
+
+The activities in this CURE address several core concepts and competencies as identified by professional societies and working groups.  The table below lists the relevant core concepts and competencies adopted from the following sources:
+
+  - [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
+  - [Genetics Learning Framework](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
+  - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
+- [Establishing a baseline of science communication skills in an undergraduate environmental science course}(https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-021-00304-0)
+
+
+|**Genetics**|
+| :--|
+| - Locate, read, and comprehend primary literature research papers on genetics topics|
+| - Implement observational strategies to formulate a question|
+| - Generate testable hypotheses|
+| - Generate and interpret graphs displaying experimental results|
+| - Critique data and datasets and use bioinformatics to assess genetics data|
+| 
+|**Bioinformatics**|
+|- Explain the role of computation in addressing hypothesis-driven and hypothesis-generating questions within the life sciences|
+| <br>|
+| - Develop bioinformatics core competencies for undergraduate life sciences education| 
+|- Use bioinformatics tools to examine complex biological problems in genetics, evolution, information flow, and other important areas of biology|
+| - Find, retrieve, and organize various types of biological data |
+| use bioinformatics tools to analyze genomic and/or metagenomic data | 
+| - Explore and/or model biological interactions and networks a using bioinformatics|
+| <br>|
+|**Scientific Communication**|
+| - Communicate experimental results effectively, including written summaries, verbal presentations and poster presentation|
+| - Understand Essential Elements for Effective Science Communication (EEES) such as Who? (is the audience), Why? (e.g. Purpose), What? (content) and How? (e.g. style).
+| <br>|
