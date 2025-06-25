@@ -1,5 +1,7 @@
 fig:unnamed-chunk-1
 course-description
+format
+course-goals
 course-content
 structured-units
 research-module
