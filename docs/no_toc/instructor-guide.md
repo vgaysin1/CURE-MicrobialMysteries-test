@@ -140,8 +140,12 @@ The activities in this CURE address several core concepts and competencies as id
 - [Establishing a baseline of science communication skills in an undergraduate environmental science course](https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-021-00304-0)
 
 
-|**Genetics**|
+|**Critical Thinking**|
 | :--|
+| - add a point|
+| - add another point
+<|<br>| 
+|**Genetics**|
 | - Locate, read, and comprehend primary literature research papers on genetics topics|
 | - Implement observational strategies to formulate a question|
 | - Generate testable hypotheses|
@@ -160,3 +164,11 @@ The activities in this CURE address several core concepts and competencies as id
 | - Communicate experimental results effectively, including written summaries, verbal presentations and poster presentation|
 | - Understand Essential Elements for Effective Science Communication (EEES) such as Who? (is the audience), Why? (e.g. Purpose), What? (content) and How? (e.g. style).
 | <br>|
+
+## What to know?
+
+As an instructor, what do I have to know to teach this course?
+
+## Where to get help?
+
+As an instructor, where can I get help in teaching this course?

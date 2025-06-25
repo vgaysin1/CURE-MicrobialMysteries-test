@@ -7,6 +7,8 @@ structured-units
 research-module
 professional-development-module
 core-competencies-1
+what-to-know
+where-to-get-help
 introduction
 welcome-to-your-genomics-adventure
 activity---create-accounts
