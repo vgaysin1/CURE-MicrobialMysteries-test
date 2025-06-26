@@ -166,7 +166,7 @@ The activities in this CURE address several core concepts and competencies as id
 | - Understand Essential Elements for Effective Science Communication (EEES) such as Who? (is the audience), Why? (e.g. Purpose), What? (content) and How? (e.g. style).
 | <br>|
 
-## What to know?
+## What to know
 
 As an instructor, 
 
@@ -175,7 +175,7 @@ As an instructor,
 - I am not a genomics expert, can I do it?
 - I don't know coding, can I do it?
 
-## Where to get help?
+## Where to get help
 
 - Ask C-MOOR community for help [https://help.c-moor.org]
 
