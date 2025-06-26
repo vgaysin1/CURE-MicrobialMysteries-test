@@ -9,7 +9,7 @@ The Microbial Mysteries course content was organized and presented by way of Uni
 
 <br>
 
-Course content was organized broadly into 2 categories:
+Course content was organized broadly into 3 categories:
 
 1. Structured Units - on weekly basis
 2. Research Module - over the course of 7 weeks
@@ -168,8 +168,15 @@ The activities in this CURE address several core concepts and competencies as id
 
 ## What to know?
 
-As an instructor, what do I have to know to teach this course?
+As an instructor, 
+
+- What do I have to know to teach this course?
+- What level do I need to be at?
+- I am not a genomics expert, can I do it?
+- I don't know coding, can I do it?
 
 ## Where to get help?
+
+- Ask C-MOOR community for help [https://help.c-moor.org]
 
 As an instructor, where can I get help in teaching this course?
