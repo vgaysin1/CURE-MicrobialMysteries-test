@@ -25,7 +25,7 @@ Microorganisms surround us, from the microbes in our soil to the bacteria in our
 
 <br> 
 
-This course progresses through a series of Core Labs that introduce important concepts and tools in big data, genomics and data sciencnece necessary to complete a Capstone Project. 
+This course progresses through a series of in-person and online learning experiences that introduce important concepts and tools in data analysis and genomics, necessary to subsequently complete a Capstone Project. 
 Students work in groups and present frequently during class periods similar to research lab meetings in order to receive and provide community analysis and feedback.  
 This course is open to all students, regardless of major.  No prior computational experience necessary.
 
@@ -63,10 +63,11 @@ This course is a combination of:
 
 ## Course Goals
 
-- **Navigate biological databases to access the wealth of available scientific knowledge and data.
-- **Learn to analyze data and gain computational and bioinformatics skills for genomics data analysis**.
-- **Practice the scientific process and critical thinking**, learing to read and understand scientific literature, identifying avenues for research, designing experiments, analyzing and interpreting data, and integrating results into the broader scientific discourse.
-- **Gain scientific research skills** using existing datasets to ask new questions and generate novel conclusions.
+- **Navigate biological databases** - access the wealth of publically available scientific knowledge and data (e.g. NCBI).
+- **Analyze Big Data** - e.g. plot and interpret results from next generation sequencing (NGS) experiment.
+- **Gain skills in computational and bioinformatics data analysis** - e.g. web-based platforms or command-line bioingofmatics tools (e.g. Galaxy, R).
+- **Practice the scientific process and critical thinking** -  learing to read and evaluate scientific literature, ask questions, identify avenues for research, design experiments, analyze and interpret data, and integrating results into the broader scientific discourse.
+- **Engage in scientific research** - Apply knowledge and skills learned to complete a project using existing datasets to ask new questions, generate novel conclusions and create and present a Final Poster.
 
 
 ## Vision and Change
