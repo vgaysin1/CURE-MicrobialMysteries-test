@@ -25,7 +25,9 @@ Microorganisms surround us, from the microbes in our soil to the bacteria in our
 
 <br> 
 
-This course progresses through a series of Core Labs that introduce important concepts and tools necessary to complete a Capstone Project.  Students work in groups and present frequently during class periods similar to research lab meetings in order to receive and provide community analysis and feedback.  This course is open to all students, regardless of major.  No prior computational experience necessary.
+This course progresses through a series of Core Labs that introduce important concepts and tools in big data, genomics and data sciencnece necessary to complete a Capstone Project. 
+Students work in groups and present frequently during class periods similar to research lab meetings in order to receive and provide community analysis and feedback.  
+This course is open to all students, regardless of major.  No prior computational experience necessary.
 
 <br>
 
@@ -52,7 +54,7 @@ This course is offered to any undergraduate student, with freshmen especially en
 
 This course is a combination of:
 - Lectures
-- Pre-labs (homework)
+- Pre-labs and other homework assignments
 - Activities (homework or in-class)
 - On-line tutorials
 - Discussions
