@@ -3,11 +3,12 @@ course-description
 format
 course-goals
 vision-and-change
+available-course-formats
 course-content
 structured-units
 research-module
 professional-development-module
-core-competencies-1
+core-competencies
 what-to-know
 where-to-get-help
 introduction
