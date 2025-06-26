@@ -2,6 +2,7 @@ fig:unnamed-chunk-1
 course-description
 format
 course-goals
+vision-and-change
 course-content
 structured-units
 research-module

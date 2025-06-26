@@ -69,8 +69,10 @@ This course is a combination of:
 - **Gain scientific research skills** using existing datasets to ask new questions and generate novel conclusions.
 
 
+## Vision and Change
 
-
+This course addresses the change in vision of undergraduate science education by teaching through research experience, or Course-based Undergraduate Research Experiences (CUREs). 
+This CURE is a genomic data science research experience with the curriculum that supports [Vision and Change](https://nabt.org/files/galleries/Vision-and-Change-Final-Report.pdf) national report that aims to improve and modernize undergraduate science education.  
 
 
 ### Core Competencies {- .unlisted}
