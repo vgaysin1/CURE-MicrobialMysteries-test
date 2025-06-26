@@ -327,7 +327,7 @@ activity-18
 instructions-59
 grading-criteria-20
 footnotes-27
-group-poster
+making-group-poster
 introduction-17
 part-1---choose-a-template
 part-2---make-an-academic-research-poster
