@@ -134,7 +134,7 @@ Instructor and Students are encouraged to use this organizer to find instruction
 
 The activities in this CURE address several core concepts and competencies as identified by professional societies and working groups.  The table below lists the relevant core concepts and competencies adopted from the following sources:
 
-  - [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
+  - [Scientific Thinking and Critical Thinking in Science Education](https://doi.org/10.1007/s11191-023-00460-5)
   - [Genetics Learning Framework](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
   - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
 - [Establishing a baseline of science communication skills in an undergraduate environmental science course](https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-021-00304-0)
@@ -142,9 +142,10 @@ The activities in this CURE address several core concepts and competencies as id
 
 |**Critical Thinking**|
 | :--|
-| - add a point|
-| - add another point
-<|<br>| 
+| - Enhancing higher-order cognitive skills that go beyond memorization|
+| - Solve problems using quantitative and qualitative information and analysis|
+| - Promote scientific evidence-based thinking and active learning|
+|<br>| 
 |**Genetics**|
 | - Locate, read, and comprehend primary literature research papers on genetics topics|
 | - Implement observational strategies to formulate a question|
