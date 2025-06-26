@@ -54,11 +54,15 @@ c. **Support** – Two or three suggestions on how the poster could be improved.
 
 Last Revised: February 2025
 
-## Group Poster 
+## Making Group Poster 
 
 ### Introduction
 
-An important part of scientific research is presenting your findings. This might be in the form of a peer-reviewed journal article or a more informal poster presentation at a conference or symposium. In this assignment, students will work with their groups to put together their work from the C-MOOR Labs into a Digital Poster.
+An important part of scientific research is presenting your findings. This might be in the form of a peer-reviewed journal article or a more informal poster presentation at a conference or symposium. In completion of their project work, students will work with their groups to put together a Digital Poster.
+
+Academic posters are widely used, typically in academic conferences, as a way to summarize and concisely present information in order to generate a larger discussion.
+These posters are usually a mixture of brief text mixed with tables, graphs, pictures, etc. When these posters are presented at conferences, the poster author(s) stand with the poster while other conference attendees come by and view the presentation and have the opportunity to comment and ask the poster author(s) questions.
+
 
 ### Part 1 - Choose a Template
 
@@ -75,21 +79,30 @@ An important part of scientific research is presenting your findings. This might
 
 ### Part 2 - Make an Academic Research Poster
 
-1. Complete the following components of your research poster with your group. You might not do them in this order, but these are the components you are being graded on. For more details on each of these sections and their role in a scientific paper, see the Scientific Literature Lab.
+Complete the following components of your research poster with your group. You might not do them in this order, but these are the components you are being graded on. For more details on each of these sections and their role in a scientific paper, see the Scientific Literature Lab.
+
 
 #### Title, Authors and Affiliations
 
-Your poster should include: (1) a title for your work, (2) authors who contributed to the work and (3) author affiliations. Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  For us, the affiliation would be “Department of Biology, Clovis Community College, California, United States.”
+Your poster should include: 
+
+1. **Title** - this is a title for your work. Keep it short and make it catchy!
+
+2. **Authors** - who contributed to the work. Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. 
+
+- Note, that in academic research lab settings, authors would be usually listed in order of how much work they contributed to the project, with the leader of the research team, or Principal Investigator (PI), being the last author. 
+
+3. **Author affiliations** - The author’s affiliation is the university, college, research institution or company that the work was conducted at.   
 
 #### Abstract
 
-An abstract is a concise summary of your paper. An effective abstract will inform the reader of the scientific hypothesis being tested, the purpose, or “why”, of the study, the main methods, important results and conclusions in only **one paragraph**. When writing an abstract for a publication or presentation, there is always a maximum word or character count. For your poster, your abstract can have a **maximum length of 200 words**. Many scientists choose to write the abstract last.
+An abstract is a concise summary of your paper. An effective abstract will inform the reader of the scientific hypothesis being tested, the purpose, or “why”, of the study, the main methods, important results and conclusions in only **one paragraph**. When writing an abstract for a publication or presentation, there is always a maximum word or character count. For your poster, aim for your abstract to have a **maximum length of 200 words**. Many scientists choose to write the abstract last.
 
 Different fields of science have slightly different requirements and formats for abstracts. Here is a general guideline:
 
-- Background: In one sentence, introduce your work. An effective introduction tells the reader what is known in the field (context) and identifies the gap of knowledge being addressed in the paper.
-- Methods and Results: This section should be the longest part of your abstract, but no more than two or three sentences. This section is arguably the most important part of the abstract, because other scientists seek out a paper when they are interested in the results. The details for your methods will be contained in your paper, so in your abstract you can keep it brief. For your results, pick out the most important results and summarize them. Depending on your research, you may want to address the methods and results separately, but often they are intertwined (e.g. the example abstract below).
-- Conclusions: In one sentence, concisely state what you learned from your research.
+- **Background**: In one sentence, introduce your work. An effective introduction tells the reader what is known in the field (context) and identifies the gap of knowledge being addressed in the paper.
+- **Methods and Results**: This section should be the longest part of your abstract, but no more than two or three sentences. This section is arguably the most important part of the abstract, because other scientists seek out a paper when they are interested in the results. The details for your methods will be contained in your paper, so in your abstract you can keep it brief. For your results, pick out the most important results and summarize them. Depending on your research, you may want to address the methods and results separately, but often they are intertwined (e.g. the example abstract below).
+- **Conclusions**: In one sentence, concisely state what you learned from your research.
 
 #### Introduction
 
@@ -136,6 +149,13 @@ Online article only:
 
 To save space on our posters, we will number our references 1 through 5 and use the numbers as citations throughout the text of your poster.
 
+You need to cite when you...
+
+- Use or refer to someone else’s words or ideas
+- Copy the exact words or a “unique phrase”
+- Reprint diagrams, illustrations, charts, pictures, videos, music
+
+
 ### Part 3 - Proofread and Add Final Touches
 
 *Estimated time: 30 min to an hour*
@@ -175,17 +195,20 @@ Everyone in the group earns the same grade, so it is important to work together.
 
 ### Footnotes
 
+
 #### Resources
 
 - [Google Doc]
+- How to make an Academic Poster [https://cloviscollege.libguides.com/biology11A/citation](https://cloviscollege.libguides.com/biology11A/citation)
 
 #### Contributions and Affiliations
 
 - Stephanie R. Coffman, Clovis Community College
+- Rosa
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised:
+Last Revised: June 2025
 
 ## Activity - Share Your Poster
 
