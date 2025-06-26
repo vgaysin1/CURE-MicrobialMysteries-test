@@ -2,7 +2,7 @@
 
 # SciServer Tutorials
 
-## Meet R!
+## Meet R
 
 ### Introduction
 
