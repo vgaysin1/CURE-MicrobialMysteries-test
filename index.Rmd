@@ -84,7 +84,7 @@ This CURE is a genomic data science research experience with the curriculum that
      - **4**: Ability to communicate and collaborate with other disciplines
      - **5**: Ability to understand the relationship between science and society
 
-
+<!-- 
 ### C-MOOR Content Collection {- .unlisted}
 
 ```{r, echo = FALSE, results='asis'}
@@ -93,7 +93,7 @@ cow::borrow_chapter(
   repo_name = "C-MOOR/C-MOOR_Template"
 )
 ```
-
+-->
 
 ## Available course formats
 
