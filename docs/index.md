@@ -1,6 +1,6 @@
 ---
 title: "CURE: Microbial Mysteries"
-date: "June 26, 2025"
+date: "June 27, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -81,12 +81,12 @@ This CURE is a genomic data science research experience with the curriculum that
      - **4**: Ability to communicate and collaborate with other disciplines
      - **5**: Ability to understand the relationship between science and society
 
-
+<!-- 
 ### C-MOOR Content Collection {- .unlisted}
 
 
 This content is part of a collection of teaching resources developed by C-MOOR.  C-MOOR works to break down barriers to scientific participation and build pathways for the next generation of data scientists through authentic research experiences.  Learn more about C-MOOR by [viewing our projects](https://github.com/c-moor), or read about how C-MOOR is [integrating research experience into undergraduate biology courses](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html) at Clovis Community College.
-
+-->
 
 ## Available course formats
 

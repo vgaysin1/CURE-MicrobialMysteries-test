@@ -5,7 +5,7 @@
 
 # Scientific Posters
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362823fe47a_0_72.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362823fe47a_0_72.png){width=100%}
 
 In this section we will go over how to create a scientific poster. We chose a poster as our final deliverable in C-MOOR because they:
 
@@ -16,10 +16,11 @@ In this section we will go over how to create a scientific poster. We chose a po
 
 - **Can easily be shared digitally**: A presentation can't be repeated twice without a recording, and each recording can take up a lot of digital storage. A poster on the other hand, is a great compressed product that can be posted on a student's (or the institution's) social media and help get their work seen by others. Posters are even small enough that they can be attached to an email and sent to prospective supervisors and collaborators interested in a quick summary of their work. See our [Look at This!](https://help.c-moor.org/c/look-at-this/) category on the C-MOOR Academy Discussion Forum to see all the posters students have created and shared so far!
 
-- **Posters can be used to measure student achievement and understanding**: We have previously used these posters to evaluate student learning, even years after students have left the classroom. Check out our [poster on posters!](https://drive.google.com/file/d/1kK6FBBLbHiAAsTUgxwzHRlK1qCo__eCy/view?usp=sharing).
+- **Posters can be used to measure student achievement and understanding**: We have previously used these posters to evaluate student learning, even years after students have left the classroom. Check out our [poster on posters!](https://drive.google.com/file/d/1kK6FBBLbHiAAsTUgxwzHRlK1qCo__eCy/view?usp=sharing)
 
 
 ## Lecture - Scientific Posters
+
 
 [Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
@@ -67,11 +68,11 @@ Last Revised: February 2025
 
 ## Group Poster 
 
-### Introduction
+### Preparing to make a poster
 
 An important part of scientific research is presenting your findings. This might be in the form of a peer-reviewed journal article or a more informal poster presentation at a conference or symposium. In this assignment, students will work with their groups to put together their work from the C-MOOR Labs into a research poster.
 
-Although the same information is in a poster, prsentation, and a paper, each format requires a vastly different approach!
+Although the same information is in a poster, presentation, and a paper, each format requires a vastly different approach!
 
 Here's an example of a [poster](https://drive.google.com/file/d/13EHQmlryoGs9yqTuOmGgU1064D2q937L/view?usp=sharing), [a presentation](https://drive.google.com/file/d/1gtkCgwE1Q_zM0IkrnJxfdYF2U8v15J_2/view?usp=sharing), and a [paper](https://drive.google.com/file/d/1f9akqYSxq4CO3w3pehEmG0TVzMicsOVc/view?usp=sharing) all from the same study. 
 
@@ -103,7 +104,7 @@ Notice these posters are sized at 36 x 42 inches, but there are many other commo
 
 #### The header: title, authors, and affiliations
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_11.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_11.png){width=100%}
 
 Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  An example affiliation for Clovis Community College would be: “Department of Biology, Clovis Community College, California, United States.” If multiple institutions exist, you will need to use superscript to denote who has what affiliation (see the example poster).
 
@@ -126,7 +127,7 @@ We will include the C-MOOR logo, the logo of your institution(s), and the most i
 
 #### Abstract
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_18.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_18.png){width=100%}
 
 An abstract is a concise summary of your paper. An effective abstract will inform the reader of the scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. You may notice that not all posters online contain and abstract; different fields of science have slightly different requirements and formats for abstracts. 
 
@@ -140,7 +141,7 @@ An abstract is a concise summary of your paper. An effective abstract will infor
 
 #### Introduction
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_21.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_21.png){width=100%}
 
 
 A good introduction section should do two things. First, it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. Second, it should identify your scientific question and hypothesis. Usually, the introduction starts broadly, describing the work of other scientists. It is important to summarize this work (do not quote) and to properly cite the work.
@@ -165,7 +166,7 @@ Check that:
 
 #### Materials and Methods
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_27.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_27.png){width=100%}
 The materials and methods section will detail your analysis of the data. Don’t provide any of your results, just the methods. If you did not generate the data yourself from raw samples, you will simply cite the paper that made them instead of detailing their construction. We will also need to list any programs we used and provide credit to their creators.
 
 Some other things you might include would be what type of analysis you decided to do (which parts of the body parts you analyzed, sets of genes, what p-value you used, etc.).
@@ -179,7 +180,7 @@ Some other things you might include would be what type of analysis you decided t
 
 
 #### Results
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_24.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_24.png){width=100%}
 The Results section is where you will detail your data primarily through figures and tables, though sometimes written text is included. Begin by creating your tables and figures. Place the figures and tables in order of how you want to present them and name them such as Figure 1, Figure 2, Table 1, Table 2, etc. 
 
 Every figure and table must have a legend that goes with it in a smaller font.
@@ -202,7 +203,7 @@ Have fun playing around with how to organize your figures with the text to make 
 
 #### Discussion
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png){width=100%}
 
 The discussion section of the paper is your chance to analyze and interpret your results. For your lab report, make sure your discussion section includes all of the following:
 
@@ -220,7 +221,7 @@ The discussion section of the paper is your chance to analyze and interpret your
 
 #### References
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_80.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_80.png){width=100%}
 
 All the references that you cite on your poster must be present in a References section including the following sections: Introduction, Methods, and Discussion. To save space on our posters, we will number our references (ex. 1-5) and use the numbers as citations throughout the text of your poster. You may have a lot of references; it is okay to put them in tiny text if you have to in order to make them fit.
 
@@ -246,7 +247,7 @@ Online article only:
 
 #### Acknowledgements
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png){width=100%}
 
 The acknowledgements section is where you give thanks to the people, organizations, and institutions that have supported you in your research. If relevant, include the grant ID # of your funding source. Institutions and organizations that have contributed to your research - but you do not belong to - can be thanked here.
 
