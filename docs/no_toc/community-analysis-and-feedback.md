@@ -1,41 +1,54 @@
 # (PART\*) COMMUNITY ANALYSIS AND FEEDBACK {-}
 
+<!-- Set up code -->
+
 
 # Scientific Posters
 
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362823fe47a_0_72.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+In this section we will go over how to create a scientific poster. We chose a poster as our final deliverable in C-MOOR because they:
+
+
+- **Facilitate participation in research symposiums**: Students can use their poster to apply to present at research symposiums or conferences with minimal additional effort beyond what they do in class. If your institution does not have a research day, consider starting one using these posters as a foundation as we did at Clovis Community College! Your school's library is another great point of contact in getting a poster session or research day set up.
+
+- **Serve as a physical representation of student achievement**: If printed, once finished with the class, students can choose to take their poster with them or leave it with the class to be hung up around the classroom or the hallways. This gives their research project more visibility, serves as an advertisement for other students who might be interested in taking the class, and showcases what students have accomplished. 
+
+- **Can easily be shared digitally**: A presentation can't be repeated twice without a recording, and each recording can take up a lot of digital storage. A poster on the other hand, is a great compressed product that can be posted on a student's (or the institution's) social media and help get their work seen by others. Posters are even small enough that they can be attached to an email and sent to prospective supervisors and collaborators interested in a quick summary of their work. See our [Look at This!](https://help.c-moor.org/c/look-at-this/) category on the C-MOOR Academy Discussion Forum to see all the posters students have created and shared so far!
+
+- **Posters can be used to measure student achievement and understanding**: We have previously used these posters to evaluate student learning, even years after students have left the classroom. Check out our [poster on posters!](https://drive.google.com/file/d/1kK6FBBLbHiAAsTUgxwzHRlK1qCo__eCy/view?usp=sharing)
+
+
 ## Lecture - Scientific Posters
 
-<img src="community-analysis-and-feedback_files/figure-html//1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U_g35f391192_00.png" width="480" />
 
-[Slides: Finding AMRs](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
+[Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
 ## Activity - Scientific Posters
 
 ### Activity
 
-*Estimated time: 50 min*
+*Estimated time: ---*
 
 #### Instructions
 
-1. Review “Presentations Guidelines for Posters”.
-
-- [https://ur.umbc.edu/urcad/resources/posters-guidelines](https://ur.umbc.edu/urcad/resources/posters-guidelines)
+1. Review **[Presentations Guidelines for Posters](https://ur.umbc.edu/urcad/resources/posters-guidelines)**
 
 2. Skim three posters from among the following (must be Biology if from UMBC Posters)
 
-  a. C-MOOR Posters – [https://help.c-moor.org/c/look-at-this/8](https://help.c-moor.org/c/look-at-this/8)
+- **[Look at This! Category on the Academy Discussion Forum](https://help.c-moor.org/c/look-at-this/8)**
 
-  b. UMBC Posters – [https://ur.umbc.edu/poster-presentation-examples](https://ur.umbc.edu/poster-presentation-examples)
+- **[UMBC Biology Posters](https://ur.umbc.edu/poster-presentation-examples)**
 
-  c. PacBio Poster – [https://www.pacb.com/wp-content/uploads/PAG-Portik.pdf](https://www.pacb.com/wp-content/uploads/PAG-Portik.pdf)
+- **[The example PacBio Poster](https://www.pacb.com/wp-content/uploads/PAG-Portik.pdf)**
 
 3. Pick one poster and address the following points.
 
-a. **Notice** – What about this poster most interests you?
+- **Notice** – What about this poster most interests you?
 
-b. **Wonder** – Two or three questions you would ask the authors.
+- **Wonder** – Two or three questions you would ask the authors.
 
-c. **Support** – Two or three suggestions on how the poster could be improved.
+- **Support** – Two or three suggestions on how the poster could be improved.
 
 4. Post your answers by replying to the “Project Work: Scientific Posters” topic in the Discussion Forum
 
@@ -52,106 +65,197 @@ c. **Support** – Two or three suggestions on how the poster could be improved.
 
 Last Revised: February 2025
 
-## Making Group Poster 
 
-### Introduction
+## Group Poster 
 
-An important part of scientific research is presenting your findings. This might be in the form of a peer-reviewed journal article or a more informal poster presentation at a conference or symposium. In completion of their project work, students will work with their groups to put together a Digital Poster.
+### Preparing to make a poster
 
-Academic posters are widely used, typically in academic conferences, as a way to summarize and concisely present information in order to generate a larger discussion.
-These posters are usually a mixture of brief text mixed with tables, graphs, pictures, etc. When these posters are presented at conferences, the poster author(s) stand with the poster while other conference attendees come by and view the presentation and have the opportunity to comment and ask the poster author(s) questions.
+An important part of scientific research is presenting your findings. This might be in the form of a peer-reviewed journal article or a more informal poster presentation at a conference or symposium. In this assignment, students will work with their groups to put together their work from the C-MOOR Labs into a research poster.
 
+Although the same information is in a poster, presentation, and a paper, each format requires a vastly different approach!
+
+Here's an example of a [poster](https://drive.google.com/file/d/13EHQmlryoGs9yqTuOmGgU1064D2q937L/view?usp=sharing), [a presentation](https://drive.google.com/file/d/1gtkCgwE1Q_zM0IkrnJxfdYF2U8v15J_2/view?usp=sharing), and a [paper](https://drive.google.com/file/d/1f9akqYSxq4CO3w3pehEmG0TVzMicsOVc/view?usp=sharing) all from the same study. 
+
+Notice how they all contain different levels of detail, different numbers of figures, and use language aimed for a specific audience. Your poster should look distinct from your presentation or paper.
 
 ### Part 1 - Choose a Template
 
-1. With your group, open a suggested [poster template] to use for your poster. 
+*Estimated time: 5 minutes*
+
+1. With your group, open a suggested [poster template](https://docs.google.com/presentation/d/1chz02nzYklAEjOtHrPsJZccGy1sFUZvqdlfcUyfj3I4/edit?usp=sharing) to use for your poster. 
 1. Discuss with your group how you will divide up the work and exchange important information (e.g. phone numbers, email). Consider the following sections: 
 
-- abstract, 
-- introduction
-- methods
-- results
-- discussion
-- references 
-- acknowledgments
+- Abstract 
+- Introduction
+- Methods
+- Results
+- Discussion
+- References 
+- Acknowledgments
+
+Notice these posters are sized at 36 x 42 inches, but there are many other commonly used sizes. Refer to your instructor on what poster size to use; not every poster will fit every stand when printed (if applicable). Notice that the posters in this slidedeck come in two-column, three-column, and mixed formats. Think about your figures and tables and select a format that makes the most sense for them. There are also some example posters in the last two slides that we will use to examine the anatomy of a research poster further in the next part.
+
 
 ### Part 2 - Make an Academic Research Poster
 
-Complete the following components of your research poster with your group. You might not do them in this order, but these are the components you are being graded on. For more details on each of these sections and their role in a scientific paper, see the Scientific Literature Lab.
+*Estimated time: ---*
+
+1. Complete the following components of your research poster with your group. You might not do them in this order, but these are the components you are being graded on. For more details on each of these sections and their role in a scientific paper, see the Scientific Literature Lab.
+
+#### The header: title, authors, and affiliations
+
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_11.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  An example affiliation for Clovis Community College would be: “Department of Biology, Clovis Community College, California, United States.” If multiple institutions exist, you will need to use superscript to denote who has what affiliation (see the example poster).
+
+We will include the C-MOOR logo, the logo of your institution(s), and the most immediately relevant funding source (if applicable) in the header.
+
+<!-- NOTE: &nbsp; creates a space in Markdown. In this instance, adding extra spaces after the checkbox didn't seem to work. -->
+
+**Check the header of your poster:**
+
+- [ ] &nbsp;All authors are listed
+- [ ] &nbsp;The affiliations of all authors are listed
+- [ ] &nbsp;The C-MOOR logo is included
+- [ ] &nbsp;The logos of your institutions are included
+
+- [ ] &nbsp;The title of the poster is focused on your specific project topic (ex. genes, variables, model organism)
+- [ ] &nbsp;The title of the poster describes the main result of your research
+- [ ] &nbsp;The title of the poster does not overstate the findings or significance of your research
 
 
-#### Title, Authors and Affiliations
-
-Your poster should include: 
-
-1. **Title** - this is a title for your work. Keep it short and make it catchy!
-
-2. **Authors** - who contributed to the work. Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. 
-
-- Note, that in academic research lab settings, authors would be usually listed in order of how much work they contributed to the project, with the leader of the research team, or Principal Investigator (PI), being the last author. 
-
-3. **Author affiliations** - The author’s affiliation is the university, college, research institution or company that the work was conducted at.   
 
 #### Abstract
 
-An abstract is a concise summary of your paper. An effective abstract will inform the reader of the scientific hypothesis being tested, the purpose, or “why”, of the study, the main methods, important results and conclusions in only **one paragraph**. When writing an abstract for a publication or presentation, there is always a maximum word or character count. For your poster, aim for your abstract to have a **maximum length of 200 words**. Many scientists choose to write the abstract last.
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_18.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-Different fields of science have slightly different requirements and formats for abstracts. Here is a general guideline:
+An abstract is a concise summary of your paper. An effective abstract will inform the reader of the scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. You may notice that not all posters online contain and abstract; different fields of science have slightly different requirements and formats for abstracts. 
 
-- **Background**: In one sentence, introduce your work. An effective introduction tells the reader what is known in the field (context) and identifies the gap of knowledge being addressed in the paper.
-- **Methods and Results**: This section should be the longest part of your abstract, but no more than two or three sentences. This section is arguably the most important part of the abstract, because other scientists seek out a paper when they are interested in the results. The details for your methods will be contained in your paper, so in your abstract you can keep it brief. For your results, pick out the most important results and summarize them. Depending on your research, you may want to address the methods and results separately, but often they are intertwined (e.g. the example abstract below).
-- **Conclusions**: In one sentence, concisely state what you learned from your research.
+**Your abstract should do the following:**
+
+- [ ] &nbsp;1 sentence on why your research matters
+- [ ] &nbsp;1 sentence summarizing your methodology
+- [ ] &nbsp;1-2 sentence with the main results without interpretation (ex. we found that gene X was differentially abundant between the eye and all other tissues; we found an association between age and the presence of Y bacteria)
+- [ ] &nbsp;1 sentence on what new knowledge you have contributed from your research (ex. gene X plays a key role in the eye, Y bacteria which is associated with function Z is associated with older populations)
+- [ ] &nbsp;The abstract is no longer than 200 words; no unnecessary words are included
 
 #### Introduction
 
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_21.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+
 A good introduction section should do two things. First, it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. Second, it should identify your scientific question and hypothesis. Usually, the introduction starts broadly, describing the work of other scientists. It is important to summarize this work (do not quote) and to properly cite the work.
 
-When writing your introduction, it is often helpful to start at the end. Identify your scientific question, your hypothesis and the gap of knowledge first. Then brainstorm what you will need to tell your readers in terms of context and background. For this project, be sure to include background information on Drosophila melanogaster and why it is a good model system for this research, because your audience might not know.
+When writing your introduction, it is often helpful to start at the end. Identify your scientific question, your hypothesis and the gap of knowledge first. Then brainstorm what you will need to tell your readers in terms of context and background. 
+
+**Check your poster's introduction:**
+
+
+The introduction contains:
+
+- [ ] &nbsp;Why your research is novel
+- [ ] &nbsp;Why your research matters (ex. any relevant disease states)
+- [ ] &nbsp;The aim and/or hypotheses of your research
+- [ ] &nbsp;Information on why the model organism used is a good model (if relevant to your project)
+
+Check that:
+
+- [ ] &nbsp;The introduction is brief (ex. no more than 200 words)
+- [ ] &nbsp;The introduction is formatted in bullet points, not paragraphs
+- [ ] &nbsp;All statements that require references have an in-line reference
 
 #### Materials and Methods
 
-For your lab poster, your materials and methods section will detail your analysis of the data. Since this is a poster and not an article, you do not need to worry about including all the details and can keep it pretty brief. Don’t provide any of your results, just the methods. Because we did not make the RNA-seq libraries ourselves, you will simply cite the paper that made them instead of detailing their construction.  Scientists usually write this section of their paper first, followed by the results section. Some other things you might include would be what type of analysis you decided to do (type of plot, which parts of the midgut you analyzed, sets of genes,  what p-value you used, etc.).
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_27.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+The materials and methods section will detail your analysis of the data. Don’t provide any of your results, just the methods. If you did not generate the data yourself from raw samples, you will simply cite the paper that made them instead of detailing their construction. We will also need to list any programs we used and provide credit to their creators.
+
+Some other things you might include would be what type of analysis you decided to do (which parts of the body parts you analyzed, sets of genes, what p-value you used, etc.).
+
+**Check your poster's materials and methods section:**
+
+- [ ] &nbsp;You have listed the source of your data (ex. the published study your data came from) and added the appropriate in-line citation
+- [ ] &nbsp;You have listed all R packages and/or websites you used (ex. DESeq2, ClustrProfiler, Phyloseq, FlyBase, Human Protein Atlas, CellxGene) and added the appropriate in-line citation
+- [ ] &nbsp;You list what p-value you tested for significance at (usually 0.05)
+- [ ] &nbsp;Another student from your class would be able to replicate your research based on what you wrote
+
 
 #### Results
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_24.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+The Results section is where you will detail your data primarily through figures and tables, though sometimes written text is included. Begin by creating your tables and figures. Place the figures and tables in order of how you want to present them and name them such as Figure 1, Figure 2, Table 1, Table 2, etc. 
 
-The Results section is where you will detail your data in the form of figures, tables and written text. Begin by creating your tables and figures. Place the figures and tables in order of how you want to present them and name them Figure 1, Figure 2, Table 1, Table 2, etc.
+Every figure and table must have a legend that goes with it in a smaller font.
+Figures have their legends *underneath* them. Tables have their figures *above* them.
+These legends should be in a smaller font than the rest of the text on the poster. 
+Each legend begins with 1 sentence summarizing the takeaway idea from the figure/table. If necessary, add 1-2 sentences of detail on the context and/or methodology used to generate the figure or table to give context to the audience on what they are looking at.
 
-In your written narrative of the results, you should go through each figure in order, emphasizing any important results from each one. As you discuss each figure, you will reference the figure or table in parentheses. For example: “RT-PCR analysis shows an increase in gene expression for gene X (Fig 2).” It is important that you present your data clearly and in a logical manner.
+If you are including written text of your results, you should go through each figure in order, emphasizing any important results from each one. As you discuss each figure, you will reference the figure or table in parentheses. For example: “RT-PCR analysis shows an increase in gene expression for gene X (Fig 2).” 
 
 Have fun playing around with how to organize your figures with the text to make the poster look professional. You need a minimum of 2 figures for your poster.
 
+**Check your poster's results section:**
+
+- [ ] &nbsp;You have a minimum of 2 figures on the poster
+- [ ] &nbsp;All figures have a labeled x and y-axis
+- [ ] &nbsp;All figures have a legend underneath them
+- [ ] &nbsp;All tables have a legend above them
+- [ ] &nbsp;The legends have 1 sentence summarizing the figure or table's main idea
+- [ ] &nbsp;If necessary, the legends have 1-2 sentences detailing the methodology and or other context of the figure/table
+
 #### Discussion
+
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The discussion section of the paper is your chance to analyze and interpret your results. For your lab report, make sure your discussion section includes all of the following:
 
-1. What do your results mean?
-1. How do they fit into the bigger picture?
-1. If any experiments did not give expected results, hypothesize why that might have been the case and propose alternate experiments that could confirm or clarify your results.
-1. Include at least one sentence of future work that you would do if you had more time or what students in upcoming semesters could do to continue to answer your questions.
+- What do your results mean?
+- How do they fit into the bigger picture?
+- If any experiments did not give expected results, hypothesize why that might have been the case and propose alternate experiments that could confirm or clarify your results.
+- Include at least one sentence of future work that you would do if you had more time or what students in upcoming semesters could do to continue to answer your questions.
+
+**Check your poster's discussion section:**
+
+- [ ] &nbsp;1 sentence for each major result that relates to your hypothesis
+- [ ] &nbsp;1-2 sentences how these results matter based on the problem you described in your introduction
+- [ ] &nbsp;1 sentence describing future work someone else could do as a logical next step in addressing the problem you described in your introduction
+- [ ] &nbsp;If your results were unexpected, hypothesize why that might be the case
 
 #### References
 
-All the references that you cite on your poster must be present in a References section.  For your lab report, make your reference section in alphabetical order by the first author’s last name. For your lab report, all of your sources will be scientific journals and should use the following format:
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_80.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-    Authors (year) “Title.” Journal Name, vol. #, page #s, DOI
+All the references that you cite on your poster must be present in a References section including the following sections: Introduction, Methods, and Discussion. To save space on our posters, we will number our references (ex. 1-5) and use the numbers as citations throughout the text of your poster. You may have a lot of references; it is okay to put them in tiny text if you have to in order to make them fit.
+
+There are many different ways to format the reference section. We will make ours in alphabetical order by the first author’s last name. All of your sources must be scientific journals and should use the following format:
+
+> Authors (year) “Title.” Journal Name, vol. #, page #s, DOI
 
 Online article that is also in print:
 
-    Haussecker D., Huang Y., Lau A., Parameswaran P., Fire A. Z. and M. A. Kay (2010) “Human tRNA-derived small RNAs in the global regulation of RNA silencing.” RNA, Vol. 16, page 637-695,  doi:10.1261/rna.2000810
+> Haussecker D., Huang Y., Lau A., Parameswaran P., Fire A. Z. and M. A. Kay (2010) “Human tRNA-derived small RNAs in the global regulation of RNA silencing.” RNA, Vol. 16, page 637-695,  doi:10.1261/rna.2000810
 
 Online article only:
 
-    Marianes, A. and A. C. Spradling (2013) “Physiological and stem cell compartmentalization within the Drosophila midgut.” eLife, doi:10.7554/eLife.00886
+> Marianes, A. and A. C. Spradling (2013) “Physiological and stem cell compartmentalization within the Drosophila midgut.” eLife, doi:10.7554/eLife.00886
+    
+**Check your references section**:
 
-#### In-text Citations
+- [ ] &nbsp;All in-text citations in the introduction are included in the references
+- [ ] &nbsp;All in-text citations in the methods are included in the references
+- [ ] &nbsp;All in-text citations in the discussion are included in the references
+- [ ] &nbsp;All references are from scientific journals
+- [ ] &nbsp;All text that requires an in-text citation has one
 
-To save space on our posters, we will number our references 1 through 5 and use the numbers as citations throughout the text of your poster.
+#### Acknowledgements
 
-You need to cite when you...
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-- Use or refer to someone else’s words or ideas
-- Copy the exact words or a “unique phrase”
-- Reprint diagrams, illustrations, charts, pictures, videos, music
+The acknowledgements section is where you give thanks to the people, organizations, and institutions that have supported you in your research. If relevant, include the grant ID # of your funding source. Institutions and organizations that have contributed to your research - but you do not belong to - can be thanked here.
+
+**Check your acknowledgements section:**
+
+- [ ] Thank any funding source and the grant # are listed here
+- [ ] Thank your research mentor (if applicable)
+- [ ] Thank those who have provided you with technical support (if applicable)
 
 
 ### Part 3 - Proofread and Add Final Touches
@@ -193,18 +297,16 @@ Everyone in the group earns the same grade, so it is important to work together.
 
 ### Footnotes
 
-
 #### Resources
 
 - [Google Doc]
-- How to make an Academic Poster [https://cloviscollege.libguides.com/biology11A/citation](https://cloviscollege.libguides.com/biology11A/citation)
 
 #### Contributions and Affiliations
 
 - Stephanie R. Coffman, Clovis Community College
-- Rosa
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
+- Sayumi York, Notre Dame of Maryland University
 
 Last Revised: June 2025
 
