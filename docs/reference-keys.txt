@@ -360,3 +360,9 @@ lecture---next-steps
 activity---next-steps
 c-moor-scholars
 online-community
+solar-system-exploration-1950s-1960s
+poster-checklist
+header
+introduction-20
+the-header-title-authors-and-affiliations
+acknowledgements
