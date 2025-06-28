@@ -7,18 +7,26 @@ ottrpal::set_knitr_image_path()
 
 # Scientific Posters
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
-
-ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362823fe47a_0_72")
-
-```
-
 In this section we will go over how to create a scientific poster. We chose a poster as our final deliverable in C-MOOR because they:
 
 
-- **Facilitate participation in research symposiums**: Students can use their poster to apply to present at research symposiums or conferences with minimal additional effort beyond what they do in class. If your institution does not have a research day, consider starting one using these posters as a foundation as we did at Clovis Community College! Your school's library is another great point of contact in getting a poster session or research day set up.
+- **Facilitate participation in research symposiums**: Students can use their poster to apply to present at research symposiums or conferences with minimal additional effort beyond what they do in class. If your institution does not have a research day, consider starting one using these posters as a foundation as we did at Clovis Community College! Your school's library is another great point of contact in getting a poster session or research day set up. Some of the events students have participated in using their C-MOOR projects include:
+
+  - The Clovis Community College Research Day
+  - The Notre Dame of Maryland University Research Day
+  - The GRADS-4C Conference (2025)
+
+<!-- Why is it not making a space? -->
+
 
 - **Serve as a physical representation of student achievement**: If printed, once finished with the class, students can choose to take their poster with them or leave it with the class to be hung up around the classroom or the hallways. This gives their research project more visibility, serves as an advertisement for other students who might be interested in taking the class, and showcases what students have accomplished. 
+
+<!-- # ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"} -->
+<!-- #  -->
+<!-- # ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit?slide=id.g362974128df_0_0") -->
+<!-- #  -->
+<!-- #  -->
+<!-- # ``` -->
 
 - **Can easily be shared digitally**: A presentation can't be repeated twice without a recording, and each recording can take up a lot of digital storage. A poster on the other hand, is a great compressed product that can be posted on a student's (or the institution's) social media and help get their work seen by others. Posters are even small enough that they can be attached to an email and sent to prospective supervisors and collaborators interested in a quick summary of their work. See our [Look at This!](https://help.c-moor.org/c/look-at-this/) category on the C-MOOR Academy Discussion Forum to see all the posters students have created and shared so far!
 
@@ -26,6 +34,14 @@ In this section we will go over how to create a scientific poster. We chose a po
 
 
 ## Lecture - Scientific Posters
+
+*Estimated time: ---*
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+
+ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362823fe47a_0_72")
+
+```
 
 
 [Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
@@ -291,9 +307,9 @@ The acknowledgements section is where you give thanks to the people, organizatio
 
 **Check your acknowledgements section:**
 
-- [ ] Thank any funding source and the grant # are listed here
-- [ ] Thank your research mentor (if applicable)
-- [ ] Thank those who have provided you with technical support (if applicable)
+- [ ] &nbsp;Thank any funding source and the grant # are listed here
+- [ ] &nbsp;Thank your research mentor (if applicable)
+- [ ] &nbsp;Thank those who have provided you with technical support (if applicable)
 
 
 ### Part 3 - Proofread and Add Final Touches
@@ -437,13 +453,136 @@ Last Revised: April 2025
 
 # Next Steps
 
+Now that you've finished your C-MOOR project, how do you close out your research experience or take it further? In this section we'll explore how to publicize and use your experience to help build your professional career.
+
 ## Lecture - Next Steps
 
+*Estimated time: ---*
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+
+ottrpal::include_slide("https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit#slide=id.g35f391192_00")
+
+```
 
 [Slides: Next Steps](https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit?usp=sharing)
 
 
-## Activity - Next Steps
+## Update your CV
+
+*Estimated time: 10 min*
+
+Everyone who completes a C-MOOR project can add their experience to their resume or CV! We advise you and your students to do this as soon as possible after the end of class while your research project is still on your mind.
+
+#### Resume or CV?
+
+You may hear the terms resume and CV being used interchangeably. While both are drawn from the same information, they vary in brevity and focus.
+
+A **resume** is a one-page (sometimes two-page) document of your experiences generally used for jobs outside of academia and research labs. It's not uncommon for people to have more than one resume, as it's best to tailor every resume to each specific role you're applying to.
+
+A **Curriculum Vitae (CV)** is an extensive document that can take as many pages as needed to list the entirety of your research and academic experience. It often includes sections that aren't found in non-academic fields such as publications, conferences, and published papers. 
+
+Most positions will detail which they require from applicants and most colleges and universities will be able to help you build either at your library or career center. We suggest that current students and recent graduates interested add their C-MOOR research experience to either their classwork or projects section. Remember to acknowledge the contributions of your team members if applicable; this does not count against you in your applications! Here are some examples of how you might word your experiences; notice how they're similar to an abstract in just one or two sentences:
+
+- **An RNA-seq project:** Along with a partner, examined differential expression data of the *period (per)* gene along the *Drosophila melanogaster* midgut from a published dataset (Marianes & Spradling 2013) using DESeq2 and ClusterProfiler. We discovered an elevated expression of per in the anterior region of the midgut where the primary digestion and absorption of carbohydrates occur. Our results were presented as a research poster at the 2025 Kuntz Research Day symposium and have implications for using Drosophila as a model for the connection between the circadian rhythm and metabolic disorders.
+
+- **A 16S project:** My group and I profiled the abundance of Archean ASVs in the gut microbiome from a published 16S study comparing the gut microbiota of people before, during, and after a standardized diet (Guthrie et al. 2022). As a part of this study, we created a PCoA and performed an alpha diversity analysis in phyloseq. Archean community members are often overlooked in microbiome studies; we found differential abundance in *Methanobacteria* between male and female participants regardless of diet and hypothesize this may be due to consumption of fiber reported by male subjects pre- and post-diet.
+
+- **A WGS project**: Public data (SRA#######) from Robinson et al. (2021) was analyzed in Galaxy using Trimmomatic, Megahit, and Krona to determine the viral abundance in samples from tap water from various North American Lakes and make comparisons to lake depth. Viral abundance was correlated with geographic distance between samples; future studies could examine if this pattern persists in samples sourced from Europe and Oceana. 
+
+Your blurb is a strong blurb when:
+
+- [ ] &nbsp; You credit the source of your data (Citation, SRA #, Project #)
+- [ ] &nbsp; You describe why your research project matters
+- [ ] &nbsp; You list some of the computational platforms or software you used
+
+**Q: Will people think I am an expert in genomics and bioinformatics if I put my project on my resume/CV? I don't want to look like a phony.**
+
+A: As a current student or new graduate, you are not expected to have mastery over any scientific domain. What you are trying to show is you have taken an idea and brought it to completion, your ability to learn new concepts and skills, and your previous exposure to research. You can explain more about your role in the project in an interview.
+
+**Q: Can I list things like R or Galaxy in my skills section?**
+
+A: You can, however we suggest being explicit in your experience and add the level at which you feel comfortable with each respective platform. Are you R (Beginner) or R (Proficient)? Can you teach someone else how to do your project? Can you perform your project with novel data? How good are you at troubleshooting? This answer may seem contrary to the previous one, but remember that other people who are listing these platforms in their skills section includes computer/data scientists (majors) and bioinformaticians (majors), so people may assume mastery. Think about it the same way you would a foreign language. Spanish (Beginner) describes a different level of skill than 'just' Spanish. 
+
+## C-MOOR Scholars
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+
+ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362a06a915d_2_4")
+
+```
+
+C-MOOR Scholars are research clubs that function as an extension of the C-MOOR curriculum. You can explore techniques and concepts from modules you've yet to take to learn about different approaches we can use to explore different questions through genomics, connect with other scholars and mentors, and experience the climate of a research lab. 
+
+**What C-MOOR Scholars is**:
+
+  - A place to grow your skills
+  - A place to network
+  - A place to connect science with the greater community
+
+**What C-MOOR Scholars is not**:
+
+  - A commitment to pursuing research as a career
+  - A graded class where we score work
+  - A drop-in drop-out popular science club
+  
+Less formal than a class, more formal than just a gathering of like-minded minds, C-MOOR Scholars provides structure for your growth as a scientist. We are actively looking to recruit new scholars for chapters at our established sites (CCC, JHU, & NDMU); speak with your instructor for more information or reach out to us at the [C-MOOR Academy Discussion Forum](help.c-moor.org) to hear about any remote opportunities we have.
+
+## Pursue further research
+
+Perhaps you're interested in pursuing research beyond what C-MOOR currently provides. Maybe you're more interested in wet lab work, or a specific model organism. We encourage you to try all sorts of different opportunities even if you feel totally comfortable working with C-MOOR so you can better understand what kind of roles suit you best. This section serves as a guide for some common jumping off points to find outside research opportunities.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+
+ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362974128df_0_98")
+
+```
+
+### Research opportunities at your institution
+
+Many colleges and universities have research programs for their students or resources available to connect you to some. You can ask your instructor, adviser, or library for more information. Some popular programs include:
+
+- **Undergraduate Research Opportunity Programs (UROP):** Which often provide a database or pipeline of research opportunities for students at the univeristy or from surrounding areas. 
+
+- **Research experiences for undergraduates (REU):** Similar to UROP, but generally open for a wider audience of students from outside the community. See the [NSF REU website](https://www.nsf.gov/funding/initiatives/reu) for more information.
+
+Opportunities come and go and often follow the academic-year in terms of availability. If you can't find something immediately, keep trying!
+
+### Find a research lab to join
+
+You can choose to pursue additional research opportunities in what we consider the more traditional way: by reaching out to a professor or research scientist whose work you are interested in and asking if they might be willing to have you in their lab. As these opportunities are at the discretion of the lab leader they will vary widely in their scope, duration, and ability to provide financial support.
+
+An email to a potential research lab should contain:
+
+- [ ] An introduction about yourself (name, class year, institution, major)
+- [ ] 1-2 sentences about your previous experience in research
+- [ ] 1-2 sentences about why you're interested in their lab specifically
+- [ ] A polite, open ended request to work with them
+
+> Dear Professor Penguin,
+
+>My name is Student, and I am a junior at My University majoring in biology (or other). I read your chapter on the genetics yellow-eyed penguins in Penguins: Natural history and conservation, and then checked out your profile on the University website. My interests are broadly defined in environmental toxicology and I am interested in the work you are doing using eDNA and studies on the effects of plastic on developing penguin transcriptomes.
+
+>I previously completed a project as a part of an RNA-seq miniCURE and have some exposure to working with DESeq2, though I still have much to learn. My group and I profiled the gene expression of the genes XYZ in the Drosophila midugt and I presented our poster at our university's research day poster session.
+
+>Thank you for your time and consideration in reading my email. Please let me know if you are currently available to mentor an undergraduate in your lab and if you would be willing to have me as a potential student. I hope to hear from you soon!
+
+Don't be surprised if it takes the researcher a while to get back to you or if they respond curtly. They likely get many requests and are very busy. Continue to reach out to labs and apply to programs; it is difficult to know when opportunities are available as funding fluctuates.
+
+## BioDIGS
+
+This section is primarily geared toward instructors as students will be able to get access to the BioDIGS data through their local C-MOOR Scholars chapter.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+
+ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362a06a915d_2_10")
+
+```
+
+
+**What is BioDIGS?**: [BioDIGS](biodigs.org) is a project from the Genomic Data Science Community Network (GDSCN), which aims to characterize the microbiome of soil throughout sites in the US while connecting scientists to research. 
+
+**What makes BioDIGS different?:** Soil is hypothesized to be the most diverse system on our planet, and BioDIGS is gathering sequence data and matching environmental data to elucidate the connection of soil microbes to abiotic variables and human health. Students at participating sites can take the entire project from soil sampling all the way through computational analysis. Curricula and more information on how to get a soil sampling kit are available on the BioDIGS website.
 
 
 
