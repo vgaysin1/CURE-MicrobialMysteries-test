@@ -9,6 +9,7 @@ The Microbial Mysteries course content was organized and presented by way of Uni
 
   - Each class lasted 1 hour and 15 minutes
   - Core units 1, 2, 3 and 4, over the coure of 4 weeks and 8 classes (1 unit per week and 2 classes/week) was typically associated with 1.5-2 hrs of homework per class, or 3-4 hours of homework per week. 
+- Typically, each class will begin with either discussion or presentation based on homework from a previous session.
 
 <br>
 
@@ -20,58 +21,64 @@ Course content was organized broadly into 3 categories:
 
 ### Structured Units 
 
-- **Week 1** - Introduction: 1 class a week
+- **Unit 0** - Introduction: 1 class a week
 
-| Unit 0: Introduction | Type| Length | Spring 2025 JHU Due Data |
+| Unit 0 - session 1 (Jan 21)| Type| Length | Spring 2025 Due Date |
 |:--|:--|:--|:--|
 | Lecture: Welcome to Your Genomics Adventure!| in-class| 20 min | Jan 21 |
 | Create Accounts| Homework | 30 min | Jan 21 |
-| Lecture: The Scientific Process| in-class| 20 min | Jan 22 |
+| Lecture: The Scientific Process| in-class| 20 min | Jan 21 |
 | Post Introcuctions | Homework| 30 min | Jan 22 | 
 
-- **Week 2** - Scientific Literature: 2 classes a week
+- **Unit 1** - Scientific Literature: 2 classes a week
 
-| Unit 1-session 1 | Type| Length |Spring 2025 JHU Due Data |
+| Unit 1-session 1 (Jan 23) | Type| Length |Spring 2025 Due Date |
 |:--|:--|:--|:--|
 | Lecture: What's in your XYZ? | in-class| 20 min | Jan 23 |
 | Activity: Taxonomy Profiling Spreadsheet| Homework | 45 min |  Jan 23 |
 | Galaxy Tutorial: A short introduction to Galaxy| Homework| 40 min |  Jan 23 |
 | Pre-lab: Scientific Literature | Homework| 45 min |Jan 27 |
 | <br>|
-| **Unit 1-session 2** | Type| Length | Spring 2025 JHU Due Data |
-|:--|:--|:--|:--|
+| **Unit 1-session 2 (Jan 28)** | **Type**| **Length** | **Spring 2025 Due Date** |
 |Discussion: Scientific Literature | in-class| 30 min | Jan 27 |
 |Lecture: Scientific Literature| in-class| 20 min | Jan 28 |
 |Activity: Scientific Literature| Homework| 80 min | Jan 29 |
-|Presentation: Scientific Literature | in-class| 30 min | Jan 30|
+|<br>|
+|**Presentation Unit 1**: Scientific Literature | in-class| 30 min | Jan 30|
 
-- **Week 3** - 2 classes a week
+- **Unit 2** - Microbial Genomes: 2 classes a week
 
-| Unit 2: Microbial Genomes | Type| 
-|:--|:--|
-| Lecture: Microbial Genomes | in-class|
-| Pre-lab: Microbial Genomes| Homework |
-| Galaxy Tutorial: QC & Galaxy Workflows | Homework|
-| Discussion: Microbial Genomes | in-class|
-|Project: Microbial Genomes| Homework|
-|SciServer Tutorial: test-drive R | Homework|
-|Presentation: Microbial Genomes | in-class|
+| Unit 2-session 1 (Jan 30) | Type| Length |Spring 2025 Due Date |
+|:--|:--|:--|:--|
+| Lecture: Microbial Genomes | in-class| 20 min | Jan 30 |
+| Pre-lab: Microbial Genomes| Homework | 90 min | Feb 3 |
+| Galaxy Tutorial: QC & Galaxy Workflows | Homework| 30 min | Feb 3 | 
+|<br>|
+| **Unit 2-session 1 (Jan 30)** | **Type**|**Length** | **Spring 2025 Due Date** |
+| Discussion: Microbial Genomes | in-class| 30 min | Feb 4 |
+|SciServer Tutorial: test-drive R | Homework| 25 min | Feb 4 |
+|Project: Microbial Genomes| Homework| 90 min  | Feb 5|
+|<br>|
+|**Presentation - Unit 2**: Microbial Genomes | in-class| 30 min | Feb 6|
 
-- **Week 4** - 2 classes a week
+- **Unit 3** - Taxonomy Profiling: 2 classes a week
 
-| Unit 3: Taxonomy Profiling | Type| 
-|:--|:--|
-| Lecture: Taxonomy Profiling | in-class|
-| Pre-lab: Taxonomy Profiling| Homework |
-| Lecture: Possible Datasets| in-class|
-| Activity: Possible Datasets | in-class|
-| Galaxy Tutorial: Using dataset collections | Homework|
-| Discussion: Taxonomy Profiling | in-class|
-| Project: Taxonomy Profiling | Homework|
-| SciServer Tutorial: Meet R! Homework|
-| Presentation: Taxonomy Profiling Project| Homework |
+| Unit 3-session 1: (Feb 6) | Type| Length |Spring 2025 Due Date |
+|:--|:--|:--|:--|
+| Lecture: Taxonomy Profiling | in-class| 20 min | Feb 6|
+| Pre-lab: Taxonomy Profiling| Homework | Feb 10|
+| Activity: Possible Datasets | Homework| | Feb 10
+| Galaxy Tutorial: Using dataset collections | Homework| | Feb 10
+|<br>|
+| **Unit 3-session 2: (Feb 11)** | **Type**|**Length** | **Spring 2025 Due Date** |
+| Discussion: Taxonomy Profiling | in-class| | Feb 11 |
+| Lecture: Possible Datasets| in-class| 20 min | Feb 11 |
+| SciServer Tutorial: Meet R! Homework|| Feb 11 |
+| Project: Taxonomy Profiling | Homework| | Feb 12 |
+|<br>|
+| **Presentation - Unit 3**: Taxonomy Profiling Project| Homework | 30 min | Feb 13|
 
-- **Week 5** - 2 classes a week
+- **Unit 4** - Finding AMRs: 2 classes a week
 
 | Unit 4: Finding AMRs | Type| 
 |:--|:--|
