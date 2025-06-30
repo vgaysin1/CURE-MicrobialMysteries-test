@@ -357,6 +357,12 @@ grading-criteria-22
 footnotes-29
 next-steps
 lecture---next-steps
-activity---next-steps
+update-your-cv
+resume-or-cv
 c-moor-scholars
+pursue-further-research
+research-opportunities-at-your-institution
+find-a-research-lab-to-join
+biodigs
+c-moor-scholars-1
 online-community
