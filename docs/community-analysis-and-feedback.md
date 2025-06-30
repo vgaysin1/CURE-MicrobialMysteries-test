@@ -14,15 +14,12 @@ In this section we will go over how to create a scientific poster. We chose a po
   - The Notre Dame of Maryland University Research Day
   - The GRADS-4C Conference (2025)
 
+<!-- Why is it not making a space? -->
+
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_0.png){width=100%}
 
 - **Serve as a physical representation of student achievement**: If printed, once finished with the class, students can choose to take their poster with them or leave it with the class to be hung up around the classroom or the hallways. This gives their research project more visibility, serves as an advertisement for other students who might be interested in taking the class, and showcases what students have accomplished. 
 
-<!-- # ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"} -->
-<!-- #  -->
-<!-- # ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit?slide=id.g362974128df_0_0") -->
-<!-- #  -->
-<!-- #  -->
-<!-- # ``` -->
 
 - **Can easily be shared digitally**: A presentation can't be repeated twice without a recording, and each recording can take up a lot of digital storage. A poster on the other hand, is a great compressed product that can be posted on a student's (or the institution's) social media and help get their work seen by others. Posters are even small enough that they can be attached to an email and sent to prospective supervisors and collaborators interested in a quick summary of their work. See our [Look at This!](https://help.c-moor.org/c/look-at-this/) category on the C-MOOR Academy Discussion Forum to see all the posters students have created and shared so far!
 
@@ -33,7 +30,7 @@ In this section we will go over how to create a scientific poster. We chose a po
 
 *Estimated time: ---*
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362823fe47a_0_72.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362823fe47a_0_72.png){width=100%}
 
 
 [Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
@@ -118,7 +115,7 @@ Notice these posters are sized at 36 x 42 inches, but there are many other commo
 
 #### The header: title, authors, and affiliations
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_11.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_11.png){width=100%}
 
 Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  An example affiliation for Clovis Community College would be: “Department of Biology, Clovis Community College, California, United States.” If multiple institutions exist, you will need to use superscript to denote who has what affiliation (see the example poster).
 
@@ -141,7 +138,7 @@ We will include the C-MOOR logo, the logo of your institution(s), and the most i
 
 #### Abstract
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_18.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_18.png){width=100%}
 
 An abstract is a concise summary of your paper. An effective abstract will inform the reader of the scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. You may notice that not all posters online contain and abstract; different fields of science have slightly different requirements and formats for abstracts. 
 
@@ -155,7 +152,7 @@ An abstract is a concise summary of your paper. An effective abstract will infor
 
 #### Introduction
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_21.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_21.png){width=100%}
 
 
 A good introduction section should do two things. First, it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. Second, it should identify your scientific question and hypothesis. Usually, the introduction starts broadly, describing the work of other scientists. It is important to summarize this work (do not quote) and to properly cite the work.
@@ -180,7 +177,7 @@ Check that:
 
 #### Materials and Methods
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_27.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_27.png){width=100%}
 The materials and methods section will detail your analysis of the data. Don’t provide any of your results, just the methods. If you did not generate the data yourself from raw samples, you will simply cite the paper that made them instead of detailing their construction. We will also need to list any programs we used and provide credit to their creators.
 
 Some other things you might include would be what type of analysis you decided to do (which parts of the body parts you analyzed, sets of genes, what p-value you used, etc.).
@@ -194,7 +191,7 @@ Some other things you might include would be what type of analysis you decided t
 
 
 #### Results
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_24.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_24.png){width=100%}
 The Results section is where you will detail your data primarily through figures and tables, though sometimes written text is included. Begin by creating your tables and figures. Place the figures and tables in order of how you want to present them and name them such as Figure 1, Figure 2, Table 1, Table 2, etc. 
 
 Every figure and table must have a legend that goes with it in a smaller font.
@@ -217,7 +214,7 @@ Have fun playing around with how to organize your figures with the text to make 
 
 #### Discussion
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png){width=100%}
 
 The discussion section of the paper is your chance to analyze and interpret your results. For your lab report, make sure your discussion section includes all of the following:
 
@@ -235,7 +232,7 @@ The discussion section of the paper is your chance to analyze and interpret your
 
 #### References
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_80.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_80.png){width=100%}
 
 All the references that you cite on your poster must be present in a References section including the following sections: Introduction, Methods, and Discussion. To save space on our posters, we will number our references (ex. 1-5) and use the numbers as citations throughout the text of your poster. You may have a lot of references; it is okay to put them in tiny text if you have to in order to make them fit.
 
@@ -261,7 +258,7 @@ Online article only:
 
 #### Acknowledgements
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png){width=100%}
 
 The acknowledgements section is where you give thanks to the people, organizations, and institutions that have supported you in your research. If relevant, include the grant ID # of your funding source. Institutions and organizations that have contributed to your research - but you do not belong to - can be thanked here.
 
@@ -419,7 +416,7 @@ Now that you've finished your C-MOOR project, how do you close out your research
 
 *Estimated time: ---*
 
-<img src="community-analysis-and-feedback_files/figure-html//1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns_g35f391192_00.png){width=100%}
 
 [Slides: Next Steps](https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit?usp=sharing)
 
@@ -462,9 +459,11 @@ A: You can, however we suggest being explicit in your experience and add the lev
 
 ## C-MOOR Scholars
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_4.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_4.png){width=100%}
 
 C-MOOR Scholars are research clubs that function as an extension of the C-MOOR curriculum. You can explore techniques and concepts from modules you've yet to take to learn about different approaches we can use to explore different questions through genomics, connect with other scholars and mentors, and experience the climate of a research lab. 
+
+Fill out our [C-MOOR Scholars Interest Form](https://docs.google.com/forms/d/1GJDpfG28k2utCVVcRXQraE-1coLS_GCX83irUyio9KE/viewform?edit_requested=true) if interested, and meet some [C-MOOR Scholars at Clovis Community College](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html)!
 
 **What C-MOOR Scholars is**:
 
@@ -484,7 +483,7 @@ Less formal than a class, more formal than just a gathering of like-minded minds
 
 Perhaps you're interested in pursuing research beyond what C-MOOR currently provides. Maybe you're more interested in wet lab work, or a specific model organism. We encourage you to try all sorts of different opportunities even if you feel totally comfortable working with C-MOOR so you can better understand what kind of roles suit you best. This section serves as a guide for some common jumping off points to find outside research opportunities.
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_98.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_98.png){width=100%}
 
 ### Research opportunities at your institution
 
@@ -502,10 +501,10 @@ You can choose to pursue additional research opportunities in what we consider t
 
 An email to a potential research lab should contain:
 
-- [ ] An introduction about yourself (name, class year, institution, major)
-- [ ] 1-2 sentences about your previous experience in research
-- [ ] 1-2 sentences about why you're interested in their lab specifically
-- [ ] A polite, open ended request to work with them
+- [ ] &nbsp;An introduction about yourself (name, class year, institution, major)
+- [ ] &nbsp;1-2 sentences about your previous experience in research
+- [ ] &nbsp;1-2 sentences about why you're interested in their lab specifically
+- [ ] &nbsp;A polite, open ended request to work with them
 
 > Dear Professor Penguin,
 
@@ -521,8 +520,7 @@ Don't be surprised if it takes the researcher a while to get back to you or if t
 
 This section is primarily geared toward instructors as students will be able to get access to the BioDIGS data through their local C-MOOR Scholars chapter.
 
-<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_10.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
-
+![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_10.png){width=100%}
 
 **What is BioDIGS?**: [BioDIGS](biodigs.org) is a project from the Genomic Data Science Community Network (GDSCN), which aims to characterize the microbiome of soil throughout sites in the US while connecting scientists to research. 
 
