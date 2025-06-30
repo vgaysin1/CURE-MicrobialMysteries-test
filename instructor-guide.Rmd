@@ -59,7 +59,7 @@ Course content was organized broadly into 3 categories:
 |SciServer Tutorial: test-drive R | Homework| 25 min | Feb 4 |
 |Project: Microbial Genomes| Homework| 90 min  | Feb 5|
 |<br>|
-|**Presentation - Unit 2**: Microbial Genomes | in-class| 30 min | Feb 6|
+|**Presentation - Unit 2**: Microbial Genomes Project | in-class| 30 min | Feb 6|
 
 - **Unit 3** - Taxonomy Profiling: 2 classes a week
 
@@ -76,21 +76,24 @@ Course content was organized broadly into 3 categories:
 | SciServer Tutorial: Meet R! Homework|| Feb 11 |
 | Project: Taxonomy Profiling | Homework| | Feb 12 |
 |<br>|
-| **Presentation - Unit 3**: Taxonomy Profiling Project| Homework | 30 min | Feb 13|
+| **Presentation - Unit 3** : Taxonomy Profiling Project| in-class | 30 min | Feb 13|
 
 - **Unit 4** - Finding AMRs: 2 classes a week
 
-| Unit 4: Finding AMRs | Type| 
-|:--|:--|
-| Lecture: Finding AMRs | in-class|
-| Pre-lab: Finding AMRs | Homework|
-| Lecture: Scientific Posters | in-class|
-| Activity: Scientific Posters | Homework|
-| SciServer Tutorial: R for Data Science 1 | Homework|
-| Discussion: Finding AMRs | in-class|
-| Project: Finding AMRs | Homework|
-| SciServer Tutorial: R for Data Science 2 | Homework|
-| Presentation: Finding AMRs | in-class|
+| Unit 4-session 1 (Feb 13) | Type| Length |Spring 2025 Due Date |
+|:--|:--|:--|:--|
+| Lecture: Finding AMRs | in-class| 20 min | Feb 13 | 
+| Pre-lab: Finding AMRs | Homework| 90 min | Feb 17| 
+| Lecture: Scientific Posters | in-class| 20 min| Feb 18 |
+| Activity: Scientific Posters | Homework| 50 min | Feb 17 |
+| SciServer Tutorial: R for Data Science 1 | Homework| 50 min | Feb 17|
+|<br>|
+| **Unit 4-session 2: (Feb 18)** | **Type**|**Length** | **Spring 2025 Due Date** |
+| Discussion: Finding AMRs | in-class| 30 min | Feb 18 | 
+| Project: Finding AMRs | Homework| 110 min | Feb 19 | 
+| SciServer Tutorial: R for Data Science 2 | Homework| 25 min | Feb 18| 
+|<br>|
+| **Presentation - Unit 4**: Finding AMRs Project| in-class | 30 min | Feb 13|
 
 - **Week 6** - 2 classes a week
 
