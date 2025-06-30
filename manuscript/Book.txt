@@ -1,11 +1,10 @@
 0.1-Course-Description.md
 0.2-Course-Goals.md
-0.3-Vision-and-Change.md
-0.4-Available-course-formats.md
-0.5-Course-Content.md
-0.6-Core-Competencies.md
-0.7-What-to-know.md
-0.8-Where-to-get-help.md
+0.3-Available-course-formats.md
+0.4-Course-Content.md
+0.5-Core-Competencies.md
+0.6-What-to-know.md
+0.7-Where-to-get-help.md
 1-Introduction.md
 1.1-Welcome-to-Your-Genomics-Adventure.md
 1.2-Activity---Create-Accounts.md
