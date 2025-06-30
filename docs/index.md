@@ -1,6 +1,6 @@
 ---
 title: "CURE: Microbial Mysteries"
-date: "June 27, 2025"
+date: "June 30, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -70,16 +70,16 @@ This course is a combination of:
 - **Engage in scientific research** - Apply knowledge and skills learned to complete a project using existing datasets to ask new questions, generate novel conclusions and create and present a Final Poster.
 
 
-## Vision and Change
+### Vision and Change
 
-This course addresses the change in vision of undergraduate science education by teaching through research experience, or Course-based Undergraduate Research Experiences (CUREs). 
+This course supports the change in vision of undergraduate science education by teaching through research experience, or Course-based Undergraduate Research Experiences (CUREs). 
 This CURE is a genomic data science research experience with the curriculum that supports [Vision and Change](https://nabt.org/files/galleries/Vision-and-Change-Final-Report.pdf) national report that aims to improve and modernize undergraduate science education and promote competencies in the practices including:
 
-     - **1**: Ability to apply the process of science
-     - **2**: Ability to use quantitative reasoning
-     - **3**: Ability to tap into the interdisciplinary nature of science
-     - **4**: Ability to communicate and collaborate with other disciplines
-     - **5**: Ability to understand the relationship between science and society
+     - 1: Ability to apply the process of science
+     - 2: Ability to use quantitative reasoning
+     - 3: Ability to tap into the interdisciplinary nature of science
+     - 4: Ability to communicate and collaborate with other disciplines
+     - 5: Ability to understand the relationship between science and society
 
 <!-- 
 ### C-MOOR Content Collection {- .unlisted}
