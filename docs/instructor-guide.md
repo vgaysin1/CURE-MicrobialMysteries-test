@@ -7,15 +7,17 @@ C-MOOR Microbial Mysteries CURE content overview.
 
 The Microbial Mysteries course content was organized and presented by way of Unit modules below. Each unit has a main theme, reflected by the unit title. Practically, each unit is a week covering both, themed assignments and those from previous and next units, including any other additional material an instructor wishes to cover. 
 
-```
+
 - Each class duration was 1 hour and 15 minutes
+
 - Core units 1, 2, 3 and 4, over the coure of 4 weeks and 8 classes (1 unit per week and 2 classes/week) was typically associated with 1.5-2.5 hrs of homework per class, or 3-5 hours of homework per week. The amount of homework is based on: 
 
 a) For each hour of class students were generally expected to spend approximately 2 hours of independent study time (homework). 
+
 b) To ensure meaningful coverage of important concepts and scientific content and computational skills necessary to proceed to next step and subsequently execute independent group project work. 
 
 - Typically, each class began with either a discussion or a presentation based on homework from a previous session.
-```
+
 
 Course content was organized broadly into 3 categories:
 
@@ -28,6 +30,7 @@ Course content was organized broadly into 3 categories:
   - Table below - shows an example of course organization for Core Units 0 through 4
   - Spring 2025 - refers to **due date** for assignments based the Spring 2025 semester at the Johns Hopkins University. 
 
+<br>
 
 - **Unit 0** - Introduction: Session 1 (Jan 21), Unit length (Jan 21 - Jan 22)
 
@@ -56,7 +59,7 @@ Course content was organized broadly into 3 categories:
 
 | Unit 2-1 | Type| Length |Spring 2025   |
 |:--|:--|:--|:--|
-|**`Presentation Unit 1**: Scientific Literature` | in-class| 30 min | Jan 30|
+|**Presentation Unit 1**: Scientific Literature | in-class| 30 min | Jan 30|
 | Lecture: Microbial Genomes | in-class| 20 min | Jan 30 |
 | Pre-lab: Microbial Genomes| Homework next | 90 min | Feb 3 |
 | Galaxy Tutorial: QC & Galaxy Workflows | Homework next| 30 min | Feb 3 | 
@@ -70,12 +73,12 @@ Course content was organized broadly into 3 categories:
 
 | Unit 3-1 | Type| Length |Spring 2025 |
 |:--|:--|:--|:--|
-|**`Presentation - Unit 2`**: Microbial Genomes Project | in-class| 30 min | Feb 6|
+|**Presentation - Unit 2**: Microbial Genomes Project | in-class| 30 min | Feb 6|
 | Lecture: Taxonomy Profiling | in-class| 20 min | Feb 6|
 | Pre-lab: Taxonomy Profiling| Homework next |100 min | Feb 10|
 | Activity: Possible Datasets | Homework next| 50 min | Feb 10 |
-| Galaxy Tutorial: Using dataset collections | Homework next| 45 min | Feb 10
-|<br>|
+| Galaxy Tutorial: Using dataset collections | Homework next| 45 min | Feb 10|
+|<br>| 
 | **Unit 3-2** | **Type**|**Length** | **Spring 2025** |
 | Discussion: Taxonomy Profiling | in-class| | Feb 11 |
 | Lecture: Possible Datasets| in-class| 20 min | Feb 11 |
@@ -86,7 +89,7 @@ Course content was organized broadly into 3 categories:
 
 | Unit 4-1 | Type| Length |Spring 2025 |
 |:--|:--|:--|:--|
-| **Presentation - Unit 3** : Taxonomy Profiling Project| in-class | 30 min | Feb 13|
+| **Presentation - Unit 3**: Taxonomy Profiling Project| in-class | 30 min | Feb 13|
 | Lecture: Finding AMRs | in-class| 20 min | Feb 13 | 
 | Pre-lab: Finding AMRs | Homework next| 90 min | Feb 17| 
 | Lecture: Scientific Posters | in-class| 20 min| Feb 18 |
@@ -104,7 +107,7 @@ Course content was organized broadly into 3 categories:
 |:--|:--|:--|:--|
 | **Presentation - Unit 4**: Finding AMRs Project| in-class | 30 min | Feb 20|
 | Lecture: Kickstart Project Work | in-class| 20 min | Feb 20 |
-| Activity: Kickstart Project Work | Homework next | | Feb 26)
+| Activity: Kickstart Project Work | Homework next | | Feb 26 |
 
 
 ### Research Module 
@@ -118,26 +121,26 @@ Research Module is mainly dedicated to group project work, with intervening Prof
 - Project work was intermixed with professional development (PD) activities including Science Talks, Scientific Communication activity, and Next Steps activity.
 
 
-|Update| Format | Session | Length | Due Date |
+| Update| Format | Session | Length | Due Date |
 |:---|:---|:---|:---|:---|
-| First Round Table Data | slidedeck| session 1 | 45 min | Feb 25|
-| First Round Table Troubleshooting | slidedeck | session 2 | 45 min | Feb 27|
-| **PD: Science Talks:** Karina Gutierrez-Garcia | | |  | Mar 4|
+| Round Table Data | slidedeck| session 1 | 45 min | Feb 25|
+| Round Table Troubleshooting | slidedeck | session 2 | 45 min | Feb 27|
+| **PD: Science Talks:**  | Lecture & QA | |  | Mar 4|
 | Round Table Troubleshooting | slidedeck | session 2 | 45 min | Mar 6|
 | Round Table Data | slidedeck| session 1 | 45 min | Mar 11|
 | Round Table Troubleshooting | slidedeck | session 2 | 45 min | Mar 13|
-| **Spring Break**|  |  | Mar 18|
+| **Spring Break**|  |  | | Mar 18|
 | **Spring Break** |  |  |  | Mar 20|
-| Round Table Data | slidedeck| session 1 | 45 min | Mar 25|
+| Round Table Data | slidedeck | session 1 | 45 min | Mar 25|
 | Round Table Troubleshooting | slidedeck | session 2 | 45 min | Mar 27|
 | Round Table Data | slidedeck| session 1 | 45 min | April 1|
 | Round Table Troubleshooting | slidedeck | session 2 | 45 min | April 3|
-| **PD: Science Talks:** Leah Guthrie| | | | April 8|
+| **PD: Science Talks:**| Lecture & QA| | | April 8|
 | Round Table Troubleshooting | slidedeck | session 2 | 45 min | April 10|
 | Final Round Table Data | slidedeck| session 1 | 45 min | April 15|
 | Final Table Troubleshooting | slidedeck | session 2 | 45 min | April 17|
-| **PD: Activity: Scientific Communication| | | |April 17|
-| **PD: Next Steps| | | | | April 24 |
+| **PD: Scientific Communication**| Activity| | |April 17|
+| **PD: Next Steps**| Activity | | |  April 24 |
 
 #### **Project Work Written Updates + Advisory Meetins**
 
