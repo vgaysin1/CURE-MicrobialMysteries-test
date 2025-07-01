@@ -170,12 +170,6 @@ An abstract is a concise summary of your paper. An effective abstract will infor
 
 #### Introduction
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
-
-ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362974128df_0_21")
-
-```
-
 
 A good introduction section should do two things. First, it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. Second, it should identify your scientific question and hypothesis. Usually, the introduction starts broadly, describing the work of other scientists. It is important to summarize this work (do not quote) and to properly cite the work.
 
