@@ -152,8 +152,6 @@ An abstract is a concise summary of your paper. An effective abstract will infor
 
 #### Introduction
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_21.png){width=100%}
-
 
 A good introduction section should do two things. First, it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. Second, it should identify your scientific question and hypothesis. Usually, the introduction starts broadly, describing the work of other scientists. It is important to summarize this work (do not quote) and to properly cite the work.
 
@@ -419,6 +417,113 @@ Now that you've finished your C-MOOR project, how do you close out your research
 ![](resources/images/community-analysis-and-feedback_files/figure-docx//1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns_g35f391192_00.png){width=100%}
 
 [Slides: Next Steps](https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit?usp=sharing)
+
+
+## Activity - Next Steps
+
+### Introduction
+
+Congratulations on making it to the end of Microbial Mysteries!  Take a moment and reflect on all that you've accomplished during this semester, especially those of you who reported in the Welcome Poll "No experience" with Microbiology, Galaxy, and Scientific Research.  While the "Grad Student Motivation Level" PHD Comics spans years, it likely reflects the ups and downs as you developed and explored your hypothesis, including the thrill of presenting your work to people in our mini-symposium.  The feedback has been great with faculty impressed at what you’ve accomplished, the depth that you understand your projects, and even one scientist who does metagenomics research reporting that they learned a new trick or two!  
+
+
+We’ll wrap up today with several next steps including completing feedback to improve the next offering of this course , researching opportunities to do more science, exploring communities where scientists openly share insights, and optionally sharing more work.
+
+### Activity 1 – Complete Feedback
+
+*Estimated time: 15 min*
+
+#### Instructions
+
+Help us improve this course as we work to grow enrollment to accommodate 32 to 64 students, incorporate graduate TAs and undergraduate course assistants and tutors,  and promote more computational training and research opportunities throughout departmental courses
+https://forms.gle/XkqiMERHc2PETmy4A
+
+### Activity 2 – Research Opportunities
+
+|1. Find one LAB at YOUR INSTITUTION  that you would work in and explain why.|
+|:---|
+| Your text here:|
+<br>
+
+|2. REU – Which NSF Research Experiences for Undergraduates program would you attend and why?|
+|:---|
+| a. Overview – [https://www.nsf.gov/funding/initiatives/reu/students](https://www.nsf.gov/funding/initiatives/reu/students)|
+| b. Search – [https://www.nsf.gov/funding/initiatives/reu/search](https://www.nsf.gov/funding/initiatives/reu/search) 
+- Consider filtering by Research Area (e.g. Biology)|
+| Your text here: |
+<br>
+
+### Activity 3 – Explore Communities
+
+*Estimated time: 15 min*
+
+#### Instructions
+
+Spend a little bit of time browsing communities that discuss genomics, data analysis, and more.  Paste the URLs for a couple of posts that you find interesting with a brief comment.
+
+#### Questions
+
+1. Specialized Communities
+
+a. SEQanswers: the next-generation sequencing community 
+
+- [https://www.seqanswers.com](https://www.seqanswers.com)
+
+b. Biostars: bioinformatics explained 
+
+- [https://www.biostars.org](https://www.biostars.org)
+
+|Post URL of interest for Specialized Communities and your comments here:|
+|:---|
+| |
+<br>
+
+2. General Communities
+
+a. Reddit: The heart of the internet
+
+- [https://www.reddit.com/r/metagenomics](https://www.reddit.com/r/metagenomics)
+
+b. Twitter/X: It’s what’s happening
+
+- [https://x.com/search?q=%23metagenomics](https://x.com/search?q=%23metagenomics)
+
+c. Bluesky: Social media as it should be
+
+- [https://bsky.app/search?q=metagenomics](https://bsky.app/search?q=metagenomics)
+
+|Post URL of interest for General Communities and your comments here:|
+|:---|
+| |
+<br>
+
+### (Optional) Activity 4 – Share Work
+
+*Estimated time: 15 min*
+
+#### Instructions
+
+1. Upload photos – Especially photo of your group standing in front of your poster
+
+- [https://drive.google.com/drive/folders/1y_GCJl7VIYTS_5y7057u2s58ZCdm_PxM](https://drive.google.com/drive/folders/1y_GCJl7VIYTS_5y7057u2s58ZCdm_PxM)
+
+2. Publicly share poster – If every member of your group is ok sharing your work publicly
+
+- [https://help.c-moor.org/c/look-at-this/8](https://help.c-moor.org/c/look-at-this/8)
+
+## Grading Criteria
+
+- Download as Microsoft Word (.docx) and upload on Canvas
+
+## Footnotes
+
+**Resources**
+
+- Google Doc
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
 
 
 ## Update your CV
