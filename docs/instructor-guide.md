@@ -82,7 +82,7 @@ Course content was organized broadly into 3 categories:
 | **Unit 3-2** | **Type**|**Length** | **Spring 2025** |
 | Discussion: Taxonomy Profiling | in-class| | Feb 11 |
 | Lecture: Possible Datasets| in-class| 20 min | Feb 11 |
-| SciServer Tutorial: Meet R! Homework due| 25 min | Feb 11 |
+| SciServer Tutorial: Meet R!| Homework due| 25 min | Feb 11 |
 | Project: Taxonomy Profiling | Homework next |100 min | Feb 12 |
 
 - **Unit 4** - Finding AMRs: Session 1 (Feb 13), Session 2 (Feb 18), Unit length (Feb 13 - Feb 20)
@@ -112,50 +112,115 @@ Course content was organized broadly into 3 categories:
 
 ### Research Module 
 
-Research Module is mainly dedicated to group project work, with intervening Professional Development Sessions such as Scientific Talks. During their project work that spans 7-8 weeks, students do research work towards their project, prepare and update relevant documents (e.g. Written Doc, poster slide deck) and separately meet with instructor to get help with project direction and execution and ask questions.
+Research Module is mainly dedicated to group project work, with intervening Professional Development Sessions such as Scientific Talks. During their project work that spans ~8 weeks, students do research work towards their project, prepare and update relevant documents (e.g. Written Doc, poster slide deck) and separately meet with instructor to get help with project direction and execution and ask questions.
 
 - Project Work consisted of In-Class Round Table activities, and Written Updates + Advisory Meetings.
 
 #### **Project Work In-Class Round Table**
 
+Over the course of the Project work, students present:
+
+- 4-5 times Round Table Data (once per week): 
+- 4-5 times Round Table Troubleshooting (once per week)
 - Project work was intermixed with professional development (PD) activities including Science Talks, Scientific Communication activity, and Next Steps activity.
 
 
-| Update| Format | Session | Length | Due Date |
-|:---|:---|:---|:---|:---|
-| Round Table Data | slidedeck| session 1 | 45 min | Feb 25|
-| Round Table Troubleshooting | slidedeck | session 2 | 45 min | Feb 27|
-| **PD: Science Talks:**  | Lecture & QA | |  | Mar 4|
-| Round Table Troubleshooting | slidedeck | session 2 | 45 min | Mar 6|
-| Round Table Data | slidedeck| session 1 | 45 min | Mar 11|
-| Round Table Troubleshooting | slidedeck | session 2 | 45 min | Mar 13|
-| **Spring Break**|  |  | | Mar 18|
-| **Spring Break** |  |  |  | Mar 20|
-| Round Table Data | slidedeck | session 1 | 45 min | Mar 25|
-| Round Table Troubleshooting | slidedeck | session 2 | 45 min | Mar 27|
-| Round Table Data | slidedeck| session 1 | 45 min | April 1|
-| Round Table Troubleshooting | slidedeck | session 2 | 45 min | April 3|
-| **PD: Science Talks:**| Lecture & QA| | | April 8|
-| Round Table Troubleshooting | slidedeck | session 2 | 45 min | April 10|
-| Final Round Table Data | slidedeck| session 1 | 45 min | April 15|
-| Final Table Troubleshooting | slidedeck | session 2 | 45 min | April 17|
-| **PD: Scientific Communication**| Activity| | |April 17|
-| **PD: Next Steps**| Activity | | |  April 24 |
+**Session overview**
 
-#### **Project Work Written Updates + Advisory Meetins**
+February 25 | Session 1
 
-| Update | | Format | Date | Points (pts) |
-|: ---| : ---| : ---| : ---| 
-| **Project Work Organizer (link)** | Doc | Ongoing | NA |
-| Written Check-in #1 | Doc | Mar 10 | 50 pts |
-| Written Check-in # 2| Poster| Mar 12 | 50 pts |
-| Advisory Meeting #1 | In-person |     Mar 14 | 50 pts |
-| Written Check-in # 3| Doc | Mar 31 | 50 pts|
-| Peer-review # 1| Doc| April 2 | 50 pts|
+- Round Table Data (slidedeck)
+
+February 27 | Session 2
+
+- Round Table Troubleshooting (slidedeck)
+
+March 4 | Professional Development 
+
+- Science Talks: Guest Lecture and Q&A
+
+March 6 | Session 3 (slidedeck)
+
+- Round Table Troubleshooting
+
+March 11 | Sessiono 4
+
+- Round Table Data (slidedeck)
+
+March 13 | Session 5
+
+- Round Table Troubleshooting (slidedeck)
+
+March 18 
+
+- Spring Break
+
+March 20 
+
+- Spring Break
+
+March 25 | Session 6
+
+- Round Table Data (slidedeck)
+
+March 27 | Sessison 7
+
+- Round Table Troubleshooting (slidedeck)
+
+April 1 | Session 8
+
+- Round Table Data (slidedeck)
+
+April 3 | Session 9
+ 
+- Round Table Troubleshooting (slidedeck)
+
+April 8 | Professional Development 
+
+- Science Talks: Guest Lecture and Q&A
+
+April 10 | Session 10
+
+- Round Table Troubleshooting (slidedeck)
+ 
+April 15 | Session 11
+
+- Round Table Data (slidedeck)
+
+April 17 | Professional Development
+
+- **Poster should be finalized and ready for printing**
+- In class activity: Scientific Communication
+
+April 22 | Professional Development
+
+- **Project Work Poster Presentations**
+
+April 24 | Professional Development
+
+- Last Session
+- Lecture: Next Steps
+- In class activity: Next Steps
+
+
+#### **Project Work Written Updates + Advisory Meetings**
+
+Over the course of the Project work, students submit:
+
+- 4 Written progress Check-ins (once per week)
+- 2 Poster update Check-ins 
+- 2 Peer-review write-ups 
+
+| Written Check-in # 1 | Doc | Mar 5 | 50 pts |
+| Written Check-in # 2 | Doc | Mar 10 | 50 pts |
+| Written Check-in # 3| Poster| Mar 12 | 50 pts |
+| Advisory Meeting # 1 | In-person |  Mar 14 | 50 pts |
+| Written Check-in # 4| Doc | Mar 31 | 50 pts|
+| Peer-review # 1| Doc| Doc | April 2 | 50 pts|
 | Advisory Meeting # 2| In-person| April 4 | 50 pts |
-| Written Check-in # 4| Doc| April 7 | 50 pts |
+| Written Check-in # 5| Poster| April 7 | 50 pts |
 | Peer-review # 2| Doc| April 9 | 50 pts |
-| Final Presentation | Poster Session| April 22 | 100 pts |
+| Final Presentation  | Poster Session| April 22 | 100 pts |
 
 #### Project Work Organizer
 
@@ -235,15 +300,15 @@ As an instructor, where can I get help in teaching this course?
 
 ## Grades
 
-|% Effort| Content | Points | 
+|% Effort | Content | Points | 
 |:---| :---| :---| 
 |**Core Labs**| | |
-|20% | Assignments|			200 pts|
-|20% | Class Discussions| 		200 pts|
+|20% | Assignments|	200 pts|
+|20% | Class Discussions| 200 pts|
 |**Project Work**| | |
-|20%| Written Check-ins|		200 pts|
-|10%| Advisory Meetings|		100 pts|
-|10%|  Peer Reviews |			  100 pts|
+|20%| Written Check-ins|	200 pts|
+|10%| Advisory Meetings|	100 pts|
+|10%|  Peer Reviews |			 100 pts|
 |10%| Final Presentation|	100 pts|
 |**Professional Development**| | |
 |10% | Portfolio Dev + Science Talks|	100 pts|
