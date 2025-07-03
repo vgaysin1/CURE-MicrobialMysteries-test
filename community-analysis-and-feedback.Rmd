@@ -87,30 +87,23 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11
 Last Revised: February 2025
 
 
-## Group Poster 
+## Making Group Poster 
 
 ### Preparing to make a poster
 
-An important part of scientific research is presenting your findings. This might be in the form of a peer-reviewed journal article or a more informal poster presentation at a conference or symposium. In this assignment, students will work with their groups to put together their work from the C-MOOR Labs into a research poster.
-
-Although the same information is in a poster, presentation, and a paper, each format requires a vastly different approach!
-
-Here's an example of a [poster](https://drive.google.com/file/d/13EHQmlryoGs9yqTuOmGgU1064D2q937L/view?usp=sharing), [a presentation](https://drive.google.com/file/d/1gtkCgwE1Q_zM0IkrnJxfdYF2U8v15J_2/view?usp=sharing), and a [paper](https://drive.google.com/file/d/1f9akqYSxq4CO3w3pehEmG0TVzMicsOVc/view?usp=sharing) all from the same study. 
-
-Notice how they all contain different levels of detail, different numbers of figures, and use language aimed for a specific audience. Your poster should look distinct from your presentation or paper.
+An important part of scientific research is presenting your findings. Poster is a powerful visual way to communicate new and exciting findings, share ideas and get feedback. No wonder Poster sessions are an integral part of any conference or symposium. Throughout research project work, students will work with their groups to put together a scientific research poster.
+ 
 
 ### Part 1 - Choose a Template
-
 *Estimated time: 5 minutes*
 
 1. With your group, open a suggested [poster template](https://docs.google.com/presentation/d/1chz02nzYklAEjOtHrPsJZccGy1sFUZvqdlfcUyfj3I4/edit?usp=sharing) to use for your poster. 
 1. Discuss with your group how you will divide up the work and exchange important information (e.g. phone numbers, email). Consider the following sections: 
 
-- Abstract 
-- Introduction
+- Abstract/Introduction
 - Methods
 - Results
-- Discussion
+- Conclusions/Discussion
 - References 
 - Acknowledgments
 
@@ -125,12 +118,6 @@ Notice these posters are sized at 36 x 42 inches, but there are many other commo
 
 #### The header: title, authors, and affiliations
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
-
-ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362974128df_0_11")
-
-```
-
 Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  An example affiliation for Clovis Community College would be: “Department of Biology, Clovis Community College, California, United States.” If multiple institutions exist, you will need to use superscript to denote who has what affiliation (see the example poster).
 
 We will include the C-MOOR logo, the logo of your institution(s), and the most immediately relevant funding source (if applicable) in the header.
@@ -140,64 +127,65 @@ We will include the C-MOOR logo, the logo of your institution(s), and the most i
 **Check the header of your poster:**
 
 - [ ] &nbsp;All authors are listed
-- [ ] &nbsp;The affiliations of all authors are listed
+- [ ] &nbsp;All authors’ home institutions are referenced
+- [ ] &nbsp;The title of the poster is focused on your specific project topic (ex. genes, variables, model organism)
+
+- The title of the poster describes the main result of your research
+- The title of the poster does not overstate the findings or significance of your research
+
 - [ ] &nbsp;The C-MOOR logo is included
 - [ ] &nbsp;The logos of your institutions are included
 
-- [ ] &nbsp;The title of the poster is focused on your specific project topic (ex. genes, variables, model organism)
-- [ ] &nbsp;The title of the poster describes the main result of your research
-- [ ] &nbsp;The title of the poster does not overstate the findings or significance of your research
+
+#### Abstract/Introduction
+
+An abstract or introduction is a concise summary of your work. An effective abstract/introduction will inform the reader of the relevant background to the research, scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. You may notice that not all posters online contain and abstract; different fields of science have slightly different requirements and formats for abstracts. 
+
+Abstract is a kind of introduction because it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. 
+
+Abstract is often difficult to write. When writing your abstract/introduction, it may be helpful to start writing at the end. Identify your scientific question, your hypothesis and the gap of knowledge first. Then brainstorm what you will need to tell your readers in terms of context and background. 
 
 
+**Your abstract/introcuction should do the following:**
 
-#### Abstract
+Regarding background information
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+- [ ] &nbsp;Include relevant background information such as: 
 
-ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362974128df_0_18")
+- A problem or question at hand, 
+- Model organism, 
+- Gene of interest and its function, 
+- Important associations (e.g. between genotype and phenotype), 
+- Phenotypes (typical, disease-state), 
+- Biological processes
 
-```
-
-An abstract is a concise summary of your paper. An effective abstract will inform the reader of the scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. You may notice that not all posters online contain and abstract; different fields of science have slightly different requirements and formats for abstracts. 
-
-**Your abstract should do the following:**
-
-- [ ] &nbsp;1 sentence on why your research matters
-- [ ] &nbsp;1 sentence summarizing your methodology
-- [ ] &nbsp;1-2 sentence with the main results without interpretation (ex. we found that gene X was differentially abundant between the eye and all other tissues; we found an association between age and the presence of Y bacteria)
-- [ ] &nbsp;1 sentence on what new knowledge you have contributed from your research (ex. gene X plays a key role in the eye, Y bacteria which is associated with function Z is associated with older populations)
-- [ ] &nbsp;The abstract is no longer than 200 words; no unnecessary words are included
-
-#### Introduction
-
-
-A good introduction section should do two things. First, it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. Second, it should identify your scientific question and hypothesis. Usually, the introduction starts broadly, describing the work of other scientists. It is important to summarize this work (do not quote) and to properly cite the work.
-
-When writing your introduction, it is often helpful to start at the end. Identify your scientific question, your hypothesis and the gap of knowledge first. Then brainstorm what you will need to tell your readers in terms of context and background. 
-
-**Check your poster's introduction:**
-
-
-The introduction contains:
+Regarding your research:
 
 - [ ] &nbsp;Why your research is novel
 - [ ] &nbsp;Why your research matters (ex. any relevant disease states)
 - [ ] &nbsp;The aim and/or hypotheses of your research
-- [ ] &nbsp;Information on why the model organism used is a good model (if relevant to your project)
+- [ ] &nbsp;Summarize your methodology
 
-Check that:
+- e.g. Our hypothesis is that the healthy gut microbiome has more microbial diversity than the gut of an individual with a celiac disease.
+- e.g. We hypothesize that maternal antibiotic treatment correlates with higher antibicrobial resistance in infant microbiome.
 
-- [ ] &nbsp;The introduction is brief (ex. no more than 200 words)
-- [ ] &nbsp;The introduction is formatted in bullet points, not paragraphs
-- [ ] &nbsp;All statements that require references have an in-line reference
+- [ ] &nbsp;State your main results without interpretation 
+
+- e.g. We found that gene X was differentially abundant between the eye and all other tissues 
+- e.g. We found an association between age and the presence of Y bacteria
+
+- [ ] &nbsp;Clearly stated aim, hypothesis, and/or objectives of the research
+
+
+Additionally, check that
+
+- [ ] &nbsp;The abstract text should be no longer than ~200 words
+- [ ] &nbsp;Include a diagram figure or table relevant to background and/or conclusion
+- [ ] &nbsp;Include appropriate in-line citations are included
+
 
 #### Materials and Methods
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
-
-ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362974128df_0_27")
-
-```
 The materials and methods section will detail your analysis of the data. Don’t provide any of your results, just the methods. If you did not generate the data yourself from raw samples, you will simply cite the paper that made them instead of detailing their construction. We will also need to list any programs we used and provide credit to their creators.
 
 Some other things you might include would be what type of analysis you decided to do (which parts of the body parts you analyzed, sets of genes, what p-value you used, etc.).
@@ -206,26 +194,40 @@ Some other things you might include would be what type of analysis you decided t
 
 - [ ] &nbsp;You have listed the source of your data (ex. the published study your data came from) and added the appropriate in-line citation
 - [ ] &nbsp;You have listed all R packages and/or websites you used (ex. DESeq2, ClustrProfiler, Phyloseq, FlyBase, Human Protein Atlas, CellxGene) and added the appropriate in-line citation
-- [ ] &nbsp;You list what p-value you tested for significance at (usually 0.05)
+- [ ] &nbsp;If relevant, list what p-value you tested for significance at (usually 0.05)
 - [ ] &nbsp;Another student from your class would be able to replicate your research based on what you wrote
 
 
 #### Results
+
+The Results section is where you will detail your data primarily through **figures and tables**, though sometimes written text is included. Begin by creating your tables and figures. 
+
+Figure body:
+
+- Has high resolution images, well spaced and labeled parts and text. 
+- Place the figures and tables in order of how you want to present them and name them such as **Figure 1, Figure 2, Table 1, Table 2, etc**.
+
+Figure Legend:
+
+- All figures and tables should have their legends *underneath* 
+- The legend should be in a smaller font than the main text on the poster.
+- A legend should includes a **figure title**, which is a declarative statement  summarizes  findings. This is the takeaway from the figure/table.
+- A legend also includes **figure text** which includes detail on the context and/or methodology used to generate the figure or table to give context to the audience on what they are looking at.
+
+1. Identifies (and can  briefly describe  parts) 
+2. Includes brief description of of methods necessary to understand figure and 
+3. Unless this can be combined with 1) or 2) should include relevant statistics (stats).
+
+Each Figure and Table can have additional (optional) text:
+
+  - Section Title - Summarizes section or figure, similar or broader than figure legend title. Attention Grabber.
+  - (Optional) text - describes the findings of the figure upfront to engage.
+
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
-ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362974128df_0_24")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g33d6e3b928f_0_6#slide=id.g33d6e3b928f_0_6")
 
 ```
-The Results section is where you will detail your data primarily through figures and tables, though sometimes written text is included. Begin by creating your tables and figures. Place the figures and tables in order of how you want to present them and name them such as Figure 1, Figure 2, Table 1, Table 2, etc. 
-
-Every figure and table must have a legend that goes with it in a smaller font.
-Figures have their legends *underneath* them. Tables have their figures *above* them.
-These legends should be in a smaller font than the rest of the text on the poster. 
-Each legend begins with 1 sentence summarizing the takeaway idea from the figure/table. If necessary, add 1-2 sentences of detail on the context and/or methodology used to generate the figure or table to give context to the audience on what they are looking at.
-
-If you are including written text of your results, you should go through each figure in order, emphasizing any important results from each one. As you discuss each figure, you will reference the figure or table in parentheses. For example: “RT-PCR analysis shows an increase in gene expression for gene X (Fig 2).” 
-
-Have fun playing around with how to organize your figures with the text to make the poster look professional. You need a minimum of 2 figures for your poster.
 
 **Check your poster's results section:**
 
@@ -234,9 +236,9 @@ Have fun playing around with how to organize your figures with the text to make 
 - [ ] &nbsp;All figures have a legend underneath them
 - [ ] &nbsp;All tables have a legend above them
 - [ ] &nbsp;The legends have 1 sentence summarizing the figure or table's main idea
-- [ ] &nbsp;If necessary, the legends have 1-2 sentences detailing the methodology and or other context of the figure/table
+- [ ] &nbsp;The legends have accompanying text detailing the methodology and or other context of the figure/table.
 
-#### Discussion
+#### Conclusions/Discussion
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
