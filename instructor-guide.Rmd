@@ -8,27 +8,31 @@ C-MOOR Microbial Mysteries CURE content overview.
 The Microbial Mysteries course content was organized and presented by way of Unit modules below. Each unit has a main theme, reflected by the unit title. Practically, each unit is a week covering both, themed assignments and those from previous and next units, including any other additional material an instructor wishes to cover. 
 
 
-- Each class duration was 1 hour and 15 minutes
+- Microbial Mysteries CURE was offered at the Johns Hopkins University over the Spring Semester of 2025 lasting a total of 13 weeks
+- Each class/session lasted 1 hour and 15 minutes
 
-- Core units 1, 2, 3 and 4, over the coure of 4 weeks and 8 classes (1 unit per week and 2 classes/week) was typically associated with 1.5-2.5 hrs of homework per class, or 3-5 hours of homework per week. The amount of homework is based on: 
+Course content was organized broadly into 3 categories:
+
+```
+1. Structured (Core) Units - on weekly basis, Units 0 through 4
+2. Research Module (Project Work) - over the course of 7-8 weeks
+3. Professional Development Module - over the course of 4 weeks
+```
+
+- Core units 1, 2, 3 and 4, are fundamental knowledge and skills units that were taught over the coure of 4 weeks and 8 classes (1 unit per week and 2 classes/week) 
+
+- Each core unit was typically associated with 1.5-2.5 hours of homework per class, or 3-5 hours of homework per week. The amount of homework is based on: 
 
 a) For each hour of class students were generally expected to spend approximately 2 hours of independent study time (homework). 
 
 b) To ensure meaningful coverage of important concepts and scientific content and computational skills necessary to proceed to next step and subsequently execute independent group project work. 
 
-- Typically, each class began with either a discussion or a presentation based on homework from a previous session.
-
-
-Course content was organized broadly into 3 categories:
-
-1. Structured (Core) Units - on weekly basis, Units 0 through 4
-2. Research Module (Project Work) - over the course of 7-8 weeks
-3. Professional Development Module - over the course of 4 weeks
 
 ### Structured Units 
 
   - Table below - shows an example of course organization for Core Units 0 through 4
   - Spring 2025 - refers to **due date** for assignments based the Spring 2025 semester at the Johns Hopkins University. 
+
 
 <br>
 
@@ -80,7 +84,7 @@ Course content was organized broadly into 3 categories:
 | Galaxy Tutorial: Using dataset collections | Homework next| 45 min | Feb 10|
 |<br>| 
 | **Unit 3-2** | **Type**|**Length** | **Spring 2025** |
-| Discussion: Taxonomy Profiling | in-class| | Feb 11 |
+| Discussion: Taxonomy Profiling | in-class| 30 min | Feb 11 |
 | Lecture: Possible Datasets| in-class| 20 min | Feb 11 |
 | SciServer Tutorial: Meet R!| Homework due| 25 min | Feb 11 |
 | Project: Taxonomy Profiling | Homework next |100 min | Feb 12 |
@@ -107,16 +111,30 @@ Course content was organized broadly into 3 categories:
 |:--|:--|:--|:--|
 | **Presentation - Unit 4**: Finding AMRs Project| in-class | 30 min | Feb 20|
 | Lecture: Kickstart Project Work | in-class| 20 min | Feb 20 |
-| Activity: Kickstart Project Work | Homework next | | Feb 26 |
+| Activity: Kickstart Project Work | Homework next |90 min | Feb 26 |
 
 
 ### Research Module 
 
 Research Module is mainly dedicated to group project work, with intervening Professional Development Sessions such as Scientific Talks. During their project work that spans ~8 weeks, students do research work towards their project, prepare and update relevant documents (e.g. Written Doc, poster slide deck) and separately meet with instructor to get help with project direction and execution and ask questions.
 
-- Project Work consisted of In-Class Round Table activities, and Written Updates + Advisory Meetings.
+- <mark style="background-color: yellow">Students are expected to work on their project independently and with groups a minimum of 4 hours per week.
+- <mark style="background-color: yellow">When there is no assignment due, students are still expected to work on their projects and update their posters.
+- Project Work activities consisted of **In-Class Round Table activities**, and **Written Updates + Advisory Meetings**.
 
-#### **Project Work In-Class Round Table**
+**Table: List of Project Work activities** 
+
+| Project-related Activity | Format| Function| 
+|:-| :--|:--|
+| Round Table Data| in-class slidedeck | Discuss data and ask questions  |
+| Round Table Troubleshooting| in-class slidedeck| Discuss methods and ask questions |
+| Written Check-ins (Doc)| Doc text updates| Share project work updates on project work |
+| Written Check-ins (Poster)| Poster updates| Update poster |
+| Advisory Meetings| In-person with instructor | Discuss progress and issues |
+| Peer-review (Doc) | Doc text updates | Provide peer-feedback on project and poster|
+
+
+**Project Work In-Class Round Table**
 
 Over the course of the Project work, students present:
 
@@ -125,7 +143,16 @@ Over the course of the Project work, students present:
 - Project work was intermixed with professional development (PD) activities including Science Talks, Scientific Communication activity, and Next Steps activity.
 
 
-**Session overview**
+**Project Work Written Updates + Advisory Meetings**
+
+Over the course of the Project work, students submit:
+
+- 4 Written progress Check-ins (once per week)
+- 2 Poster update Check-ins 
+- 2 Peer-review write-ups 
+
+
+**Project Work Sessions and Assignment overview**
 
 February 25 | Session 1
 
@@ -138,18 +165,23 @@ February 27 | Session 2
 March 4 | Professional Development 
 
 - Science Talks: Guest Lecture and Q&A
+- `Homework: Work on Written Check-in #1 (Doc) (Due day before next class, March 5)`
 
 March 6 | Session 3 (slidedeck)
 
 - Round Table Troubleshooting
+- `Homework: Work on Written Check-in #2 (Doc) (Due day before next class, March 10)`
 
-March 11 | Sessiono 4
+March 11 | Session 4
 
 - Round Table Data (slidedeck)
+- `Homework: Work on Written Check-in #3 (Poster) (Due day before next class, March 12)`
+
 
 March 13 | Session 5
 
 - Round Table Troubleshooting (slidedeck)
+- `Advisory Meeting #1` (Due next day, March 14)`
 
 March 18 
 
@@ -166,18 +198,23 @@ March 25 | Session 6
 March 27 | Sessison 7
 
 - Round Table Troubleshooting (slidedeck)
+- `Homework: Work on Written Check-in #4 (Doc) (Due day before next class, March 31)`
 
 April 1 | Session 8
 
 - Round Table Data (slidedeck)
+- `Homework: Work on Peer-review #1 (Doc) (Due day before next class, April 2)`
 
 April 3 | Session 9
  
 - Round Table Troubleshooting (slidedeck)
+- `Advisory Meeting #1` (Due next day, April 4)`
+- `Homework: Work on Written Check-in #5 (Doc) (Due day before next class, April 7)`
 
 April 8 | Professional Development 
 
 - Science Talks: Guest Lecture and Q&A
+- `Homework: Work on Peer-review #2 (Doc) (Due day before next class, April 9)`
 
 April 10 | Session 10
 
@@ -194,7 +231,7 @@ April 17 | Professional Development
 
 April 22 | Professional Development
 
-- **Project Work Poster Presentations**
+- **Project Work Final Poster Presentation**
 
 April 24 | Professional Development
 
@@ -202,25 +239,14 @@ April 24 | Professional Development
 - Lecture: Next Steps
 - In class activity: Next Steps
 
+#### Project Work Grading
 
-#### **Project Work Written Updates + Advisory Meetings**
-
-Over the course of the Project work, students submit:
-
-- 4 Written progress Check-ins (once per week)
-- 2 Poster update Check-ins 
-- 2 Peer-review write-ups 
-
-| Written Check-in # 1 | Doc | Mar 5 | 50 pts |
-| Written Check-in # 2 | Doc | Mar 10 | 50 pts |
-| Written Check-in # 3| Poster| Mar 12 | 50 pts |
-| Advisory Meeting # 1 | In-person |  Mar 14 | 50 pts |
-| Written Check-in # 4| Doc | Mar 31 | 50 pts|
-| Peer-review # 1| Doc| Doc | April 2 | 50 pts|
-| Advisory Meeting # 2| In-person| April 4 | 50 pts |
-| Written Check-in # 5| Poster| April 7 | 50 pts |
-| Peer-review # 2| Doc| April 9 | 50 pts |
-| Final Presentation  | Poster Session| April 22 | 100 pts |
+|Project work activity | Format | points |
+|:--|:--|:--|:--|
+| Written Check-ins | Doc | each 50 pts |
+| Advisory Meetings | In-person |   each 50 pts |
+| Peer-reviews| Doc|  each 50 pts|
+| Final Poster Presentation  | 100 pts |
 
 #### Project Work Organizer
 
