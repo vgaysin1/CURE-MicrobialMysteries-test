@@ -7,8 +7,7 @@ available-course-formats
 course-content
 structured-units
 research-module
-project-work-in-class-round-table
-project-work-written-updates-advisory-meetings
+project-work-grading
 project-work-organizer
 professional-development-module
 core-competencies
