@@ -14,8 +14,6 @@ In this section we will go over how to create a scientific poster. We chose a po
   - The Notre Dame of Maryland University Research Day
   - The GRADS-4C Conference (2025)
 
-<!-- Why is it not making a space? -->
-
 <img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 - **Serve as a physical representation of student achievement**: If printed, once finished with the class, students can choose to take their poster with them or leave it with the class to be hung up around the classroom or the hallways. This gives their research project more visibility, serves as an advertisement for other students who might be interested in taking the class, and showcases what students have accomplished. 
@@ -201,30 +199,27 @@ Some other things you might include would be what type of analysis you decided t
 
 #### Results
 
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_6.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
 The Results section is where you will detail your data primarily through **figures and tables**, though sometimes written text is included. Begin by creating your tables and figures. 
 
-Figure body:
+**Figure body**:
 
 - Has high resolution images, well spaced and labeled parts and text. 
 - Place the figures and tables in order of how you want to present them and name them such as **Figure 1, Figure 2, Table 1, Table 2, etc**.
 
-Figure Legend:
+**Figure Legend**:
 
-- All figures and tables should have their legends *underneath* 
+- All figures and tables should have their legends *underneath*.
 - The legend should be in a smaller font than the main text on the poster.
-- A legend should includes a **figure title**, which is a declarative statement  summarizes  findings. This is the takeaway from the figure/table.
-- A legend also includes **figure text** which includes detail on the context and/or methodology used to generate the figure or table to give context to the audience on what they are looking at.
+- A legend should includes a **figure title**, which is a declarative statement that summarizes  findings.
+- A legend also includes **figure text** which a) identifies (and can  briefly describe  parts), b) includes brief description of of methods necessary to understand figure and c) should include relevant statistics (stats).
 
-1. Identifies (and can  briefly describe  parts) 
-2. Includes brief description of of methods necessary to understand figure and 
-3. Unless this can be combined with 1) or 2) should include relevant statistics (stats).
+**Optional text**
 
-Each Figure and Table can have additional (optional) text:
-
-  - Section Title - Summarizes section or figure, similar or broader than figure legend title. Attention Grabber.
-  - (Optional) text - describes the findings of the figure upfront to engage.
-
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_6.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+- Each Figure and Table can have additional (optional) text.
+- Encouraged is a **Section Title** - which summarizes section or figure, similar or broader than figure legend title. Attention Grabber.
+- (Optional) text - describes the findings of the figure upfront to engage.
 
 **Check your poster's results section:**
 
