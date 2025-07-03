@@ -330,16 +330,15 @@ activity-18
 instructions-59
 grading-criteria-20
 footnotes-27
-group-poster
+making-group-poster
 preparing-to-make-a-poster
 part-1---choose-a-template
 part-2---make-an-academic-research-poster
 the-header-title-authors-and-affiliations
-abstract
-introduction-17
+abstractintroduction
 materials-and-methods
 results
-discussion
+conclusionsdiscussion
 references
 acknowledgements
 part-3---proofread-and-add-final-touches
@@ -349,7 +348,7 @@ footnotes-28
 resources-2
 contributions-and-affiliations
 activity---share-your-poster
-introduction-18
+introduction-17
 activity-1-share-your-poster
 instructions-60
 questions-39
@@ -361,7 +360,7 @@ footnotes-29
 next-steps
 lecture---next-steps
 activity---next-steps
-introduction-19
+introduction-18
 activity-1-complete-feedback
 instructions-62
 activity-2-research-opportunities
