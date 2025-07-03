@@ -108,6 +108,8 @@ Notice these posters are sized at 36 x 42 inches, but there are many other commo
 
 #### The header: title, authors, and affiliations
 
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_67.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
 Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  An example affiliation for Clovis Community College would be: “Department of Biology, Clovis Community College, California, United States.” If multiple institutions exist, you will need to use superscript to denote who has what affiliation (see the example poster).
 
 We will include the C-MOOR logo, the logo of your institution(s), and the most immediately relevant funding source (if applicable) in the header.
@@ -128,6 +130,8 @@ We will include the C-MOOR logo, the logo of your institution(s), and the most i
 
 
 #### Abstract/Introduction
+
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_139.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 An abstract or introduction is a concise summary of your work. An effective abstract/introduction will inform the reader of the relevant background to the research, scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. You may notice that not all posters online contain and abstract; different fields of science have slightly different requirements and formats for abstracts. 
 
@@ -173,8 +177,15 @@ Additionally, check that
 - [ ] &nbsp;Include a diagram figure or table relevant to background and/or conclusion
 - [ ] &nbsp;Include appropriate in-line citations are included
 
+At the end, abstract/introduction can take many shapes and forms.
+
+- E.g. see a combination of text and bullet points in this example from PacBio's 'Genome-resolved metagenome assembly of human oral microbiome using highly accurate long-read sequencing' abstract. 
+
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_149.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 #### Materials and Methods
+
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_27.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The materials and methods section will detail your analysis of the data. Don’t provide any of your results, just the methods. If you did not generate the data yourself from raw samples, you will simply cite the paper that made them instead of detailing their construction. We will also need to list any programs we used and provide credit to their creators.
 
