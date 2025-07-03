@@ -200,7 +200,7 @@ or
 
 #### Materials and Methods
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_27.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_1_1.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The materials and methods section will detail your analysis of the data. Don’t provide any of your results, just the methods. If you did not generate the data yourself from raw samples, you will simply cite the paper that made them instead of detailing their construction. We will also need to list any programs we used and provide credit to their creators.
 
