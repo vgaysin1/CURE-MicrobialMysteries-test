@@ -224,7 +224,7 @@ or
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
-ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit?slide=id.g362974128df_0_27#slide=id.g362974128df_0_27")
+ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g33d6e3b928f_1_1#slide=id.g33d6e3b928f_1_1")
 
 ```
 
