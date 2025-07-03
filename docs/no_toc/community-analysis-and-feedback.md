@@ -108,7 +108,10 @@ Notice these posters are sized at 36 x 42 inches, but there are many other commo
 
 <img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_67.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  An example affiliation for Clovis Community College would be: “Department of Biology, Clovis Community College, California, United States.” If multiple institutions exist, you will need to use superscript to denote who has what affiliation (see the example poster).
+Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  
+
+- An example affiliation for Clovis Community College would be: “Department of Biology, Clovis Community College, California, United States.” 
+- If multiple institutions exist, you will need to use superscript to denote who has what affiliation (see the example poster).
 
 We will include the C-MOOR logo, the logo of your institution(s), and the most immediately relevant funding source (if applicable) in the header.
 
@@ -120,66 +123,80 @@ We will include the C-MOOR logo, the logo of your institution(s), and the most i
 - [ ] &nbsp;All authors’ home institutions are referenced
 - [ ] &nbsp;The title of the poster is focused on your specific project topic (ex. genes, variables, model organism)
 
-- The title of the poster describes the main result of your research
-- The title of the poster does not overstate the findings or significance of your research
+`The title of the poster describes the main result of your research`
+`The title of the poster does not overstate the findings or significance of your research`
 
 - [ ] &nbsp;The C-MOOR logo is included
 - [ ] &nbsp;The logos of your institutions are included
 
 
+
 #### Abstract/Introduction
 
+C-MOOR Abstract/Introduction examples:
+
 <img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_139.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+PacBio's published abstract on 'Genome-resolved metagenome assembly of human oral microbiome using highly accurate long-read sequencing'. 
+
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_149.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 An abstract or introduction is a concise summary of your work. An effective abstract/introduction will inform the reader of the relevant background to the research, scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. You may notice that not all posters online contain and abstract; different fields of science have slightly different requirements and formats for abstracts. 
 
 Abstract is a kind of introduction because it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. 
 
-Abstract is often difficult to write. When writing your abstract/introduction, it may be helpful to start writing at the end. Identify your scientific question, your hypothesis and the gap of knowledge first. Then brainstorm what you will need to tell your readers in terms of context and background. 
+Abstract can be difficult to write because it combines all research pieces and requires effective and consice communication of those pieces. When writing your abstract/introduction, it may be helpful to start writing at the end. Identify your scientific question, your hypothesis and the gap of knowledge first. Then brainstorm what you will need to tell your readers in terms of context and background. 
 
 
-**Your abstract/introcuction should do the following:**
+**Your Abstract/Introduction should do the following:**
 
-Regarding background information
+*Include relevant background information such as*: 
 
-- [ ] &nbsp;Include relevant background information such as: 
-
-- A problem or question at hand, 
-- Model organism, 
-- Gene of interest and its function, 
-- Important associations (e.g. between genotype and phenotype), 
-- Phenotypes (typical, disease-state), 
+```
+- A problem or question at hand 
+- Model organism used 
+- Gene of interest and its function 
+- Important associations (e.g. between genotype and phenotype)
+- Phenotypes (typical, disease-state) 
 - Biological processes
+```
 
-Regarding your research:
+*Clearly state hypothesis, and/or objectives of the research*:
 
-- [ ] &nbsp;Why your research is novel
-- [ ] &nbsp;Why your research matters (ex. any relevant disease states)
-- [ ] &nbsp;The aim and/or hypotheses of your research
-- [ ] &nbsp;Summarize your methodology
+`- e.g. Our hypothesis is that the healthy gut microbiome has more microbial diversity than the gut of an individual with a celiac disease.`
 
-- e.g. Our hypothesis is that the healthy gut microbiome has more microbial diversity than the gut of an individual with a celiac disease.
-- e.g. We hypothesize that maternal antibiotic treatment correlates with higher antibicrobial resistance in infant microbiome.
+or
 
-- [ ] &nbsp;State your main results without interpretation 
+`- e.g. We hypothesize that maternal antibiotic treatment correlates with higher antibicrobial resistance in infant microbiome.`
 
-- e.g. We found that gene X was differentially abundant between the eye and all other tissues 
-- e.g. We found an association between age and the presence of Y bacteria
+also consider:
 
-- [ ] &nbsp;Clearly stated aim, hypothesis, and/or objectives of the research
+```
+- Why your research is novel
+- Why your research matters (ex. any relevant disease states)
+```
+
+*Briefly mention methodology you used in your research*
+
+`- e.g. Using Galaxy we analyzed the genomic diversity of the gut microbiome and compared fecal samples between individuals with Celiac Disease (CD) and a control group on a healthy diet without CD.`
 
 
-Additionally, check that
+*Briefly state your main results without interpretation* 
 
+`- e.g. We found that gene X was differentially abundant between the eye and all other tissues` 
+
+or
+
+`- e.g. We found an association between age and the presence of Y bacteria`
+
+**Check your Abstract/Introduction section:**
+
+- [ ] &nbsp;The appropriate background is given as necessary (3 points)
+- [ ] &nbsp;The aim, hypothesis, and/or objectives of the research are stated (1 point)
+- [ ] &nbsp;A diagram with legend is included (1 point)
+- [ ] &nbsp;In-line citations are included appropriately
 - [ ] &nbsp;The abstract text should be no longer than ~200 words
-- [ ] &nbsp;Include a diagram figure or table relevant to background and/or conclusion
-- [ ] &nbsp;Include appropriate in-line citations are included
 
-At the end, abstract/introduction can take many shapes and forms.
-
-- E.g. see a combination of text and bullet points in this example from PacBio's 'Genome-resolved metagenome assembly of human oral microbiome using highly accurate long-read sequencing' abstract. 
-
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_149.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 #### Materials and Methods
 
