@@ -14,7 +14,7 @@ In this section we will go over how to create a scientific poster. We chose a po
   - The Notre Dame of Maryland University Research Day
   - The GRADS-4C Conference (2025)
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_0.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 - **Serve as a physical representation of student achievement**: If printed, once finished with the class, students can choose to take their poster with them or leave it with the class to be hung up around the classroom or the hallways. This gives their research project more visibility, serves as an advertisement for other students who might be interested in taking the class, and showcases what students have accomplished. 
 
@@ -28,7 +28,7 @@ In this section we will go over how to create a scientific poster. We chose a po
 
 *Estimated time: ---*
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362823fe47a_0_72.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362823fe47a_0_72.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 
 [Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
@@ -75,7 +75,7 @@ In this section we will go over how to create a scientific poster. We chose a po
 Last Revised: February 2025
 
 
-## Making Group Poster 
+## Making Your Group Poster 
 
 ### Preparing to make a poster
 
@@ -88,12 +88,15 @@ An important part of scientific research is presenting your findings. Poster is 
 1. With your group, open a suggested [poster template](https://docs.google.com/presentation/d/1chz02nzYklAEjOtHrPsJZccGy1sFUZvqdlfcUyfj3I4/edit?usp=sharing) to use for your poster. 
 1. Discuss with your group how you will divide up the work and exchange important information (e.g. phone numbers, email). Consider the following sections: 
 
-- Abstract/Introduction
+- Abstract
+- Introduction
 - Methods
 - Results
 - Conclusions/Discussion
 - References 
 - Acknowledgments
+
+**Not every poster has every section. Refer to your instructor and their rubric on what to include in your poster.**
 
 Notice these posters are sized at 36 x 42 inches, but there are many other commonly used sizes. Refer to your instructor on what poster size to use; not every poster will fit every stand when printed (if applicable). Notice that the posters in this slidedeck come in two-column, three-column, and mixed formats. Think about your figures and tables and select a format that makes the most sense for them. There are also some example posters in the last two slides that we will use to examine the anatomy of a research poster further in the next part.
 
@@ -106,7 +109,7 @@ Notice these posters are sized at 36 x 42 inches, but there are many other commo
 
 #### The header: title, authors, and affiliations
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_67.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_67.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  
 
@@ -117,106 +120,74 @@ We will include the C-MOOR logo, the logo of your institution(s), and the most i
 
 <!-- NOTE: &nbsp; creates a space in Markdown. In this instance, adding extra spaces after the checkbox didn't seem to work. -->
 
-**Check the header of your poster:**
 
-- [ ] &nbsp;All authors are listed
-- [ ] &nbsp;All authors’ home institutions are referenced
-- [ ] &nbsp;The title of the poster is focused on your specific project topic (ex. genes, variables, model organism)
+#### Abstract
 
-`The title of the poster describes the main result of your research`
-`The title of the poster does not overstate the findings or significance of your research`
+C-MOOR Abstract examples:
 
-- [ ] &nbsp;The C-MOOR logo is included
-- [ ] &nbsp;The logos of your institutions are included
-
-
-
-#### Abstract/Introduction
-
-C-MOOR Abstract/Introduction examples:
-
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_139.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g36d8202a6d3_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 PacBio's published abstract on 'Genome-resolved metagenome assembly of human oral microbiome using highly accurate long-read sequencing'. 
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_149.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_149.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-An abstract or introduction is a concise summary of your work. An effective abstract/introduction will inform the reader of the relevant background to the research, scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. You may notice that not all posters online contain and abstract; different fields of science have slightly different requirements and formats for abstracts. 
+An abstract is a concise summary of your research project from start to finish. An effective abstract will inform the reader of the relevant background to the research, the scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. 
 
-Abstract is a kind of introduction because it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. 
+The abstract can be difficult to write because it combines all sections from your research and requires effective and concise communication of those sections. Many scientists choose to write the abstract last, after they fully understand the conclusions and implications of their work. Identify your scientific question, your hypothesis, and the knowledge gap (the unknown your research is addressing) first. Then brainstorm what you will need to tell your readers in terms of context and background. 
 
-Abstract can be difficult to write because it combines all research pieces and requires effective and consice communication of those pieces. When writing your abstract/introduction, it may be helpful to start writing at the end. Identify your scientific question, your hypothesis and the gap of knowledge first. Then brainstorm what you will need to tell your readers in terms of context and background. 
+**Your abstract should do the following:**
 
-
-**Your Abstract/Introduction should do the following:**
-
-*Include relevant background information such as*: 
+1. Include relevant background information such as*: 
 
 ```
-- A problem or question at hand 
-- Model organism used 
-- Gene of interest and its function 
-- Important associations (e.g. between genotype and phenotype)
-- Phenotypes (typical, disease-state) 
-- Biological processes
+- The model organism
+- The relevant phenotypes (ex. disease-state)
+- The gene of interest and its function
+- The known connection between the microbiome or gene and the phenotype
+- Relevant biological processes (ex. pathways)
 ```
 
-*Clearly state hypothesis, and/or objectives of the research*:
-
-`- e.g. Our hypothesis is that the healthy gut microbiome has more microbial diversity than the gut of an individual with a celiac disease.`
-
-or
-
-`- e.g. We hypothesize that maternal antibiotic treatment correlates with higher antibicrobial resistance in infant microbiome.`
-
-also consider:
+2. Clearly state hypothesis, aims, and/or objectives of the research:
 
 ```
-- Why your research is novel
-- Why your research matters (ex. any relevant disease states)
+- e.g. Our hypothesis is that the healthy gut microbiome has more microbial diversity than the gut of an individual with a celiac disease.`
+- e.g. We hypothesize that maternal antibiotic treatment correlates with higher antibicrobial resistance in infant microbiome.`
 ```
 
-*Briefly mention methodology you used in your research*
+3. Briefly mention methodology you used in your research
 
-`- e.g. Using Galaxy we analyzed the genomic diversity of the gut microbiome and compared fecal samples between individuals with Celiac Disease (CD) and a control group on a healthy diet without CD.`
+```
+- e.g. Using Galaxy we analyzed the genomic diversity of the gut microbiome and compared fecal samples between individuals with Celiac Disease (CD) and a control group on a healthy diet without CD.`
+- e.g. We analyzed a publically available dataset comparing RNA-seq gene expression data between the left and right eyes in DESeq2."
+```
+
+4. Summarize the main results of your study and how they relate to the hypothesis/aims/objectives you outlined earlier
+
+```
+- e.g. We found that gene X was differentially abundant between the eye and all other tissues, suggesting gene X plays an important role in the eye. This may be important for learning more about eye development and X condition.` 
+- e.g. We found an association between age and the presence of Y bacteria, which supports our hypothesis that Y bacteria is involved in the disease state`
+```
 
 
-*Briefly state your main results without interpretation* 
 
-`- e.g. We found that gene X was differentially abundant between the eye and all other tissues` 
+#### Introduction
 
-or
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_18.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-`- e.g. We found an association between age and the presence of Y bacteria`
-
-**Check your Abstract/Introduction section:**
-
-- [ ] &nbsp;The appropriate background is given as necessary (3 points)
-- [ ] &nbsp;The aim, hypothesis, and/or objectives of the research are stated (1 point)
-- [ ] &nbsp;A diagram with legend is included (1 point)
-- [ ] &nbsp;In-line citations are included appropriately
-- [ ] &nbsp;The abstract text should be no longer than ~200 words
+Introductions can be highly variable. Sometimes they contain the same information as the abstract under a different name. At other times, the introduction only contains the relevant information needed to understand the study and the study's hypothesis/aims/objectives and does not include the methodology, results, or takeaways from the study. In these cases, the introduction can go into more detail in comparision to an abstract.
 
 
 #### Materials and Methods
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_1_1.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_1_1.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The materials and methods section will detail your analysis of the data. Don’t provide any of your results, just the methods. If you did not generate the data yourself from raw samples, you will simply cite the paper that made them instead of detailing their construction. We will also need to list any programs we used and provide credit to their creators.
 
 Some other things you might include would be what type of analysis you decided to do (which parts of the body parts you analyzed, sets of genes, what p-value you used, etc.).
 
-**Check your poster's materials and methods section:**
-
-- [ ] &nbsp;You have listed the source of your data (ex. the published study your data came from) and added the appropriate in-line citation
-- [ ] &nbsp;You have listed all R packages and/or websites you used (ex. DESeq2, ClustrProfiler, Phyloseq, FlyBase, Human Protein Atlas, CellxGene) and added the appropriate in-line citation
-- [ ] &nbsp;If relevant, list what p-value you tested for significance at (usually 0.05)
-- [ ] &nbsp;Another student from your class would be able to replicate your research based on what you wrote
-
-
 #### Results
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_6.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_6.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The Results section is where you will detail your data primarily through **figures and tables**, though sometimes written text is included. Begin by creating your tables and figures. 
 
@@ -225,49 +196,34 @@ The Results section is where you will detail your data primarily through **figur
 - Has high resolution images, well spaced and labeled parts and text. 
 - Place the figures and tables in order of how you want to present them and name them such as **Figure 1, Figure 2, Table 1, Table 2, etc**.
 
-**Figure Legend**:
+**Figure/table Legends**:
 
-- All figures and tables should have their legends *underneath*.
+- Figures have their legends *underneath* them. Tables have their legends *above* them.
 - The legend should be in a smaller font than the main text on the poster.
-- A legend should includes a **figure title**, which is a declarative statement that summarizes  findings.
+- A legend should includes a bolded **figure title**, which is a declarative statement that summarizes  findings.
 - A legend also includes **figure text** which a) identifies (and can  briefly describe  parts), b) includes brief description of of methods necessary to understand figure and c) should include relevant statistics (stats).
 
-**Optional text**
+**Optional components:**
 
-- Each Figure and Table can have additional (optional) text.
-- Encouraged is a **Section Title** - which summarizes section or figure, similar or broader than figure legend title. Attention Grabber.
-- (Optional) text - describes the findings of the figure upfront to engage.
+- Bullet pointed text that summarizes the main findings of the figures/tables and references them (ex. We found result X (Fig 1))
+- A more informative section header which summarizes the main figure(s) instead of a generic "Results" header
 
-**Check your poster's results section:**
-
-- [ ] &nbsp;You have a minimum of 2 figures on the poster
-- [ ] &nbsp;All figures have a labeled x and y-axis
-- [ ] &nbsp;All figures have a legend underneath them
-- [ ] &nbsp;All tables have a legend above them
-- [ ] &nbsp;The legends have 1 sentence summarizing the figure or table's main idea
-- [ ] &nbsp;The legends have accompanying text detailing the methodology and or other context of the figure/table.
 
 #### Conclusions/Discussion
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-The discussion section of the paper is your chance to analyze and interpret your results. For your lab report, make sure your discussion section includes all of the following:
+The conclusion/discussion section of the paper is your chance to analyze and interpret your results. A discussion generally addresses the following:
 
 - What do your results mean?
 - How do they fit into the bigger picture?
-- If any experiments did not give expected results, hypothesize why that might have been the case and propose alternate experiments that could confirm or clarify your results.
-- Include at least one sentence of future work that you would do if you had more time or what students in upcoming semesters could do to continue to answer your questions.
+- If any experiments did not give your expected results, hypothesize why that might have been the case and propose alternate experiments that could confirm or clarify your results
+- Include at least one sentence of future work that you would do if you had more time or what students in upcoming semesters could do to continue to answer your questions
 
-**Check your poster's discussion section:**
-
-- [ ] &nbsp;1 sentence for each major result that relates to your hypothesis
-- [ ] &nbsp;1-2 sentences how these results matter based on the problem you described in your introduction
-- [ ] &nbsp;1 sentence describing future work someone else could do as a logical next step in addressing the problem you described in your introduction
-- [ ] &nbsp;If your results were unexpected, hypothesize why that might be the case
 
 #### References
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_80.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_80.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 All the references that you cite on your poster must be present in a References section including the following sections: Introduction, Methods, and Discussion. To save space on our posters, we will number our references (ex. 1-5) and use the numbers as citations throughout the text of your poster. You may have a lot of references; it is okay to put them in tiny text if you have to in order to make them fit.
 
@@ -283,25 +239,11 @@ Online article only:
 
 > Marianes, A. and A. C. Spradling (2013) “Physiological and stem cell compartmentalization within the Drosophila midgut.” eLife, doi:10.7554/eLife.00886
     
-**Check your references section**:
-
-- [ ] &nbsp;All in-text citations in the introduction are included in the references
-- [ ] &nbsp;All in-text citations in the methods are included in the references
-- [ ] &nbsp;All in-text citations in the discussion are included in the references
-- [ ] &nbsp;All references are from scientific journals
-- [ ] &nbsp;All text that requires an in-text citation has one
-
 #### Acknowledgements
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The acknowledgements section is where you give thanks to the people, organizations, and institutions that have supported you in your research. If relevant, include the grant ID # of your funding source. Institutions and organizations that have contributed to your research - but you do not belong to - can be thanked here.
-
-**Check your acknowledgements section:**
-
-- [ ] &nbsp;Thank any funding source and the grant # are listed here
-- [ ] &nbsp;Thank your research mentor (if applicable)
-- [ ] &nbsp;Thank those who have provided you with technical support (if applicable)
 
 
 ### Part 3 - Proofread and Add Final Touches
@@ -328,24 +270,13 @@ You will turn in your poster to be graded as a group in a Canvas Assignment and 
 
 ### Grading Criteria
 
-Everyone in the group earns the same grade, so it is important to work together.
-
-| Points | Category |
-|:-|:-|
-| 2 points | Title, Authors and Affiliations |
-| 3 points | Abstract |
-| 4 points | Introduction <br> 2 - relevant background <br> 2 - drosophila as a model system |
-| 5 points | Methods |
-| 5 points | Results |
-| 4 points | Discussion |
-| 5 points | References ( 2 primary sources, 5 sources total) |
-| 2 points | Poster Organization  |
+Your instructor will provide for you a rubric specific to your class. Refer to the rubric as your build your poster to make sure you have all the neccessary components.
 
 ### Footnotes
 
 #### Resources
 
-- [Google Doc]
+- [Generic rubric](https://docs.google.com/document/d/13eB1fwHEB1I00JHBUQLZIJsi-iQZYaWaXThPqCTU17g/edit?usp=sharing)
 
 #### Contributions and Affiliations
 
@@ -451,7 +382,7 @@ Now that you've finished your C-MOOR project, how do you close out your research
 
 *Estimated time: ---*
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns_g35f391192_00.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 [Slides: Next Steps](https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit?usp=sharing)
 
@@ -601,7 +532,7 @@ A: You can, however we suggest being explicit in your experience and add the lev
 
 ## C-MOOR Scholars
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_4.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_4.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 C-MOOR Scholars are research clubs that function as an extension of the C-MOOR curriculum. You can explore techniques and concepts from modules you've yet to take to learn about different approaches we can use to explore different questions through genomics, connect with other scholars and mentors, and experience the climate of a research lab. 
 
@@ -625,7 +556,7 @@ Less formal than a class, more formal than just a gathering of like-minded minds
 
 Perhaps you're interested in pursuing research beyond what C-MOOR currently provides. Maybe you're more interested in wet lab work, or a specific model organism. We encourage you to try all sorts of different opportunities even if you feel totally comfortable working with C-MOOR so you can better understand what kind of roles suit you best. This section serves as a guide for some common jumping off points to find outside research opportunities.
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_98.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_98.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 ### Research opportunities at your institution
 
@@ -662,7 +593,7 @@ Don't be surprised if it takes the researcher a while to get back to you or if t
 
 This section is primarily geared toward instructors as students will be able to get access to the BioDIGS data through their local C-MOOR Scholars chapter.
 
-![](resources/images/community-analysis-and-feedback_files/figure-docx//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_10.png){width=100%}
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_10.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 **What is BioDIGS?**: [BioDIGS](biodigs.org) is a project from the Genomic Data Science Community Network (GDSCN), which aims to characterize the microbiome of soil throughout sites in the US while connecting scientists to research. 
 
