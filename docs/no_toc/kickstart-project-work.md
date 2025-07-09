@@ -250,6 +250,91 @@ With your instructor, during your Project Work, fill out the Project Work organi
 
 ### Project Work Schedule Overview
 
+February 25 | Session 1
+
+- Round Table Data (slidedeck)
+
+February 27 | Session 2
+
+- Round Table Troubleshooting (slidedeck)
+
+March 4 | Session 3 
+
+- Round Table Data (slidedeck)
+- `Homework: Work on Written Check-in #1 (Doc) (Due day before next class, March 5)`
+
+March 6 | Professional Development
+
+- Science Talks: Guest Lecture and Q&A
+- `Homework: Work on Written Check-in #2 (Doc) (Due day before next class, March 10)`
+
+March 11 | Session 4
+
+- Round Table Troubleshooting (slidedeck)
+- `Homework: Work on Written Check-in #3 (Poster) (Due day before next class, March 12)`
+
+
+March 13 | Session 5
+
+- Round Table Data (slidedeck)
+- `Advisory Meeting #1` (Due next day, March 14)`
+
+March 18 
+
+- Spring Break
+
+March 20 
+
+- Spring Break
+
+March 25 | Session 6
+
+- Round Table Troubleshooting (slidedeck)
+
+March 27 | Sessison 7
+
+- Round Table Data (slidedeck)
+- `Homework: Work on Written Check-in #4 (Doc) (Due day before next class, March 31)`
+
+April 1 | Session 8
+
+- Round Table Troubleshooting (slidedeck)
+- `Homework: Work on Peer-review #1 (Doc) (Due day before next class, April 2)`
+
+April 3 | Session 9
+ 
+- Round Table Data (slidedeck)
+- `Advisory Meeting #1` (Due next day, April 4)`
+- `Homework: Work on Written Check-in #5 (Doc) (Due day before next class, April 7)`
+
+April 8 | Professional Development 
+
+- Round Table Troubleshooting (slidedeck)
+- `Homework: Work on Peer-review #2 (Doc) (Due day before next class, April 9)`
+
+April 10 | Session 10
+
+- Science Talks: Guest Lecture and Q&A
+ 
+April 15 | Session 11
+
+- Round Table Data (slidedeck)
+
+April 17 | Professional Development
+
+- Round Table Troubleshooting (slidedeck)
+- **Finalize Poster for printing**
+- In class activity: Scientific Communication
+
+April 22 | Professional Development
+
+- **Project Work Final Poster Presentation**
+
+April 24 | Professional Development
+
+- Last Session
+- Lecture: Next Steps
+- In class activity: Next Steps
 
 
 ### Footnotes
