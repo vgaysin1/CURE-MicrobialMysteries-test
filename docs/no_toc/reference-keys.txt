@@ -272,6 +272,7 @@ written-check-ins
 instructions-50
 advisory-meetings
 sample-project-work-organizer
+project-work-schedule-overview
 footnotes-19
 galaxy-tutorials
 a-short-introduction-to-galaxy
