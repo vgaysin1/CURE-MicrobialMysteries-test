@@ -28,7 +28,7 @@ a) For each hour of class students were generally expected to spend approximatel
 b) To ensure meaningful coverage of important concepts and scientific content and computational skills necessary to proceed to next step and subsequently execute independent group project work. 
 
 
-### Structured Units 
+### Core Modules
 
   - Table below - shows an example of course organization for Core Units 0 through 4
   - Spring 2025 - refers to **due date** for assignments based the Spring 2025 semester at the Johns Hopkins University. 
@@ -114,13 +114,13 @@ b) To ensure meaningful coverage of important concepts and scientific content an
 | Activity: Kickstart Project Work | Homework next |90 min | Feb 26 |
 
 
-### Research Module 
+### Project Work Module 
 
-Research Module is mainly dedicated to group project work, with intervening Professional Development Sessions such as Scientific Talks. During their project work that spans ~8 weeks, students do research work towards their project, prepare and update relevant documents (e.g. Written Doc, poster slide deck) and separately meet with instructor to get help with project direction and execution and ask questions.
+Project work module is focused on research, and is mainly dedicated to group project work, with intervening Professional Development Sessions such as Scientific Talks. During their project work that spans ~8 weeks, students do research work towards their project, prepare and update relevant documents (e.g. Written Doc, poster slide deck) and separately meet with instructor to get help with project direction and execution and ask questions.
 
 - <mark style="background-color: yellow">Students are expected to work on their project independently and with groups a minimum of 4 hours per week.
 - <mark style="background-color: yellow">When there is no assignment due, students are still expected to work on their projects and update their posters.
-- Project Work activities consisted of **In-Class Round Table activities**, and **Written Updates + Advisory Meetings**.
+- Project Work activities consist of **In-Class Round Table activities**, **Written Updates**, and **Advisory Meetings**.
 
 **Table: List of Project Work activities** 
 

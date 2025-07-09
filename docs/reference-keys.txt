@@ -5,8 +5,8 @@ course-goals
 vision-and-change
 available-course-formats
 course-content
-structured-units
-research-module
+core-modules
+project-work-module
 project-work-grading
 project-work-organizer
 professional-development-module
