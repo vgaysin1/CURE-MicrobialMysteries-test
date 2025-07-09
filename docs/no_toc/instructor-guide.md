@@ -152,7 +152,7 @@ Over the course of the Project work, students submit:
 - 2 Peer-review write-ups 
 
 
-**Project Work Sessions and Assignment overview**
+**Project Work Schedule Overview**
 
 February 25 | Session 1
 
@@ -193,40 +193,40 @@ March 20
 
 March 25 | Session 6
 
-- Round Table Troubleshooting (slidedeck)
+- Round Table Data (slidedeck)
 
 March 27 | Sessison 7
 
-- Round Table Data (slidedeck)
+- Round Table Troubleshooting (slidedeck)
 - `Homework: Work on Written Check-in #4 (Doc) (Due day before next class, March 31)`
 
 April 1 | Session 8
 
-- Round Table Troubleshooting (slidedeck)
+- Round Table Data (slidedeck)
 - `Homework: Work on Peer-review #1 (Doc) (Due day before next class, April 2)`
 
 April 3 | Session 9
  
-- Round Table Data (slidedeck)
+- Round Table Troubleshooting (slidedeck)
 - `Advisory Meeting #1` (Due next day, April 4)`
 - `Homework: Work on Written Check-in #5 (Doc) (Due day before next class, April 7)`
 
 April 8 | Professional Development 
 
-- Round Table Troubleshooting (slidedeck)
+- Round Table Poster Review (slidedeck)
 - `Homework: Work on Peer-review #2 (Doc) (Due day before next class, April 9)`
 
 April 10 | Session 10
 
-- Science Talks: Guest Lecture and Q&A
+- - Round Table Poster Review (slidedeck)
  
 April 15 | Session 11
 
-- Round Table Data (slidedeck)
+- Science Talks: Guest Lecture and Q&A
 
 April 17 | Professional Development
 
-- Round Table Troubleshooting (slidedeck)
+- Round Table Poster Review (slidedeck)
 - **Finalize Poster for printing**
 - In class activity: Scientific Communication
 
@@ -234,7 +234,7 @@ April 22 | Professional Development
 
 - **Project Work Final Poster Presentation**
 
-April 24 | Professional Development
+April 24 | Wrap-Up: Professional Development 
 
 - Last Session
 - Lecture: Next Steps
