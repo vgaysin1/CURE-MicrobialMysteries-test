@@ -14,9 +14,9 @@ The Microbial Mysteries course content was organized and presented by way of Uni
 Course content was organized broadly into 3 categories:
 
 ```
-1. Structured (Core) Units - on weekly basis, Units 0 through 4
-2. Research Module (Project Work) - over the course of 7-8 weeks
-3. Professional Development Module - over the course of 4 weeks
+1. Core (structured) Modules - on weekly basis, Units 0 through 4 [ weeks 1-5]
+2. Project Work Module (Research) - over the course of 7-8 weeks [weeks 6-13]
+3. Professional Development Module - over the course of 4 weeks [starting week 7 ]
 ```
 
 - Core units 1, 2, 3 and 4, are fundamental knowledge and skills units that were taught over the coure of 4 weeks and 8 classes (1 unit per week and 2 classes/week) 
@@ -162,25 +162,25 @@ February 27 | Session 2
 
 - Round Table Troubleshooting (slidedeck)
 
-March 4 | Professional Development 
+March 4 | Session 3 
 
-- Science Talks: Guest Lecture and Q&A
+- Round Table Data (slidedeck)
 - `Homework: Work on Written Check-in #1 (Doc) (Due day before next class, March 5)`
 
-March 6 | Session 3 (slidedeck)
+March 6 | Professional Development
 
-- Round Table Troubleshooting
+- Science Talks: Guest Lecture and Q&A
 - `Homework: Work on Written Check-in #2 (Doc) (Due day before next class, March 10)`
 
 March 11 | Session 4
 
-- Round Table Data (slidedeck)
+- Round Table Troubleshooting (slidedeck)
 - `Homework: Work on Written Check-in #3 (Poster) (Due day before next class, March 12)`
 
 
 March 13 | Session 5
 
-- Round Table Troubleshooting (slidedeck)
+- Round Table Data (slidedeck)
 - `Advisory Meeting #1` (Due next day, March 14)`
 
 March 18 
@@ -193,32 +193,32 @@ March 20
 
 March 25 | Session 6
 
-- Round Table Data (slidedeck)
+- Round Table Troubleshooting (slidedeck)
 
 March 27 | Sessison 7
 
-- Round Table Troubleshooting (slidedeck)
+- Round Table Data (slidedeck)
 - `Homework: Work on Written Check-in #4 (Doc) (Due day before next class, March 31)`
 
 April 1 | Session 8
 
-- Round Table Data (slidedeck)
+- Round Table Troubleshooting (slidedeck)
 - `Homework: Work on Peer-review #1 (Doc) (Due day before next class, April 2)`
 
 April 3 | Session 9
  
-- Round Table Troubleshooting (slidedeck)
+- Round Table Data (slidedeck)
 - `Advisory Meeting #1` (Due next day, April 4)`
 - `Homework: Work on Written Check-in #5 (Doc) (Due day before next class, April 7)`
 
 April 8 | Professional Development 
 
-- Science Talks: Guest Lecture and Q&A
+- Round Table Troubleshooting (slidedeck)
 - `Homework: Work on Peer-review #2 (Doc) (Due day before next class, April 9)`
 
 April 10 | Session 10
 
-- Round Table Troubleshooting (slidedeck)
+- Science Talks: Guest Lecture and Q&A
  
 April 15 | Session 11
 
@@ -226,7 +226,8 @@ April 15 | Session 11
 
 April 17 | Professional Development
 
-- **Poster should be finalized and ready for printing**
+- Round Table Troubleshooting (slidedeck)
+- **Finalize Poster for printing**
 - In class activity: Scientific Communication
 
 April 22 | Professional Development
