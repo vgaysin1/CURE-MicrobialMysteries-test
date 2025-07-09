@@ -191,13 +191,14 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 
 |Course Week | Day 1 | Day 2
 |:--| --|-- | 
-|7| Round Table Data| |
-|8| Round Table Troubleshooting| | 
-|9| Slidedeck - Round Table Data| Round Table Troubleshooting |
-|10| Slidedeck - Round Table Data| Round Table Troubleshooting |
-|11| Slidedeck Poster Review| Poster Review |
-|12| Science Talks| |
-|13| Final Presentations | |
+|6| Round Table Data| Round Table Troubleshooting |
+|7| Round Table Data| Science Talks|
+|8| Round Table Troubleshooting| Round Table Data | 
+|9| Round Table Troubleshooting | Round Table Data |
+|10|Round Table Troubleshooting| Round Table Data |
+|11| Round Table Troubleshooting| Science Talks |
+|12| Round Table Data| Round Table Troubleshooting |
+|13| Final Poster Presentations | Wrap-up |
 
 
 ### Written check-ins
@@ -246,6 +247,10 @@ With your instructor, during your Project Work, fill out the Project Work organi
 |Group B| Doc | Slides | Date 1 | Date 2| 
 |Group C| Doc | Slides | Date 1 | Date 2| 
 |Group D| Doc | Slides | Date 1 | Date 2| 
+
+### Project Work Schedule Overview
+
+
 
 ### Footnotes
 
