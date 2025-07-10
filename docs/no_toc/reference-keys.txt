@@ -252,6 +252,12 @@ grading-criteria-12
 footnotes-18
 conducting-your-research
 purpose-11
+project-work-organizer-1
+round-table-data-troubleshooting
+written-check-ins
+advisory-meetings
+sample-project-work-doc-organizer
+project-work-sample-schedule
 footnotes-19
 scientific-posters
 lecture---scientific-posters
