@@ -1,10 +1,5 @@
-course-content
-core-modules
-project-work-module
 project-work-grading
 project-work-organizer
-professional-development-module
-core-competencies-1
 what-to-know
 where-to-get-help
 grades
