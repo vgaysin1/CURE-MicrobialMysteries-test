@@ -1,16 +1,10 @@
-fig:unnamed-chunk-1
-course-description
-format
-course-goals
-vision-and-change
-available-course-formats
 course-content
 core-modules
 project-work-module
 project-work-grading
 project-work-organizer
 professional-development-module
-core-competencies
+core-competencies-1
 what-to-know
 where-to-get-help
 grades
