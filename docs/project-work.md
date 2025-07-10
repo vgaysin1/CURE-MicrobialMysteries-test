@@ -226,7 +226,7 @@ Last Revised: May 2025
 ```
 
 
-### Project Work Organizer {- .unlisted}
+### Project Work Organizer
 
 Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.
 
@@ -234,7 +234,7 @@ Research lab meetings are great forums to receive community analysis and feedbac
 
 <mark style="background color: yellow">Use this organizer to find instructions and track documents.
 
-### Round Table Data & Troubleshooting {- .unlisted}
+#### Round Table Data & Troubleshooting 
 
 Research lab meetings are great forums to receive community analysis and feedback. In-class round table data and troubleshooting sessions and slidedecks will be used to report on and get feedback on your ongoing research. Consider these in-class project work updates your research lab meetings!
 
@@ -263,7 +263,7 @@ d. Instructor will create a single Slidedeck - **Final Presentation** for all gr
 |13| Final Poster Presentations | Wrap-up |
 
 
-### Written check-ins {- .unlisted}
+#### Written check-ins
 
 Written check-ins encompass a written document for groups-instructor interaction, and will also be used for peer reviews. 
 
@@ -292,11 +292,11 @@ For each group, instructor will create a text document **Doc** which will includ
 - Questions you have about the approach or results
 - Suggestions on next steps, poster organization, etc.
 
-### Advisory Meetings {- .unlisted}
+#### Advisory Meetings
 
 **Advisory Meeting** - Each group will schedule a meeting with the instructors to discuss their progress.  These meetings will take place outside of class and should be scheduled before the deadline.  A link to the when2meet schedule can be found in the Group Information section.
 
-### Sample project work organizer {- .unlisted}
+### Sample project work doc organizer
 
 With your instructor, during your Project Work, fill out the Project Work organizer below. 
 
@@ -308,7 +308,7 @@ With your instructor, during your Project Work, fill out the Project Work organi
 |Group C| Doc | Slides | Date 1 | Date 2| 
 |Group D| Doc | Slides | Date 1 | Date 2| 
 
-**Project Work Schedule Overview**
+### Project Work Sample Schedule
 
 February 25 | Session 1
 
