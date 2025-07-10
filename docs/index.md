@@ -24,7 +24,7 @@ Welcome to Microbial Mysteries, a Course-based Undergraduate Research Experience
 This CURE allows students to develop a project using genomics datasets from environments such as human gut and soil, and learn how organisms, high-throughput sequencing, and the scientific process are used in both basic and clinical research.
 
 
-![](index_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_0.png)
+![](index_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_0.png){width=100%}
 
 ### Skills Level {- .unlisted}
 
