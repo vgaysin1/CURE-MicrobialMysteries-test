@@ -151,7 +151,7 @@ Find one new Galaxy tool that you think may be useful for your research project.
 
 Last Revised: June, 2025
 
-## Identifying Datasets
+# Identifying Datasets
 
 ## Lecture - Possible Datasets
 
@@ -213,7 +213,7 @@ c) Wonder – Two or three questions you would like to ask using this (and any o
 
 Last Revised: May 2025
 
-## Conducting Your Research
+# Conducting Your Research
 
 ### Purpose
 
