@@ -293,7 +293,7 @@ instructions-51
 questions-36
 grading-criteria-15
 footnotes-22
-next-steps
+professional-development-1
 lecture---next-steps
 activity---next-steps
 introduction-11
@@ -307,13 +307,18 @@ optional-activity-4-share-work
 instructions-54
 grading-criteria-16
 footnotes-23
-update-your-cv
+science-talks
+science-talks---activity-1
+science-talks---activity-2
+create-your-cv
 resume-or-cv
 c-moor-scholars
 pursue-further-research
 research-opportunities-at-your-institution
 find-a-research-lab-to-join
 biodigs
+c-moor-scholars-1
+online-community
 galaxy-tutorials
 a-short-introduction-to-galaxy
 introduction-12
@@ -364,5 +369,5 @@ instructions-62
 questions-41
 grading-criteria-23
 footnotes-30
-c-moor-scholars-1
-online-community
+c-moor-scholars-2
+online-community-1
