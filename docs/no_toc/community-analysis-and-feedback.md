@@ -659,6 +659,10 @@ A: As a current student or new graduate, you are not expected to have mastery ov
 
 A: You can, however we suggest being explicit in your experience and add the level at which you feel comfortable with each respective platform. Are you R (Beginner) or R (Proficient)? Can you teach someone else how to do your project? Can you perform your project with novel data? How good are you at troubleshooting? This answer may seem contrary to the previous one, but remember that other people who are listing these platforms in their skills section includes computer/data scientists (majors) and bioinformaticians (majors), so people may assume mastery. Think about it the same way you would a foreign language. Spanish (Beginner) describes a different level of skill than 'just' Spanish. 
 
+
+# C-MOOR Scholars
+
+
 ## C-MOOR Scholars
 
 <img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_4.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
@@ -680,6 +684,18 @@ Fill out our [C-MOOR Scholars Interest Form](https://docs.google.com/forms/d/1GJ
   - A drop-in drop-out popular science club
   
 Less formal than a class, more formal than just a gathering of like-minded minds, C-MOOR Scholars provides structure for your growth as a scientist. We are actively looking to recruit new scholars for chapters at our established sites (CCC, JHU, & NDMU); speak with your instructor for more information or reach out to us at the [C-MOOR Academy Discussion Forum](help.c-moor.org) to hear about any remote opportunities we have.
+
+
+### C-MOOR Scholars links
+
+
+Share your interests via C-MOOR Scholars Interest Form and learn how C-MOOR community can support you.
+
+- [https://docs.google.com/forms/d/1GJDpfG28k2utCVVcRXQraE-1coLS_GCX83irUyio9KE/edit](https://docs.google.com/forms/d/1GJDpfG28k2utCVVcRXQraE-1coLS_GCX83irUyio9KE/edit)
+
+Meet the C-MOOR Scholars and learn how you can support them
+
+- [https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html)
 
 ## Pursue further research
 
@@ -728,18 +744,6 @@ This section is primarily geared toward instructors as students will be able to 
 
 **What makes BioDIGS different?:** Soil is hypothesized to be the most diverse system on our planet, and BioDIGS is gathering sequence data and matching environmental data to elucidate the connection of soil microbes to abiotic variables and human health. Students at participating sites can take the entire project from soil sampling all the way through computational analysis. Curricula and more information on how to get a soil sampling kit are available on the BioDIGS website.
 
-
-
-
-# C-MOOR Scholars
-
-Share your interests via C-MOOR Scholars Interest Form and learn how C-MOOR community can support you.
-
-- [https://docs.google.com/forms/d/1GJDpfG28k2utCVVcRXQraE-1coLS_GCX83irUyio9KE/edit](https://docs.google.com/forms/d/1GJDpfG28k2utCVVcRXQraE-1coLS_GCX83irUyio9KE/edit)
-
-Meet the C-MOOR Scholars and learn how you can support them
-
-- [https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html)
 
 # Online Community
 
