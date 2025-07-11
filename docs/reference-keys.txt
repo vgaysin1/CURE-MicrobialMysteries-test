@@ -313,11 +313,12 @@ science-talks---activity-2
 create-your-cv
 resume-or-cv
 c-moor-scholars
+c-moor-scholars-1
+c-moor-scholars-links
 pursue-further-research
 research-opportunities-at-your-institution
 find-a-research-lab-to-join
 biodigs
-c-moor-scholars-1
 online-community
 galaxy-tutorials
 a-short-introduction-to-galaxy
