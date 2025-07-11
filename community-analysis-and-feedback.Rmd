@@ -485,9 +485,15 @@ b. To the class
 Last Revised: April 2025
 
 
-# Next Steps
+# Professional Development
 
 Now that you've finished your C-MOOR project, how do you close out your research experience or take it further? In this section we'll explore how to publicize and use your experience to help build your professional career.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+
+ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g344ad28629a_0_229#slide=id.g344ad28629a_0_229")
+
+```
 
 ## Lecture - Next Steps
 
@@ -593,11 +599,11 @@ c. Bluesky: Social media as it should be
 
 - [https://help.c-moor.org/c/look-at-this/8](https://help.c-moor.org/c/look-at-this/8)
 
-## Grading Criteria
+### Grading Criteria
 
 - Download as Microsoft Word (.docx) and upload on Canvas
 
-## Footnotes
+### Footnotes
 
 **Resources**
 
@@ -609,7 +615,69 @@ c. Bluesky: Social media as it should be
 - Frederick Tan, Johns Hopkins University
 
 
-## Update your CV
+## Science Talks
+
+Science Talks feature a guest lecturer to showcase their research work, share their scientific journety and engage in Q and A with the students. It is a one of a kind opportunity for students to engage with a scientific scholar and/or expert from across departments, fields, and career stages and explore, broaden or narrow students' scientific interests.
+
+<br>
+
+The two invited speakers for the Microbial Mysteries CURE Spring 2025 at the JHU were:
+
+1. Dr. Karina Gutiérrez-García
+2. Dr. Leah Guthrie
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+
+ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g344ad28629a_0_263#slide=id.g344ad28629a_0_263")
+
+```
+
+For each speaker, students were asked to prepare by completing the Science Talks Activities.
+
+### Science Talks - Activity 1
+
+*Estimated time: 50 min*
+
+1. Read/Browse the following information about **Dr. Karina Gutiérrez-García**
+
+
+a. Postdoc Spotlight [carnegiescience.edu/news/postdoc-spotlight-karina-gutierrez-garcia](carnegiescience.edu/news/postdoc-spotlight-karina-gutierrez-garcia)
+
+b. “Home sweet home” perspective on study of fruit fly gut microbiome [pubmed.gov/39637006](pubmed.gov/39637006)
+
+c. Abstract for “A conserved bacterial genetic basis for commensal-host specificity” [pubmed.gov/39636981](pubmed.gov/39636981)
+
+d. Abstract for “Gut microbiomes of cycad-feeding insects tolerant to β-methylamino-L-alanine (BMAA) are rich in siderophore biosynthesis [pubmed.gov/37993724](pubmed.gov/37993724)
+
+
+2. Post three questions to the speaker in the Discussion Forum at [https://help.c-moor.org/t/469](https://help.c-moor.org/t/469).
+
+1. Science – What scientific question do you have about Speaker’s research, ranging from basic background questions to possible next steps?
+2. Method – What methods would you like the Speaker insight on, whether computational, genomics, or other exciting technologies?
+3. Career – What advice would you ask the Speaker for regarding how to get started, finding a mentor, etc.?
+
+### Science Talks - Activity 2
+
+*Estimated time: 50 min*
+
+1. Read/Browse the following information about **Dr. Leah Guthrie**
+
+a. Faculty focus [qb3.berkeley.edu/news/faculty-focus-leah-guthrie](qb3.berkeley.edu/news/faculty-focus-leah-guthrie)
+
+b. Abstract for “Impact of a 7-day homogeneous diet on interpersonal variation in human gut microbiomes and metabolomes” 
+[pubmed.gov/35643079](pubmed.gov/35643079)
+
+c. Abstract for “Human microbiome signatures of differential colorectal cancer drug metabolism” [pubmed.gov/29104759](pubmed.gov/29104759)
+
+
+2. Post three questions to the speaker in the Discussion Forum at [https://help.c-moor.org/t/469](https://help.c-moor.org/t/498).
+
+1. Science – What scientific question do you have about Speaker’s research, ranging from basic background questions to possible next steps?
+2. Method – What methods would you like the Speaker insight on, whether computational, genomics, or other exciting technologies?
+3. Career – What advice would you ask the Speaker for regarding how to get started, finding a mentor, etc.?
+
+
+## Create your CV
 
 *Estimated time: 10 min*
 
@@ -725,6 +793,47 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11
 **What is BioDIGS?**: [BioDIGS](biodigs.org) is a project from the Genomic Data Science Community Network (GDSCN), which aims to characterize the microbiome of soil throughout sites in the US while connecting scientists to research. 
 
 **What makes BioDIGS different?:** Soil is hypothesized to be the most diverse system on our planet, and BioDIGS is gathering sequence data and matching environmental data to elucidate the connection of soil microbes to abiotic variables and human health. Students at participating sites can take the entire project from soil sampling all the way through computational analysis. Curricula and more information on how to get a soil sampling kit are available on the BioDIGS website.
+
+
+
+
+# C-MOOR Scholars
+
+Share your interests via C-MOOR Scholars Interest Form and learn how C-MOOR community can support you.
+
+- [https://docs.google.com/forms/d/1GJDpfG28k2utCVVcRXQraE-1coLS_GCX83irUyio9KE/edit](https://docs.google.com/forms/d/1GJDpfG28k2utCVVcRXQraE-1coLS_GCX83irUyio9KE/edit)
+
+Meet the C-MOOR Scholars and learn how you can support them
+
+- [https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor-scholars.html)
+
+# Online Community
+
+The genomic data science community is a remarkably open community that continually strives to increase opportunitites and broaden access to the scientific enterprise (e.g. [GDSCN 2022](https://pubmed.gov/35858750){target="_blank"}).
+There are many opportunities to interact online with scientists that share a common research question, career stage, or even favorite tool!
+Below is a sampling of some discussion forums that you may find useful:
+
+- [help.c-moor.org](https://help.c-moor.org){target="_blank"} for help with and example miniCUREs
+- [help.galaxyproject.org](https://help.galaxyproject.org){target="_blank"} for all things Galaxy
+- [support.bioconductor.org](https://support.bioconductor.org){target="_blank"} for all things R/Bioconductor
+- [help.anvilproject.org](https://help.anvilproject.org){target="_blank"} for interactions with the GDSCN BioDIGS consortium [https://biodigs.org/#home](https://biodigs.org/#home)
+
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA/edit#slide=id.g302b08c5e6e_0_16")
+```
+
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA/edit#slide=id.g302b08c5e6e_0_5")
+```
+
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA/edit#slide=id.g302b08c5e6e_0_22")
+```
+
+```{r, echo=FALSE, fig.alt=''}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA/edit#slide=id.g302b08c5e6e_0_12")
+```
+
 
 
 
