@@ -67,4 +67,6 @@ Learning more about these features can give you insight into what is going on un
 
 - Trouble with workflows? -- [Creating, Editing and Importing Galaxy Workflows](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html){target="_blank"}
 
+- More on how to create a workflow? -- [Annotate, prepare tests and publish Galaxy workflows in workflow registries](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-fairification/tutorial.html)
+
 - Out of storage space? -- [Downloading and Deleting Data in Galaxy](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/download-delete-data/tutorial.html){target="_blank"}
