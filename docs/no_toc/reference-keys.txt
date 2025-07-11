@@ -369,5 +369,5 @@ instructions-62
 questions-41
 grading-criteria-23
 footnotes-30
-c-moor-scholars-2
-online-community-1
+example-cure-and-minicure-projects
+troubleshooting
