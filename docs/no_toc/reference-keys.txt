@@ -37,7 +37,7 @@ discussion---scientific-literature
 activity-2
 instructions-4
 lecture---scientific-literature
-activity---scientific-literature
+project---scientific-literature
 purpose-3
 learning-objectives-2
 introduction-3
