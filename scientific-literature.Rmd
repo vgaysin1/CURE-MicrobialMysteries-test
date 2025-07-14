@@ -2,6 +2,13 @@
 
 # Scientific Literature
 
+The vast majority of all microorganisms on Earth and beyond remain uncultured. As a result, their genomes (or metagenomes) are underdetected and understudied. As such, metagenomics is the 'black box' of genomics. Curiosity and threat of microbes are a great driving force behind the advances in the study of metagenomics, which is a culture-independent, direct approach to microbial sequencing and analysis of an environmental sample.  
+
+
+
+In this module, students will learn about microbial diversity, the field of genomics and metagenomics and the role of sequencing technologies in metagenomics analysis. The students will also learn how to read a scientific paper! In **Prelab** they will read a metagenomics **Review paper** to obtain a birds eye view of metagenomics from soil to gut and get an appreciation of the diversity and complexity of microorganisms, and of the challenges associated with identifying microorganisms. In **Project** activity, students will go deeper into scientific literature by reading a recent metagenomics **Research paper** and dissecting it from A to Z.
+
+
 ## Lecture - What’s in Your XYZ
 
 ```{r, echo=FALSE, fig.alt=''}
@@ -90,7 +97,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1zbjroITjBYmu-oxF
 
 [Slides: Scientific Literature](https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?usp=sharing)
 
-## Activity - Scientific Literature
+## Project - Scientific Literature
 
 ### Purpose
 
