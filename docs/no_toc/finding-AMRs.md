@@ -2,6 +2,14 @@
 
 # Finding AMRs
 
+[Antimicrobial resistance genes](https://en.wikipedia.org/wiki/Antimicrobial_resistance) (AMR genes) allow microbes to counteract the effects of antimicrobial drugs used to treat infections.
+Databases such as the [NCBI Pathogen Detection Reference Gene Catalog](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance) and the [Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca) contain thousands of curated resistance genes and help make AMR-related data more widely available.
+
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_345.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+In the **Finding AMRs module**, through their **lecture** material, students sill learn about soil antibiotics and antibiotic resistance and concepts of genome assembly and genome annotation. In **prelab** activity, students will learn how to assemble genomes into **contigs**, visualize contigs and use the [ABRicate](https://github.com/tseemann/abricate) tool to mass screen contigs for antimicrobial genes using a variety of databases including the NCBI database.
+A similar strategy can be used to screen for virulence factors using databases such as the [Virulence Factor Database](https://pubmed.gov/34850947) (VFDB). For **project** activity, students will perform soil genome assembly and in addition to annotating **soil** metagenomes with AMRs, they will assemble contigs into larger **MAGs**, and learn about annotating MAGs in Galaxy platform with tools like **GTDB-Tk**.
+
 ## Lecture - Finding AMRs
 
 <img src="resources/images/finding-AMRs_files/figure-html//165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw_g35f391192_00.png" width="480" />

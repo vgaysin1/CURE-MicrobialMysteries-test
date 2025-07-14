@@ -3,11 +3,11 @@
 
 # Taxonomy Profiling
 
-**Taxonomic profiling** refers to annotation and classification of metagenomics sequencing reads with taxonomic information. Due to high complexity of metagenomics data, long-read shotgun sequencing offers many advantages over short-read sequencing for taxonomic classification. In this module, we will get a taste of long-read metagenomics sequencing data, learn to classify and visualize taxonomy with in Galaxy platform using tools like Kraken 2 classifyer and Krona plot for visualization.
+**Taxonomic profiling** refers to annotation and classification of metagenomics sequencing reads with taxonomic information. Due to high complexity of metagenomics data, long-read shotgun sequencing offers many advantages over short-read sequencing for taxonomic classification. In this module, we will get a taste of long-read metagenomics sequencing data, learn to classify and visualize taxonomy in Galaxy platform using tools like Kraken 2 classifyer and Krona plot for visualization.
 
 <img src="resources/images/taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_319.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-**Taxonomy Profiling module** offers hands-on experience with real data. Through **lecture** material, students will learn about taxa and concepts like taxonomic classification and species abundance. In **Taxonomy Profiling Spreadsheet** Activity, students will explore taxonomy of Zymo Research **gut microbiome standard** and optionally, Zymo Research human **fecal microbiome reference** using output of Kraken 2. For **taxonomy profiling prelab**, students will have a chance to perform taxonomy profiling themselves on the raw sequences from the gut microbiome standard using Galaxy platform and tools Kraken 2 (for assignment of taxonomy to sequencing reads) and Krona pie chart (for visualization). Subsequently, students will do a **taxonomy profiling project** activity, where they will taxonomically classify **soil** metagenome.
+This **Taxonomy Profiling module** offers hands-on experience with real data. Through **lecture** material, students will learn about taxa and concepts like taxonomic classification and species abundance. In **Taxonomy Profiling Spreadsheet** Activity, students will explore taxonomy of Zymo Research **gut microbiome standard** and optionally, Zymo Research human **fecal microbiome reference** using output of Kraken 2. For **taxonomy profiling prelab**, students will have a chance to perform taxonomy profiling themselves on the raw sequences from the gut microbiome standard using Galaxy platform and tools Kraken 2 (for assignment of taxonomy to sequencing reads) and Krona pie chart (for visualization). Subsequently, students will do a **taxonomy profiling project** activity, where they will taxonomically classify **soil** metagenome.
 
 <img src="resources/images/taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_331.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
@@ -78,9 +78,10 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 
 **2. Identify abundant taxa (those at >1%).**
 
+```
 a. Select columns B through I.
 b. In the Data menu, select “Sort range by column B (Z to A)”.
-c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
+c. Insert a new column C, name it “% abundance” and use for temporary calculations.
 d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
 e. Quantify abundant taxa.
 
@@ -304,7 +305,9 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 #### Questions
 
-1. Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
+1. Examine NanoPlot output results.
+
+- Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
 
 | A. How many bases were sequenced?| 
 |:--|
@@ -321,7 +324,9 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 | |
 <br>
 
-2. Click on the Display icon (eyeball) next to the NanoPlot output HTML report. 
+2. Examine NanoPlot output HTML report.
+
+- Click on the Display icon (eyeball) next to the NanoPlot output HTML report. 
 
 | A. Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained| 
 |:--|
@@ -386,14 +391,24 @@ b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 
 #### Instructions
 
-1. <mark style="background color: grey">Examine **converted_kraken_report**.
+1. Open and examine **converted_kraken_report**.
 
-- Click on the Display icon (eyeball) next to the output file with **converted_kraken_report**. This report should look familiar from week 1 taxonomy-profiling-spreadsheet activity. 
+- Click on the Display icon (eyeball) next to the output file with **converted_kraken_report**. This report should look familiar from week 1 taxonomy-profiling-spreadsheet activity.
+- Scroll through to explore.
 
+2. Open and examine **kraken2_with_pluspf_database_output_report**.
+
+- Click on the Display icon (eyeball) next to the output file with **kraken2_with_pluspf_database_output_report**.
+- This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:
+
+- Column 1: Percentage (%) of a given taxon
+- Column 2: # of reads per given taxon
+- Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
+- Column  6: Identified taxa/scientific name.
 
 #### Questions
 
-1. Open and scroll through the **converted_kraken_report** report to answer the following questions: 
+1. Answer the following questions about **converted_kraken_report**.
 
 | A. How many Unclassified reads are there?| 
 |:--|
@@ -420,14 +435,7 @@ b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 | |
 <br>
 
-2. Examine **kraken2_with_pluspf_database_output_report** by clicking on the Display icon (eyeball) next to the output file.
-
-This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:
-
-- Column 1: Percentage (%) of a given taxon
-- Column 2: # of reads per given taxon
-- Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
-- Column  6: Identified taxa/scientific name.
+2. Answer the following questions about **kraken2_with_pluspf_database_output_report**.
 
 | A. What is the percentage of Unclassified taxa listed? Does it match what you calculated in section 2-2.1?| 
 |:--|
@@ -444,7 +452,7 @@ This output report is an extended version of the converted_kraken_report. The ou
 | |
 <br>
 
-3. View Krona Results
+3. View Krona Results and answer the following questions.
 
 Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. Click on Display icon (eyeball) next to the **Krona_pie_chart** dataset to explore Krona pie chart results. 
 
