@@ -94,6 +94,7 @@ b. In the Data menu, select “Sort range by column B (Z to A)”.
 c. Insert a new column C, name it “% abundance” and use for temporary calculations.
 d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
 e. Quantify abundant taxa.
+```
 
 | 2A. How many abundant taxa (at >1%) do you observe? |
 |:--|
