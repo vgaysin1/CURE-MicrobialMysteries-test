@@ -3,6 +3,14 @@
 
 # Taxonomy Profiling
 
+**Taxonomic profiling** refers to annotation and classification of metagenomics sequencing reads with taxonomic information. Due to high complexity of metagenomics data, long-read shotgun sequencing offers many advantages over short-read sequencing for taxonomic classification. In this module, we will get a taste of long-read metagenomics sequencing data, learn to classify and visualize taxonomy with in Galaxy platform using tools like Kraken 2 classifyer and Krona plot for visualization.
+
+![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_319.png){width=100%}
+
+**Taxonomy Profiling module** offers hands-on experience with real data. Through **lecture** material, students will learn about taxa and concepts like taxonomic classification and species abundance. In **Taxonomy Profiling Spreadsheet** Activity, students will explore taxonomy of Zymo Research **gut microbiome standard** and optionally, Zymo Research human **fecal microbiome reference** using output of Kraken 2. For **taxonomy profiling prelab**, students will have a chance to perform taxonomy profiling themselves on the raw sequences from the gut microbiome standard using Galaxy platform and tools Kraken 2 (for assignment of taxonomy to sequencing reads) and Krona pie chart (for visualization). Subsequently, students will do a **taxonomy profiling project** activity, where they will taxonomically classify **soil** metagenome.
+
+![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_331.png){width=100%}
+
 ## Activity - Taxonomy Profiling Spreadsheet
 
 ### Purpose
@@ -24,9 +32,7 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 
 #### Instructions
 
-Perform the activity below and answer the embedded **questions**.
-
-1. Access tax-data-gut.tsv and open with Google Sheets [here](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-)
+1. Access tax-data-gut.tsv and open with Google Sheets [here](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-).
 
 2. Identify what information is provided in columns of the tax-data-gut taxonomy file.
 
@@ -42,23 +48,28 @@ Perform the activity below and answer the embedded **questions**.
 
 **1. Evaluate what proportion of data was taxonomically classified.**
 
- - Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.
-
+```
+ - Insert a new column A, name it "Calculations" and temporarily use for calculations.
  - In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.  
+```
 
 | 1A. How many total counts are there? |
 |:--|
 | <br> |
 <br>
 
+```
 - In e.g. cell A3, determine the percentage of unclassified reads.
+```
 
 |1B.  What percentage of reads are unclassified? |
 |:--|
 | <br> |
 <br>
 
+```
 - In e.g. cell A4, determine the percentage of classified reads.
+```
 
 | 1C. What percentage of reads are classified? |
 |:--|
@@ -67,8 +78,8 @@ Perform the activity below and answer the embedded **questions**.
 
 **2. Identify abundant taxa (those at >1%).**
 
-a. Select columns B through I
-b. In the Data menu, select “Sort range by column B (Z to A)”
+a. Select columns B through I.
+b. In the Data menu, select “Sort range by column B (Z to A)”.
 c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
 d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
 e. Quantify abundant taxa.
@@ -78,10 +89,12 @@ e. Quantify abundant taxa.
 |<br>|
 <br>
 
-3. List abundant taxa you identified in a table below.
+**3. List abundant taxa you identified in a table below.**
 
+```
 - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa.
 - Then, enter the results into a table below.
+```
 
 |3A. What abundant taxa do you observe?| |
 |:--|:--| 
@@ -130,8 +143,6 @@ e. Quantify abundant taxa.
 
 #### Instructions
 
-Perform the optional activity below and answer the embedded **questions**.
-
 In this activity, repeat steps of the Activity 1 above, but now using [tax_data_fecal.tsv](http://drive.google.com/file/d/1CLQw9yqoqWl5caLm-ZmiHpLNtUo_Zo4s) dataset corresponding to Zymo fecal reference. The tax_data_fecal.tsv dataset comes from a real human fecal sample, in contrast to the tax_data_gut.tsv sample you explored in the Activity 1, which corresponds to cultured and pooled known species combined at specific proportions to make up a predictable standard population.
 
 - Perform Activity 1 exercises using tax_data_fecal data, then, use questions below to compare the two datasets.
@@ -153,8 +164,8 @@ In this activity, repeat steps of the Activity 1 above, but now using [tax_data_
 
 ### Grading Criteria
 
-- Download this assignment as Microsoft Word (.docx) and upload on Canvas
-- Download your Google Sheet as Microsoft Excel (.xlsx) and upload on Canvas
+- <mark style="background color: yellow">Download this assignment as Microsoft Word (.docx) and upload on Canvas
+- <mark style="background color: yellow">Download your Google Sheet as Microsoft Excel (.xlsx) and upload on Canvas
 
 ### Footnotes
 
@@ -170,7 +181,7 @@ In this activity, repeat steps of the Activity 1 above, but now using [tax_data_
 - Gauri Paul, Clovis Community College
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: January 2025
+Last Revised: July 2025
 
 ## Lecture - Taxonomy Profiling
 
