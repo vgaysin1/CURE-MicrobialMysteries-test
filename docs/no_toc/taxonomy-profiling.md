@@ -51,43 +51,39 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
   - In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.  
 ```
 
-| 1A. How many total counts are there? |
+|1A. How many total counts are there?|
 |:--|
 | <br> |
-<br>
 
 ```
   - In e.g. cell A3, determine the percentage of unclassified reads.
 ```
 
-|1B.  What percentage of reads are unclassified? |
+|1B.  What percentage of reads are unclassified?|
 |:--|
 | <br> |
-<br>
 
 ```
 - In e.g. cell A4, determine the percentage of classified reads.
 ```
 
-| 1C. What percentage of reads are classified? |
+|1C. What percentage of reads are classified?|
 |:--|
 |<br>|
-<br>
 
 **2. Identify abundant taxa (those at >1%).**
 
 ```
 a. Select columns B through I.
 b. In the Data menu, select “Sort range by column B (Z to A)”.
-c. Insert a new column C, name it “% abundance” and use for temporary calculations.
+c. Insert a new column C, name it “% abundance” and use it for temporary calculations.
 d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
 e. Quantify abundant taxa.
 ```
 
-| 2A. How many abundant taxa (at >1%) do you observe? |
+|2A. How many abundant taxa (at >1%) do you observe?|
 |:--|
 |<br>|
-<br>
 
 **3. List abundant taxa you identified in a table below.**
 
@@ -96,9 +92,10 @@ e. Quantify abundant taxa.
   - Then, enter the results into a table below.
 ```
 
-|3A. What abundant taxa do you observe?| |
-|:--|:--| 
+**3A. What abundant taxa do you observe?**
+
 | **% abundance** | **Taxonomy** |
+|:--|:--| 
 | 20.1 | s_Faecalibacterium_prausnitzii |
 | | |
 | | |
@@ -114,28 +111,26 @@ e. Quantify abundant taxa.
 | | |
 | | |
 | | |
-
-<br>
+|<br>| |
 
 **4. Compare your results with the expected taxa and abundance for [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?**
 
+```
   - Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
+```
 
-| 4A. How do your results overall compare with the expected taxa and % abundance from Zymo gut standard? |
+|4A. How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?|
 |:--|
 |<br>|
-<br>
 
 |5. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. What percentage of reads are classified in a low abundance taxa?|
 |:--|
 |<br>|
-<br>
 
 
 |6. Create a barplot of % abundance for your 12 abundant taxa via Insert Chart. Paste your barplot of % abundance for the 12 most abundant taxa.|
 |:--|
 |<br>|
-<br>
 
 ### Activity 2 (OPTIONAL) – Compare with Zymo Fecal Reference
 
@@ -150,15 +145,15 @@ In this activity, repeat steps of the Activity 1 above, but now using [tax_data_
 
 #### Questions
 
-|**1. Which dataset is classified better, gut or fecal??**|
+|1. Which dataset is classified better, gut or fecal??|
 |:--|
 |<br>|
 
-|**2. Are there any abundant taxa (at >1%) in common between the gut standard and fecal reference?**|
+|2. Are there any abundant taxa (at >1%) in common between the gut standard and fecal reference?|
 |:--|
 |<br>|
 
-|**3. In your opinion, does the gut standard mimic the fecal reference well or not?**|
+|3. In your opinion, does the gut standard mimic the fecal reference well or not?|
 |:--|
 |<br>|
 
@@ -238,21 +233,19 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 |1. What is the size of this downloaded dataset subset?|
 |:--|
-| |
-<break>
+|<br>|
 
 |2. What is the format/extension of the downloaded file?|
 |:--|
-| |
-<break>
+|<br>|
 
-|3. Click on the Display (eyeball) icon and describe what you see in the 4 lines of the fastq file?| 
+|3. Click on the Display (eyeball) icon and describe what you see in the 4 lines of the fastq file?|
 |:--|
 |Line 1:| 
 |Line 2:| 
 |Line 3:| 
 |Line 4:| 
-<break>
+|<br>|
 
 #### Activity 1 - Part II - Run Nanoplot in Galaxy to assess sequence quality
 
@@ -262,13 +255,13 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore content.
 
 1. Run Nanoplot in Galaxy. 
 
-a) Explore NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
+a. Explore NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality via examining **Tool Parameters**.
 
-b) Run NanoPlot using default settings. Under Tool Parameters, **check the following settings**:
+b. Run NanoPlot using default settings. Under Tool Parameters, **check the following settings**:
 
-- Under **files** there are 4 options to select a fastq dataset: Single dataset, Multiple datasets, Dataset collection or option '...' which is Browse or Upload Datasets. Browse to select your fastq dataset. **Note**, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
+  - Under **files** there are 4 options to select a fastq dataset: Single dataset, Multiple datasets, Dataset collection or option '...' which is Browse or Upload Datasets. Browse to select your fastq dataset. **Note**, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
 
-- Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.
+  - Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete.
 
 #### Questions
 
@@ -300,13 +293,13 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 1. View and examine NanoPlot Results in Galaxy. 
 
-- By clicking on the Display icon (eyeball) next to the NanoPlot output.
+  - By clicking on the Display icon (eyeball) next to the NanoPlot output.
 
 #### Questions
 
 1. Examine NanoPlot output results.
 
-- Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
+  - Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
 
 | A. How many bases were sequenced?| 
 |:--|
@@ -325,13 +318,13 @@ b) Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 2. Examine NanoPlot output HTML report.
 
-- Click on the Display icon (eyeball) next to the NanoPlot output HTML report. 
+  - Click on the Display icon (eyeball) next to the NanoPlot output HTML report. 
 
 | A. Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained| 
 |:--|
 | |
 <br>
-
+ 
 | B. Scroll down to view the ‘Yield by length’ cumulative plot which shows sequencing yield based on read length. From this plot do shorter (10kb or less) or longer sequences produce more data?| 
 |:--|
 | |
@@ -417,7 +410,7 @@ b. Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
     - (G)enus, or 
     - (S)pecies. 
 
-    Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
+    Note, some rank codes will have numbers associated with them; Ignore them for the moment.
     Column  6: Identified taxa/scientific name.
 ```
 
@@ -440,12 +433,12 @@ b. Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 | |
 <br>
 
-| D. Using the total *number_of_reads* you obtained from the **NanoStats** (NanoPlot) metrics, and the value of *Unclassified* reads from the **converted_kraken_report**, calculate % unclassified and % classified taxa.| 
+| D. Using the total *number_of_reads* you obtained from the **NanoStats** (NanoPlot) metrics, and the value of *Unclassified* reads from the *converted_kraken_report*, calculate % unclassified and % classified taxa.| 
 |:--|
 | |
 <br>
 
-| E. Click on the **converted_kraken_report** entry and just below the ‘Add Tags’ to see the number of lines and columns in the file. The number of lines corresponds to the number of taxa detected. Excluding Unclassified subset, how many taxa were identified?| 
+| E. Click on the *converted_kraken_report* entry and just below the ‘Add Tags’ to see the number of lines and columns in the file. The number of lines corresponds to the number of taxa detected. Excluding Unclassified subset, how many taxa were identified?| 
 |:--|
 | |
 <br>
@@ -583,7 +576,6 @@ Note, that you can save time by 1) submitting multiple jobs that use the same in
 |Nanoplot| fastp | taxonomy workflow |
 |:--|:--|:--|
 |15 min| 15 min | 30 min | 
-<br>
 
 ### Activity 1 – QC 
 
@@ -646,7 +638,7 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 
 **1.  Compare your dataset before and after filtering using fastp: HTML report output.**
 
-| | **Before** | **After**|
+| | Before | After|
 |:--|:--|:--|
 |Mean Length| | |
 |total reads| | |
@@ -722,7 +714,7 @@ e. Evaluate what proportion of data was taxonomically classified.
 
 **4. Identify the most abundant taxa (those at >0.1%).**
 
-- Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
+  - Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
 
 a. Select columns B through I
 
@@ -860,8 +852,9 @@ Last Revised: May 2025
 1. Open the “Taxonomy Profiling Presentation” slidedeck [https://docs.google.com/presentation/d/1qsGKQ3M-etSpH1JFN270YfYgtYKxCsE-ou2B7gw25Gc/edit?usp=sharing](https://docs.google.com/presentation/d/1qsGKQ3M-etSpH1JFN270YfYgtYKxCsE-ou2B7gw25Gc/edit?usp=sharing)
 
 2. Create at least two slides (feel free to make more!) to present your findings e.g.
-- Describe the sample, drawing inspiration from Fig 2 (taxonomic distribution) and Fig 3a (read abundance) in the Xue et al 2023 ballast water study
-- Propose several steps for a follow-up analysis to compare this soil sample with one of the studies described in the Possible Dataset Activity, drawing inspiration from your submissions as well as those of your classmates in the Discussion Forum
+
+  - Describe the sample, drawing inspiration from Fig 2 (taxonomic distribution) and Fig 3a (read abundance) in the Xue et al 2023 ballast water study
+  - Propose several steps for a follow-up analysis to compare this soil sample with one of the studies described in the Possible Dataset Activity, drawing inspiration from your submissions as well as those of your classmates in the Discussion Forum
 
 3. Iterate your slides being sure to:
 

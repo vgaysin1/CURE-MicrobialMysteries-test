@@ -500,7 +500,6 @@
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <pre><code>  - In e.g. cell A3, determine the percentage of unclassified reads.</code></pre>
 <table>
 <thead>
@@ -514,7 +513,6 @@
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <pre><code>- In e.g. cell A4, determine the percentage of classified reads.</code></pre>
 <table>
 <thead>
@@ -528,11 +526,10 @@
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <p><strong>2. Identify abundant taxa (those at &gt;1%).</strong></p>
 <pre><code>a. Select columns B through I.
 b. In the Data menu, select “Sort range by column B (Z to A)”.
-c. Insert a new column C, name it “% abundance” and use for temporary calculations.
+c. Insert a new column C, name it “% abundance” and use it for temporary calculations.
 d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
 e. Quantify abundant taxa.</code></pre>
 <table>
@@ -547,30 +544,22 @@ e. Quantify abundant taxa.</code></pre>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <p><strong>3. List abundant taxa you identified in a table below.</strong></p>
 <pre><code>  - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at &gt;1%) taxa.
   - Then, enter the results into a table below.</code></pre>
+<p><strong>3A. What abundant taxa do you observe?</strong></p>
 <table>
 <thead>
 <tr class="header">
-<th align="left">3A. What abundant taxa do you observe?</th>
-<th align="left"></th>
+<th align="left"><strong>% abundance</strong></th>
+<th align="left"><strong>Taxonomy</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>% abundance</strong></td>
-<td align="left"><strong>Taxonomy</strong></td>
-</tr>
-<tr class="even">
 <td align="left">20.1</td>
 <td align="left">s_Faecalibacterium_prausnitzii</td>
 </tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"></td>
-</tr>
 <tr class="even">
 <td align="left"></td>
 <td align="left"></td>
@@ -621,15 +610,20 @@ e. Quantify abundant taxa.</code></pre>
 </tr>
 <tr class="even">
 <td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><br></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <p><strong>4. Compare your results with the expected taxa and abundance for <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd">Zymo gut standard documentation</a>?</strong></p>
-<ul>
-<li>Note, the Kraken2 output does not distinguish different <em>E. coli</em> strains, so just combine them all into a single <em>E. coli group</em>!</li>
-</ul>
+<pre><code>  - Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!</code></pre>
 <table>
 <colgroup>
 <col width="100%" />
@@ -645,7 +639,6 @@ e. Quantify abundant taxa.</code></pre>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -661,7 +654,6 @@ e. Quantify abundant taxa.</code></pre>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -677,7 +669,6 @@ e. Quantify abundant taxa.</code></pre>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 </div>
 </div>
 <div id="activity-2-optional-compare-with-zymo-fecal-reference" class="section level3 hasAnchor" number="4.1.5">
@@ -696,7 +687,7 @@ e. Quantify abundant taxa.</code></pre>
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>1. Which dataset is classified better, gut or fecal??</strong></th>
+<th align="left">1. Which dataset is classified better, gut or fecal??</th>
 </tr>
 </thead>
 <tbody>
@@ -711,7 +702,7 @@ e. Quantify abundant taxa.</code></pre>
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"><strong>2. Are there any abundant taxa (at &gt;1%) in common between the gut standard and fecal reference?</strong></th>
+<th align="left">2. Are there any abundant taxa (at &gt;1%) in common between the gut standard and fecal reference?</th>
 </tr>
 </thead>
 <tbody>
@@ -726,7 +717,7 @@ e. Quantify abundant taxa.</code></pre>
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left"><strong>3. In your opinion, does the gut standard mimic the fecal reference well or not?</strong></th>
+<th align="left">3. In your opinion, does the gut standard mimic the fecal reference well or not?</th>
 </tr>
 </thead>
 <tbody>
