@@ -5,14 +5,16 @@
 [Antimicrobial resistance genes](https://en.wikipedia.org/wiki/Antimicrobial_resistance) (AMR genes) allow microbes to counteract the effects of antimicrobial drugs used to treat infections.
 Databases such as the [NCBI Pathogen Detection Reference Gene Catalog](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance) and the [Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca) contain thousands of curated resistance genes and help make AMR-related data more widely available.
 
-<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_345.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_440.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-In the **Finding AMRs module**, through **lecture** material, students will learn about antibiotic resistance and concepts of genome assembly and genome annotation. In the **Prelab** activity, using **Galaxy** platform, students assemble genomes into **contigs**, visualize contigs and use the [ABRicate](https://github.com/tseemann/abricate) tool to mass screen contigs for antimicrobial genes using a variety of databases including the NCBI database. 
+In the **Finding AMRs module**, through **lecture** material, students will learn about antibiotic resistance and concepts of genome assembly and genome annotation. In the **Prelab** activity, using **Galaxy** platform, students will assemble genomes into **contigs**, visualize contigs using **Bandage Image** and use the [ABRicate](https://github.com/tseemann/abricate) to screen contigs for antimicrobial genes using a variety of databases including the NCBI database. 
 A similar strategy can be used to screen for virulence factors using databases such as the [Virulence Factor Database](https://pubmed.gov/34850947) (VFDB). For **Project** activity, students will perform **soil** genome assembly and in addition to annotating soil metagenomes with AMRs, assemble contigs into larger **MAGs**, and learn about annotating MAGs with tools like **GTDB-Tk**. 
+
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_345.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 ## Lecture - Finding AMRs
 
-<img src="resources/images/finding-AMRs_files/figure-html//165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw_g35f391192_00.png" width="480" />
+<img src="resources/images/finding-AMRs_files/figure-html//165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 [Slides: Finding AMRs](https://docs.google.com/presentation/d/165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw/edit?usp=sharing)
 
@@ -34,7 +36,7 @@ Use Galaxy tools to:
 
 Genome assembly is the process of reconstructing genomes from DNA sequence reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. Flye, is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using Flye we will hope to be able to reconstruct bacterial genomes and plasmids and enable detection of important genes like AMRs. Ideally, after assembly we want to get back circular contigs as that would typically indicate an entire microbial genome(s) or plasmid(s). 
 
-<br>
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_459.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMR. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: [10.1038/nrmicro2312](https://doi.org/10.1038/nrmicro2312) and [10.3390/antibiotics13121112](https://doi.org/10.3390/antibiotics13121112).
 
@@ -42,7 +44,7 @@ Antimicrobial resistance is the ability of microbes to evade one or more antibio
 
 **Table of approximate minimum times for a job to be completed on Galaxy using specified tools.**
 
-- Note, these times apply only to the specific input file we will be using in this activity, the Zymo_Gut_Standard_D6331_subset that is ~340MB, and will take longer (or much longer) for larger (or much larger) input files.
+- Note, these times apply only to the specific input file we will be using in this activity, the `Zymo_Gut_Standard_D6331_subset` that is ~340MB, and will take longer (or much longer) for larger (or much larger) input files.
 
 | Flye | Bandage Image | ABRicate |
 | :--| :--| :--|
@@ -55,32 +57,32 @@ Antimicrobial resistance is the ability of microbes to evade one or more antibio
 
 #### Instructions
 
-**1. Run Flye in Galaxy** - using Zymo Gut Standard D6331 subset to assemble gut microbial genomes.
+**1. Run Flye assembly tool in Galaxy** using Zymo Gut Standard D6331 subset to assemble gut microbial genomes.
 
-a. Obtain .fastq file from `Zymo_Gut_Standard_D6331_subset`: [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1)
+a. Obtain **.fastq** file from `Zymo_Gut_Standard_D6331_subset`: [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1).
 
 b. Name your new history **“Finding gut AMRs”**.
 
-c. Run Flye tool to assess sequence quality using the following Tool Parameters:
+c. Run **Flye** tool to assess sequence quality using the following Tool Parameters:
 
 - Under **Input Reads**: select your `Zymo_Gut_Standard_D6331` **.fastq** dataset.
-- Under Mode: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
+- Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
 - Under **Perform metagenomic assembly**: select `Yes`
 - Under **Generate a log file**: select `Yes`
 
-<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png" width="480" />
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png" width="480" />
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 **2. View Flye results** - Explore Flye output files and answer questions below.
 
-<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_21.png" width="480" />
+<img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_21.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 #### Questions
 
 **1. Explore Flye tool purpose and output.**
 
-|A. In your own words describe the purpose of Flye based on the Introduction section, and from the `Purpose` section of Flye tool description.|
+|A. In your own words describe the purpose of Flye based on the Introduction section, and from the 'Purpose' section of Flye tool description.|
 |:--|
 |  |
 <br>
@@ -111,8 +113,7 @@ A. Based on your Flye output `log report file`: At the very bottom of the very l
 
 |C. What proportion of input was assembled into contigs?|
 |:--|
-| *`At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above`* |
-|
+| *At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above` |
 | |
 <br>
 
@@ -137,7 +138,7 @@ A. Based on your Flye output `log report file`: At the very bottom of the very l
 
 |B. How does FASTA sequence format differ from FASTQ sequence format?|
 |:--|
-|*`See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)`*|
+|*See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)*|
 | |
 <br>
 
@@ -145,7 +146,7 @@ A. Based on your Flye output `log report file`: At the very bottom of the very l
 
 |A. Summarize your experience with assembling a genome with Flye.|
 |:--|
-| *`E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?`*|
+| *E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?*|
 | |
 <br>
 
@@ -202,7 +203,7 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 | END | End coordinate in the sequence |
 | GENE | ABR gene name |
 |COVERAGE | What proportion of the gene is in our sequence |
-| COVERAGE_MAP | A visual represenation of coverage map (gaps or no gaps)|
+| COVERAGE_MAP | A visual of coverage map (gaps or no gaps)|
 | GAPS | Was there any gaps in the alignment - possible pseudogene? |
 | %COVERAGE | Proportion of gene covered |
 | %IDENTITY | Proportion of exact nucleotide matches |
@@ -238,9 +239,10 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 **2. Research an AMR gene.**
 
+- Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.
+
 |A. Research and write a small paragraph report on one of the AMR genes.| 
 |:---|
-| *`Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.`*|
 | |
 <br>
 
@@ -251,11 +253,12 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
 **Resources**
+
 - Google Doc
 
 **Contributions and Affiliations**
@@ -277,6 +280,7 @@ Last Revised: May 2025
 #### Instructions
 
 1. Form new groups of four
+
 - [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
 
 2. Pair up into groups (10 min)
@@ -356,25 +360,21 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 | 1. How many contigs were assembled?|
 |:-----|
 |*Note: Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs*|
-| | 
-<br>
+|<br> | 
 
 | 2. What is the longest contig size?|
 |:-----|
-| | 
-<br>
+|<br> | 
 
 | 3. What percent of input was assembled into contigs? |
 |:-----|
 |- *Note 1: Based on the log file, the input going into flye assembly was 6,103,654,873 bases.*| 
 |- *Note 2: Based on the log file, the output going of flye assembly was 154,251,885 bases.* |
-| | 
-<br>
+| <br> | 
 
 | 4. Why do you think only a small fraction of reads was assembled into contigs? |
 |:-----|
-| | 
-<br>
+|<br> | 
 
 **5. Compare soil assembly to the Zymo gut standard assembly provided the following observations:**
 
@@ -383,16 +383,13 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 5A. Why do you think the number of contigs in the soil sample was so much higher than the number of contigs in the Zymo gut standard?  |
 |:-----|
-|- *Hint 1 - it is NOT because of the difference in the size of the sequencing file.*| 
-|- *Hint 2 - Think about possible differences in the microbial diversity of the two samples.* |
-| | 
-<br>
+|- *Hint 1: it is NOT because of the difference in the size of the sequencing file.*| 
+|- *Hint 2: Think about possible differences in the microbial diversity of the two samples.* |
+|<br> | 
 
 | 5B. Why do you think it was possible to assemble a much larger and circular contig with the Zymo gut standard sample compared to the soil sample? |
 |:-----|
-| | 
-<br>
-
+| <br>| 
 
 
 ### Activity 2 – Contig visualization with Bandage
@@ -441,7 +438,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 | END | End coordinate in the sequence |
 | GENE | ABR gene name |
 |COVERAGE | What proportion of the gene is in our sequence |
-| COVERAGE_MAP | A visual represenation of coverage map (gaps or no gaps)|
+| COVERAGE_MAP | A visual of coverage map (gaps or no gaps)|
 | GAPS | Was there any gaps in the alignment - possible pseudogene? |
 | %COVERAGE | Proportion of gene covered |
 | %IDENTITY | Proportion of exact nucleotide matches |
@@ -591,7 +588,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
@@ -628,7 +625,7 @@ b. Report on one of the AMR genes you found (Discussion)
 c. Describe GTDB and the associated GTDB-Tk software toolkit (Methods)
 
 
-3. Iterate your slides being sure to
+3. Iterate your slides being sure to:
 
 a. Add bullet points on key details you understand (Notice) and questions you have (Wonder)
 
