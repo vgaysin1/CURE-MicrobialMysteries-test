@@ -185,7 +185,7 @@ Last Revised: July 2025
 
 ## Lecture - Taxonomy Profiling
 
-![](resources/images/taxonomy-profiling_files/figure-docx//10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY_g35f391192_00.png)
+![](resources/images/taxonomy-profiling_files/figure-docx//10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY_g35f391192_00.png){width=100%}
 
 [Slides: Taxonomy Profiling](https://docs.google.com/presentation/d/10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY/edit?usp=sharing)
 
@@ -354,7 +354,7 @@ a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/
 
 b. Browse to select your fastq dataset by clicking on the ‘...’ tab.
 
-c. Under **kraken_database** select <mark style="background color: green">‘Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).
+c. Under **kraken_database** select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.
 
 d. Click **Run Workflow** with the following parameters:
 
@@ -362,9 +362,9 @@ e. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled
 
 2. Examine select aspects of Kraken2 tool. 
 
-a) While the Taxonomy Workflow is running, click on the Tools icon on the left of the page. 
+a. While the Taxonomy Workflow is running, click on the Tools icon on the left of the page. 
 
-b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** tool. 
+b. Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** tool. 
 
 #### Questions
 
@@ -392,18 +392,34 @@ b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 
 1. Open and examine **converted_kraken_report**.
 
-- Click on the Display icon (eyeball) next to the output file with **converted_kraken_report**. This report should look familiar from week 1 taxonomy-profiling-spreadsheet activity.
-- Scroll through to explore.
+  - Click on the Display icon (eyeball) next to the output file with **converted_kraken_report**. This report should look familiar from week 1 taxonomy-profiling-spreadsheet activity.
+  - Scroll through to explore.
 
 2. Open and examine **kraken2_with_pluspf_database_output_report**.
 
-- Click on the Display icon (eyeball) next to the output file with **kraken2_with_pluspf_database_output_report**.
-- This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:
+  - Click on the Display icon (eyeball) next to the output file with **kraken2_with_pluspf_database_output_report**.
+  - This output report is an extended version of the converted_kraken_report. 
+  - The output contains 6 columns. See info for select column headers below:
 
-- Column 1: Percentage (%) of a given taxon
-- Column 2: # of reads per given taxon
-- Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
-- Column  6: Identified taxa/scientific name.
+```
+    Column 1: Percentage (%) of a given taxon
+    Column 2: # of reads per given taxon
+    Column 4: A rank code, indicating 
+
+    - (U)nclassified, 
+    - (R)oot, 
+    - (D)omain, 
+    - (K)ingdom, 
+    - (P)hylum, 
+    - (C)lass, 
+    - (O)rder, 
+    - (F)amily, 
+    - (G)enus, or 
+    - (S)pecies. 
+
+    Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
+    Column  6: Identified taxa/scientific name.
+```
 
 #### Questions
 
@@ -455,7 +471,7 @@ b) Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 
 Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. Click on Display icon (eyeball) next to the **Krona_pie_chart** dataset to explore Krona pie chart results. 
 
-![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g336203e918d_0_0.png)
+![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g336203e918d_0_0.png){width=100%}
 
 | A. What are the 2 main phyla you observe?| 
 |:--|
@@ -583,7 +599,7 @@ a. Open the nanopore-soil-pilot public history [https://usegalaxy.org/u/valerie-
 
 b. Click on `Import this history`, select Copy only the active, non-deleted datasets and then Copy History. 
 
-c. Confirm <mark style="background color: green">Nanopore-soil-pilot-subset</mark> exists in your history by clicking on the Home button on top left ().
+c. Confirm <mark style="background color: green">Nanopore-soil-pilot-subset</mark> exists in your history by clicking on the Home button on top left.
 
 2. Run **NanoPlot** tool in Galaxy to assess sequence quality using **default settings**.
 
@@ -654,13 +670,13 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 
 1. Run ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view results.
 
-a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling)
+a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling).
 
-b. Click on Run 
+b. Click on Run.
 
 c. Browse to select your fastp-filtered fastq dataset <mark style="background color: green">“fastp on data1:Read 1 output”</mark> dataset by clicking on the `‘...’` tab.
 
-d. Under **kraken_database** select <mark style="background color: green">‘Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).
+d. Under **kraken_database** select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.
 
 d. Click **Run Workflow**
 
@@ -677,7 +693,7 @@ c. Upload your taxonomy .tsv file to Google Drive and open with Google Sheets.
 
 d. Create a header row and enter column Information.
 
-  - Col A = Counts
+  - Col A = Counts.
   - Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).
   - Each row corresponds to a different taxa. 
 
@@ -705,6 +721,7 @@ e. Evaluate what proportion of data was taxonomically classified.
 <br>
 
 **4. Identify the most abundant taxa (those at >0.1%).**
+
 - Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
 
 a. Select columns B through I
@@ -820,6 +837,7 @@ c. Answer questions below
 ### Footnotes
 
 **Resources**
+
 - Google Doc
 - Species composition in the Gut Microbiome Standard dataset: [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..)
 
@@ -845,7 +863,8 @@ Last Revised: May 2025
 - Describe the sample, drawing inspiration from Fig 2 (taxonomic distribution) and Fig 3a (read abundance) in the Xue et al 2023 ballast water study
 - Propose several steps for a follow-up analysis to compare this soil sample with one of the studies described in the Possible Dataset Activity, drawing inspiration from your submissions as well as those of your classmates in the Discussion Forum
 
-3. Iterate your slides being sure to
+3. Iterate your slides being sure to:
+
 - Add bullet points on key details you understand (Notice) and questions you have (Wonder)
 - Include one or more plots or images that support your points
 - Create slide titles that summarize your main takeaway

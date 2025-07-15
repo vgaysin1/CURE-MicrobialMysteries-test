@@ -747,7 +747,7 @@
 <ol style="list-style-type: lower-alpha">
 <li><p>Open the taxonomy-profiling public workflow <a href="https://usegalaxy.org/u/cutsort/w/taxonomy-profiling">https://usegalaxy.org/u/cutsort/w/taxonomy-profiling</a> and click on <strong>Run</strong>.</p></li>
 <li><p>Browse to select your fastq dataset by clicking on the ‘…’ tab.</p></li>
-<li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">’Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z).</p></li>
+<li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.</p></li>
 <li><p>Click <strong>Run Workflow</strong> with the following parameters:</p></li>
 <li><p>Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.</p></li>
 </ol>
@@ -827,13 +827,27 @@
 <li>Open and examine <strong>kraken2_with_pluspf_database_output_report</strong>.</li>
 </ol>
 <ul>
-<li><p>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>.</p></li>
-<li><p>This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:</p></li>
-<li><p>Column 1: Percentage (%) of a given taxon</p></li>
-<li><p>Column 2: # of reads per given taxon</p></li>
-<li><p>Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.</p></li>
-<li><p>Column 6: Identified taxa/scientific name.</p></li>
+<li>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>.</li>
+<li>This output report is an extended version of the converted_kraken_report.</li>
+<li>The output contains 6 columns. See info for select column headers below:</li>
 </ul>
+<pre><code>    Column 1: Percentage (%) of a given taxon
+    Column 2: # of reads per given taxon
+    Column 4: A rank code, indicating 
+
+    - (U)nclassified, 
+    - (R)oot, 
+    - (D)omain, 
+    - (K)ingdom, 
+    - (P)hylum, 
+    - (C)lass, 
+    - (O)rder, 
+    - (F)amily, 
+    - (G)enus, or 
+    - (S)pecies. 
+
+    Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
+    Column  6: Identified taxa/scientific name.</code></pre>
 </div>
 <div id="questions-17" class="section level4 hasAnchor" number="4.3.5.6">
 <h4><span class="header-section-number">4.3.5.6</span> Questions<a href="prelab---taxonomy-profiling.html#questions-17" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -966,7 +980,7 @@
 <li>View Krona Results and answer the following questions.</li>
 </ol>
 <p>Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. Click on Display icon (eyeball) next to the <strong>Krona_pie_chart</strong> dataset to explore Krona pie chart results.</p>
-<p><img src="resources/images/taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g336203e918d_0_0.png" width="480" /></p>
+<p><img src="resources/images/taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g336203e918d_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 <table>
 <thead>
 <tr class="header">
