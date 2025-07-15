@@ -40,7 +40,6 @@ Genome assembly is the process of reconstructing genomes from DNA sequence reads
 
 Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMR. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: [10.1038/nrmicro2312](https://doi.org/10.1038/nrmicro2312) and [10.3390/antibiotics13121112](https://doi.org/10.3390/antibiotics13121112).
 
-<br>
 
 **Table of approximate minimum times for a job to be completed on Galaxy using specified tools.**
 
@@ -65,10 +64,10 @@ b. Name your new history **“Finding gut AMRs”**.
 
 c. Run **Flye** tool to assess sequence quality using the following Tool Parameters:
 
-- Under **Input Reads**: select your `Zymo_Gut_Standard_D6331` **.fastq** dataset.
-- Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
-- Under **Perform metagenomic assembly**: select `Yes`
-- Under **Generate a log file**: select `Yes`
+    - Under **Input Reads**: select your `Zymo_Gut_Standard_D6331` **.fastq** dataset.
+    - Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
+    - Under **Perform metagenomic assembly**: select `Yes`
+    - Under **Generate a log file**: select `Yes`
 
 <img src="resources/images/finding-AMRs_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
@@ -84,76 +83,65 @@ c. Run **Flye** tool to assess sequence quality using the following Tool Paramet
 
 |A. In your own words describe the purpose of Flye based on the Introduction section, and from the 'Purpose' section of Flye tool description.|
 |:--|
-|  |
-<br>
+| <br> |
 
 
 |B. How many Flye output files did you get back, and what are they?|
 |:--|
-|  |
-<br>
+| <br> |
 
 |C. What are the file extensions (formats) for the following Flye output files?|
 |:--|
 | consensus |
 | graphical fragment assembly | 
-<br>
+|<br>| |
 
 **2. Explore Flye log report file.**
 
 A. Based on your Flye output `log report file`: At the very bottom of the very long file find how many bases were assembled. What is the `Total length`?|
 |:--|
-| |
-<br>
+|<br> |
 
 |B. Based on your Flye output `log report file`: At the very bottom of the file find the length of the longest assembled fragment? Look for `Largest frg`?|
 |:--|
-| |
-<br>
+|<br> |
 
 |C. What proportion of input was assembled into contigs?|
 |:--|
 | *At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above` |
-| |
-<br>
+|<br> |
 
 **3. Explore Flye assembly info file.**
 
 |A. Based on your Flye output `assembly info file` sorted by contig length (high to low, in base pairs, bp) - What is the longest `contig size?|
 |:--|
-| |
-<br>
+|<br> |
 
 |B. Based on your Flye output `assembly info file` sorted by contig length (high to low, in base pairs, bp) - What is the shortest contig size?|
 |:--|
-| |
-<br>
+|<br> |
 
 **4. Explore Flye output consensus file (in FASTA format).**
 
 |A. What is the beginning line of the FASTA format?|
 |:--|
-| |
-<br>
+| <br>|
 
 |B. How does FASTA sequence format differ from FASTQ sequence format?|
 |:--|
 |*See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)*|
-| |
-<br>
+|<br> |
 
 **5. Test your general understanding of genome assembly.**
 
 |A. Summarize your experience with assembling a genome with Flye.|
 |:--|
 | *E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?*|
-| |
-<br>
+|<br> |
 
 |B.  What would you want the ideal genome assembly tool to do?|
 |:--|
-| |
-<br>
+| <br>|
 
 ### Activity 2 – Visualizing contigs
 
@@ -167,18 +155,15 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 |1. Paste the resulting image below.|
 |:--|
-| |
-<br>
+| <br>|
 
 |2. Describe contig profile based on the Bandage Image.|
 |:--|
-| |
-<br>
+|<br> |
 
 |3. Do you expect to obtain more contigs, larger or circular contigs with more sequencing reads? why?|
 |:--|
-| |
-<br>
+|<br> |
 
 ### Activity 3 – Finding AMRs
 
@@ -209,7 +194,7 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 | %IDENTITY | Proportion of exact nucleotide matches |
 | DATABASE | The database this sequence comes from |
 | ACCESSION | The genomic source of the sequence |
-<br>
+|<br>| |
 
 3. Answer questions below.
 
@@ -217,25 +202,21 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 **1. Explore Abricate output report.**
 
-|A. How  many AMR genes were detected? This is the number of rows in your file|
+|A. How  many AMR genes were detected? This is the number of rows in your file.|
 |:--|
-||
-<br>
+|<br>|
 
 |B. How many DIFFERENT AMR genes were detected and what are their GENE names?|
 |:--|
-||
-<br>
+|<br>|
 
 |C. What are the different AMR genes resistant to? What is their RESISTANCE? |
 |:--|
-||
-<br>
+|<br>|
 
 |D. How many DIFFERENT contigs had AMRs? |
 |:--|
-||
-<br>
+|<br>|
 
 **2. Research an AMR gene.**
 
@@ -243,13 +224,11 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 |A. Research and write a small paragraph report on one of the AMR genes.| 
 |:---|
-| |
-<br>
+| <br>|
 
 |B. Ask one question you want to know about AMRs?| 
 |:---|
-| |
-<br>
+|<br> |
 
 ### Grading Criteria
 
@@ -348,10 +327,10 @@ b. Name your new history **“Finding soil AMRs”**
 
 c. Run **Flye** tool to assess sequence quality using the following **Tool Parameters**
 
-- Under **Input Reads**: select your nano `pore-soil-subset-filtered` **.fastq** dataset.
-- Under **Mode**: select `--nano-raw` option, since the sequences were obtained using Nanopore sequencing technology.
-- Under **Perform metagenomic assembly**: select `Yes`
-- Under **Generate a log file**: select `Yes`
+    - Under **Input Reads**: select your nano `pore-soil-subset-filtered` **.fastq** dataset.
+    - Under **Mode**: select `--nano-raw` option, since the sequences were obtained using Nanopore sequencing technology.
+    - Under **Perform metagenomic assembly**: select `Yes`
+    - Under **Generate a log file**: select `Yes`
 
 2. Explore Flye output **assembly info** file which is sorted by length (in base pairs, bp) of the contig (high to low). 
 

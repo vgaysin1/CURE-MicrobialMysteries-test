@@ -468,7 +468,6 @@
 <p>Genome assembly is the process of reconstructing genomes from DNA sequence reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. Flye, is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using Flye we will hope to be able to reconstruct bacterial genomes and plasmids and enable detection of important genes like AMRs. Ideally, after assembly we want to get back circular contigs as that would typically indicate an entire microbial genome(s) or plasmid(s).</p>
 <p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_459.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 <p>Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMR. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: <a href="https://doi.org/10.1038/nrmicro2312">10.1038/nrmicro2312</a> and <a href="https://doi.org/10.3390/antibiotics13121112">10.3390/antibiotics13121112</a>.</p>
-<p><br></p>
 <p><strong>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
 <ul>
 <li>Note, these times apply only to the specific input file we will be using in this activity, the <code>Zymo_Gut_Standard_D6331_subset</code> that is ~340MB, and will take longer (or much longer) for larger (or much larger) input files.</li>
@@ -499,14 +498,14 @@
 <ol style="list-style-type: lower-alpha">
 <li><p>Obtain <strong>.fastq</strong> file from <code>Zymo_Gut_Standard_D6331_subset</code>: <a href="https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1">https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1</a>.</p></li>
 <li><p>Name your new history <strong>“Finding gut AMRs”</strong>.</p></li>
-<li><p>Run <strong>Flye</strong> tool to assess sequence quality using the following Tool Parameters:</p></li>
-</ol>
+<li><p>Run <strong>Flye</strong> tool to assess sequence quality using the following Tool Parameters:</p>
 <ul>
 <li>Under <strong>Input Reads</strong>: select your <code>Zymo_Gut_Standard_D6331</code> <strong>.fastq</strong> dataset.</li>
 <li>Under <strong>Mode</strong>: select <code>PacBio HiFi (--pacbio-hifi)</code> option, since the sequences were obtained using PacBio HiFi sequencing technology.</li>
 <li>Under <strong>Perform metagenomic assembly</strong>: select <code>Yes</code></li>
 <li>Under <strong>Generate a log file</strong>: select <code>Yes</code></li>
-</ul>
+</ul></li>
+</ol>
 <p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 <p><strong>2. View Flye results</strong> - Explore Flye output files and answer questions below.</p>
@@ -526,11 +525,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <thead>
 <tr class="header">
@@ -539,11 +537,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -560,9 +557,11 @@
 <tr class="even">
 <td align="left">graphical fragment assembly</td>
 </tr>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
 </tbody>
 </table>
-<p><br></p>
 <p><strong>2. Explore Flye log report file.</strong></p>
 <table>
 <colgroup>
@@ -575,11 +574,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -591,11 +589,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -610,11 +607,10 @@
 <td align="left">*At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above`</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <p><strong>3. Explore Flye assembly info file.</strong></p>
 <table>
 <colgroup>
@@ -627,11 +623,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -643,11 +638,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <p><strong>4. Explore Flye output consensus file (in FASTA format).</strong></p>
 <table>
 <thead>
@@ -657,11 +651,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -676,11 +669,10 @@
 <td align="left"><em>See this link for a quick summary comparison of the 2 formats <a href="https://compgenomr.github.io/book/fasta-and-fastq-formats.html">https://compgenomr.github.io/book/fasta-and-fastq-formats.html</a></em></td>
 </tr>
 <tr class="even">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <p><strong>5. Test your general understanding of genome assembly.</strong></p>
 <table>
 <colgroup>
@@ -696,11 +688,10 @@
 <td align="left"><em>E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?</em></td>
 </tr>
 <tr class="even">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <thead>
 <tr class="header">
@@ -709,11 +700,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 </div>
 </div>
 <div id="activity-2-visualizing-contigs" class="section level3 hasAnchor" number="5.2.5">
@@ -733,11 +723,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <thead>
 <tr class="header">
@@ -746,11 +735,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -762,11 +750,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 </div>
 </div>
 <div id="activity-3-finding-amrs" class="section level3 hasAnchor" number="5.2.6">
@@ -841,9 +828,12 @@
 <td align="left">ACCESSION</td>
 <td align="left">The genomic source of the sequence</td>
 </tr>
+<tr class="odd">
+<td align="left"><br></td>
+<td align="left"></td>
+</tr>
 </tbody>
 </table>
-<p><br></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Answer questions below.</li>
 </ol>
@@ -857,16 +847,15 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">A. How many AMR genes were detected? This is the number of rows in your file</th>
+<th align="left">A. How many AMR genes were detected? This is the number of rows in your file.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -878,11 +867,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <colgroup>
 <col width="100%" />
@@ -894,11 +882,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <thead>
 <tr class="header">
@@ -907,11 +894,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <p><strong>2. Research an AMR gene.</strong></p>
 <ul>
 <li>Use any search tools for your research, but we encourage you to use PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/">https://pubmed.ncbi.nlm.nih.gov/</a> where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</li>
@@ -927,11 +913,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <table>
 <thead>
 <tr class="header">
@@ -940,11 +925,10 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 </div>
 </div>
 <div id="grading-criteria-9" class="section level3 hasAnchor" number="5.2.7">
