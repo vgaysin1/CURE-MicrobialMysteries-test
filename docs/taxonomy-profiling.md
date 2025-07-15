@@ -36,11 +36,9 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 
 2. Identify what information is provided in columns of the tax-data-gut taxonomy file.
 
-- Col A = Counts
-
-- Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
-
-- Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
+  - Col A = Counts
+  - Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
+  - Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
 
 3. Create a header row and enter column information.
 
@@ -49,8 +47,8 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 **1. Evaluate what proportion of data was taxonomically classified.**
 
 ```
- - Insert a new column A, name it "Calculations" and temporarily use for calculations.
- - In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.  
+  - Insert a new column A, name it "Calculations" and temporarily use for calculations.
+  - In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.  
 ```
 
 | 1A. How many total counts are there? |
@@ -59,7 +57,7 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 <br>
 
 ```
-- In e.g. cell A3, determine the percentage of unclassified reads.
+  - In e.g. cell A3, determine the percentage of unclassified reads.
 ```
 
 |1B.  What percentage of reads are unclassified? |
@@ -94,8 +92,8 @@ e. Quantify abundant taxa.
 **3. List abundant taxa you identified in a table below.**
 
 ```
-- To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa.
-- Then, enter the results into a table below.
+  - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa.
+  - Then, enter the results into a table below.
 ```
 
 |3A. What abundant taxa do you observe?| |
@@ -121,7 +119,7 @@ e. Quantify abundant taxa.
 
 **4. Compare your results with the expected taxa and abundance for [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?**
 
-- Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
+  - Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
 
 | 4A. How do your results overall compare with the expected taxa and % abundance from Zymo gut standard? |
 |:--|
@@ -147,8 +145,8 @@ e. Quantify abundant taxa.
 
 In this activity, repeat steps of the Activity 1 above, but now using [tax_data_fecal.tsv](http://drive.google.com/file/d/1CLQw9yqoqWl5caLm-ZmiHpLNtUo_Zo4s) dataset corresponding to Zymo fecal reference. The tax_data_fecal.tsv dataset comes from a real human fecal sample, in contrast to the tax_data_gut.tsv sample you explored in the Activity 1, which corresponds to cultured and pooled known species combined at specific proportions to make up a predictable standard population.
 
-- Perform Activity 1 exercises using tax_data_fecal data, then, use questions below to compare the two datasets.
-- See D6323 Zymo Fecal Microbiome References documentation (pg. 4) in the Resources section below.
+  - Perform Activity 1 exercises using tax_data_fecal data, then, use questions below to compare the two datasets.
+  - See D6323 Zymo Fecal Microbiome References documentation (pg. 4) in the Resources section below.
 
 #### Questions
 
@@ -166,8 +164,8 @@ In this activity, repeat steps of the Activity 1 above, but now using [tax_data_
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download this assignment as Microsoft Word (.docx) and upload on Canvas
-- <mark style="background color: yellow">Download your Google Sheet as Microsoft Excel (.xlsx) and upload on Canvas
+- <mark style="background color: yellow">Download this assignment as Microsoft Word (.docx) and upload on Canvas</mark>.
+- <mark style="background color: yellow">Download your Google Sheet as Microsoft Excel (.xlsx) and upload on Canvas</mark>.
 
 ### Footnotes
 
@@ -671,7 +669,7 @@ d. Click **Run Workflow**
 
 a. Click on **converted_kraken_report**, find the download button and **download** the report.
 
-b. <mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv.
+b. <mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv</mark>.
 
 c. Upload your taxonomy .tsv file to Google Drive and open with Google Sheets.
 
