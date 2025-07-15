@@ -503,7 +503,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
@@ -530,7 +530,8 @@ Last Revised: May 2025
 #### Instructions
 
 1. Form new groups of four
-- [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
+
+  - [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
 
 2. Pair up into groups (10 min)
 
@@ -562,6 +563,7 @@ To use a variety of Galaxy tools to perform Quality Control (QC), sequence quali
 ### Learning Objectives
 
 In this exercise, using Galaxy tools you will be
+
 1. Performing QC and quality filtering of your soil metagenomics data with NanoPlot and fastp tools.
 2. Running a workflow to perform taxonomy profiling and visualization of a soil metagenome.
 
@@ -689,13 +691,14 @@ c. Upload your taxonomy .tsv file to Google Drive and open with Google Sheets.
 
 d. Create a header row and enter column Information.
 
-- Col A = Counts
-- Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).
-- Each row corresponds to a different taxa. 
+  - Col A = Counts
+  - Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).
+  - Each row corresponds to a different taxa. 
 
 e. Evaluate what proportion of data was taxonomically classified.
-- Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.
-- In e.g. cell A2, calculate the sum of all reads observed in the soil  sample. 
+
+  - Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.
+  - In e.g. cell A2, calculate the sum of all reads observed in the soil  sample. 
 
 #### Questions
 
@@ -759,10 +762,10 @@ d. In new column C, calculate % abundance for each row by dividing each count va
 
 1. Click on the Display icon (eyeball) next to the output file with **kraken2_with_pluspf_database_output_report**. This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:
 
-- Column 1: Percentage (%) of a given taxon
-- Column 2: # of reads per given taxon
-- Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
-- Column  6: Identified taxa/scientific name.
+  - Column 1: Percentage (%) of a given taxon
+  - Column 2: # of reads per given taxon
+  - Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.
+  - Column  6: Identified taxa/scientific name.
 <br>
 
 `Of note`: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has hundreds of lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.
@@ -826,7 +829,7 @@ c. Answer questions below
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+  - <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
