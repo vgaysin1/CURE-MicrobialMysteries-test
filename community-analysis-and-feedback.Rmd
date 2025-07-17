@@ -227,10 +227,8 @@ Some other things you might include would be what type of analysis you decided t
 #### Results
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
-
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g33d6e3b928f_0_6#slide=id.g33d6e3b928f_0_6")
-
-``````
+```
 
 The Results section is where you will detail your data primarily through **figures and tables**, though sometimes written text is included. Begin by creating your tables and figures. 
 
