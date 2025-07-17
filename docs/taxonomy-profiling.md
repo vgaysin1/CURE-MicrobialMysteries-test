@@ -608,7 +608,7 @@ c. Click on **Run Tool** and wait ~10 minutes as the NanoPlot job is scheduled, 
 |Read mean length (mean read length):|
 |Read Mean quality (mean_qual):|
 |Proportion of reads with quality > Q20 (Reads > Q20):|
-<br>
+|<br>|
 
 **2.  Compare NanoPlot results.**
 
@@ -617,12 +617,11 @@ c. Click on **Run Tool** and wait ~10 minutes as the NanoPlot job is scheduled, 
 | mean read length:|  |  |
 | mean_qual:|  |  |
 | Reads > Q20:|  |  |
-<br>
+|<br>| | |
 
 |3. Which dataset has better sequence quality, Zymo-gut-standard (taxonomy profiling pre-lab) or Nanopore-soil pilot (taxonomy profiling project)? Why?|
 |:---|
-| | 
-<br>
+|<br> | 
 
 #### Activity 1 - Part II - Quality filtering with fastp
 
@@ -645,12 +644,11 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 |total bases|  | |
 |Q20 bases (%):|  | |
 |Q30 bases (%):|  | |
-<br>
+|<br>| | |
 
 |2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering. `Hint 1`: look at 5’ end, 3’ end and the middle? `Hint 2`: Pay attention to the y-axis|
 |:--|
-| | 
-<br>
+|<br>| 
 
 ### Activity 2 – Taxonomy Profiling
 
@@ -670,9 +668,9 @@ c. Browse to select your fastp-filtered fastq dataset <mark style="background co
 
 d. Under **kraken_database** select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.
 
-d. Click **Run Workflow**
+e. Click **Run Workflow**.
 
-3. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
+f. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
 
 
 2. Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore metagenomic diversity of soil by performing taxonomy profiling spreadsheet activity you did during week 1. 
@@ -698,57 +696,49 @@ e. Evaluate what proportion of data was taxonomically classified.
 
 |1. How many total read counts are there?|
 |:---|
-||
-<br>
+|<br>|
 
 
 |2. Determine percentage of reads that are unclassified| 
 |:---|
-||
-<br>
+|<br>|
 
 |3. What percentage of reads are classified?| 
 |:---|
-||
-<br>
+|<br>|
 
 **4. Identify the most abundant taxa (those at >0.1%).**
 
   - Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
 
-a. Select columns B through I
+a. Select columns B through I.
 
-b. In the Data menu, select “Sort range by column B (Z to A)”
+b. In the Data menu, select “Sort range by column B (Z to A)”.
 
 c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
 
 d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
 
-|How many ‘abundant' taxa (at > 0.1%) do you observe?|
+|4A. How many ‘abundant' taxa (at > 0.1%) do you observe?|
 |:---|
-||
-<br>
+|<br>|
 
-|5. What are the taxonomic ranks of most abundant taxa?| 
+|4B. What are the taxonomic ranks of most abundant taxa?| 
 |:---|
-||
-<br>
+|<br>|
 
-|6. What is the most abundant eukaryote observed and its read count?| 
+|4C. What is the most abundant eukaryote observed and its read count?| 
 |:---|
-||
-<br>
+|<br>|
 
 
-|7. What is the most abundant archaea observed and its read count?| 
+|4D. What is the most abundant archaea observed and its read count?| 
 |:---|
-||
-<br>
+|<br>|
 
-|8. What is the most abundant virus observed and its read count?| 
+|4E. What is the most abundant virus observed and its read count?| 
 |:---|
-||
-<br>
+|<br>|
 
 
 #### Activity 2 - Part II - Analyze Kraken2 results
@@ -769,17 +759,15 @@ d. In new column C, calculate % abundance for each row by dividing each count va
 
 |1. What is the percentage of Unclassified taxa? Does it match your calculations in Activity 2 - Part I?| 
 |:---|
-||
-<br>
+|<br>|
 
 |2. What percentage of bacteria is Proteobacteria, the most abundant Phyla observed?|
 |:---|
-||
+|<br>|
 
 |3. What is the most abundant class observed and at what percentage?|
 |:---|
-||
-<br>
+|<br>|
 
 #### Activity 2 - Part III - Krona Pie Chart
 
@@ -795,15 +783,13 @@ c. Answer questions below
 
 |1. What are the 2 main phyla you observe?|
 |:---|
-||
-<br>
+|<br>|
 
 |2. What appears to be the more diverse phyla of the two?|
 |:---|
-||
-<br>
+|<br>|
 
-**3. Compare your taxonomy from soil, to the gut taxonomy results from your taxonomy-prelab** (Zymo-gut-standard [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..).|
+**3. Compare your taxonomy from soil, to the gut taxonomy results from your taxonomy-prelab** (Zymo-gut-standard [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..)
 
 **3A. Fill out the comparison table below**
 
@@ -813,14 +799,14 @@ c. Answer questions below
 |What are 2 most abundant species| | |
 |% Classified taxa| | |
 |% Unclassified taxa| | |
-<br>
+|<br>| | |
 
 |3B. Discuss taxonomy diversity between soil and gut, providing 3 points:| 
 |:---|
-| 1) |
-| 2) |
-| 3) | 
-<br>
+| 1. |
+| 2. |
+| 3. | 
+|<br>|
 
 ### Grading Criteria
 
