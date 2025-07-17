@@ -63,7 +63,7 @@ In this section we will go over how to create a scientific poster. We chose a po
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Submit URL to your reply on Canvas
+- <mark style="background-color: yellow">Submit URL to your reply on Canvas</mark>.
 
 ### Footnotes
 
@@ -131,71 +131,61 @@ We will include the C-MOOR logo, the logo of your institution(s), and the most i
 
 
 
-#### Abstract/Introduction
+#### Abstract
 
-C-MOOR Abstract/Introduction examples:
+C-MOOR Abstract examples:
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_139.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g36d8202a6d3_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 PacBio's published abstract on 'Genome-resolved metagenome assembly of human oral microbiome using highly accurate long-read sequencing'. 
 
 <img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_149.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-An abstract or introduction is a concise summary of your work. An effective abstract/introduction will inform the reader of the relevant background to the research, scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions. You may notice that not all posters online contain and abstract; different fields of science have slightly different requirements and formats for abstracts. 
+An abstract is a concise summary of your work. An effective abstract will inform the reader of the relevant background to the research, scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions.  
 
-Abstract is a kind of introduction because it provides context for your work by describing what is already known in the field, as well as an unknown that your research is addressing. The latter is often called the gap in knowledge. 
+Abstract can be difficult to write because it combines all research pieces and requires effective and consice communication of those sections.
+Many scientists choose to write the abstract last, after they fully understand the conclusions and implications of their work. Identify your scientific question, your hypothesis, and the knowledge gap (the unknown your research is addressing) first. Then brainstorm what you will need to tell your readers in terms of context and background. 
 
-Abstract can be difficult to write because it combines all research pieces and requires effective and consice communication of those pieces. When writing your abstract/introduction, it may be helpful to start writing at the end. Identify your scientific question, your hypothesis and the gap of knowledge first. Then brainstorm what you will need to tell your readers in terms of context and background. 
+**Your abstract should do the following:**
 
-
-**Your Abstract/Introduction should do the following:**
-
-*Include relevant background information such as*: 
+1. Include relevant background information such as: 
 
 ```
 - A problem or question at hand 
-- Model organism used 
-- Gene of interest and its function 
-- Important associations (e.g. between genotype and phenotype)
-- Phenotypes (typical, disease-state) 
-- Biological processes
+- Model organism
+- The gene of interest and its function 
+- The relevant phenotypes (e.g. disease-state) 
+- The known connection between genotype and phenotype
+- Relevant biological processes
 ```
 
-*Clearly state hypothesis, and/or objectives of the research*:
-
-`- e.g. Our hypothesis is that the healthy gut microbiome has more microbial diversity than the gut of an individual with a celiac disease.`
-
-or
-
-`- e.g. We hypothesize that maternal antibiotic treatment correlates with higher antibicrobial resistance in infant microbiome.`
-
-also consider:
+2. Clearly state hypothesis, aims, and/or objectives of the research.
 
 ```
-- Why your research is novel
-- Why your research matters (ex. any relevant disease states)
+- e.g. Our hypothesis is that the healthy gut microbiome has more microbial diversity than the gut of an individual with a celiac disease.`
+- e.g. We hypothesize that maternal antibiotic treatment correlates with higher antibicrobial resistance in infant microbiome.`
 ```
 
-*Briefly mention methodology you used in your research*
+3. Summarize or briefly mention methodology you used in your research.
 
-`- e.g. Using Galaxy we analyzed the genomic diversity of the gut microbiome and compared fecal samples between individuals with Celiac Disease (CD) and a control group on a healthy diet without CD.`
+```
+- e.g. Using Galaxy we analyzed the genomic diversity of the gut microbiome and compared fecal samples between individuals with Celiac Disease (CD) and a control group on a healthy diet without CD.`
+- e.g. We analyzed a publically available dataset comparing RNA-seq gene expression between the left and right eye in DESeq2.`
+```
 
+4. Summarize the main results of your study, and how they may relate to the hypothesis.
 
-*Briefly state your main results without interpretation* 
+```
+- e.g. We found that gene X was differentially abundant between the eye and all other tissues, suggesting gene X plays an important role in the eye. This may be important for learning more about eye development and X condition.` 
+- e.g. We found an association between age and the presence of Y bacteria, which supports our hypothesis that Y bacteria is involved in the disease state`
+```
 
-`- e.g. We found that gene X was differentially abundant between the eye and all other tissues` 
+#### Introduction
 
-or
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_18.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-`- e.g. We found an association between age and the presence of Y bacteria`
-
-**Check your Abstract/Introduction section:**
-
-- [ ] &nbsp;The appropriate background is given as necessary (3 points)
-- [ ] &nbsp;The aim, hypothesis, and/or objectives of the research are stated (1 point)
-- [ ] &nbsp;A diagram with legend is included (1 point)
-- [ ] &nbsp;In-line citations are included appropriately
-- [ ] &nbsp;The abstract text should be no longer than ~200 words
+Introductions typically appears immediately after the Abstract section and contains background information. Sometimes, an Introduction section can be used instead of the Abstract section, in which case, the Introduction will contain both, abstract information plus additional background information. 
+An Introduction typically contains the relevant information and context needed to understand the study and the study's hypothesis/aims/objectives and does not include the methodology, results, or takeaways from the study. 
 
 
 #### Materials and Methods
@@ -205,14 +195,6 @@ or
 The materials and methods section will detail your analysis of the data. Don’t provide any of your results, just the methods. If you did not generate the data yourself from raw samples, you will simply cite the paper that made them instead of detailing their construction. We will also need to list any programs we used and provide credit to their creators.
 
 Some other things you might include would be what type of analysis you decided to do (which parts of the body parts you analyzed, sets of genes, what p-value you used, etc.).
-
-**Check your poster's materials and methods section:**
-
-- [ ] &nbsp;You have listed the source of your data (ex. the published study your data came from) and added the appropriate in-line citation
-- [ ] &nbsp;You have listed all R packages and/or websites you used (ex. DESeq2, ClustrProfiler, Phyloseq, FlyBase, Human Protein Atlas, CellxGene) and added the appropriate in-line citation
-- [ ] &nbsp;If relevant, list what p-value you tested for significance at (usually 0.05)
-- [ ] &nbsp;Another student from your class would be able to replicate your research based on what you wrote
-
 
 #### Results
 
@@ -227,43 +209,27 @@ The Results section is where you will detail your data primarily through **figur
 
 **Figure Legend**:
 
-- All figures and tables should have their legends *underneath*.
+- Figures have their legends *underneath* them. Tables may have their legends also *above* them.
 - The legend should be in a smaller font than the main text on the poster.
 - A legend should includes a **figure title**, which is a declarative statement that summarizes  findings.
 - A legend also includes **figure text** which a) identifies (and can  briefly describe  parts), b) includes brief description of of methods necessary to understand figure and c) should include relevant statistics (stats).
 
-**Optional text**
+**Optional components**
 
-- Each Figure and Table can have additional (optional) text.
-- Encouraged is a **Section Title** - which summarizes section or figure, similar or broader than figure legend title. Attention Grabber.
-- (Optional) text - describes the findings of the figure upfront to engage.
-
-**Check your poster's results section:**
-
-- [ ] &nbsp;You have a minimum of 2 figures on the poster
-- [ ] &nbsp;All figures have a labeled x and y-axis
-- [ ] &nbsp;All figures have a legend underneath them
-- [ ] &nbsp;All tables have a legend above them
-- [ ] &nbsp;The legends have 1 sentence summarizing the figure or table's main idea
-- [ ] &nbsp;The legends have accompanying text detailing the methodology and or other context of the figure/table.
+- Figures and Tables can have additional (optional) text. E.g.an optional text can describe the findings of the figure upfront to engage.
+- A **Section Title/Header** which summarizes section or figure in a manner that is broader than figure legend title - an attention grabber.
+- Bullet pointed text that summarizes the main findings of the figures/tables.
 
 #### Conclusions/Discussion
 
 <img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-The discussion section of the paper is your chance to analyze and interpret your results. For your lab report, make sure your discussion section includes all of the following:
+The discussion section of the paper is your chance to analyze and interpret your results. The discussion section generally addresses the following:
 
 - What do your results mean?
 - How do they fit into the bigger picture?
 - If any experiments did not give expected results, hypothesize why that might have been the case and propose alternate experiments that could confirm or clarify your results.
 - Include at least one sentence of future work that you would do if you had more time or what students in upcoming semesters could do to continue to answer your questions.
-
-**Check your poster's discussion section:**
-
-- [ ] &nbsp;1 sentence for each major result that relates to your hypothesis
-- [ ] &nbsp;1-2 sentences how these results matter based on the problem you described in your introduction
-- [ ] &nbsp;1 sentence describing future work someone else could do as a logical next step in addressing the problem you described in your introduction
-- [ ] &nbsp;If your results were unexpected, hypothesize why that might be the case
 
 #### References
 
@@ -282,27 +248,12 @@ Online article that is also in print:
 Online article only:
 
 > Marianes, A. and A. C. Spradling (2013) “Physiological and stem cell compartmentalization within the Drosophila midgut.” eLife, doi:10.7554/eLife.00886
-    
-**Check your references section**:
-
-- [ ] &nbsp;All in-text citations in the introduction are included in the references
-- [ ] &nbsp;All in-text citations in the methods are included in the references
-- [ ] &nbsp;All in-text citations in the discussion are included in the references
-- [ ] &nbsp;All references are from scientific journals
-- [ ] &nbsp;All text that requires an in-text citation has one
 
 #### Acknowledgements
 
 <img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The acknowledgements section is where you give thanks to the people, organizations, and institutions that have supported you in your research. If relevant, include the grant ID # of your funding source. Institutions and organizations that have contributed to your research - but you do not belong to - can be thanked here.
-
-**Check your acknowledgements section:**
-
-- [ ] &nbsp;Thank any funding source and the grant # are listed here
-- [ ] &nbsp;Thank your research mentor (if applicable)
-- [ ] &nbsp;Thank those who have provided you with technical support (if applicable)
-
 
 ### Part 3 - Proofread and Add Final Touches
 
@@ -328,24 +279,16 @@ You will turn in your poster to be graded as a group in a Canvas Assignment and 
 
 ### Grading Criteria
 
-Everyone in the group earns the same grade, so it is important to work together.
-
-| Points | Category |
-|:-|:-|
-| 2 points | Title, Authors and Affiliations |
-| 3 points | Abstract |
-| 4 points | Introduction <br> 2 - relevant background <br> 2 - drosophila as a model system |
-| 5 points | Methods |
-| 5 points | Results |
-| 4 points | Discussion |
-| 5 points | References ( 2 primary sources, 5 sources total) |
-| 2 points | Poster Organization  |
+Your instructor will provide for you a rubric specific to your class. 
+Refer to the rubric as your build your poster to make sure you have all the neccessary components.
 
 ### Footnotes
 
 #### Resources
 
 - [Google Doc]
+- [Generic rubric](https://docs.google.com/document/d/13eB1fwHEB1I00JHBUQLZIJsi-iQZYaWaXThPqCTU17g/edit?usp=sharing)
+
 
 #### Contributions and Affiliations
 
@@ -354,7 +297,7 @@ Everyone in the group earns the same grade, so it is important to work together.
 - Frederick Tan, Johns Hopkins University
 - Sayumi York, Notre Dame of Maryland University
 
-Last Revised: June 2025
+Last Revised: July 2025
 
 ## Activity - Share Your Poster
 
