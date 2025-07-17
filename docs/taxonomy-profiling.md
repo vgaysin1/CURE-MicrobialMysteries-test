@@ -672,7 +672,6 @@ e. Click **Run Workflow**.
 
 f. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
 
-
 2. Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore metagenomic diversity of soil by performing taxonomy profiling spreadsheet activity you did during week 1. 
 
 a. Click on **converted_kraken_report**, find the download button and **download** the report.
@@ -709,7 +708,7 @@ e. Evaluate what proportion of data was taxonomically classified.
 
 **4. Identify the most abundant taxa (those at >0.1%).**
 
-  - Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
+Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
 
 a. Select columns B through I.
 
