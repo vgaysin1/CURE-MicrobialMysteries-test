@@ -70,7 +70,7 @@ Antimicrobial resistance is the ability of microbes to evade one or more antibio
 
 #### Instructions
 
-**1. Run Flye assembly tool in Galaxy** using Zymo Gut Standard D6331 subset to assemble gut microbial genomes.
+**1. Run Flye assembly tool in Galaxy** using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset</mark> to assemble gut microbial genomes.
 
 a. Obtain **.fastq** file from `Zymo_Gut_Standard_D6331_subset`: [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1).
 
@@ -80,8 +80,8 @@ c. Run **Flye** tool to assess sequence quality using the following Tool Paramet
 
     - Under **Input Reads**: select your `Zymo_Gut_Standard_D6331` **.fastq** dataset.
     - Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
-    - Under **Perform metagenomic assembly**: select `Yes`
-    - Under **Generate a log file**: select `Yes`
+    - Under **Perform metagenomic assembly**: select `Yes`.
+    - Under **Generate a log file**: select `Yes`.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g33689793048_0_0#slide=id.g33689793048_0_0")
@@ -114,11 +114,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 |:--|
 | consensus |
 | graphical fragment assembly | 
-|<br>| |
+|<br>| 
 
 **2. Explore Flye log report file.**
 
-A. Based on your Flye output `log report file`: At the very bottom of the very long file find how many bases were assembled. What is the `Total length`?|
+|A. Based on your Flye output `log report file`: At the very bottom of the very long file find how many bases were assembled. What is the `Total length`?|
 |:--|
 |<br> |
 
@@ -335,7 +335,7 @@ In this project you will also learn about MetaBAT2 and GTDB-Tk. Let's start now.
 
 #### Instructions
 
-1. Run Flye in Galaxy on quality filtered (with fastp tool) nanopore soil pilot subset [nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered) to de novo assemble soil microbial genomes. 
+1. Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> [nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered) to de novo assemble soil microbial genomes. 
 
 a. Obtain .fastq file from a subset of Nanopore-sequencing soil study.
 
@@ -403,13 +403,11 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 1. Paste the resulting image below. |
 |:-----|
-| | 
-<br> 
+|<br>  |  
 
 | 2. Describe contig profile based on the Bandage Image result. |
 |:-----|
-| | 
-<br> 
+|<br>  | 
 
 
 ### Activity 3 – Finding AMRs
@@ -441,29 +439,24 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 | %IDENTITY | Proportion of exact nucleotide matches |
 | DATABASE | The database this sequence comes from |
 | ACCESSION | The genomic source of the sequence |
-<br>
 
 #### Questions
 
 | 1. How  many AMR genes were detected? This is the number of rows in your file. |
 |:-----|
-| | 
-<br> 
+| <br> | 
 
 | 2. How many DIFFERENT AMR genes were detected and what are their GENE names? |
 |:-----|
-| | 
-<br> 
+|<br>  | 
 
 | 3. What are the different AMR genes resistant to? What is their RESISTANCE? |
 |:-----|
-| | 
-<br> 
+|<br> | 
 
 | 4. How many DIFFERENT contigs had AMRs? |
 |:-----|
-| | 
-<br> 
+|<br> | 
 
 **5. Research and write a small paragraph report on one of the AMR genes you found.**
 
@@ -472,13 +465,11 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 5A. Report on one of the AMR genes you found. |
 |:-----|
-| | 
-<br> 
+| <br>| 
 
 | 5B. Why do you think the AMRs you found in soil differ from the AMRs you found in the gut (from your pre-lab)? |
 |:-----|
-| | 
-<br> 
+|<br> | 
 
 ### Activity 4 – Bin contigs with MetaBAT2
 
@@ -498,58 +489,48 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 1A. What is the function of MetaBAT2 tool based on Galaxy tool description on top? |
 |:-----|
-| | 
-<br> 
+|<br> |  
 
 | 1B. Under Tool Parameters for MetaBAT2, find and record below the Minimum size of a contig for binning (a value given in basepairs, bp). |
 |:-----|
-| | 
-<br>
+|<br> | 
 
 | 1C. Under Tool Parameters and Output options for MetaBAT2, find and record below the Minimum size of a bin as the output. |
 |:-----|
-| | 
-<br>
+|<br> | 
 
 **2. Explore MetaBAT2 tool output.**
 
 
 | 2A. Open MetaBAT2 Process log output file and record how many bins were formed from contigs. |
 |:-----|
-| | 
-<br> 
+|<br> |  
 
 | 2B. Open MetaBAT2 Process log output file and record how many bases in total  were used to form bins. |
 |:-----|
-| | 
-<br> 
+| <br>| 
 
 | 2C. What percent of contig bases formed bins (given that 154,251,885 bases were in Flye output)? |
 |:-----|
-| | 
-<br> 
+| <br>| 
 
 | 2D. Based on percent of contigs that formed bins (from activity 4-2.1 above) did metaBAT2 do a good job of binning the contigs? |
 |:-----|
-| | 
-<br> 
+|<br>  | 
 
 **3. Examine MetaBAT2 Bin sequences output, which is a `DATASET COLLECTION`, where each collection is a separate bin.**
 
 | 3A. Click on the MetaBAT2 Bin sequences output. How many bins (or Galaxy ‘folders’) are there? |
 |:-----|
-| | 
-<br> 
+|<br> | 
 
 | 3B. Click on the MetaBAT2 Bin sequences output and then on bin 1. Without ‘eyeballing’ the fasta file, note how many sequences (contigs) were included in bin 1. |
 |:-----|
-| | 
-<br> 
+|<br> |  
 
 | 3C. Click on the MetaBAT2 Bin sequences output and then on bin 2. Without ‘eyeballing’ the fasta file, note how many sequences (contigs) were included in bin 2? |
 |:-----|
-| | 
-<br>
+| <br>| 
 
 ### Activity 5 – Read about GTDBtk tool in Galaxy 
 
@@ -563,25 +544,21 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 1. Read the GTDB-Tk Classify genomes tool’s “What it does” part  and summarize what GTDB-Tk does. |
 |:-----|
-| | 
-<br>
+|<br> | 
 
 | 2. What is the ideal input sequence for GTDB-Tk classification: 1) raw sequences, 2) contigs or 3) large contigs(>500kb) and MAGs? |
 |:-----|
-| | 
-<br>
+|<br> | 
 
 **3. Visit [https://gtdb.ecogenomic.org/stats/r220](https://gtdb.ecogenomic.org/stats/r220) to explore the database and database statistics.**
 
 | 3A. How many bacterial species are present in GTDB database Release 220? |
 |:-----|
-| | 
-<br>
+|<br> | 
 
 | 3B. Scroll through website . Although it has a lot of complex information, what is one thing you found interesting about GTDB-Tk content? |
 |:-----|
-| | 
-<br>
+|<br> | 
 
 ### Grading Criteria
 
