@@ -542,7 +542,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
+    - <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
