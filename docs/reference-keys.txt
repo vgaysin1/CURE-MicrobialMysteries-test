@@ -68,7 +68,7 @@ questions-3
 activity-1---part-ii
 instructions-8
 questions-4
-activity-2-genomes-genes-and-other-databases-bv-brc
+activity-2-genomes-genes-and-other-databases
 activity-2---part-i
 instructions-9
 questions-5
