@@ -30,7 +30,7 @@ Impress all the information that is freely available about well studied (and not
 
 ### Activity 1 – GenBank
 
-<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_0.png" width="480" />
+<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 #### Activity 1 - Part I
 
@@ -174,7 +174,7 @@ To learn more about the genes of interest and their function scientists often us
 | Gene 1: ampC| beta-Lactam resistance | 
 | Gene 2: | |
 | Gene 3: | |
-| <br> |
+| <br> | |
 
 **Note**, For some well characterized genes  you can additionally obtain more detailed information about the gene/protein function. 
 
@@ -203,15 +203,14 @@ b. Find Lineage information. Full Lineage information contains 7 core taxonomy r
 | Family:| |
 | Genus:| |
 | Species:| |
-|<br>|
 
 #### Activity 3 - Part II
 
 #### Instructions
 
-a) As with the BV-BRC database above, we can use another database called **Lifemap** to visually explore the *E. coli* in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr), type E. coli and click species tab.
+a. As with the BV-BRC database above, we can use another database called **Lifemap** to visually explore the *E. coli* in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr), type E. coli and click species tab.
 
-b) On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus tabs to zoom in and out and visualize E. coli relative to other organisms on the map. 
+b. On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus tabs to zoom in and out and visualize E. coli relative to other organisms on the map. 
 
 #### Questions
 
@@ -245,7 +244,7 @@ b) On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus t
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas.
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
@@ -258,7 +257,7 @@ b) On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus t
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: February 2025
+Last Revised: June 2025
 
 
 ## Discussion - Microbial Genomes
@@ -332,8 +331,8 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 | 14. GCF_030149235.1
 | 15. GCF_030148515.1
 | 16. GCF_030147875.1
-| 17. GCF_030149465.1
-<br>
+| 17. GCF_030149465.1 |
+
 
 #### Questions
 
@@ -343,7 +342,7 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab **enter** the GenBank number of your MAG (e.g. GCF_030147545.1) and click **Search**. 
 
-<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_77.png" width="480" />
+<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_77.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 |**2. Record below the GENOME name for the MAG assembly associated with the GenBank ID you entered.**| 
 |:--|
@@ -351,7 +350,7 @@ In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.n
 
 For the 1st MAG (GCF_030147545.1), the GENOME name is "Alcanivorax sp. genome ASM3014754v1":
 
-<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357b6795023_0_2.png" width="480" />
+<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357b6795023_0_2.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 Click on the GENOME name of your MAG to **explore genome assembly summary** information.
 
@@ -377,8 +376,8 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 
 |**8. As you can see, MAGs are made up of Contigs. Based on your lecture and reading material, and this exercise, in your own words define MAGs and Contigs below.**| 
 |:--|
-| MAGs:
-| Contigs:
+| MAGs:|
+| Contigs:|
 |<br>|
 
 
@@ -396,9 +395,9 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 |Tip: You can sort the entries by length via’ Sort by Sequence Length’ on top!|
 |<br>|
 
-a) For the contig you chose in activity above, under **Related Information** on the right, click on **Taxonomy** and **then click again on the provided link**.
+a. For the contig you chose in activity above, under **Related Information** on the right, click on **Taxonomy** and **then click again on the provided link**.
 
-b) Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
+b. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
 
 |**2. Record 7 core taxonomy ranks for your Contig.**|
 |:--|:--|
@@ -409,18 +408,16 @@ b) Find Lineage information. Full Lineage information contains 7 core taxonomy r
 | Family:| |
 | Genus:| |
 | Species:| |
-|<br>|
-
 
 #### Activity 1 - Part III - Visualize contig in a tree of life
 
 #### Introduction
 
-a) Use Lifemap to visually explore the contig taxonomy in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr) and **enter the lowest taxonomy rank observed for your contig** (most likely the species or genus level, but can also correspond to order or family).
+a. Use Lifemap to visually explore the contig taxonomy in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr) and **enter the lowest taxonomy rank observed for your contig** (most likely the species or genus level, but can also correspond to order or family).
 
-b) On the tree map, use plus and minus tabs to zoom in and out and visualize your Contig entry relative to other organisms on the map. Zoom in and find nodes corresponding to  the higher taxonomic ranks. For example, if your contig corresponds to genus level classification, you will not be able to identify species level information, but you will be able to identify the corresponding Family, Order, Class and Phylum. 
+b. On the tree map, use plus and minus tabs to zoom in and out and visualize your Contig entry relative to other organisms on the map. Zoom in and find nodes corresponding to  the higher taxonomic ranks. For example, if your contig corresponds to genus level classification, you will not be able to identify species level information, but you will be able to identify the corresponding Family, Order, Class and Phylum. 
 
-|**1. Record 7 core taxonomy ranks for your Contig.**|
+|**1. Record 7 core taxonomy ranks for your Contig.**| |
 |:--|:--|
 | Kingdom: | |
 | Phylum:| |
@@ -429,7 +426,7 @@ b) On the tree map, use plus and minus tabs to zoom in and out and visualize you
 | Family:| |
 | Genus:| |
 | Species:| |
-|<br>|
+|<br>| |
 
 |**2. What are some other members of the Genus to which your Contig belongs?**|
 |:--|
@@ -458,19 +455,19 @@ b) On the tree map, use plus and minus tabs to zoom in and out and visualize you
 
 #### Instructions
 
-a) In GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), for the contig you chose in activity 1 click on **Graphics** to explore the genome browser and the genes. 
+1. In GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), for the contig you chose in activity 1 click on **Graphics** to explore the genome browser and the genes. 
 
-<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_15.png" width="480" />
+<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_15.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-b) **Select genes of interest**. A lot of genes found in the Contigs will have no ‘familiar’ short symbol and instead have a long alphabetical-and-numerical- name. Such genes are either uncharacterized, hypothetical or have functional or structural similarity to known genes/proteins, but have not been confirmed. However, some Contig genes will be annotated with a ‘familiar’ short gene symbol, matching known genes. Please use the genes with the short symbols for this activity, since the ‘other’ genes will not be found in the databases.
+2. **Select genes of interest**. A lot of genes found in the Contigs will have no ‘familiar’ short symbol and instead have a long alphabetical-and-numerical- name. Such genes are either uncharacterized, hypothetical or have functional or structural similarity to known genes/proteins, but have not been confirmed. However, some Contig genes will be annotated with a ‘familiar’ short gene symbol, matching known genes. Please use the genes with the short symbols for this activity, since the ‘other’ genes will not be found in the databases.
 
-<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_31.png" width="480" />
+<img src="resources/images/microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_31.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-c) For the 3 genes of choice, use the BV-BRC [bv-brc.org](https://www.bv-brc.org) to find more information on your genes.
+3. For the 3 genes of choice, use the BV-BRC [bv-brc.org](https://www.bv-brc.org) to find more information on your genes.
 
 #### Questions
 
-|**1. Record 5 genes of interest for your Contig.|
+|**1. Record 5 genes of interest for your Contig.| |
 |:--|:--|
 | Gene1: | |
 | Gene2:| |
@@ -478,7 +475,7 @@ c) For the 3 genes of choice, use the BV-BRC [bv-brc.org](https://www.bv-brc.org
 | Gene4:| |
 | Gene5:| |
 
-For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** space, a) from a dropdown menu select **“Pathways”** , b) type in the gene name and click enter. This will result in a lot of entries for different organisms. c) check one of the boxes corresponding to the gene of interest and enter below which species/strain (**Genome Name**) you selected.
+For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** space, a) from a dropdown menu select **Pathways**, b) type in the gene name and click enter. This will result in a lot of entries for different organisms. c) check one of the boxes corresponding to the gene of interest and enter below which species/strain (**Genome Name**) you selected.
 
 |**2. Record Genome Name associated with your 3 genes of interest in bv-brc database.| |
 |:--|:--|
@@ -486,6 +483,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
+|<br>|
 
 |**3. Record gene Product associated with your genes of interest in bv-brc database.| |
 |:--|:--|
@@ -493,6 +491,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
+|<br>|
 
 |**4. Record Pathway Name associated with your genes of interest in bv-brc database.| |
 |:--|:--|
@@ -500,7 +499,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
-
+|<br>|
 
 ### Activity 3 – Go Deeper!
 
@@ -510,34 +509,36 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 
 Use any tools available at your disposal to follow up on your MAG and gene of interest from activities 1 and 2 above. Some suggested tools include PubMed, Google, [MBGD](https://mbgd.nibb.ac.jp), BV-BRC, [BacDive](https://bacdive.dsmz.de).
 
+#### Questions
+
 1. For the **taxa** you identified for your chosen MAG in activity 1, what can you learn about this organism (species or genus for example) in 15 minutes using any tools at your disposal? 
 
-|**a. What did you learn? |
+|**1a. What did you learn? |
 |:--|
 |   |
 | <br> |
 
 
-|**b. What tools did you use? |
+|**1b. What tools did you use? |
 |:--|
 |   |
 | <br> |
 
 2. For one of the **genes** you identified for your chosen contig in activity 2, what can you learn about this gene in 15 minutes using any tools at your disposal?
 
-|**a. What did you learn? |
+|**2a. What did you learn? |
 |:--|
 |   |
 | <br> |
 
-|**b. What tools did you use? |
+|**2b. What tools did you use? |
 |:--|
 |   |
 | <br> |
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
@@ -546,9 +547,10 @@ Use any tools available at your disposal to follow up on your MAG and gene of in
 - Google Doc
 
 **Contributions and Affiliations**
-- Valeriya Gaysinskaya, Johns Hopkins University
-- Gauri Paul, Clovis Community College
-- Frederick Tan, Johns Hopkins University
+
+  - Valeriya Gaysinskaya, Johns Hopkins University
+  - Gauri Paul, Clovis Community College
+  - Frederick Tan, Johns Hopkins University
 
 Last Revised: May 2025
 
@@ -566,14 +568,14 @@ Last Revised: May 2025
 
 2. Create at least two slides (feel free to make more!) to present your findings. E.g.,
 
-- Describe the MAG you explored (Activity 1) and some of its genes (Activity 2)
-- What did you discover about your organism and gene (Activity 3)?
+  - Describe the MAG you explored (Activity 1) and some of its genes (Activity 2)
+  - What did you discover about your organism and gene (Activity 3)?
 
 3. Iterate your slides being sure to:
 
-- Add bullet points on key details you understand (Notice) and questions you have (Wonder)
-- Include one or more plots or images that support your points
-- Create slide titles that summarize your main takeaway
+  - Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+  - Include one or more plots or images that support your points
+  - Create slide titles that summarize your main takeaway
 
 4. Present at next class (5 min each group)
 
@@ -582,8 +584,8 @@ Last Revised: May 2025
 
 **Contributions and Affiliations**
 
-- Valeriya Gaysinskaya, Johns Hopkins University
-- Frederick Tan, Johns Hopkins University
+  - Valeriya Gaysinskaya, Johns Hopkins University
+  - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
 
