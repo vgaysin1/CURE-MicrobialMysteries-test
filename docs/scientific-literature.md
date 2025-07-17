@@ -2,16 +2,21 @@
 
 # Scientific Literature
 
+The most comprehensive source of published scientific research can be found on **PubMed** database. PubMed offers tens of millions of peer-reviewed publications. This is a to go place for your scientific keyword searches!
+
+![](scientific-literature_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d5ce7202d_0_4.png){width=100%}
+
 The vast majority of all microorganisms on Earth and beyond remain uncultured. As a result, their genomes (or metagenomes) are underdetected and understudied. As such, metagenomics is the 'black box' of genomics. Curiosity and threat of microbes are a great driving force behind the advances in the study of metagenomics, which is a culture-independent, direct approach to microbial sequencing and analysis of an environmental sample.  
 
+![](scientific-literature_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_33.png){width=100%}
 
+In this module, we will learn about microbial diversity, the field of genomics and metagenomics and the role of sequencing technologies in metagenomic analysis. We will also learn how to read a scientific paper! In **Prelab** we will read a metagenomics **Review paper** to obtain a birds eye view of metagenomics from soil to gut and get an appreciation of the diversity and complexity of microorganisms, and of the challenges associated with identifying microorganisms. In **Project** activity, we will go deeper into scientific literature by reading a recent metagenomics **Research paper** and dissecting it from A to Z.
 
-In this module, students will learn about microbial diversity, the field of genomics and metagenomics and the role of sequencing technologies in metagenomics analysis. The students will also learn how to read a scientific paper! In **Prelab** they will read a metagenomics **Review paper** to obtain a birds eye view of metagenomics from soil to gut and get an appreciation of the diversity and complexity of microorganisms, and of the challenges associated with identifying microorganisms. In **Project** activity, students will go deeper into scientific literature by reading a recent metagenomics **Research paper** and dissecting it from A to Z.
-
+![](scientific-literature_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_360.png){width=100%}
 
 ## Lecture - What’s in Your XYZ
 
-![](scientific-literature_files/figure-docx//1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws_g35f391192_00.png)
+![](scientific-literature_files/figure-docx//1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws_g35f391192_00.png){width=100%}
 
 [Slides: What's in Your XYZ?](https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?usp=sharing)
 
@@ -43,23 +48,28 @@ Read the review paper “Metagenomics” by Sleator, Shortall, and Hill, 2008 Le
 
 #### Questions
 
-1. What is one thing you learned or find interesting in the paper?
+|1. What is one thing you learned or find interesting in the paper?|
+|:--|
+|<br>|
 
-2. Define a term that is new to you (e.g. metagenome, microbiome, 16S rRNA).
+|2. Define a term that is new to you (e.g. metagenome, microbiome, 16S rRNA).|
+|:--|
+|<br>|
 
-3. Ask a question about the review paper.
-
+|3. Ask a question about the review paper.|
+|:--|
+|<br>|
 
 #### Grading Criteria
 
-Download as Microsoft Word (.docx) and upload on Canvas
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 
 ### Footnotes
 
 **Resources**
 
-[Google Doc](https://docs.google.com/document/d/1-ruTySaAnSE-_5d6_LTdre4UmmUAx6TxMrTYBW-f3jQ/edit?usp=sharing)
+- [Google Doc]
 
 **Contributions and Affiliations**
 
@@ -75,9 +85,11 @@ Download as Microsoft Word (.docx) and upload on Canvas
 
 #### Instructions
 
-1. Form groups of four
+1. Form groups of four.
+
 - Add names to the "Microbial Mysteries Groups" sheet [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
-2. Pair up into groups (10 min)
+
+2. Pair up into groups (10 min).
 
 a. Discuss -- Each group member briefly describes answers to prelab assignment
 
@@ -89,7 +101,7 @@ b. Summarize -- Identify best answer and add to slidedeck
 
 ## Lecture - Scientific Literature
 
-![](scientific-literature_files/figure-docx//1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM_g35f391192_00.png)
+![](scientific-literature_files/figure-docx//1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM_g35f391192_00.png){width=100%}
 
 [Slides: Scientific Literature](https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?usp=sharing)
 
@@ -115,28 +127,45 @@ Understanding microbial composition and diversity in different environments is c
 
 Based on the study by Xue, et al.2023, answer the following questions.  The main text of the paper and the supplement can be found below, in the  'Resources' section of this assignment.
 
-#### Overview of the Paper (in class)
+#### Questions
 
-Determine the main objectives and purpose of the paper. Read the Abstract and the introduction with your group.
+##### Overview of the Paper 
 
-1. What is the purpose of this study?
+- Suggestion: Answer questions below in class working in groups.
 
-2. What is the hypothesis in this study?
+|1A. What is the purpose of this study?|
+|:--|
+|<br>|
 
-3. Describe the knowledge gap. In essence, what did the scientific community not know that this study was trying to answer?
+|1B. What is the hypothesis in this study?|
+|:--|
+|<br>|
 
+|1C. Describe the knowledge gap. In essence, what did the scientific community not know that this study was trying to answer?|
+|:--|
+|<br>|
 
-#### Methods (in class and homework)
+##### General Methods 
 
-1. Discuss how many and what samples were used for this study? Are there any replicates?
+- Suggestion: Answer questions below in class working in groups.
 
-2. Discuss some methods used in this paper.
+|1. Discuss how many and what samples were used for this study? Are there any replicates?|
+|:--|
+|<br>|
 
-3. Discuss steps authors used to ensure their data is available to the public.
+|2. Discuss some methods used in this paper.|
+|:--|
+|<br>|
 
-#### Figures (in class and Homework)
+|3. Discuss steps authors used to ensure their data is available to the public.|
+|:--|
+|<br>|
 
-**Methods.** How did the researchers test their hypothesis? Explain in your own words the methods in each figure.
+##### Figure Methods
+
+1. Explain in your own words the approach/methods used in each figure, focusing on how did the researchers tested their hypothesis? 
+
+- Suggestion: For figure 1, work in groups in class to answer the questions. For homework, each group can be asigned a figure panel.
 
 | Figure | Methods |
 |:-|:-|
@@ -150,7 +179,9 @@ Determine the main objectives and purpose of the paper. Read the Abstract and th
 
 ### Results (in class and Homework)
 
-**Results.** What are the main findings from each figure?
+1. What are the main results (findings) from each figure?
+
+- Suggestion: For figure 1, work in groups in class to answer the questions. For homework, each group can be asigned a figure panel.
 
 | Figure | Main Findings |
 |:-|:-|
@@ -161,30 +192,32 @@ Determine the main objectives and purpose of the paper. Read the Abstract and th
 | Fig. 3B | homework |
 | Fig. 3C | homework |
 
-#### Conclusions (Homework)
+#### Conclusions 
 
 1. Read the discussion section. What were the main conclusions the authors made in this study?
 
 2. Do the figures agree with their conclusion?
 
-#### Future Directions (Homework)
+#### Future Directions 
 
 1. Scientific work builds on previous studies. What do you believe could be the next step to further the work these researchers did? 
+
  - What follow-up question(s) do you have for the authors?
 
 2. What is the impact of this research area in general (or this study in particular?)
+
 - Do you believe further research in this area may benefit society? Can we build on what this study found?
 - Do you think there are risks associated with such studies?
 
 ### Grading Criteria
 
-- Download as Microsoft Word (.docx) and upload on Canvas.
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
 **Resources**
 
-[Google Doc](https://docs.google.com/document/d/1kKnvMGq8jBfwKzC7W5YEJ7CtTgFNahAaDfV3LNknznM/edit?usp=sharing)
+ - [Google Doc]
 
 **Contributions and Affiliations**
 
