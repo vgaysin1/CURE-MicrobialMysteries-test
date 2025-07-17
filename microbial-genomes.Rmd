@@ -81,7 +81,7 @@ Back in GenBank [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.
 | <br> |
 
 
-### Activity 2 – Genomes, genes, and other databases (BV-BRC)
+### Activity 2 – Genomes, genes, and other databases
 
 #### Activity 2 - Part I
 
