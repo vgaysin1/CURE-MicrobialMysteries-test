@@ -7,7 +7,7 @@
 
 <h2>Purpose</h2>
 
-The purpose of Kickstart Project Work lab is to kick off project work with reviewing project work goals, setting up project work expectations, and modeling getting started with data import and analysis.
+The purpose of **Project Work** is to gain practice in scientific exploration and research, communication, and work on your scientific poster! The purpose of **Kickstart Project Work** lab is to kick off project work with reviewing project work goals, setting up project work expectations, and modeling getting started with data import and analysis.
 
 ![](resources/images/project-work_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_46.png){width=100%}
 
@@ -171,6 +171,8 @@ Last Revised: June, 2025
 
 ## Activity - Possible Datasets
 
+A few ideas to get you started with the Project Work can be found in the **Possible Datasets** Lecture and Acvitivity below. **Your project work will culminate in Poster making, poster sharing and poster presentation.** a. Each group will present their capstone project during an in-class poster presentation. 
+
 ### Activity
 
 *Estimated time: 50 min*
@@ -209,7 +211,7 @@ c) Wonder – Two or three questions you would like to ask using this (and any o
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Submit URL to your reply on Canvas
+- <mark style="background color: yellow">Submit URL to your reply on Canvas</mark>.
 
 ### Footnotes
 
@@ -222,15 +224,8 @@ Last Revised: May 2025
 
 # Conducting Your Research
 
-### Purpose
+Conducting your research involves prioritizing, scaffolding and organizing your research as you progress towards a final poster presentation.  To help you conduct your research in an organized and efficient manner, and with feedback and review from both, peers and instructors, several key aspects of conducting research will be a part of your resech work. They include round table updates, written check-ins, advisory meetings, and peer reviews.  During the Project Work phase, you will be documenting, summarizing and updating relevant documenents which will fall under 3 categories:
 
-**Kickstart Project Work** - The purpose of kickstart project work is to gain practice in scientific exploration and research, communication, and work on your scientific poster! A few ideas to get you started can be found in the **Possible Datasets** Lecture and Acvitivity below. **Your project work will culminate in Poster making, sharing and presentation.** a. Each group will present their capstone project during an in-class poster presentation. 
-
-<br>
-
-**Project Work phase** contains many elements to scaffold your research as you progress towards a final poster presentation.  These include round table updates, written check-ins, advisory meetings, and peer reviews.  During the Project Work phase, you will be documenting, summarizing and updating relevant documenents which will fall under 3 categories:
-
-<br>
 
 ```
 1. Round Table Data & Troubleshooting** - Reviewed and discussed as a community In-Class 
