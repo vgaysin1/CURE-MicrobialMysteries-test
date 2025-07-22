@@ -7,7 +7,7 @@
 
 <img src="resources/images/taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_319.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-This **Taxonomy Profiling module** offers hands-on experience with real data. Through **lecture** material, students will learn about taxa and concepts like taxonomic classification and species abundance. In **Activity - Taxonomy Profiling Spreadsheet**, students will explore taxonomy of **gut microbiome standard** from Zymo Research using output of Kraken 2. In **Prelab** activity, students will have a chance to perform taxonomy profiling themselves on the raw sequences from the gut microbiome standard using Galaxy platform and tools Kraken 2 (for assignment of taxonomy to sequencing reads) and Krona pie chart (for visualization). Subsequently, students will do a **Project** activity, where they will taxonomically classify **soil** metagenome.
+This **Taxonomy Profiling module** offers hands-on experience with real data. Through **lecture** material, we will learn about taxa and concepts like taxonomic classification and species abundance. In **Activity - Taxonomy Profiling Spreadsheet**, we will explore taxonomy of **gut microbiome standard** from Zymo Research using output of Kraken 2. In **Prelab** activity, we will have a chance to perform taxonomy profiling ourselves using raw sequences from the gut microbiome standard on Galaxy platform, using tools Kraken 2 (for assignment of taxonomy to sequencing reads) and Krona pie chart (for visualization). Subsequently, we will do a **Project** activity, where we will taxonomically classify **soil** metagenome.
 
 <img src="resources/images/taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_331.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
@@ -15,7 +15,7 @@ This **Taxonomy Profiling module** offers hands-on experience with real data. Th
 
 ### Purpose
 
-First hands-on experience with real data!  Compare kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF) and [Zymo Human Fecal Reference](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf).  Introduce concepts of taxa and relationships, begin forming data analysis goals like comparing how many species, most abundant species, etc. See accompanying [slides](http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk).
+A hands-on experience with real data - taxonomy profiling!  Explore kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF) and optionally compare to [Zymo Human Fecal Reference](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf) profile.  Introduce concepts of taxa and relationships, begin formulating data analysis goals like quantifying proportion of classified and unclassified species, identifying most abundant species, etc. See accompanying [slides](http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk).
 
 ### Learning Objectives
 
@@ -24,9 +24,13 @@ First hands-on experience with real data!  Compare kraken2 output for [Zymo Gut 
 
 ### Introduction
 
-Metagenomics is the direct analysis of the genomes through genome sequencing of an environmental sample (soil, water, gut, etc). The purpose of the taxonomic classification of metagenomic sequences is to catalogue, classify and  identify the species inhabiting a given environment. In the process, new species may get identified! After sampling, DNA extraction, DNA sequencing and genome assembly, genome annotation is used to assign taxonomy to the sequenced sample DNA. Here is where the Kraken 2 tool comes in; Kraken 2 is a taxonomic classification tool which assigns taxonomy to sequencing reads.
+Metagenomics is the direct analysis of the genomes through genome sequencing of an environmental sample (soil, water, gut, etc). The purpose of the taxonomic classification of metagenomic sequences is to catalogue, classify and  identify the species inhabiting a given environment. In the process, new species may get identified! After sampling, DNA extraction, DNA sequencing and genome assembly, genome annotation is used to assign taxonomy to the sequenced DNA. Here is where the Kraken 2 tool comes in; Kraken 2 is a taxonomic classification tool which assigns taxonomy to sequencing reads.
 
 ### Activity 1 – Explore Zymo Gut Standard Metagenomic Diversity
+
+```
+A note on the sample used in this activity. The sample corresponds to [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponding to sequencing read file SRR13128014. A subset of this data is used here in the Activity 1.
+```
 
 *Estimated time: 25 min*
 
@@ -34,10 +38,13 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 
 1. Access tax-data-gut.tsv and open with Google Sheets [here](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-).
 
+
+<img src="resources/images/taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_60.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
 2. Identify what information is provided in columns of the tax-data-gut taxonomy file.
 
   - Col A = Counts
-  - Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
+  - Cols B-H = Taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
   - Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
 
 3. Create a header row and enter column information.
@@ -47,8 +54,7 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 **1. Evaluate what proportion of data was taxonomically classified.**
 
 ```
-  - Insert a new column A, name it "Calculations" and temporarily use for calculations.
-  - In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.  
+  - Insert a new column A, name it "Calculations" and temporarily use for calculations.  
 ```
 
 |1A. How many total counts are there?|
@@ -56,20 +62,25 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 | <br> |
 
 ```
-  - In e.g. cell A3, determine the percentage of unclassified reads.
+  - In e.g. cell A2, calculate the sum of all reads observed in the sample.
 ```
 
 |1B.  What percentage of reads are unclassified?|
 |:--|
 | <br> |
 
+
 ```
-- In e.g. cell A4, determine the percentage of classified reads.
+  - In e.g. cell A3, determine the percentage of unclassified reads.
 ```
 
 |1C. What percentage of reads are classified?|
 |:--|
 |<br>|
+
+```
+- In e.g. cell A4, determine the percentage of classified reads.
+```
 
 **2. Identify abundant taxa (those at >1%).**
 
@@ -88,11 +99,9 @@ e. Quantify abundant taxa.
 **3. List abundant taxa you identified in a table below.**
 
 ```
-  - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa.
-  - Then, enter the results into a table below.
+  - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa. 
+- Then, enter the results into a table below.
 ```
-
-**3A. What abundant taxa do you observe?**
 
 | **% abundance** | **Taxonomy** |
 |:--|:--| 
@@ -113,15 +122,12 @@ e. Quantify abundant taxa.
 | | |
 |<br>| |
 
-**4. Compare your results with the expected taxa and abundance for [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?**
-
-```
-  - Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
-```
-
-|4A. How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?|
+|4. How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?|
 |:--|
 |<br>|
+
+- Compare your results with the expected taxa and abundance for [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?**
+ - Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
 
 |5. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together taxa at <1%. What percentage of reads are classified in a low abundance taxa?|
 |:--|
@@ -145,7 +151,7 @@ In this activity, repeat steps of the Activity 1 above, but now using [tax_data_
 
 #### Questions
 
-|1. Which dataset is classified better, gut or fecal??|
+|1. Which dataset is classified better, gut or fecal?|
 |:--|
 |<br>|
 
