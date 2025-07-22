@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-07-18" />
+<meta name="date" content="2025-07-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -451,7 +451,7 @@
 <h2><span class="header-section-number">4.1</span> Activity - Taxonomy Profiling Spreadsheet<a href="activity---taxonomy-profiling-spreadsheet.html#activity---taxonomy-profiling-spreadsheet" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="purpose-6" class="section level3 hasAnchor" number="4.1.1">
 <h3><span class="header-section-number">4.1.1</span> Purpose<a href="activity---taxonomy-profiling-spreadsheet.html#purpose-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>First hands-on experience with real data! Compare kraken2 output for <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF">Zymo Gut Microbiome Standard</a> and <a href="https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf">Zymo Human Fecal Reference</a>. Introduce concepts of taxa and relationships, begin forming data analysis goals like comparing how many species, most abundant species, etc. See accompanying <a href="http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk">slides</a>.</p>
+<p>A hands-on experience with real data - taxonomy profiling! Explore kraken2 output for <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF">Zymo Gut Microbiome Standard</a> and optionally compare to <a href="https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf">Zymo Human Fecal Reference</a> profile. Introduce concepts of taxa and relationships, begin formulating data analysis goals like quantifying proportion of classified and unclassified species, identifying most abundant species, etc. See accompanying <a href="http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk">slides</a>.</p>
 </div>
 <div id="learning-objectives-5" class="section level3 hasAnchor" number="4.1.2">
 <h3><span class="header-section-number">4.1.2</span> Learning Objectives<a href="activity---taxonomy-profiling-spreadsheet.html#learning-objectives-5" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -462,20 +462,24 @@
 </div>
 <div id="introduction-5" class="section level3 hasAnchor" number="4.1.3">
 <h3><span class="header-section-number">4.1.3</span> Introduction<a href="activity---taxonomy-profiling-spreadsheet.html#introduction-5" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Metagenomics is the direct analysis of the genomes through genome sequencing of an environmental sample (soil, water, gut, etc). The purpose of the taxonomic classification of metagenomic sequences is to catalogue, classify and identify the species inhabiting a given environment. In the process, new species may get identified! After sampling, DNA extraction, DNA sequencing and genome assembly, genome annotation is used to assign taxonomy to the sequenced sample DNA. Here is where the Kraken 2 tool comes in; Kraken 2 is a taxonomic classification tool which assigns taxonomy to sequencing reads.</p>
+<p>Metagenomics is the direct analysis of the genomes through genome sequencing of an environmental sample (soil, water, gut, etc). The purpose of the taxonomic classification of metagenomic sequences is to catalogue, classify and identify the species inhabiting a given environment. In the process, new species may get identified! After sampling, DNA extraction, DNA sequencing and genome assembly, genome annotation is used to assign taxonomy to the sequenced DNA. Here is where the Kraken 2 tool comes in; Kraken 2 is a taxonomic classification tool which assigns taxonomy to sequencing reads.</p>
 </div>
 <div id="activity-1-explore-zymo-gut-standard-metagenomic-diversity" class="section level3 hasAnchor" number="4.1.4">
 <h3><span class="header-section-number">4.1.4</span> Activity 1 – Explore Zymo Gut Standard Metagenomic Diversity<a href="activity---taxonomy-profiling-spreadsheet.html#activity-1-explore-zymo-gut-standard-metagenomic-diversity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<pre><code>A note on the sample used in this activity. The sample corresponds to [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponding to sequencing read file SRR13128014. A subset of this data is used here in the Activity 1.</code></pre>
 <p><em>Estimated time: 25 min</em></p>
 <div id="instructions-20" class="section level4 hasAnchor" number="4.1.4.1">
 <h4><span class="header-section-number">4.1.4.1</span> Instructions<a href="activity---taxonomy-profiling-spreadsheet.html#instructions-20" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li><p>Access tax-data-gut.tsv and open with Google Sheets <a href="http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-">here</a>.</p></li>
-<li><p>Identify what information is provided in columns of the tax-data-gut taxonomy file.</p></li>
+<li>Access tax-data-gut.tsv and open with Google Sheets <a href="http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-">here</a>.</li>
+</ol>
+<p><img src="resources/images/taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_60.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Identify what information is provided in columns of the tax-data-gut taxonomy file.</li>
 </ol>
 <ul>
 <li>Col A = Counts</li>
-<li>Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)</li>
+<li>Cols B-H = Taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)</li>
 <li>Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.</li>
 </ul>
 <ol start="3" style="list-style-type: decimal">
@@ -485,8 +489,7 @@
 <div id="questions-13" class="section level4 hasAnchor" number="4.1.4.2">
 <h4><span class="header-section-number">4.1.4.2</span> Questions<a href="activity---taxonomy-profiling-spreadsheet.html#questions-13" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><strong>1. Evaluate what proportion of data was taxonomically classified.</strong></p>
-<pre><code>  - Insert a new column A, name it &quot;Calculations&quot; and temporarily use for calculations.
-  - In e.g. cell A2, calculate the sum of all reads observed in the gut std sample.  </code></pre>
+<pre><code>  - Insert a new column A, name it &quot;Calculations&quot; and temporarily use for calculations.  </code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -499,7 +502,7 @@
 </tr>
 </tbody>
 </table>
-<pre><code>  - In e.g. cell A3, determine the percentage of unclassified reads.</code></pre>
+<pre><code>  - In e.g. cell A2, calculate the sum of all reads observed in the sample.</code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -512,7 +515,7 @@
 </tr>
 </tbody>
 </table>
-<pre><code>- In e.g. cell A4, determine the percentage of classified reads.</code></pre>
+<pre><code>  - In e.g. cell A3, determine the percentage of unclassified reads.</code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -525,6 +528,7 @@
 </tr>
 </tbody>
 </table>
+<pre><code>- In e.g. cell A4, determine the percentage of classified reads.</code></pre>
 <p><strong>2. Identify abundant taxa (those at &gt;1%).</strong></p>
 <pre><code>a. Select columns B through I.
 b. In the Data menu, select “Sort range by column B (Z to A)”.
@@ -544,9 +548,8 @@ e. Quantify abundant taxa.</code></pre>
 </tbody>
 </table>
 <p><strong>3. List abundant taxa you identified in a table below.</strong></p>
-<pre><code>  - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at &gt;1%) taxa.
-  - Then, enter the results into a table below.</code></pre>
-<p><strong>3A. What abundant taxa do you observe?</strong></p>
+<pre><code>  - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at &gt;1%) taxa. 
+- Then, enter the results into a table below.</code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -621,15 +624,13 @@ e. Quantify abundant taxa.</code></pre>
 </tr>
 </tbody>
 </table>
-<p><strong>4. Compare your results with the expected taxa and abundance for <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd">Zymo gut standard documentation</a>?</strong></p>
-<pre><code>  - Note, the Kraken2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!</code></pre>
 <table>
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">4A. How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?</th>
+<th align="left">4. How do your results overall compare with the expected taxa and % abundance from Zymo gut standard?</th>
 </tr>
 </thead>
 <tbody>
@@ -638,6 +639,10 @@ e. Quantify abundant taxa.</code></pre>
 </tr>
 </tbody>
 </table>
+<ul>
+<li>Compare your results with the expected taxa and abundance for <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd">Zymo gut standard documentation</a>?**</li>
+<li>Note, the Kraken2 output does not distinguish different <em>E. coli</em> strains, so just combine them all into a single <em>E. coli group</em>!</li>
+</ul>
 <table>
 <colgroup>
 <col width="100%" />
@@ -686,7 +691,7 @@ e. Quantify abundant taxa.</code></pre>
 <table>
 <thead>
 <tr class="header">
-<th align="left">1. Which dataset is classified better, gut or fecal??</th>
+<th align="left">1. Which dataset is classified better, gut or fecal?</th>
 </tr>
 </thead>
 <tbody>
