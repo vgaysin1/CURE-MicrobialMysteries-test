@@ -31,7 +31,7 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 
 ::: {.notice} 
 **A note on the sample used in this activity**. 
-The sample corresponds to [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponding to sequencing read file SRR13128014. A subset of this data is used here in the Activity 1.
+The sample corresponds to [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and deposited into the public SRA database as SRR13128014. A subset of this data is used here in the Activity 1.
 :::
 
 
