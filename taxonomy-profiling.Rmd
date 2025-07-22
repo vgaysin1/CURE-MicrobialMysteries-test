@@ -38,9 +38,13 @@ Metagenomics is the direct analysis of the genomes through genome sequencing of 
 
 ### Activity 1 – Explore Zymo Gut Standard Metagenomic Diversity
 
-```
-A note on the sample used in this activity. The sample corresponds to [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponding to sequencing read file SRR13128014. A subset of this data is used here in the Activity 1.
-```
+
+::: {.notice} 
+**A note on the sample used in this activity**. 
+The sample corresponds to [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponding to sequencing read file SRR13128014. A subset of this data is used here in the Activity 1.
+:::
+
+
 
 *Estimated time: 25 min*
 
@@ -111,7 +115,7 @@ e. Quantify abundant taxa.
 **3. List abundant taxa you identified in a table below.**
 
 ```
-  - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa. 
+- To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa. 
 - Then, enter the results into a table below.
 ```
 
