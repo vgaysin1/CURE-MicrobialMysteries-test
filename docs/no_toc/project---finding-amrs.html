@@ -471,7 +471,7 @@
 <p><code>You will not be executing GTDB-Tk in this activity to stay within a reasonable activity time frame.</code> However, for your project work, you will have a chance to test GTDB-Tk on your genome assemblies and bins. A note to your future self working on a project - as a rule, after genome assembly, if your contigs are 500 kb or above, they will be considered large enough to be passed on to GTDB-Tk without the need for binning. Contigs of &lt; 500 kb will be binned and passed on to GTDB-Tk for taxonomy classification as bins.</p>
 <p><strong>Overview of the approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
 <ul>
-<li>Note, these times apply only to the specific input file we will be using in this activity, the nanopore-soil-subset that is 5.4 GB</li>
+<li>Note, these times apply only to the specific input file we will be using in this activity, the nanopore-soil-subset that is 5.4 GB.</li>
 </ul>
 <table>
 <thead>
@@ -501,12 +501,10 @@
 <li>Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> <a href="https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered">nanopore-soil-subset-filtered</a> to de novo assemble soil microbial genomes.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
-<li>Obtain .fastq file from a subset of Nanopore-sequencing soil study.</li>
-</ol>
+<li><p>Obtain .fastq file from a subset of Nanopore-sequencing soil study.</p>
 <ul>
-<li><a href="%5Bhttps://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered</a></li>
-</ul>
-<ol start="2" style="list-style-type: lower-alpha">
+<li><a href="%5Bhttps://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered</a>.</li>
+</ul></li>
 <li><p>Name your new history <strong>“Finding soil AMRs”</strong>.</p></li>
 <li><p>Run <strong>Flye</strong> tool to assess sequence quality using the following <strong>Tool Parameters</strong>.</p>
 <ul>
@@ -673,22 +671,20 @@
 </div>
 <div id="activity-3-finding-amrs-1" class="section level3 hasAnchor" number="5.4.6">
 <h3><span class="header-section-number">5.4.6</span> Activity 3 – Finding AMRs<a href="project---finding-amrs.html#activity-3-finding-amrs-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 30 min </em></p>
+<p><em>Estimated time: 30 min</em></p>
 <div id="instructions-40" class="section level4 hasAnchor" number="5.4.6.1">
 <h4><span class="header-section-number">5.4.6.1</span> Instructions<a href="project---finding-amrs.html#instructions-40" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Run <strong>ABRicate</strong> tool in Galaxy using Flye consensus as input using the following <strong>Tool Parameters</strong>:</li>
-</ol>
+<li><p>Run <strong>ABRicate</strong> tool in Galaxy using Flye consensus as input using the following <strong>Tool Parameters</strong>:</p>
 <ul>
 <li>Under <strong>Input Reads</strong>: select your <code>Flye: consensus</code> output in FASTA format</li>
 <li>IMPORTANT: Under <strong>Advanced Options</strong>: select <code>NCBI Bacterial Antimicrobial Resistance Reference Gene Database</code> as your database option; the default ‘resfinder’ may not work well.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Explore <strong>ABRicate report</strong> file.</li>
-</ol>
+</ul></li>
+<li><p>Explore <strong>ABRicate report</strong> file.</p>
 <ul>
 <li>Note, Abricate output report has the following information</li>
-</ul>
+</ul></li>
+</ol>
 <table>
 <thead>
 <tr class="header">
@@ -808,10 +804,8 @@
 </tbody>
 </table>
 <p><strong>5. Research and write a small paragraph report on one of the AMR genes you found.</strong></p>
-<ul>
-<li>Use any search tools for your research, but we encourage you to use PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/">https://pubmed.ncbi.nlm.nih.gov/</a> where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input.</li>
-<li>Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</li>
-</ul>
+<pre><code>- Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input.
+- Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -843,7 +837,7 @@
 </div>
 <div id="activity-4-bin-contigs-with-metabat2" class="section level3 hasAnchor" number="5.4.7">
 <h3><span class="header-section-number">5.4.7</span> Activity 4 – Bin contigs with MetaBAT2<a href="project---finding-amrs.html#activity-4-bin-contigs-with-metabat2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 20 min </em></p>
+<p><em>Estimated time: 20 min</em></p>
 <div id="instructions-41" class="section level4 hasAnchor" number="5.4.7.1">
 <h4><span class="header-section-number">5.4.7.1</span> Instructions<a href="project---finding-amrs.html#instructions-41" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
@@ -851,7 +845,7 @@
 <li>Run <strong>MetaBAT2</strong> tool in Galaxy using <code>Flye consensus</code> as input using the <strong>following Tool Parameters</strong>:</li>
 </ol>
 <ul>
-<li>Under <strong>Fasta file containing contigs</strong>: select your Flye: consensus output in FASTA format</li>
+<li>Under <strong>Fasta file containing contigs</strong>: select your Flye: consensus output in FASTA format.</li>
 <li>Under <strong>Output options</strong>: from the <strong>Extra outputs</strong> dropdown menu select: <code>Process log file</code>.</li>
 </ul>
 </div>
@@ -1014,7 +1008,7 @@
 </div>
 <div id="activity-5-read-about-gtdbtk-tool-in-galaxy" class="section level3 hasAnchor" number="5.4.8">
 <h3><span class="header-section-number">5.4.8</span> Activity 5 – Read about GTDBtk tool in Galaxy<a href="project---finding-amrs.html#activity-5-read-about-gtdbtk-tool-in-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 15 min </em></p>
+<p><em>Estimated time: 15 min</em></p>
 <div id="instructions-42" class="section level4 hasAnchor" number="5.4.8.1">
 <h4><span class="header-section-number">5.4.8.1</span> Instructions<a href="project---finding-amrs.html#instructions-42" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
