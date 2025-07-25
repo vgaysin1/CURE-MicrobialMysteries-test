@@ -182,7 +182,7 @@
 <li class="chapter" data-level="4.1.2" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#learning-objectives-5"><i class="fa fa-check"></i><b>4.1.2</b> Learning Objectives</a></li>
 <li class="chapter" data-level="4.1.3" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#introduction-5"><i class="fa fa-check"></i><b>4.1.3</b> Introduction</a></li>
 <li class="chapter" data-level="4.1.4" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#activity-1-explore-zymo-gut-standard-metagenomic-diversity"><i class="fa fa-check"></i><b>4.1.4</b> Activity 1 – Explore Zymo Gut Standard Metagenomic Diversity</a></li>
-<li class="chapter" data-level="4.1.5" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#activity-2-optional-compare-with-zymo-fecal-reference"><i class="fa fa-check"></i><b>4.1.5</b> Activity 2 (OPTIONAL) – Compare with Zymo Fecal Reference</a></li>
+<li class="chapter" data-level="4.1.5" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#activity-2-optional-compare-results-with-the-zymo-fecal-reference"><i class="fa fa-check"></i><b>4.1.5</b> Activity 2 (OPTIONAL) – Compare results with the Zymo Fecal Reference</a></li>
 <li class="chapter" data-level="4.1.6" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#grading-criteria-6"><i class="fa fa-check"></i><b>4.1.6</b> Grading Criteria</a></li>
 <li class="chapter" data-level="4.1.7" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#footnotes-9"><i class="fa fa-check"></i><b>4.1.7</b> Footnotes</a></li>
 </ul></li>
@@ -455,25 +455,29 @@
 </div>
 <div id="learning-objectives-7" class="section level3 hasAnchor" number="4.5.2">
 <h3><span class="header-section-number">4.5.2</span> Learning Objectives<a href="project---taxonomy-profiling.html#learning-objectives-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In this exercise, using Galaxy tools you will be</p>
+<p>In this exercise, using tools on Galaxy you will be:</p>
 <ol style="list-style-type: decimal">
-<li>Performing QC and quality filtering of your soil metagenomics data with NanoPlot and fastp tools.</li>
+<li>Performing QC and quality filtering of your soil metagenomics data with the NanoPlot and fastp tools.</li>
 <li>Running a workflow to perform taxonomy profiling and visualization of a soil metagenome.</li>
 </ol>
 <p>Throughout these objectives you will be comparing soil and gut metagenomes.</p>
 </div>
 <div id="introduction-7" class="section level3 hasAnchor" number="4.5.3">
 <h3><span class="header-section-number">4.5.3</span> Introduction<a href="project---taxonomy-profiling.html#introduction-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>The total time for a Galaxy step to complete depends on and will increase based on multiple factors such as large input file size, long queue when many other people are analyzing data, the complexity of the job itself, or an error. See table below for the minimum time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete.
+<p><strong>Note</strong>, the total time for a Galaxy step to complete depends on and will increase based on multiple factors such the input file size, a long queue when many other people are analyzing data, the complexity of the job itself and errors. See the table below for the <em>minimum</em> time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete.
 <br></p>
-<p>Note, that you can save time by 1) submitting multiple jobs that use the same input (NanoPlot and fastp) and 2) submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job finishes.</p>
+<p>Note, that you can save time by:</p>
+<ol style="list-style-type: decimal">
+<li>Submitting multiple jobs that use the same input (NanoPlot and fastp)</li>
+<li>Submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job finishes.</li>
+</ol>
 <p><strong>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
 <table>
 <thead>
 <tr class="header">
 <th align="left">Nanoplot</th>
 <th align="left">fastp</th>
-<th align="left">taxonomy workflow</th>
+<th align="left">Taxonomy workflow</th>
 </tr>
 </thead>
 <tbody>
@@ -494,7 +498,7 @@
 <div id="instructions-28" class="section level4 hasAnchor" number="4.5.4.2">
 <h4><span class="header-section-number">4.5.4.2</span> Instructions<a href="project---taxonomy-profiling.html#instructions-28" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Import dataset into Galaxy.</li>
+<li>Import the dataset into Galaxy.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
 <li><p>Open the nanopore-soil-pilot public history <a href="https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1</a></p></li>
@@ -502,12 +506,12 @@
 <li><p>Confirm <mark style="background color: green">Nanopore-soil-pilot-subset</mark> exists in your history by clicking on the Home button on top left.</p></li>
 </ol>
 <ol start="2" style="list-style-type: decimal">
-<li>Run <strong>NanoPlot</strong> tool in Galaxy to assess sequence quality using <strong>default settings</strong>.</li>
+<li>Run the <strong>NanoPlot</strong> tool in Galaxy to assess sequence quality using the <strong>default settings</strong>.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
 <li><p>Click on the Tools icon. Then, in the search bar enter ‘NanoPlot’ and select the NanoPlot tool.</p></li>
 <li><p>Under <strong>files</strong> browse to select your Nanopore-soil-pilot-subset fastq dataset.</p></li>
-<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the NanoPlot job is scheduled, run, and complete.</p></li>
+<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the NanoPlot job is scheduled, run, and completed.</p></li>
 </ol>
 </div>
 <div id="questions-20" class="section level4 hasAnchor" number="4.5.4.3">
@@ -536,7 +540,7 @@
 </tr>
 </tbody>
 </table>
-<p><strong>2. Compare NanoPlot results.</strong></p>
+<p><strong>2. Compare the NanoPlot results with the gut data.</strong></p>
 <table>
 <colgroup>
 <col width="33%" />
@@ -579,7 +583,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3. Which dataset has better sequence quality, Zymo-gut-standard (taxonomy profiling pre-lab) or Nanopore-soil pilot (taxonomy profiling project)? Why?</th>
+<th align="left">3. Which dataset has better sequence quality, the Zymo-gut-standard (taxonomy profiling pre-lab) or the Nanopore-soil pilot (taxonomy profiling project)? Why?</th>
 </tr>
 </thead>
 <tbody>
@@ -594,10 +598,10 @@
 </div>
 <div id="instructions-29" class="section level4 hasAnchor" number="4.5.4.5">
 <h4><span class="header-section-number">4.5.4.5</span> Instructions<a href="project---taxonomy-profiling.html#instructions-29" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Although the majority of bases in the soil dataset are of high quality ( &gt;Q20, or 1 in 100 base error), we can filter out very low quality reads to further improve dataset quality. In this activity run fastp tool to filter out reads with a high proportion of low quality bases (&lt;Q15) using default settings.</p>
+<p>Although the majority of bases in the soil dataset are of high quality ( &gt;Q20, or 1 in 100 base error), we can filter out very low quality reads to further improve dataset quality. In this activity run fastp tool to filter out reads with a high proportion of low quality bases (&lt;Q15) using the default settings.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Click on the Tools icon. Then, in the search bar enter <strong>fastp</strong> and select the fastp tool.</p></li>
-<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the fastp job is scheduled, run, and complete.</p></li>
+<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the fastp job is scheduled, run, and completed.</p></li>
 </ol>
 </div>
 <div id="questions-21" class="section level4 hasAnchor" number="4.5.4.6">
@@ -650,7 +654,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2. Compare BEFORE and AFTER quality plots from activity above. Use the charts in the section titled Filtering Statistics. What key quality improvement can you observe after fastp quality filtering. <code>Hint 1</code>: look at 5’ end, 3’ end and the middle? <code>Hint 2</code>: Pay attention to the y-axis.</th>
+<th align="left">2. Compare your BEFORE and AFTER quality plots from activity above. Use the charts in the section titled Filtering Statistics. What key quality improvement can you observe after fastp quality filtering. <code>Hint 1</code>: look at 5’ end, 3’ end and the middle? <code>Hint 2</code>: Pay attention to the y-axis.</th>
 </tr>
 </thead>
 <tbody>
@@ -670,7 +674,7 @@
 <div id="instructions-30" class="section level4 hasAnchor" number="4.5.5.2">
 <h4><span class="header-section-number">4.5.5.2</span> Instructions<a href="project---taxonomy-profiling.html#instructions-30" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Run ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view results.</li>
+<li>Run the ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view the results.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
 <li><p>Open the taxonomy-profiling public workflow <a href="https://usegalaxy.org/u/cutsort/w/taxonomy-profiling">https://usegalaxy.org/u/cutsort/w/taxonomy-profiling</a>.</p></li>
@@ -678,16 +682,16 @@
 <li><p>Browse to select your fastp-filtered fastq dataset <mark style="background color: green">“fastp on data1:Read 1 output”</mark> dataset by clicking on the <code>‘...’</code> tab.</p></li>
 <li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.</p></li>
 <li><p>Click <strong>Run Workflow</strong>.</p></li>
-<li><p>Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.</p></li>
+<li><p>Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and completed.</p></li>
 </ol>
 <ol start="2" style="list-style-type: decimal">
-<li>Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore metagenomic diversity of soil by performing taxonomy profiling spreadsheet activity you did during week 1.</li>
+<li>Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore the metagenomic diversity of the soil sample by performing the taxonomy profiling spreadsheet activity you did during week 1.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
 <li><p>Click on <strong>converted_kraken_report</strong>, find the download button and <strong>download</strong> the report.</p></li>
 <li><p><mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv</mark>.</p></li>
-<li><p>Upload your taxonomy .tsv file to Google Drive and open with Google Sheets.</p></li>
-<li><p>Create a header row and enter column Information.</p></li>
+<li><p>Upload your taxonomy .tsv file to Google Drive and open it with Google Sheets.</p></li>
+<li><p>Create a header row and enter the following column information.</p></li>
 </ol>
 <ul>
 <li>Col A = Counts.</li>
@@ -719,7 +723,7 @@
 <table>
 <thead>
 <tr class="header">
-<th align="left">2. Determine percentage of reads that are unclassified</th>
+<th align="left">2. Determine the percentage of reads that are unclassified</th>
 </tr>
 </thead>
 <tbody>
@@ -809,8 +813,8 @@
 </tbody>
 </table>
 </div>
-<div id="activity-2---part-ii---analyze-kraken2-results" class="section level4 hasAnchor" number="4.5.5.4">
-<h4><span class="header-section-number">4.5.5.4</span> Activity 2 - Part II - Analyze Kraken2 results<a href="project---taxonomy-profiling.html#activity-2---part-ii---analyze-kraken2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-2---part-ii---analyze-kraken-2-results" class="section level4 hasAnchor" number="4.5.5.4">
+<h4><span class="header-section-number">4.5.5.4</span> Activity 2 - Part II - Analyze Kraken 2 results<a href="project---taxonomy-profiling.html#activity-2---part-ii---analyze-kraken-2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
 <div id="instructions-31" class="section level4 hasAnchor" number="4.5.5.5">
 <h4><span class="header-section-number">4.5.5.5</span> Instructions<a href="project---taxonomy-profiling.html#instructions-31" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -876,9 +880,9 @@
 </div>
 <div id="instructions-32" class="section level4 hasAnchor" number="4.5.5.8">
 <h4><span class="header-section-number">4.5.5.8</span> Instructions<a href="project---taxonomy-profiling.html#instructions-32" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes.</p>
+<p>Krona pie chart is one of the outputs of the taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes.</p>
 <ol style="list-style-type: lower-alpha">
-<li>View Krona results: Click on the Display icon (eyeball) next to the output file named <strong>krona_pie_chart</strong>.</li>
+<li>View the Krona results: Click on the Display icon (eyeball) next to the output file named <strong>krona_pie_chart</strong>.</li>
 <li>Double click on Bacteria kingdom (k_Bacteria) to explore further.</li>
 <li>Answer questions below</li>
 </ol>
@@ -909,7 +913,7 @@
 </tr>
 </tbody>
 </table>
-<p><strong>3. Use Krona and/or Kraken2 outputs to compare your taxonomy from soil, to the gut taxonomy results from your taxonomy-prelab</strong> (Zymo-gut-standard <a href="https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..">ZymoBIOMICS® Gut Microbiome Standard</a></p>
+<p><strong>3. Use Krona and/or Kraken2 outputs to compare your taxonomy from this soil sample, to the gut taxonomy results from your taxonomy-prelab</strong> (Zymo-gut-standard <a href="https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..">ZymoBIOMICS® Gut Microbiome Standard</a></p>
 <p><strong>3A. Fill out the comparison table below</strong></p>
 <table>
 <thead>

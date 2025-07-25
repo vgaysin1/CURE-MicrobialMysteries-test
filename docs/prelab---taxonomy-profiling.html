@@ -182,7 +182,7 @@
 <li class="chapter" data-level="4.1.2" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#learning-objectives-5"><i class="fa fa-check"></i><b>4.1.2</b> Learning Objectives</a></li>
 <li class="chapter" data-level="4.1.3" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#introduction-5"><i class="fa fa-check"></i><b>4.1.3</b> Introduction</a></li>
 <li class="chapter" data-level="4.1.4" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#activity-1-explore-zymo-gut-standard-metagenomic-diversity"><i class="fa fa-check"></i><b>4.1.4</b> Activity 1 – Explore Zymo Gut Standard Metagenomic Diversity</a></li>
-<li class="chapter" data-level="4.1.5" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#activity-2-optional-compare-with-zymo-fecal-reference"><i class="fa fa-check"></i><b>4.1.5</b> Activity 2 (OPTIONAL) – Compare with Zymo Fecal Reference</a></li>
+<li class="chapter" data-level="4.1.5" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#activity-2-optional-compare-results-with-the-zymo-fecal-reference"><i class="fa fa-check"></i><b>4.1.5</b> Activity 2 (OPTIONAL) – Compare results with the Zymo Fecal Reference</a></li>
 <li class="chapter" data-level="4.1.6" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#grading-criteria-6"><i class="fa fa-check"></i><b>4.1.6</b> Grading Criteria</a></li>
 <li class="chapter" data-level="4.1.7" data-path="activity---taxonomy-profiling-spreadsheet.html"><a href="activity---taxonomy-profiling-spreadsheet.html#footnotes-9"><i class="fa fa-check"></i><b>4.1.7</b> Footnotes</a></li>
 </ul></li>
@@ -451,38 +451,38 @@
 <h2><span class="header-section-number">4.3</span> Prelab - Taxonomy Profiling<a href="prelab---taxonomy-profiling.html#prelab---taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="purpose-7" class="section level3 hasAnchor" number="4.3.1">
 <h3><span class="header-section-number">4.3.1</span> Purpose<a href="prelab---taxonomy-profiling.html#purpose-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>To use a variety of Galaxy tools to perform Quality Control (QC), taxonomy profiling, and visualization of a metagenomics sequencing data.</p>
+<p>To use a variety of tools on Galaxy to perform Quality Control (QC), taxonomy profiling, and visualization of a metagenomics sequencing data.</p>
 </div>
 <div id="learning-objectives-6" class="section level3 hasAnchor" number="4.3.2">
 <h3><span class="header-section-number">4.3.2</span> Learning Objectives<a href="prelab---taxonomy-profiling.html#learning-objectives-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>On Galaxy platform,</p>
+<p>Use tools on the Galaxy platform to:</p>
 <ol style="list-style-type: decimal">
-<li>Perform Quality Control (QC) on your raw data by checking the quality of your raw reads with NanoPlot.</li>
-<li>Assign taxonomy labels to your reads with Kraken2.</li>
-<li>Visualize your metagenomic profiling using Krona pie chart.</li>
+<li>Perform Quality Control (QC) on raw data by checking the quality of your raw reads with tool NanoPlot.</li>
+<li>Assign taxonomy labels to your reads with tool Kraken 2.</li>
+<li>Visualize your metagenomic profiling using tool Krona to generate pie chart.</li>
 </ol>
 </div>
 <div id="introduction-6" class="section level3 hasAnchor" number="4.3.3">
 <h3><span class="header-section-number">4.3.3</span> Introduction<a href="prelab---taxonomy-profiling.html#introduction-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>To find out which microorganisms are present in the sample, it is important to have high-quality DNA sequences. To ensure high-quality sequence input, QC (and in many cases also read trimming and filtering) are routinely performed on raw sequences. The reads can then be used for taxonomic classification. To assign taxonomy, we can compare the reads of the sample to a reference database, i.e. sequences of known microorganisms stored in a database, using Kraken2, which is a k-mer based taxonomic assignment tool. We can then use a tool like Krona to interactively visualize and explore the composition of a metagenome.</p>
+<p>To find out which microorganisms are present in the sample, it is important to have high-quality DNA sequences. To ensure high-quality sequence input, QC (and in many cases also read trimming and filtering) are routinely performed on raw sequences. The reads can then be used for taxonomic classification. To assign taxonomy, we can compare the reads of the sample to a reference database, i.e. sequences of known microorganisms stored in a database, using Kraken 2, which is a k-mer based taxonomic assignment tool. We can then use a visualization tool Krona to interactively visualize and explore the composition of a metagenome.</p>
 </div>
 <div id="activity-1-qc-reads" class="section level3 hasAnchor" number="4.3.4">
 <h3><span class="header-section-number">4.3.4</span> Activity 1 – QC Reads<a href="prelab---taxonomy-profiling.html#activity-1-qc-reads" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 50 min</em></p>
-<div id="activity-1---part-i---import-dataset-into-galaxy" class="section level4 hasAnchor" number="4.3.4.1">
-<h4><span class="header-section-number">4.3.4.1</span> Activity 1 - Part I - Import dataset into Galaxy<a href="prelab---taxonomy-profiling.html#activity-1---part-i---import-dataset-into-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-1---part-i---import-the-dataset-into-galaxy" class="section level4 hasAnchor" number="4.3.4.1">
+<h4><span class="header-section-number">4.3.4.1</span> Activity 1 - Part I - Import the dataset into Galaxy<a href="prelab---taxonomy-profiling.html#activity-1---part-i---import-the-dataset-into-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><em>Estimated time: 15 min</em></p>
 </div>
 <div id="instructions-22" class="section level4 hasAnchor" number="4.3.4.2">
 <h4><span class="header-section-number">4.3.4.2</span> Instructions<a href="prelab---taxonomy-profiling.html#instructions-22" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Import dataset into Galaxy.</li>
+<li>Import the dataset into Galaxy.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
 <li><p>Open the zymo-gut-standard public history <a href="https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1">https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1</a></p></li>
-<li><p>Click on <strong>Import this history</strong>, select Copy only the active, non-deleted datasets and then Copy History.</p></li>
+<li><p>Click on <strong>Import this history</strong>, select copy only the active, non-deleted datasets and then Copy History.</p></li>
 <li><p>Confirm <code>Zymo_Gut_Standard_D6331_subset</code> exists in your history by clicking on the Home button “Galaxy” on top left ().</p></li>
-<li><p>Click on Zymo_Gut_Standard_D6331_subset to explore content.</p></li>
+<li><p>Click on Zymo_Gut_Standard_D6331_subset to explore its contents.</p></li>
 </ol>
 </div>
 <div id="questions-15" class="section level4 hasAnchor" number="4.3.4.3">
@@ -517,7 +517,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3. Click on the Display (eyeball) icon and describe what you see in the 4 lines of the fastq file?</th>
+<th align="left">3. Click on the Display (eyeball) icon and describe what you see in the 4 lines of the fastq file:</th>
 </tr>
 </thead>
 <tbody>
@@ -549,13 +549,13 @@
 <li>Run Nanoplot in Galaxy.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
-<li><p>Explore NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the <strong>NanoPlot</strong> tool. Explore NanoPlot functionality via examining <strong>Tool Parameters</strong>. Answer relevant questions below.</p></li>
+<li><p>Explore the NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the <strong>NanoPlot</strong> tool. Explore NanoPlot functionality by examining <strong>Tool Parameters</strong>. Answer related questions below.</p></li>
 <li><p>Run NanoPlot using default settings. Under Tool Parameters, <strong>check the following settings</strong>:</p></li>
 </ol>
 <ul>
 <li>Under <strong>files</strong> there are 4 options to select a fastq dataset: Single dataset, Multiple datasets, Dataset collection or option ‘…’ which is Browse or Upload Datasets.</li>
-<li>Browse to select your fastq dataset. <strong>Note</strong>, Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct.</li>
-<li>Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete. Answer relevant questions below.</li>
+<li>Browse to select your fastq dataset. <strong>Note</strong>: Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct.</li>
+<li>Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete. Answer related questions below.</li>
 </ul>
 <p><img src="resources/images/taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_66.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 </div>
@@ -567,7 +567,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">1. Under <strong>Type of file(s) to work on</strong>, check to see which input files are compatible with NanoPlot and name 2 file extension options listed.</th>
+<th align="left">1. Under <strong>Type of file(s) to work on</strong>, check to see what input files are compatible with NanoPlot and name 2 file extension options listed.</th>
 </tr>
 </thead>
 <tbody>
@@ -608,7 +608,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3. <strong>Run Nanoplot</strong> using default tool settings and record how many output files you obtained after running NanoPlot and list their names.</th>
+<th align="left">3. <strong>Run Nanoplot</strong> using the default tool settings and record how many output files you obtained after running NanoPlot and list their names.</th>
 </tr>
 </thead>
 <tbody>
@@ -622,20 +622,20 @@
 </table>
 <p><br></p>
 </div>
-<div id="activity-1---part-iii---view-nanoplot-results-in-galaxy" class="section level4 hasAnchor" number="4.3.4.7">
-<h4><span class="header-section-number">4.3.4.7</span> Activity 1 - Part III - View NanoPlot Results in Galaxy<a href="prelab---taxonomy-profiling.html#activity-1---part-iii---view-nanoplot-results-in-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-1---part-iii---view-the-nanoplot-results-in-galaxy" class="section level4 hasAnchor" number="4.3.4.7">
+<h4><span class="header-section-number">4.3.4.7</span> Activity 1 - Part III - View the NanoPlot Results in Galaxy<a href="prelab---taxonomy-profiling.html#activity-1---part-iii---view-the-nanoplot-results-in-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><em>Estimated time: 15 min</em></p>
 </div>
 <div id="instructions-24" class="section level4 hasAnchor" number="4.3.4.8">
 <h4><span class="header-section-number">4.3.4.8</span> Instructions<a href="prelab---taxonomy-profiling.html#instructions-24" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>View and examine NanoPlot Results in Galaxy by clicking on the Display icon (eyeball) next to the NanoPlot output.</li>
+<li>View and examine the NanoPlot Results in Galaxy by clicking on the Display icon (eyeball) next to the NanoPlot output.</li>
 </ol>
 </div>
 <div id="questions-17" class="section level4 hasAnchor" number="4.3.4.9">
 <h4><span class="header-section-number">4.3.4.9</span> Questions<a href="prelab---taxonomy-profiling.html#questions-17" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Examine NanoPlot output results.</li>
+<li>Examine the NanoPlot output results.</li>
 </ol>
 <ul>
 <li>Click on the Display icon (eyeball) next to the NanoPlot output files to view results.</li>
@@ -659,7 +659,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">B. Why is mean read length longer than the median read length? - Hint: think skewness <a href="https://wikipedia.org/wiki/Skewness" class="uri">https://wikipedia.org/wiki/Skewness</a></th>
+<th align="left">B. Why is the mean read length longer than the median read length? - Hint: think skewness <a href="https://wikipedia.org/wiki/Skewness" class="uri">https://wikipedia.org/wiki/Skewness</a></th>
 </tr>
 </thead>
 <tbody>
@@ -675,7 +675,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">C. Record Reads &gt;Q20 metric value. Given that Q20 quality (Phred) score corresponds to read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?</th>
+<th align="left">C. Record Reads &gt;Q20 metric value. Given that Q20 quality (Phred) score corresponds to a read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?</th>
 </tr>
 </thead>
 <tbody>
@@ -686,7 +686,7 @@
 </table>
 <p><br></p>
 <ol start="2" style="list-style-type: decimal">
-<li>Examine NanoPlot output HTML report.</li>
+<li>Examine the NanoPlot output HTML report.</li>
 </ol>
 <ul>
 <li>Click on the Display icon (eyeball) next to the NanoPlot output HTML report.</li>
@@ -697,7 +697,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">A. Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained</th>
+<th align="left">A. Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained.</th>
 </tr>
 </thead>
 <tbody>
@@ -744,19 +744,19 @@
 <ol start="2" style="list-style-type: lower-alpha">
 <li><p>Browse to select your fastq dataset by clicking on the ‘…’ tab.</p></li>
 <li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.</p></li>
-<li><p>Click <strong>Run Workflow</strong> with the following parameters:</p></li>
-<li><p>Wait ~30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete. <code>While you are waiting, continue with the next section of this prelab.</code></p></li>
+<li><p>Click <strong>Run Workflow</strong>.</p></li>
+<li><p>Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and complete. <code>While you are waiting, continue with the next section of this prelab.</code></p></li>
 </ol>
 <ul>
 <li><em>Note, that it can take longer than 30 minutes to run the scheduled jobs in part, because Galaxy servers are public shared resources used concurrently by numerous users, so that when many users demand resources like CPU, memory, or disk space, it can create bottlenecks and delays, affecting the speed of your particular job.</em></li>
 </ul>
 <p><img src="resources/images/taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_92.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 <ol start="2" style="list-style-type: decimal">
-<li>Examine select aspects of Kraken2 tool.</li>
+<li>Examine select aspects of Kraken 2 tool.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
 <li><p>While the Taxonomy Workflow is running, click on the Tools icon on the left of the page.</p></li>
-<li><p>Then, in the search bar enter ‘Kraken2’’ and select the <strong>Kraken2</strong> tool.</p></li>
+<li><p>Then, in the search bar enter ‘Kraken 2’’ and select the <strong>Kraken2</strong> tool.</p></li>
 </ol>
 </div>
 <div id="questions-18" class="section level4 hasAnchor" number="4.3.5.3">
@@ -767,7 +767,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">A. How does Galaxy describe the Kraken2 tool in its descriptor on top of the page?</th>
+<th align="left">A. How does Galaxy describe the Kraken 2 tool in its descriptor on top of the page?</th>
 </tr>
 </thead>
 <tbody>
@@ -783,7 +783,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">B. Scroll down to <strong>Help/What it does</strong> section, and in your own words paraphrase the paragraph describing how Kraken 2 works.</th>
+<th align="left">B. Scroll down to the <strong>Help/What it does</strong> section, and in your own words paraphrase the paragraph describing how Kraken 2 works.</th>
 </tr>
 </thead>
 <tbody>
@@ -810,8 +810,8 @@
 </table>
 <p><br></p>
 </div>
-<div id="activity-2---part-ii---view-kraken2-results" class="section level4 hasAnchor" number="4.3.5.4">
-<h4><span class="header-section-number">4.3.5.4</span> Activity 2 - Part II - View Kraken2 results<a href="prelab---taxonomy-profiling.html#activity-2---part-ii---view-kraken2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-2---part-ii---view-kraken-2-results" class="section level4 hasAnchor" number="4.3.5.4">
+<h4><span class="header-section-number">4.3.5.4</span> Activity 2 - Part II - View Kraken 2 results<a href="prelab---taxonomy-profiling.html#activity-2---part-ii---view-kraken-2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><em>Estimated time: 15 min</em></p>
 </div>
 <div id="instructions-26" class="section level4 hasAnchor" number="4.3.5.5">
@@ -820,11 +820,11 @@
 <li>Open and examine <strong>converted_kraken_report</strong>.</li>
 </ol>
 <ul>
-<li>Click on the Display icon (eyeball) next to the output file with <strong>converted_kraken_report</strong>. This report should look familiar from week 1 taxonomy-profiling-spreadsheet activity.</li>
+<li>Click on the Display icon (eyeball) next to the output file with <strong>converted_kraken_report</strong>. This report should look familiar from the week 1 taxonomy-profiling-spreadsheet activity.</li>
 <li>Scroll through to explore.</li>
 </ul>
 <ol start="2" style="list-style-type: decimal">
-<li>Open and examine <strong>kraken2_with_pluspf_database_output_report</strong>.</li>
+<li>Open and examine the <strong>kraken2_with_pluspf_database_output_report</strong>.</li>
 </ol>
 <ul>
 <li>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>.</li>
@@ -849,13 +849,12 @@
     - (G)enus, or 
     - (S)pecies. 
     
-*Note, some rank codes will have numbers associated with them; Ignore them for the moment.*
-</code></pre>
+*Note, some rank codes will have numbers associated with them; Ignore them for the moment.*</code></pre>
 </div>
 <div id="questions-19" class="section level4 hasAnchor" number="4.3.5.6">
 <h4><span class="header-section-number">4.3.5.6</span> Questions<a href="prelab---taxonomy-profiling.html#questions-19" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Answer the following questions about <strong>converted_kraken_report</strong>.</li>
+<li>Answer the following questions about the <strong>converted_kraken_report</strong>.</li>
 </ol>
 <table>
 <thead>
@@ -902,7 +901,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">1D. Using the total <em>number_of_reads</em> you obtained from the <strong>NanoStats</strong> (NanoPlot) metrics, and the value of <em>Unclassified</em> reads from the <em>converted_kraken_report</em>, calculate % unclassified and % classified taxa.</th>
+<th align="left">1D. Using the total <em>number_of_reads</em> you obtained from the <strong>NanoStats</strong> (NanoPlot) metrics, and the value of <em>Unclassified</em> reads from the <em>converted_kraken_report</em>, calculate the % unclassified and % classified taxa.</th>
 </tr>
 </thead>
 <tbody>
@@ -918,7 +917,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">1E. Click on the <em>converted_kraken_report</em> entry and just below the ‘Add Tags’ to see the number of lines and columns in the file. The number of lines corresponds to the number of taxa detected. Excluding Unclassified subset, how many taxa were identified?</th>
+<th align="left">1E. Click on the <em>converted_kraken_report</em> entry and look just below the ‘Add Tags’ to see the number of lines and columns in the file. The number of lines corresponds to the number of taxa detected. Excluding the Unclassified taxa, how many taxa were identified?</th>
 </tr>
 </thead>
 <tbody>
@@ -929,7 +928,7 @@
 </table>
 <p><br></p>
 <ol start="2" style="list-style-type: decimal">
-<li>Answer the following questions about <strong>kraken2_with_pluspf_database_output_report</strong>.</li>
+<li>Answer the following questions about the <strong>kraken2_with_pluspf_database_output_report</strong>.</li>
 </ol>
 <table>
 <colgroup>
@@ -985,7 +984,7 @@
 <ol start="3" style="list-style-type: decimal">
 <li>View Krona Results and answer the following questions.</li>
 </ol>
-<p>Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. Click on Display icon (eyeball) next to the <strong>Krona_pie_chart</strong> dataset to explore Krona pie chart results.</p>
+<p>Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. Click on Display icon (eyeball) next to the <strong>Krona_pie_chart</strong> dataset to explore the results as a Krona pie chart.</p>
 <p><img src="resources/images/taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g336203e918d_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 <table>
 <thead>
@@ -1019,7 +1018,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3C. Examine how many reads and percent of reads classified as phylum Firmicutes.</th>
+<th align="left">3C. Examine how many reads and percent of reads were classified as phylum Firmicutes.</th>
 </tr>
 </thead>
 <tbody>
@@ -1051,7 +1050,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3E. Within the most abundant Order from your answer above, record one Family member, one genus member and one species member; also include percent abundances.</th>
+<th align="left">3E. Within the most abundant Order from your answer above, record one Family member, one genus member and one species member; also include their percent abundances.</th>
 </tr>
 </thead>
 <tbody>
@@ -1067,7 +1066,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3F. Some potentially pathogenic bacterial species are often present in a healthy gut, but at relatively low amounts. What % of bacteria is represented by <em>C. difficile</em> (<em>Clostridiodes difficile</em>) in this gut standard sample? How does it compare to the expected proportion in <a href="https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..">ZymoBIOMICS® Gut Microbiome Standard</a>?</th>
+<th align="left">3F. Some potentially pathogenic bacterial species are often present in a healthy gut, but in relatively low amounts. What % of bacteria is represented by <em>C. difficile</em> (<em>Clostridiodes difficile</em>) in this gut standard sample? How does it compare to the expected proportion in the <a href="https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..">ZymoBIOMICS® Gut Microbiome Standard</a>?</th>
 </tr>
 </thead>
 <tbody>
