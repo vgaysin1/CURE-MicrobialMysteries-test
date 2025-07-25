@@ -28,8 +28,7 @@ In this section we will go over how to create a scientific poster. We chose a po
 
 *Estimated time: ---*
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362823fe47a_0_72.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
-
+<img src="resources/images/community-analysis-and-feedback_files/figure-html//1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 [Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
