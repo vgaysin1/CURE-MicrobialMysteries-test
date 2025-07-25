@@ -184,7 +184,7 @@ instructions-33
 footnotes-13
 finding-amrs
 lecture---finding-amrs
-pre-lab---finding-amrs
+prelab---finding-amrs
 purpose-9
 learning-objectives-8
 introduction-8
