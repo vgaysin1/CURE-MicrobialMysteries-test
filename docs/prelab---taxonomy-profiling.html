@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-07-22" />
+<meta name="date" content="2025-07-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -745,8 +745,11 @@
 <li><p>Browse to select your fastq dataset by clicking on the ‘…’ tab.</p></li>
 <li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.</p></li>
 <li><p>Click <strong>Run Workflow</strong> with the following parameters:</p></li>
-<li><p>Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.</p></li>
+<li><p>Wait ~30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete. <code>While you are waiting, continue with the next section of this prelab.</code></p></li>
 </ol>
+<ul>
+<li><em>Note, that it can take longer than 30 minutes to run the scheduled jobs in part, because Galaxy servers are public shared resources used concurrently by numerous users, so that when many users demand resources like CPU, memory, or disk space, it can create bottlenecks and delays, affecting the speed of your particular job.</em></li>
+</ul>
 <p><img src="resources/images/taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_92.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Examine select aspects of Kraken2 tool.</li>
@@ -826,12 +829,15 @@
 <ul>
 <li>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>.</li>
 <li>This output report is an extended version of the converted_kraken_report.</li>
-<li>The output contains 6 columns. See info for select column headers below:</li>
+<li>The output contains 6 columns. See info for <strong>select column headers</strong> below:</li>
 </ul>
-<pre><code>    Column 1: Percentage (%) of a given taxon
-    Column 2: # of reads per given taxon
-    Column 4: A rank code, indicating 
-
+<pre><code>    Column 1: Percentage (%) of reads that map to a given taxon and its descendants
+    Column 2: # of reads assigned to a given taxon and its descendants
+    Column 3: # of reads assigned directly to a given taxon (not its descendants)
+    Column 4: A rank code (see explanation below)
+    Column 6: Identified taxa/scientific name
+ 
+**Rank code:**
     - (U)nclassified, 
     - (R)oot, 
     - (D)omain, 
@@ -842,9 +848,9 @@
     - (F)amily, 
     - (G)enus, or 
     - (S)pecies. 
-
-    Note, some rank codes will have numbers associated with them; Ignore them for the moment.
-    Column  6: Identified taxa/scientific name.</code></pre>
+    
+*Note, some rank codes will have numbers associated with them; Ignore them for the moment.*
+</code></pre>
 </div>
 <div id="questions-19" class="section level4 hasAnchor" number="4.3.5.6">
 <h4><span class="header-section-number">4.3.5.6</span> Questions<a href="prelab---taxonomy-profiling.html#questions-19" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -947,7 +953,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2B. What is the percentage of Classified taxa listed? Does it match what you calculated in section 2-2.1?</th>
+<th align="left">2B. What is the percentage of Classified taxa? Does it match what you calculated in section 2-2.1?</th>
 </tr>
 </thead>
 <tbody>
@@ -957,6 +963,9 @@
 </tbody>
 </table>
 <p><br></p>
+<ul>
+<li>Note, the document lists (U)nclassified taxa only, so you’ll need to get the percentage of Classified taxa based on that.</li>
+</ul>
 <table>
 <colgroup>
 <col width="100%" />
