@@ -376,7 +376,9 @@ c. Under **kraken_database** select <mark style="background color: green">Prebui
 
 d. Click **Run Workflow** with the following parameters:
 
-e. Wait ~15-30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete.
+e. Wait ~30 minutes as the Kraken2, KrakenTools, and Krona jobs are scheduled, run, and complete. `While you are waiting, continue with the next section of this prelab.`
+
+- *Note, that it can take longer than 30 minutes to run the scheduled jobs in part, because Galaxy servers are public shared resources used concurrently by numerous users, so that when many users demand resources like CPU, memory, or disk space, it can create bottlenecks and delays, affecting the speed of your particular job.*
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g370690c0d46_0_92#slide=id.g370690c0d46_0_92")
@@ -421,13 +423,16 @@ b. Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 
   - Click on the Display icon (eyeball) next to the output file with **kraken2_with_pluspf_database_output_report**.
   - This output report is an extended version of the converted_kraken_report. 
-  - The output contains 6 columns. See info for select column headers below:
+  - The output contains 6 columns. See info for **select column headers** below:
 
 ```
-    Column 1: Percentage (%) of a given taxon
-    Column 2: # of reads per given taxon
-    Column 4: A rank code, indicating 
-
+    Column 1: Percentage (%) of reads that map to a given taxon and its descendants
+    Column 2: # of reads assigned to a given taxon and its descendants
+    Column 3: # of reads assigned directly to a given taxon (not its descendants)
+    Column 4: A rank code (see explanation below)
+    Column 6: Identified taxa/scientific name
+ 
+**Rank code:**
     - (U)nclassified, 
     - (R)oot, 
     - (D)omain, 
@@ -438,9 +443,9 @@ b. Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
     - (F)amily, 
     - (G)enus, or 
     - (S)pecies. 
+    
+*Note, some rank codes will have numbers associated with them; Ignore them for the moment.*
 
-    Note, some rank codes will have numbers associated with them; Ignore them for the moment.
-    Column  6: Identified taxa/scientific name.
 ```
 
 #### Questions
@@ -479,10 +484,12 @@ b. Then, in the search bar enter ‘Kraken2’’ and select the **Kraken2** too
 | |
 <br>
 
-| 2B. What is the percentage of Classified taxa listed? Does it match what you calculated in section 2-2.1?| 
+| 2B. What is the percentage of Classified taxa? Does it match what you calculated in section 2-2.1?| 
 |:--|
 | |
 <br>
+
+- Note, the document lists (U)nclassified taxa only, so you'll need to get the percentage of Classified taxa based on that.
 
 | 2C. Find and record the 3 most abundant Phyla (p_) by percentages.  As rows are not sorted by abundance, you may find it helpful to search using for “P” using <CTRL>-F to highlight rows corresponding to phyla.| 
 |:--|
@@ -666,7 +673,7 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 
 #### Questions
 
-**1.  Compare your dataset before and after filtering using fastp: HTML report output.**
+**1.  Compare your dataset BEFORE and AFTER filtering using fastp: HTML report output.**
 
 | | Before | After|
 |:--|:--|:--|
@@ -677,7 +684,7 @@ b. Click on **Run Tool** and wait ~10 minutes as the fastp job is scheduled, run
 |Q30 bases (%):|  | |
 |<br>| | |
 
-|2. Compare BEFORE and AFTER quality plots from activity above. What key quality improvement can you observe after fastp quality filtering. `Hint 1`: look at 5’ end, 3’ end and the middle? `Hint 2`: Pay attention to the y-axis|
+|2. Compare BEFORE and AFTER quality plots from activity above. Use the charts in the section titled Filtering Statistics. What key quality improvement can you observe after fastp quality filtering. `Hint 1`: look at 5’ end, 3’ end and the middle? `Hint 2`: Pay attention to the y-axis.|
 |:--|
 |<br>| 
 
@@ -819,7 +826,7 @@ c. Answer questions below
 |:---|
 |<br>|
 
-**3. Compare your taxonomy from soil, to the gut taxonomy results from your taxonomy-prelab** (Zymo-gut-standard [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..)
+**3. Use Krona and/or Kraken2 outputs to compare your taxonomy from soil, to the gut taxonomy results from your taxonomy-prelab** (Zymo-gut-standard [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..)
 
 **3A. Fill out the comparison table below**
 
