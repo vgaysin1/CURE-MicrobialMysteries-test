@@ -450,7 +450,6 @@ b. Then, in the search bar enter ‘Kraken 2’’ and select the **Kraken2** to
     - (S)pecies. 
     
 *Note, some rank codes will have numbers associated with them; Ignore them for the moment.*
-
 ```
 
 #### Questions
