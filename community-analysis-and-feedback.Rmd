@@ -35,11 +35,8 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11
 *Estimated time: ---*
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
-
 ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs/edit#slide=id.g362823fe47a_0_72")
-
 ```
-
 
 [Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
