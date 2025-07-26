@@ -314,15 +314,19 @@ In this project you will also learn about MetaBAT2 and GTDB-Tk. Let's start now.
 
 *Estimated time: 30 min (activity time DOES NOT include the Flye run time on Galaxy)*
 
+::: {.notice} 
+The sample used in this activity is the from the [BioDIGS Project](https://biodigs.org/#about), sequenced using Oxford Nanopore Technologies’ [PromethION Instrument](https://nanoporetech.com/products/sequence/promethion). A subset of this data is used in this Activity.
+:::
+
 #### Instructions
 
-1. Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> [nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered) to de novo assemble soil microbial genomes. 
+1. Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> [nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered) to de novo assemble soil microbial genomes. 
 
 a. Obtain .fastq file from a subset of Nanopore-sequencing soil study.
 
-    - [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered]( [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered).
+    - [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered).
 
-b. Name your new history **“Finding soil AMRs”**.
+b. Name your new history **Finding soil AMRs**.
 
 c. Run **Flye** tool to assess sequence quality using the following **Tool Parameters**.
 
@@ -399,12 +403,12 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 1. Run **ABRicate** tool in Galaxy using Flye consensus as input using the following **Tool Parameters**:
 
-    - Under **Input Reads**: select your `Flye: consensus` output in FASTA format
+    - Under **Input Reads**: select your `Flye: consensus` output in FASTA format.
     - IMPORTANT: Under **Advanced Options**: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default ‘resfinder’ may not work well.
 
 2. Explore **ABRicate report** file.
 
-    - Note, Abricate output report has the following information
+    - Note, Abricate output report has the following information.
 
 |Column |Description |
 |:--| :--|

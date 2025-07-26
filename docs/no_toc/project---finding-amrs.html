@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-07-25" />
+<meta name="date" content="2025-07-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -495,17 +495,20 @@
 <div id="activity-1-genome-assembly-with-flye" class="section level3 hasAnchor" number="5.4.4">
 <h3><span class="header-section-number">5.4.4</span> Activity 1 – Genome assembly with Flye<a href="project---finding-amrs.html#activity-1-genome-assembly-with-flye" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 30 min (activity time DOES NOT include the Flye run time on Galaxy)</em></p>
+<div class="notice">
+<p>The sample used in this activity is the from the <a href="https://biodigs.org/#about">BioDIGS Project</a>, sequenced using Oxford Nanopore Technologies’ <a href="https://nanoporetech.com/products/sequence/promethion">PromethION Instrument</a>. A subset of this data is used in this Activity.</p>
+</div>
 <div id="instructions-38" class="section level4 hasAnchor" number="5.4.4.1">
 <h4><span class="header-section-number">5.4.4.1</span> Instructions<a href="project---finding-amrs.html#instructions-38" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> <a href="https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered">nanopore-soil-subset-filtered</a> to de novo assemble soil microbial genomes.</li>
+<li>Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> <a href="https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered">nanopore-soil-subset-filtered</a> to de novo assemble soil microbial genomes.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
 <li><p>Obtain .fastq file from a subset of Nanopore-sequencing soil study.</p>
 <ul>
-<li><a href="%5Bhttps://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered</a>.</li>
+<li><a href="https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered</a>.</li>
 </ul></li>
-<li><p>Name your new history <strong>“Finding soil AMRs”</strong>.</p></li>
+<li><p>Name your new history <strong>Finding soil AMRs</strong>.</p></li>
 <li><p>Run <strong>Flye</strong> tool to assess sequence quality using the following <strong>Tool Parameters</strong>.</p>
 <ul>
 <li>Under <strong>Input Reads</strong>: select your nano <code>pore-soil-subset-filtered</code> <strong>.fastq</strong> dataset.</li>
@@ -677,12 +680,12 @@
 <ol style="list-style-type: decimal">
 <li><p>Run <strong>ABRicate</strong> tool in Galaxy using Flye consensus as input using the following <strong>Tool Parameters</strong>:</p>
 <ul>
-<li>Under <strong>Input Reads</strong>: select your <code>Flye: consensus</code> output in FASTA format</li>
+<li>Under <strong>Input Reads</strong>: select your <code>Flye: consensus</code> output in FASTA format.</li>
 <li>IMPORTANT: Under <strong>Advanced Options</strong>: select <code>NCBI Bacterial Antimicrobial Resistance Reference Gene Database</code> as your database option; the default ‘resfinder’ may not work well.</li>
 </ul></li>
 <li><p>Explore <strong>ABRicate report</strong> file.</p>
 <ul>
-<li>Note, Abricate output report has the following information</li>
+<li>Note, Abricate output report has the following information.</li>
 </ul></li>
 </ol>
 <table>
