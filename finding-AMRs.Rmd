@@ -4,8 +4,7 @@ ottrpal::set_knitr_image_path()
 
 # Finding AMRs
 
-[Antimicrobial resistance genes](https://en.wikipedia.org/wiki/Antimicrobial_resistance) (AMR genes) allow microbes to counteract the effects of antimicrobial drugs used to treat infections.
-Databases such as the [NCBI Pathogen Detection Reference Gene Catalog](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance) and the [Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca) contain thousands of curated resistance genes and help make AMR-related data more widely available.
+[Antimicrobial resistance genes](https://en.wikipedia.org/wiki/Antimicrobial_resistance) (AMR genes) allow microbes to counteract the effects of antimicrobial drugs used to treat infections. Databases such as the [NCBI Pathogen Detection Reference Gene Catalog](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance) and the [Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca) contain thousands of curated resistance genes and help make AMR-related data more widely available.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
@@ -13,8 +12,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 ```
 
-In the **Finding AMRs module**, the **lecture** material will cover antibiotic resistance and concepts of genome assembly and genome annotation. In the **Prelab** activity, using `Galaxy` platform, we will assemble the prototype of gut microbiome using gut microbiome standard from Zymo Research.  We will first assemble the genomes into *contigs*, then visualize the contigs using `Bandage Image` tool, followed by screening contigs for AMRs using the tool [ABRicate](https://github.com/tseemann/abricate)antimicrobial genes using a variety of databases including the NCBI database. 
-A similar strategy can be used to screen for virulence factors using databases such as the [Virulence Factor Database](https://pubmed.gov/34850947) (VFDB). For **Project** activity, students will perform *soil* genome assembly and in addition to annotating soil metagenomes with AMRs, we will assemble contigs into larger *MAGs*, and learn about annotating MAGs with tools like `GTDB-Tk`. 
+In the **Finding AMRs module**, the **lecture** material will cover antibiotic resistance and the concepts of genome assembly and genome annotation. In the **Prelab** activity, using the `Galaxy` platform, we will assemble the prototype of a gut microbiome sample using the gut microbiome standard from Zymo Research.  We will first assemble the genomes into *contigs*, then visualize the contigs using the `Bandage Image` tool, followed by screening contigs for AMRs using the tool [ABRicate](https://github.com/tseemann/abricate) to annotate antimicrobial genes using a variety of databases including the NCBI database. A similar strategy can be used to screen for virulence factors using databases such as the [Virulence Factor Database](https://pubmed.gov/34850947) (VFDB). For the **Project** activity, students will perform genome assembly on a **soil sample** and in addition to annotating soil metagenomes with AMRs, we will assemble contigs into larger *MAGs*, and learn about annotating MAGs with tools like `GTDB-Tk`. 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
@@ -34,7 +32,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/165OHha9IYOctuyzg
 
 ### Purpose
 
-To use a Galaxy tools to perform *de novo* genome assembly of sequencing reads into contigs, visualize the contigs and find antimicrobial resistance (AMR) genes.
+To use Galaxy tools to perform *de novo* genome assembly of sequencing reads into contigs, visualize the contigs, and find antimicrobial resistance (AMR) genes.
 
 ### Learning Objectives
 
@@ -46,13 +44,13 @@ Use Galaxy platform to:
 
 ### Introduction
 
-Genome assembly is the process of reconstructing genomes from the DNA sequencing reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. `Flye`, is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using `Flye` we will aim to reconstruct bacterial genomes and plasmids and enable detection of important genes implicated in anbibiotic resistance. Ideally, after assembly we want to get back circular contigs as that would typically indicate the identification of entire microbial genome(s) or plasmid(s)!
+Genome assembly is the process of reconstructing genomes from DNA sequencing reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. `Flye` is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using `Flye` we will aim to reconstruct bacterial genomes and plasmids and enable detection of important genes implicated in anbibiotic resistance. Ideally, after assembly we want to get back circular contigs as that would typically indicate the identification of an entire microbial genome(s) or plasmid(s)!
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g344ad28629a_0_459#slide=id.g344ad28629a_0_459")
 ```
 
-Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: [10.1038/nrmicro2312](https://doi.org/10.1038/nrmicro2312) and [10.3390/antibiotics13121112](https://doi.org/10.3390/antibiotics13121112).
+Antimicrobial resistance is the ability of microbes to overcome one or more antibiotics, leading to multidrug resistance and the ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: [10.1038/nrmicro2312](https://doi.org/10.1038/nrmicro2312) and [10.3390/antibiotics13121112](https://doi.org/10.3390/antibiotics13121112).
 
 **Overview of the approximate minimum times for a job to be completed on Galaxy using specified tools.**
 
@@ -68,7 +66,7 @@ Antimicrobial resistance is the ability of microbes to evade one or more antibio
 *Estimated time: 45 min*
 
 ::: {.notice} 
-The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this Activity.
+The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using a PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this activity.
 :::
 
 #### Instructions
@@ -82,7 +80,7 @@ b. Name your new history **“Finding gut AMRs”**.
 c. Run **Flye** tool to assess sequence quality using the following Tool Parameters:
 
     - Under **Input Reads**: select your `aymo_gut_standard_D6331_subset2` **.fastq** dataset.
-    - Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
+    - Under **Mode**: select the `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
     - Under **Perform metagenomic assembly**: select `Yes`.
     - Under **Generate a log file**: select `Yes`.
 
@@ -94,7 +92,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g33689793048_0_10#slide=id.g33689793048_0_10")
 ```
 
-**2. View Flye results** - Explore Flye output files and answer questions below.
+**2. View Flye results** - Explore the Flye output files and answer questions below.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g33689793048_0_21#slide=id.g33689793048_0_21")
@@ -131,7 +129,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 |2C. What proportion of input was assembled into contigs?|
 |:--|
-| *At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above` |
+| *At the very top of the log file you will find that the input number of bases was 179,410,993 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above` |
 |<br> |
 
 **3. Explore Flye assembly info file.**
@@ -150,7 +148,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 |:--|
 | <br>|
 
-|4B. How does FASTA sequence format differ from FASTQ sequence format?|
+|4B. How does the FASTA sequence format differ from the FASTQ sequence format?|
 |:--|
 |*See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)*|
 |<br> |
@@ -172,7 +170,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 #### Instructions
 
-Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly** output (in gfa1 format) using default parameters.
+Run the **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly** output (in gfa1 format) using the default parameters.
 
 #### Questions
 
@@ -184,7 +182,7 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 |:--|
 |<br> |
 
-|3. Do you expect to obtain more contigs, larger or circular contigs with more sequencing reads? why?|
+|3. Do you expect to obtain more contigs, larger, or more circular contigs with more sequencing reads? why?|
 |:--|
 |<br> |
 
@@ -194,14 +192,14 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 #### Instructions
 
-1. Run **ABRicate** tool in Galaxy using Flye **consensus** as input using the following `Tool Parameters`:
+1. Run **ABRicate** tool in Galaxy using the Flye **consensus** file as the input using the following `Tool Parameters`:
 
 - Under **Input Reads**: select your Flye: consensus output in FASTA format
-- IMPORTANT: Under **Advanced Option**s: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default‘resfinder’ may not work well.
+- IMPORTANT: Under **Advanced Option**s: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default ‘resfinder’ may not work well.
 
 2. Explore **ABRicate report file**.
 
-**Abricate output report** has the following information:
+**ABRicate output report** has the following information:
 
 |Column |Description |
 |:--| :--|
@@ -223,7 +221,7 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 #### Questions
 
-**1. Explore Abricate output report.**
+**1. Explore ABRicate output report.**
 
 |1A. How  many AMR genes were detected? This is the number of rows in your file.|
 |:--|
@@ -305,16 +303,17 @@ To explore soil metagenomics using Galaxy tools for de novo genome assembly (Fly
 
 ### Learning Objectives
 
-1. Use **Galaxy** tools to
-2. Use **Flye** tool to perform de novo genome assembly of long reads into ‘contigs’ 
-3. Visualize the contigs with **Bandage** visualization tool
-4. Use **ABRicate** tool to find AMRs in contig assemblies
-5. Use **MetaBAT2** to bin contigs into larger MAGs
-6. Learn about **GTDB-Tk** taxonomy classifier tool
+Use **Galaxy** tools to
+
+1. Use **Flye** tool to perform de novo genome assembly of long reads into ‘contigs’ 
+2. Visualize the contigs with the **Bandage** visualization tool
+3. Use the **ABRicate** tool to find AMRs in contig assemblies
+4. Use **MetaBAT2** to bin contigs into larger MAGs
+5. Learn about **GTDB-Tk** taxonomy classifier tool
 
 ### Introduction
 
-In this activity we will practice *de novo* metagenome assembly with `Flye`, using **soil** sample sequenced by Nanopore sequencing. We will have an opportunity to compare and contrast assembled contigs and antimicrobial resistance profiles of soil and gut and think about the differences and similarities in microbial diversity of the two environments.
+In this activity we will practice *de novo* metagenome assembly with `Flye`, using a **soil** sample sequenced by Nanopore sequencing. We will have an opportunity to compare and contrast assembled contigs and antimicrobial resistance profiles of soil and gut and think about the differences and similarities in microbial diversity of the two environments.
 
 
 In this project you will also learn about MetaBAT2 and GTDB-Tk. Let's start now. The most up to date long read metagenomics workflow includes contig assembly (e.g. using Flye tool), followed by contig binning into larger metagenome-assembled genomes (MAGs) (with e.g. MetaBAT2 tool) and finally MAG classification (e.g. with GTDB-Tk). MetaBAT2 is an algorithm that bins (or groups) sequence fragments (contigs) into larger MAGs or draft genomes. Subsequently, MAGs can be taxonomically classified by GTDB-Tk.
@@ -335,7 +334,7 @@ In this project you will also learn about MetaBAT2 and GTDB-Tk. Let's start now.
 *Estimated time: 30 min (activity time DOES NOT include the Flye run time on Galaxy)*
 
 ::: {.notice} 
-The sample used in this activity is from the [BioDIGS Project](https://biodigs.org/#about), sequenced using Oxford Nanopore Technologies’ [PromethION Instrument](https://nanoporetech.com/products/sequence/promethion). A subset of this data is used in this Activity.
+The sample used in this activity is from the [BioDIGS Project](https://biodigs.org/#about), sequenced using Oxford Nanopore Technologies’ [PromethION Instrument](https://nanoporetech.com/products/sequence/promethion). A subset of this data is used in this activity.
 :::
 
 #### Instructions
