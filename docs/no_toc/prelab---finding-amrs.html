@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-07-26" />
+<meta name="date" content="2025-07-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -469,7 +469,7 @@
 <p>Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: <a href="https://doi.org/10.1038/nrmicro2312">10.1038/nrmicro2312</a> and <a href="https://doi.org/10.3390/antibiotics13121112">10.3390/antibiotics13121112</a>.</p>
 <p><strong>Overview of the approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
 <ul>
-<li>Note, these times apply only to the specific input file we will be using in this activity, the <code>Zymo_Gut_Standard_D6331_subset</code> that is ~340MB, and will take longer (or much longer) for larger (or much larger) input files.</li>
+<li>Note, these times apply only to the specific input file we will be using in this activity, the <code>Zymo_Gut_Standard_D6331_subset</code> that is ~342.5MB, and will take longer (or much longer) for larger (or much larger) input files.</li>
 </ul>
 <table>
 <thead>
@@ -496,13 +496,13 @@
 </div>
 <div id="instructions-34" class="section level4 hasAnchor" number="5.2.4.1">
 <h4><span class="header-section-number">5.2.4.1</span> Instructions<a href="prelab---finding-amrs.html#instructions-34" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p><strong>1. Run Flye assembly tool in Galaxy using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset</mark> to assemble gut microbial genomes.</strong></p>
+<p><strong>1. Run Flye assembly tool in Galaxy using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset2</mark> to assemble gut microbial genomes.</strong></p>
 <ol style="list-style-type: lower-alpha">
-<li><p>Obtain <strong>.fastq</strong> file from <code>Zymo_Gut_Standard_D6331_subset</code>: <a href="https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1">https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1</a>.</p></li>
+<li><p>Obtain <strong>.fastq</strong> file from <code>Zymo_Gut_Standard_D6331_subset2</code>: <a href="https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2">https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2</a>.</p></li>
 <li><p>Name your new history <strong>“Finding gut AMRs”</strong>.</p></li>
 <li><p>Run <strong>Flye</strong> tool to assess sequence quality using the following Tool Parameters:</p>
 <ul>
-<li>Under <strong>Input Reads</strong>: select your <code>Zymo_Gut_Standard_D6331</code> <strong>.fastq</strong> dataset.</li>
+<li>Under <strong>Input Reads</strong>: select your <code>aymo_gut_standard_D6331_subset2</code> <strong>.fastq</strong> dataset.</li>
 <li>Under <strong>Mode</strong>: select <code>PacBio HiFi (--pacbio-hifi)</code> option, since the sequences were obtained using PacBio HiFi sequencing technology.</li>
 <li>Under <strong>Perform metagenomic assembly</strong>: select <code>Yes</code>.</li>
 <li>Under <strong>Generate a log file</strong>: select <code>Yes</code>.</li>
