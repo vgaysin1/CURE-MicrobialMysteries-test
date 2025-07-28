@@ -496,7 +496,7 @@
 <h3><span class="header-section-number">5.4.4</span> Activity 1 – Genome assembly with Flye<a href="project---finding-amrs.html#activity-1-genome-assembly-with-flye" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 30 min (activity time DOES NOT include the Flye run time on Galaxy)</em></p>
 <div class="notice">
-<p>The sample used in this activity is the from the <a href="https://biodigs.org/#about">BioDIGS Project</a>, sequenced using Oxford Nanopore Technologies’ <a href="https://nanoporetech.com/products/sequence/promethion">PromethION Instrument</a>. A subset of this data is used in this Activity.</p>
+<p>The sample used in this activity is from the <a href="https://biodigs.org/#about">BioDIGS Project</a>, sequenced using Oxford Nanopore Technologies’ <a href="https://nanoporetech.com/products/sequence/promethion">PromethION Instrument</a>. A subset of this data is used in this Activity.</p>
 </div>
 <div id="instructions-38" class="section level4 hasAnchor" number="5.4.4.1">
 <h4><span class="header-section-number">5.4.4.1</span> Instructions<a href="project---finding-amrs.html#instructions-38" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -564,12 +564,15 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">- <em>Note 1: Based on the log file, the input going into flye assembly was 6,103,654,873 bases.</em></td>
+<td align="left">- <em>Hint 1: In the log file, find the input number of bases going into flye assembly - this info corresponds to the “Total read length” value on top of the log file.</em></td>
 </tr>
 <tr class="even">
-<td align="left">- <em>Note 2: Based on the log file, the output going of flye assembly was 154,251,885 bases.</em></td>
+<td align="left">- <em>Hint 2: In the log file, find the output number of bases after flye assembly - this info corresponds to the “Total length” value on the bottom of the log file.</em></td>
 </tr>
 <tr class="odd">
+<td align="left">- <em>Hint 3: calculate percent of input assembled into contigs using the 2 input and output values you obtained above.</em></td>
+</tr>
+<tr class="even">
 <td align="left"><br></td>
 </tr>
 </tbody>
@@ -592,7 +595,7 @@
 <p><strong>5. Compare soil assembly to the Zymo gut standard assembly provided the following observations:</strong></p>
 <ul>
 <li>For this activity you can consult back to your Prelab: Finding AMRs.</li>
-<li>The number of contigs assembled from <strong>339.9 MB</strong> of sequencing data from the Zymo gut standard D6331 subset was <strong>265</strong>, much smaller than for the filtered soil sample of 5.4 GB! Yet, the largest contig size for the Zymo gut standard was <strong>2,158,044</strong> (almost 9 times larger) and circular (while the largest contig for the soil sample was linear).</li>
+<li>The number of contigs assembled from <strong>342.5 MB</strong> of sequencing data from the Zymo gut standard D6331 subset was <strong>289</strong>, much smaller than for the filtered soil sample of 5.5 GB! Yet, the largest contig size for the Zymo gut standard was over 2 million bases (almost 10 times larger) and circular (while the largest contig for the soil sample was smaller and linear).</li>
 </ul>
 <table>
 <colgroup>

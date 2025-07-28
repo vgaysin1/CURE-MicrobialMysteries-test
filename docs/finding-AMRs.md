@@ -315,7 +315,7 @@ In this project you will also learn about MetaBAT2 and GTDB-Tk. Let's start now.
 *Estimated time: 30 min (activity time DOES NOT include the Flye run time on Galaxy)*
 
 ::: {.notice} 
-The sample used in this activity is the from the [BioDIGS Project](https://biodigs.org/#about), sequenced using Oxford Nanopore Technologies’ [PromethION Instrument](https://nanoporetech.com/products/sequence/promethion). A subset of this data is used in this Activity.
+The sample used in this activity is from the [BioDIGS Project](https://biodigs.org/#about), sequenced using Oxford Nanopore Technologies’ [PromethION Instrument](https://nanoporetech.com/products/sequence/promethion). A subset of this data is used in this Activity.
 :::
 
 #### Instructions
@@ -350,8 +350,9 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 3. What percent of input was assembled into contigs? |
 |:-----|
-|- *Note 1: Based on the log file, the input going into flye assembly was 6,103,654,873 bases.*| 
-|- *Note 2: Based on the log file, the output going of flye assembly was 154,251,885 bases.* |
+|- *Hint 1: In the log file, find the input number of bases going into flye assembly - this info corresponds to the "Total read length" value on top of the log file.*| 
+|- *Hint 2: In the log file, find the output number of bases after flye assembly - this info corresponds to the "Total length" value on the bottom of the log file.* |
+|- *Hint 3: calculate percent of input assembled into contigs using the 2 input and output values you obtained above.*|
 | <br> | 
 
 | 4. Why do you think only a small fraction of reads was assembled into contigs? |
@@ -361,7 +362,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 **5. Compare soil assembly to the Zymo gut standard assembly provided the following observations:**
 
 - For this activity you can consult back to your Prelab: Finding AMRs.
-- The number of contigs assembled from **339.9 MB** of sequencing data from the Zymo gut standard D6331 subset was **265**, much smaller than for the filtered soil sample of 5.4 GB! Yet, the largest contig size for the Zymo gut standard was **2,158,044** (almost 9 times larger) and circular (while the largest contig for the soil sample was linear).
+- The number of contigs assembled from **342.5 MB** of sequencing data from the Zymo gut standard D6331 subset was **289**, much smaller than for the filtered soil sample of 5.5 GB! Yet, the largest contig size for the Zymo gut standard was over 2 million bases (almost 10 times larger) and circular (while the largest contig for the soil sample was smaller and linear).
 
 | 5A. Why do you think the number of contigs in the soil sample was so much higher than the number of contigs in the Zymo gut standard?  |
 |:-----|
