@@ -56,7 +56,7 @@ Antimicrobial resistance is the ability of microbes to evade one or more antibio
 
 **Overview of the approximate minimum times for a job to be completed on Galaxy using specified tools.**
 
-- Note, these times apply only to the specific input file we will be using in this activity, the `Zymo_Gut_Standard_D6331_subset` that is ~340MB, and will take longer (or much longer) for larger (or much larger) input files.
+- Note, these times apply only to the specific input file we will be using in this activity, the `Zymo_Gut_Standard_D6331_subset` that is ~342.5MB, and will take longer (or much longer) for larger (or much larger) input files.
 
 | Flye | Bandage Image | ABRicate |
 | :--| :--| :--|
@@ -73,15 +73,15 @@ The sample used in this activity is the [Zymo Gut Microbiome Standard](https://w
 
 #### Instructions
 
-**1. Run Flye assembly tool in Galaxy using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset</mark> to assemble gut microbial genomes.**
+**1. Run Flye assembly tool in Galaxy using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset2</mark> to assemble gut microbial genomes.**
 
-a. Obtain **.fastq** file from `Zymo_Gut_Standard_D6331_subset`: [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1).
+a. Obtain **.fastq** file from `Zymo_Gut_Standard_D6331_subset2`: [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2).
 
 b. Name your new history **“Finding gut AMRs”**.
 
 c. Run **Flye** tool to assess sequence quality using the following Tool Parameters:
 
-    - Under **Input Reads**: select your `Zymo_Gut_Standard_D6331` **.fastq** dataset.
+    - Under **Input Reads**: select your `aymo_gut_standard_D6331_subset2` **.fastq** dataset.
     - Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
     - Under **Perform metagenomic assembly**: select `Yes`.
     - Under **Generate a log file**: select `Yes`.
