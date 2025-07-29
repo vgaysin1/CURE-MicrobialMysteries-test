@@ -455,19 +455,19 @@
 </div>
 <div id="learning-objectives-9" class="section level3 hasAnchor" number="5.4.2">
 <h3><span class="header-section-number">5.4.2</span> Learning Objectives<a href="project---finding-amrs.html#learning-objectives-9" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Use <strong>Galaxy</strong> tools to</p>
 <ol style="list-style-type: decimal">
-<li>Use <strong>Galaxy</strong> tools to</li>
 <li>Use <strong>Flye</strong> tool to perform de novo genome assembly of long reads into ‘contigs’</li>
-<li>Visualize the contigs with <strong>Bandage</strong> visualization tool</li>
-<li>Use <strong>ABRicate</strong> tool to find AMRs in contig assemblies</li>
+<li>Visualize the contigs with the <strong>Bandage</strong> visualization tool</li>
+<li>Use the <strong>ABRicate</strong> tool to find AMRs in contig assemblies</li>
 <li>Use <strong>MetaBAT2</strong> to bin contigs into larger MAGs</li>
 <li>Learn about <strong>GTDB-Tk</strong> taxonomy classifier tool</li>
 </ol>
 </div>
 <div id="introduction-9" class="section level3 hasAnchor" number="5.4.3">
 <h3><span class="header-section-number">5.4.3</span> Introduction<a href="project---finding-amrs.html#introduction-9" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In this activity we will practice <em>de novo</em> metagenome assembly with <code>Flye</code>, using <strong>soil</strong> sample sequenced by Nanopore sequencing. We will have an opportunity to compare and contrast assembled contigs and antimicrobial resistance profiles of soil and gut and think about the differences and similarities in microbial diversity of the two environments.</p>
-<p>In this project you will also learn about MetaBAT2 and GTDB-Tk. Let’s start now. The most up to date long read metagenomics workflow includes contig assembly (e.g. using Flye tool), followed by contig binning into larger metagenome-assembled genomes (MAGs) (with e.g. MetaBAT2 tool) and finally MAG classification (e.g. with GTDB-Tk). MetaBAT2 is an algorithm that bins (or groups) sequence fragments (contigs) into larger MAGs or draft genomes. Subsequently, MAGs can be taxonomically classified by GTDB-Tk.</p>
+<p>In this activity we will practice <em>de novo</em> metagenome assembly with <code>Flye</code>, using a <strong>soil</strong> sample sequenced by Nanopore sequencing. We will have an opportunity to compare and contrast assembled contigs and antimicrobial resistance profiles of soil and gut and think about the differences and similarities in microbial diversity of the two environments.</p>
+<p>In this project you will also learn about MetaBAT2 and GTDB-Tk. Let’s start now. The most up to date long read metagenomics workflow includes contig assembly (e.g. using the Flye tool), followed by contig binning into larger metagenome-assembled genomes (MAGs) (with e.g. MetaBAT2 tool) and finally MAG classification (e.g. with GTDB-Tk). MetaBAT2 is an algorithm that bins (or groups) sequence fragments (contigs) into larger MAGs or draft genomes. Subsequently, MAGs can be taxonomically classified by GTDB-Tk.</p>
 <p><code>You will not be executing GTDB-Tk in this activity to stay within a reasonable activity time frame.</code> However, for your project work, you will have a chance to test GTDB-Tk on your genome assemblies and bins. A note to your future self working on a project - as a rule, after genome assembly, if your contigs are 500 kb or above, they will be considered large enough to be passed on to GTDB-Tk without the need for binning. Contigs of &lt; 500 kb will be binned and passed on to GTDB-Tk for taxonomy classification as bins.</p>
 <p><strong>Overview of the approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
 <ul>
@@ -496,20 +496,20 @@
 <h3><span class="header-section-number">5.4.4</span> Activity 1 – Genome assembly with Flye<a href="project---finding-amrs.html#activity-1-genome-assembly-with-flye" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 30 min (activity time DOES NOT include the Flye run time on Galaxy)</em></p>
 <div class="notice">
-<p>The sample used in this activity is from the <a href="https://biodigs.org/#about">BioDIGS Project</a>, sequenced using Oxford Nanopore Technologies’ <a href="https://nanoporetech.com/products/sequence/promethion">PromethION Instrument</a>. A subset of this data is used in this Activity.</p>
+<p>The sample used in this activity is from the <a href="https://biodigs.org/#about">BioDIGS Project</a>, sequenced using Oxford Nanopore Technologies’ <a href="https://nanoporetech.com/products/sequence/promethion">PromethION Instrument</a>. A subset of this data is used in this activity.</p>
 </div>
 <div id="instructions-38" class="section level4 hasAnchor" number="5.4.4.1">
 <h4><span class="header-section-number">5.4.4.1</span> Instructions<a href="project---finding-amrs.html#instructions-38" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> <a href="https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered">nanopore-soil-subset-filtered</a> to de novo assemble soil microbial genomes.</li>
+<li>Run Flye in Galaxy on a quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> <a href="https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered">nanopore-soil-subset-filtered</a> to de novo assemble soil microbial genomes.</li>
 </ol>
 <ol style="list-style-type: lower-alpha">
-<li><p>Obtain .fastq file from a subset of Nanopore-sequencing soil study.</p>
+<li><p>Obtain the .fastq file from a subset of Nanopore-sequencing soil study.</p>
 <ul>
 <li><a href="https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered</a>.</li>
 </ul></li>
 <li><p>Name your new history <strong>Finding soil AMRs</strong>.</p></li>
-<li><p>Run <strong>Flye</strong> tool to assess sequence quality using the following <strong>Tool Parameters</strong>.</p>
+<li><p>Run the <strong>Flye</strong> tool to assess sequence quality using the following <strong>Tool Parameters</strong>.</p>
 <ul>
 <li>Under <strong>Input Reads</strong>: select your nano <code>pore-soil-subset-filtered</code> <strong>.fastq</strong> dataset.</li>
 <li>Under <strong>Mode</strong>: select <code>--nano-raw</code> option, since the sequences were obtained using Nanopore sequencing technology.</li>
@@ -518,7 +518,7 @@
 </ul></li>
 </ol>
 <ol start="2" style="list-style-type: decimal">
-<li>Explore Flye output <strong>assembly info</strong> file which is sorted by length (in base pairs, bp) of the contig (high to low).</li>
+<li>Explore the Flye output <strong>assembly info</strong> file which is sorted by length (in base pairs, bp) of the contig (high to low).</li>
 </ol>
 </div>
 <div id="questions-28" class="section level4 hasAnchor" number="5.4.4.2">
@@ -559,7 +559,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3. What percent of input was assembled into contigs?</th>
+<th align="left">3. What percent of the input was assembled into contigs?</th>
 </tr>
 </thead>
 <tbody>
@@ -570,7 +570,7 @@
 <td align="left">- <em>Hint 2: In the log file, find the output number of bases after flye assembly - this info corresponds to the “Total length” value on the bottom of the log file.</em></td>
 </tr>
 <tr class="odd">
-<td align="left">- <em>Hint 3: calculate percent of input assembled into contigs using the 2 input and output values you obtained above.</em></td>
+<td align="left">- <em>Hint 3: calculate the percent of input assembled into contigs using the 2 input and output values you obtained above.</em></td>
 </tr>
 <tr class="even">
 <td align="left"><br></td>
@@ -592,9 +592,9 @@
 </tr>
 </tbody>
 </table>
-<p><strong>5. Compare soil assembly to the Zymo gut standard assembly provided the following observations:</strong></p>
+<p><strong>5. Compare the soil assembly to the Zymo gut standard assembly provided the following observations:</strong></p>
 <ul>
-<li>For this activity you can consult back to your Prelab: Finding AMRs.</li>
+<li>For this activity consult your Prelab: Finding AMRs.</li>
 <li>The number of contigs assembled from <strong>342.5 MB</strong> of sequencing data from the Zymo gut standard D6331 subset was <strong>289</strong>, much smaller than for the filtered soil sample of 5.5 GB! Yet, the largest contig size for the Zymo gut standard was over 2 million bases (almost 10 times larger) and circular (while the largest contig for the soil sample was smaller and linear).</li>
 </ul>
 <table>
@@ -641,10 +641,10 @@
 <div id="instructions-39" class="section level4 hasAnchor" number="5.4.5.1">
 <h4><span class="header-section-number">5.4.5.1</span> Instructions<a href="project---finding-amrs.html#instructions-39" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Run <strong>Bandage</strong> Image tool in Galaxy to visualize contigs.</li>
+<li>Run the <strong>Bandage</strong> Image tool in Galaxy to visualize contigs.</li>
 </ol>
 <ul>
-<li>Run <strong>Bandage Image</strong> tool in Galaxy using your <strong>Flye: graphical fragment assembly file</strong> (in gfa1 format) as input, using default parameters.</li>
+<li>Run the <strong>Bandage Image</strong> tool in Galaxy using your <strong>Flye: graphical fragment assembly file</strong> (in gfa1 format) as the input, using the default parameters.</li>
 </ul>
 </div>
 <div id="questions-29" class="section level4 hasAnchor" number="5.4.5.2">
@@ -664,7 +664,7 @@
 <table>
 <thead>
 <tr class="header">
-<th align="left">2. Describe contig profile based on the Bandage Image result.</th>
+<th align="left">2. Describe the contig profile based on the Bandage Image result.</th>
 </tr>
 </thead>
 <tbody>
@@ -681,14 +681,14 @@
 <div id="instructions-40" class="section level4 hasAnchor" number="5.4.6.1">
 <h4><span class="header-section-number">5.4.6.1</span> Instructions<a href="project---finding-amrs.html#instructions-40" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li><p>Run <strong>ABRicate</strong> tool in Galaxy using Flye consensus as input using the following <strong>Tool Parameters</strong>:</p>
+<li><p>Run the <strong>ABRicate</strong> tool in Galaxy using Flye consensus as input using the following <strong>Tool Parameters</strong>:</p>
 <ul>
 <li>Under <strong>Input Reads</strong>: select your <code>Flye: consensus</code> output in FASTA format.</li>
 <li>IMPORTANT: Under <strong>Advanced Options</strong>: select <code>NCBI Bacterial Antimicrobial Resistance Reference Gene Database</code> as your database option; the default ‘resfinder’ may not work well.</li>
 </ul></li>
-<li><p>Explore <strong>ABRicate report</strong> file.</p>
+<li><p>Explore the <strong>ABRicate report</strong> file.</p>
 <ul>
-<li>Note, Abricate output report has the following information.</li>
+<li>Note, ABRicate output report has the following information.</li>
 </ul></li>
 </ol>
 <table>
@@ -847,8 +847,8 @@
 <div id="instructions-41" class="section level4 hasAnchor" number="5.4.7.1">
 <h4><span class="header-section-number">5.4.7.1</span> Instructions<a href="project---finding-amrs.html#instructions-41" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>In Galaxy, find and click on <strong>MetaBAT2</strong> tool and explore tool parameters.</li>
-<li>Run <strong>MetaBAT2</strong> tool in Galaxy using <code>Flye consensus</code> as input using the <strong>following Tool Parameters</strong>:</li>
+<li>In Galaxy, find and click on the <strong>MetaBAT2</strong> tool and explore tool parameters.</li>
+<li>Run the <strong>MetaBAT2</strong> tool in Galaxy using <code>Flye consensus</code> as input using the <strong>following Tool Parameters</strong>:</li>
 </ol>
 <ul>
 <li>Under <strong>Fasta file containing contigs</strong>: select your Flye: consensus output in FASTA format.</li>
@@ -864,7 +864,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">1A. What is the function of MetaBAT2 tool based on Galaxy tool description on top?</th>
+<th align="left">1A. What is the function of the MetaBAT2 tool based on Galaxy tool description on top?</th>
 </tr>
 </thead>
 <tbody>
@@ -903,14 +903,14 @@
 </tr>
 </tbody>
 </table>
-<p><strong>2. Explore MetaBAT2 tool output.</strong></p>
+<p><strong>2. Explore the MetaBAT2 tool output.</strong></p>
 <table>
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2A. Open MetaBAT2 Process log output file and record how many bins were formed from contigs.</th>
+<th align="left">2A. Open the MetaBAT2 Process log output file and record how many bins were formed from contigs.</th>
 </tr>
 </thead>
 <tbody>
@@ -925,7 +925,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2B. Open MetaBAT2 Process log output file and record how many bases in total were used to form bins.</th>
+<th align="left">2B. Open the MetaBAT2 Process log output file and record how many bases in total were used to form bins.</th>
 </tr>
 </thead>
 <tbody>
@@ -955,7 +955,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2D. Based on percent of contigs that formed bins (from activity 4-2.1 above) did metaBAT2 do a good job of binning the contigs?</th>
+<th align="left">2D. Based on the percent of contigs that formed bins (from activity 4-2.1 above) did metaBAT2 do a good job of binning the contigs?</th>
 </tr>
 </thead>
 <tbody>

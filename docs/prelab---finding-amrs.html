@@ -451,7 +451,7 @@
 <h2><span class="header-section-number">5.2</span> Prelab - Finding AMRs<a href="prelab---finding-amrs.html#prelab---finding-amrs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="purpose-9" class="section level3 hasAnchor" number="5.2.1">
 <h3><span class="header-section-number">5.2.1</span> Purpose<a href="prelab---finding-amrs.html#purpose-9" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>To use a Galaxy tools to perform <em>de novo</em> genome assembly of sequencing reads into contigs, visualize the contigs and find antimicrobial resistance (AMR) genes.</p>
+<p>To use Galaxy tools to perform <em>de novo</em> genome assembly of sequencing reads into contigs, visualize the contigs, and find antimicrobial resistance (AMR) genes.</p>
 </div>
 <div id="learning-objectives-8" class="section level3 hasAnchor" number="5.2.2">
 <h3><span class="header-section-number">5.2.2</span> Learning Objectives<a href="prelab---finding-amrs.html#learning-objectives-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -464,9 +464,9 @@
 </div>
 <div id="introduction-8" class="section level3 hasAnchor" number="5.2.3">
 <h3><span class="header-section-number">5.2.3</span> Introduction<a href="prelab---finding-amrs.html#introduction-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Genome assembly is the process of reconstructing genomes from the DNA sequencing reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. <code>Flye</code>, is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using <code>Flye</code> we will aim to reconstruct bacterial genomes and plasmids and enable detection of important genes implicated in anbibiotic resistance. Ideally, after assembly we want to get back circular contigs as that would typically indicate the identification of entire microbial genome(s) or plasmid(s)!</p>
+<p>Genome assembly is the process of reconstructing genomes from DNA sequencing reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. <code>Flye</code> is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using <code>Flye</code> we will aim to reconstruct bacterial genomes and plasmids and enable detection of important genes implicated in anbibiotic resistance. Ideally, after assembly we want to get back circular contigs as that would typically indicate the identification of an entire microbial genome(s) or plasmid(s)!</p>
 <p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_459.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
-<p>Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: <a href="https://doi.org/10.1038/nrmicro2312">10.1038/nrmicro2312</a> and <a href="https://doi.org/10.3390/antibiotics13121112">10.3390/antibiotics13121112</a>.</p>
+<p>Antimicrobial resistance is the ability of microbes to overcome one or more antibiotics, leading to multidrug resistance and the ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: <a href="https://doi.org/10.1038/nrmicro2312">10.1038/nrmicro2312</a> and <a href="https://doi.org/10.3390/antibiotics13121112">10.3390/antibiotics13121112</a>.</p>
 <p><strong>Overview of the approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
 <ul>
 <li>Note, these times apply only to the specific input file we will be using in this activity, the <code>Zymo_Gut_Standard_D6331_subset</code> that is ~342.5MB, and will take longer (or much longer) for larger (or much larger) input files.</li>
@@ -492,7 +492,7 @@
 <h3><span class="header-section-number">5.2.4</span> Activity 1 – Flye assembly<a href="prelab---finding-amrs.html#activity-1-flye-assembly" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 45 min</em></p>
 <div class="notice">
-<p>The sample used in this activity is the <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF">Zymo Gut Microbiome Standard</a>, sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this Activity.</p>
+<p>The sample used in this activity is the <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF">Zymo Gut Microbiome Standard</a>, sequenced by Pacific Biosciences using a PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this activity.</p>
 </div>
 <div id="instructions-34" class="section level4 hasAnchor" number="5.2.4.1">
 <h4><span class="header-section-number">5.2.4.1</span> Instructions<a href="prelab---finding-amrs.html#instructions-34" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -503,14 +503,14 @@
 <li><p>Run <strong>Flye</strong> tool to assess sequence quality using the following Tool Parameters:</p>
 <ul>
 <li>Under <strong>Input Reads</strong>: select your <code>aymo_gut_standard_D6331_subset2</code> <strong>.fastq</strong> dataset.</li>
-<li>Under <strong>Mode</strong>: select <code>PacBio HiFi (--pacbio-hifi)</code> option, since the sequences were obtained using PacBio HiFi sequencing technology.</li>
+<li>Under <strong>Mode</strong>: select the <code>PacBio HiFi (--pacbio-hifi)</code> option, since the sequences were obtained using PacBio HiFi sequencing technology.</li>
 <li>Under <strong>Perform metagenomic assembly</strong>: select <code>Yes</code>.</li>
 <li>Under <strong>Generate a log file</strong>: select <code>Yes</code>.</li>
 </ul></li>
 </ol>
 <p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
-<p><strong>2. View Flye results</strong> - Explore Flye output files and answer questions below.</p>
+<p><strong>2. View Flye results</strong> - Explore the Flye output files and answer questions below.</p>
 <p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_21.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="questions-25" class="section level4 hasAnchor" number="5.2.4.2">
@@ -663,7 +663,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">4B. How does FASTA sequence format differ from FASTQ sequence format?</th>
+<th align="left">4B. How does the FASTA sequence format differ from the FASTQ sequence format?</th>
 </tr>
 </thead>
 <tbody>
@@ -713,7 +713,7 @@
 <p><em>Estimated time: 15 min</em></p>
 <div id="instructions-35" class="section level4 hasAnchor" number="5.2.5.1">
 <h4><span class="header-section-number">5.2.5.1</span> Instructions<a href="prelab---finding-amrs.html#instructions-35" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Run <strong>Bandage Image</strong> tool in Galaxy on your Flye: <strong>graphical fragment assembly</strong> output (in gfa1 format) using default parameters.</p>
+<p>Run the <strong>Bandage Image</strong> tool in Galaxy on your Flye: <strong>graphical fragment assembly</strong> output (in gfa1 format) using the default parameters.</p>
 </div>
 <div id="questions-26" class="section level4 hasAnchor" number="5.2.5.2">
 <h4><span class="header-section-number">5.2.5.2</span> Questions<a href="prelab---finding-amrs.html#questions-26" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -747,7 +747,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3. Do you expect to obtain more contigs, larger or circular contigs with more sequencing reads? why?</th>
+<th align="left">3. Do you expect to obtain more contigs, larger, or more circular contigs with more sequencing reads? why?</th>
 </tr>
 </thead>
 <tbody>
@@ -764,16 +764,16 @@
 <div id="instructions-36" class="section level4 hasAnchor" number="5.2.6.1">
 <h4><span class="header-section-number">5.2.6.1</span> Instructions<a href="prelab---finding-amrs.html#instructions-36" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Run <strong>ABRicate</strong> tool in Galaxy using Flye <strong>consensus</strong> as input using the following <code>Tool Parameters</code>:</li>
+<li>Run <strong>ABRicate</strong> tool in Galaxy using the Flye <strong>consensus</strong> file as the input using the following <code>Tool Parameters</code>:</li>
 </ol>
 <ul>
 <li>Under <strong>Input Reads</strong>: select your Flye: consensus output in FASTA format</li>
-<li>IMPORTANT: Under <strong>Advanced Option</strong>s: select <code>NCBI Bacterial Antimicrobial Resistance Reference Gene Database</code> as your database option; the default‘resfinder’ may not work well.</li>
+<li>IMPORTANT: Under <strong>Advanced Option</strong>s: select <code>NCBI Bacterial Antimicrobial Resistance Reference Gene Database</code> as your database option; the default ‘resfinder’ may not work well.</li>
 </ul>
 <ol start="2" style="list-style-type: decimal">
 <li>Explore <strong>ABRicate report file</strong>.</li>
 </ol>
-<p><strong>Abricate output report</strong> has the following information:</p>
+<p><strong>ABRicate output report</strong> has the following information:</p>
 <table>
 <thead>
 <tr class="header">
@@ -842,7 +842,7 @@
 </div>
 <div id="questions-27" class="section level4 hasAnchor" number="5.2.6.2">
 <h4><span class="header-section-number">5.2.6.2</span> Questions<a href="prelab---finding-amrs.html#questions-27" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p><strong>1. Explore Abricate output report.</strong></p>
+<p><strong>1. Explore ABRicate output report.</strong></p>
 <table>
 <colgroup>
 <col width="100%" />
