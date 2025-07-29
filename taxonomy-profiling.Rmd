@@ -50,7 +50,6 @@ The sample used in this activity is the [Zymo Gut Microbiome Standard](https://w
 :::
 
 
-
 *Estimated time: 25 min*
 
 #### Instructions
@@ -235,6 +234,10 @@ To find out which microorganisms are present in the sample, it is important to h
 ### Activity 1 – QC Reads
 
 *Estimated time: 50 min*
+
+::: {.notice} 
+The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this Activity.
+:::
 
 #### Activity 1 - Part I - Import the dataset into Galaxy
 
