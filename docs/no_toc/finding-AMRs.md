@@ -111,7 +111,7 @@ c. Run **Flye** tool to assess sequence quality using the following Tool Paramet
 
 |2C. What proportion of input was assembled into contigs?|
 |:--|
-| *At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above` |
+| *At the very top of the log file you will find that the input number of bases was 179,410,993 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above` |
 |<br> |
 
 **3. Explore Flye assembly info file.**
