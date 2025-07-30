@@ -111,8 +111,9 @@ c. Run **Flye** tool to assess sequence quality using the following Tool Paramet
 
 |2C. What proportion of input was assembled into contigs?|
 |:--|
-| *At the very top of the log file you will find that the input number of bases was 179,410,993 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above` |
 |<br> |
+
+    - *Hint: At the very top of the log file you will find that the input number of bases was 179,410,993 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above.*
 
 **3. Explore Flye assembly info file.**
 
@@ -132,8 +133,9 @@ c. Run **Flye** tool to assess sequence quality using the following Tool Paramet
 
 |4B. How does FASTA sequence format differ from FASTQ sequence format?|
 |:--|
-|*See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)*|
 |<br> |
+
+    - *Hint: See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)*
 
 **5. Test your general understanding of genome assembly.**
 
@@ -176,8 +178,8 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 1. Run **ABRicate** tool in Galaxy using Flye **consensus** as input using the following `Tool Parameters`:
 
-- Under **Input Reads**: select your Flye: consensus output in FASTA format
-- IMPORTANT: Under **Advanced Option**s: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default‘resfinder’ may not work well.
+    - Under **Input Reads**: select your Flye: consensus output in FASTA format
+    - IMPORTANT: Under **Advanced Option**s: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default‘resfinder’ may not work well.
 
 2. Explore **ABRicate report file**.
 
@@ -285,12 +287,13 @@ To explore soil metagenomics using Galaxy tools for de novo genome assembly (Fly
 
 ### Learning Objectives
 
-1. Use **Galaxy** tools to
-2. Use **Flye** tool to perform de novo genome assembly of long reads into ‘contigs’ 
-3. Visualize the contigs with **Bandage** visualization tool
-4. Use **ABRicate** tool to find AMRs in contig assemblies
-5. Use **MetaBAT2** to bin contigs into larger MAGs
-6. Learn about **GTDB-Tk** taxonomy classifier tool
+Use **Galaxy** tools to
+
+1. Use **Flye** tool to perform de novo genome assembly of long reads into ‘contigs’ 
+2. Visualize the contigs with **Bandage** visualization tool
+3. Use **ABRicate** tool to find AMRs in contig assemblies
+4. Use **MetaBAT2** to bin contigs into larger MAGs
+5. Learn about **GTDB-Tk** taxonomy classifier tool
 
 ### Introduction
 
@@ -322,18 +325,18 @@ The sample used in this activity is from the [BioDIGS Project](https://biodigs.o
 
 1. Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> [nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered) to de novo assemble soil microbial genomes. 
 
-a. Obtain .fastq file from a subset of Nanopore-sequencing soil study.
+    a. Obtain .fastq file from a subset of Nanopore-sequencing soil study.
 
-    - [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered).
+        - [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered).
 
-b. Name your new history **Finding soil AMRs**.
+    b. Name your new history **Finding soil AMRs**.
 
-c. Run **Flye** tool to assess sequence quality using the following **Tool Parameters**.
+    c. Run **Flye** tool to assess sequence quality using the following **Tool Parameters**.
 
-    - Under **Input Reads**: select your nano `pore-soil-subset-filtered` **.fastq** dataset.
-    - Under **Mode**: select `--nano-raw` option, since the sequences were obtained using Nanopore sequencing technology.
-    - Under **Perform metagenomic assembly**: select `Yes`.
-    - Under **Generate a log file**: select `Yes`.
+        - Under **Input Reads**: select your nano `pore-soil-subset-filtered` **.fastq** dataset.
+        - Under **Mode**: select `--nano-raw` option, since the sequences were obtained using Nanopore sequencing technology.
+        - Under **Perform metagenomic assembly**: select `Yes`.
+        - Under **Generate a log file**: select `Yes`.
 
 2. Explore Flye output **assembly info** file which is sorted by length (in base pairs, bp) of the contig (high to low). 
 
@@ -341,8 +344,9 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 1. How many contigs were assembled?|
 |:-----|
-|*Note: Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs*|
 |<br> | 
+
+    - *Hint: Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs*
 
 | 2. What is the longest contig size?|
 |:-----|
@@ -350,10 +354,11 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 | 3. What percent of input was assembled into contigs? |
 |:-----|
-|- *Hint 1: In the log file, find the input number of bases going into flye assembly - this info corresponds to the "Total read length" value on top of the log file.*| 
-|- *Hint 2: In the log file, find the output number of bases after flye assembly - this info corresponds to the "Total length" value on the bottom of the log file.* |
-|- *Hint 3: calculate percent of input assembled into contigs using the 2 input and output values you obtained above.*|
 | <br> | 
+
+    - *Hint 1: In the log file, find the input number of bases going into flye assembly - this info corresponds to the "Total read length" value on top of the log file.* 
+    - *Hint 2: In the log file, find the output number of bases after flye assembly - this info corresponds to the "Total length" value on the bottom of the log file. The log file may be long enough that to view the end of the file, the easiest way may just be to download the file and scroll down to the end.*
+    - *Hint 3: calculate percent of input assembled into contigs using the 2 input and output values you obtained above.*
 
 | 4. Why do you think only a small fraction of reads was assembled into contigs? |
 |:-----|
@@ -361,14 +366,15 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 **5. Compare soil assembly to the Zymo gut standard assembly provided the following observations:**
 
-- For this activity you can consult back to your Prelab: Finding AMRs.
-- The number of contigs assembled from **342.5 MB** of sequencing data from the Zymo gut standard D6331 subset was **289**, much smaller than for the filtered soil sample of 5.5 GB! Yet, the largest contig size for the Zymo gut standard was over 2 million bases (almost 10 times larger) and circular (while the largest contig for the soil sample was smaller and linear).
+    - For this activity you can consult back to your Prelab: Finding AMRs.
+    - The number of contigs assembled from **342.5 MB** of sequencing data from the Zymo gut standard D6331 subset was **289**, much smaller than for the filtered soil sample of 5.5 GB! Yet, the largest contig size for the Zymo gut standard was over 2 million bases (almost 10 times larger) and circular (while the largest contig for the soil sample was smaller and linear).
 
 | 5A. Why do you think the number of contigs in the soil sample was so much higher than the number of contigs in the Zymo gut standard?  |
 |:-----|
-|- *Hint 1: it is NOT because of the difference in the size of the sequencing file.*| 
-|- *Hint 2: Think about possible differences in the microbial diversity of the two samples.* |
 |<br> | 
+
+    - *Hint 1: it is NOT because of the difference in the size of the sequencing file.* 
+    - *Hint 2: Think about possible differences in the microbial diversity of the two samples.* 
 
 | 5B. Why do you think it was possible to assemble a much larger and circular contig with the Zymo gut standard sample compared to the soil sample? |
 |:-----|
@@ -383,7 +389,7 @@ c. Run **Flye** tool to assess sequence quality using the following **Tool Param
 
 1. Run **Bandage** Image tool in Galaxy to visualize contigs. 
 
-- Run **Bandage Image** tool  in Galaxy using  your **Flye: graphical fragment assembly file** (in gfa1 format) as input, using default parameters.
+    - Run **Bandage Image** tool  in Galaxy using  your **Flye: graphical fragment assembly file** (in gfa1 format) as input, using default parameters.
 
 #### Questions
 
