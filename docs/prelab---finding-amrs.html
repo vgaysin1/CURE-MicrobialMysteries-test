@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-07-29" />
+<meta name="date" content="2025-07-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -596,9 +596,6 @@
 </tbody>
 </table>
 <table>
-<colgroup>
-<col width="100%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th align="left">2C. What proportion of input was assembled into contigs?</th>
@@ -606,13 +603,11 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">*At the very top of the log file you will find that the input number of bases was 179,410,993 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above`</td>
-</tr>
-<tr class="even">
 <td align="left"><br></td>
 </tr>
 </tbody>
 </table>
+<pre><code>- *Hint: At the very top of the log file you will find that the input number of bases was 179,410,993 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above.*</code></pre>
 <p><strong>3. Explore Flye assembly info file.</strong></p>
 <table>
 <colgroup>
@@ -658,9 +653,6 @@
 </tbody>
 </table>
 <table>
-<colgroup>
-<col width="100%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th align="left">4B. How does FASTA sequence format differ from FASTQ sequence format?</th>
@@ -668,13 +660,11 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><em>See this link for a quick summary comparison of the 2 formats <a href="https://compgenomr.github.io/book/fasta-and-fastq-formats.html">https://compgenomr.github.io/book/fasta-and-fastq-formats.html</a></em></td>
-</tr>
-<tr class="even">
 <td align="left"><br></td>
 </tr>
 </tbody>
 </table>
+<pre><code>- *Hint: See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)*</code></pre>
 <p><strong>5. Test your general understanding of genome assembly.</strong></p>
 <table>
 <colgroup>
@@ -764,14 +754,12 @@
 <div id="instructions-36" class="section level4 hasAnchor" number="5.2.6.1">
 <h4><span class="header-section-number">5.2.6.1</span> Instructions<a href="prelab---finding-amrs.html#instructions-36" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Run <strong>ABRicate</strong> tool in Galaxy using Flye <strong>consensus</strong> as input using the following <code>Tool Parameters</code>:</li>
-</ol>
+<li><p>Run <strong>ABRicate</strong> tool in Galaxy using Flye <strong>consensus</strong> as input using the following <code>Tool Parameters</code>:</p>
 <ul>
 <li>Under <strong>Input Reads</strong>: select your Flye: consensus output in FASTA format</li>
 <li>IMPORTANT: Under <strong>Advanced Option</strong>s: select <code>NCBI Bacterial Antimicrobial Resistance Reference Gene Database</code> as your database option; the default‘resfinder’ may not work well.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Explore <strong>ABRicate report file</strong>.</li>
+</ul></li>
+<li><p>Explore <strong>ABRicate report file</strong>.</p></li>
 </ol>
 <p><strong>Abricate output report</strong> has the following information:</p>
 <table>
