@@ -503,10 +503,7 @@
 <ol style="list-style-type: decimal">
 <li><p>Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> <a href="https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered">nanopore-soil-subset-filtered</a> to de novo assemble soil microbial genomes.</p>
 <ol style="list-style-type: lower-alpha">
-<li><p>Obtain .fastq file from a subset of Nanopore-sequencing soil study.</p>
-<ul>
-<li><a href="https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered</a>.</li>
-</ul></li>
+<li><p>Obtain .fastq file from a subset of Nanopore-sequencing soil study: <a href="https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered</a>.</p></li>
 <li><p>Name your new history <strong>Finding soil AMRs</strong>.</p></li>
 <li><p>Run <strong>Flye</strong> tool to assess sequence quality using the following <strong>Tool Parameters</strong>.</p>
 <ul>
@@ -533,7 +530,9 @@
 </tr>
 </tbody>
 </table>
-<pre><code>- *Hint: Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs*</code></pre>
+<ul>
+<li><code>Hint</code>: Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs.</li>
+</ul>
 <table>
 <thead>
 <tr class="header">
@@ -558,9 +557,11 @@
 </tr>
 </tbody>
 </table>
-<pre><code>- *Hint 1: In the log file, find the input number of bases going into flye assembly - this info corresponds to the &quot;Total read length&quot; value on top of the log file.* 
-- *Hint 2: In the log file, find the output number of bases after flye assembly - this info corresponds to the &quot;Total length&quot; value on the bottom of the log file. The log file may be long enough that to view the end of the file, the easiest way may just be to download the file and scroll down to the end.*
-- *Hint 3: calculate percent of input assembled into contigs using the 2 input and output values you obtained above.*</code></pre>
+<ul>
+<li><code>Hint 1</code>: In the log file, find the input number of bases going into flye assembly - this info corresponds to the “Total read length” value on top of the log file.</li>
+<li><code>Hint 2</code>: In the log file, find the output number of bases after flye assembly - this info corresponds to the “Total length” value on the bottom of the log file. The log file may be long enough that to view the end of the file, the easiest way may just be to download the file and scroll down to the end.</li>
+<li><code>Hint 3</code>: calculate percent of input assembled into contigs using the 2 input and output values you obtained above.</li>
+</ul>
 <table>
 <colgroup>
 <col width="100%" />
@@ -577,8 +578,10 @@
 </tbody>
 </table>
 <p><strong>5. Compare soil assembly to the Zymo gut standard assembly provided the following observations:</strong></p>
-<pre><code>- For this activity you can consult back to your Prelab: Finding AMRs.
-- The number of contigs assembled from **342.5 MB** of sequencing data from the Zymo gut standard D6331 subset was **289**, much smaller than for the filtered soil sample of 5.5 GB! Yet, the largest contig size for the Zymo gut standard was over 2 million bases (almost 10 times larger) and circular (while the largest contig for the soil sample was smaller and linear).</code></pre>
+<ul>
+<li>For this activity you can consult back to your Prelab: Finding AMRs.</li>
+<li>The number of contigs assembled from <strong>342.5 MB</strong> of sequencing data from the Zymo gut standard D6331 subset was <strong>289</strong>, much smaller than for the filtered soil sample of 5.5 GB! Yet, the largest contig size for the Zymo gut standard was over 2 million bases (almost 10 times larger) and circular (while the largest contig for the soil sample was smaller and linear).</li>
+</ul>
 <table>
 <colgroup>
 <col width="100%" />
@@ -594,8 +597,10 @@
 </tr>
 </tbody>
 </table>
-<pre><code>- *Hint 1: it is NOT because of the difference in the size of the sequencing file.* 
-- *Hint 2: Think about possible differences in the microbial diversity of the two samples.* </code></pre>
+<ul>
+<li><code>Hint 1</code>: it is NOT because of the difference in the size of the sequencing file.</li>
+<li><code>Hint 2</code>: Think about possible differences in the microbial diversity of the two samples.</li>
+</ul>
 <table>
 <colgroup>
 <col width="100%" />
@@ -788,8 +793,10 @@
 </tbody>
 </table>
 <p><strong>5. Research and write a small paragraph report on one of the AMR genes you found.</strong></p>
-<pre><code>- Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input.
-- Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</code></pre>
+<ul>
+<li>Use any search tools for your research, but we encourage you to use PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/">https://pubmed.ncbi.nlm.nih.gov/</a> where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input.</li>
+<li>Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</li>
+</ul>
 <table>
 <thead>
 <tr class="header">
@@ -825,13 +832,13 @@
 <div id="instructions-41" class="section level4 hasAnchor" number="5.4.7.1">
 <h4><span class="header-section-number">5.4.7.1</span> Instructions<a href="project---finding-amrs.html#instructions-41" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>In Galaxy, find and click on <strong>MetaBAT2</strong> tool and explore tool parameters.</li>
-<li>Run <strong>MetaBAT2</strong> tool in Galaxy using <code>Flye consensus</code> as input using the <strong>following Tool Parameters</strong>:</li>
-</ol>
+<li><p>In Galaxy, find and click on <strong>MetaBAT2</strong> tool and explore tool parameters.</p></li>
+<li><p>Run <strong>MetaBAT2</strong> tool in Galaxy using <code>Flye consensus</code> as input using the <strong>following Tool Parameters</strong>:</p>
 <ul>
 <li>Under <strong>Fasta file containing contigs</strong>: select your Flye: consensus output in FASTA format.</li>
 <li>Under <strong>Output options</strong>: from the <strong>Extra outputs</strong> dropdown menu select: <code>Process log file</code>.</li>
-</ul>
+</ul></li>
+</ol>
 </div>
 <div id="questions-31" class="section level4 hasAnchor" number="5.4.7.2">
 <h4><span class="header-section-number">5.4.7.2</span> Questions<a href="project---finding-amrs.html#questions-31" class="anchor-section" aria-label="Anchor link to header"></a></h4>
