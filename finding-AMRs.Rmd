@@ -34,7 +34,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/165OHha9IYOctuyzg
 
 ### Purpose
 
-To use a Galaxy tools to perform *de novo* genome assembly of sequencing reads into contigs, visualize the contigs and find antimicrobial resistance (AMR) genes.
+To use Galaxy tools to perform *de novo* genome assembly of sequencing reads into contigs, visualize the contigs and find antimicrobial resistance (AMR) genes.
 
 ### Learning Objectives
 
@@ -46,13 +46,13 @@ Use Galaxy platform to:
 
 ### Introduction
 
-Genome assembly is the process of reconstructing genomes from the DNA sequencing reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. `Flye`, is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using `Flye` we will aim to reconstruct bacterial genomes and plasmids and enable detection of important genes implicated in anbibiotic resistance. Ideally, after assembly we want to get back circular contigs as that would typically indicate the identification of entire microbial genome(s) or plasmid(s)!
+Genome assembly is the process of reconstructing genomes from DNA sequencing reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. `Flye` is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using `Flye` we will aim to reconstruct bacterial genomes and plasmids and enable detection of important genes implicated in anbibiotic resistance. Ideally, after assembly we want to get back circular contigs as that would typically indicate the identification of an entire microbial genome(s) or plasmid(s)!
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g344ad28629a_0_459#slide=id.g344ad28629a_0_459")
 ```
 
-Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: [10.1038/nrmicro2312](https://doi.org/10.1038/nrmicro2312) and [10.3390/antibiotics13121112](https://doi.org/10.3390/antibiotics13121112).
+Antimicrobial resistance is the ability of microbes to overcome one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: [10.1038/nrmicro2312](https://doi.org/10.1038/nrmicro2312) and [10.3390/antibiotics13121112](https://doi.org/10.3390/antibiotics13121112).
 
 **Overview of the approximate minimum times for a job to be completed on Galaxy using specified tools.**
 
@@ -68,7 +68,7 @@ Antimicrobial resistance is the ability of microbes to evade one or more antibio
 *Estimated time: 45 min*
 
 ::: {.notice} 
-The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this Activity.
+The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this activity.
 :::
 
 #### Instructions
@@ -82,7 +82,7 @@ b. Name your new history **“Finding gut AMRs”**.
 c. Run **Flye** tool to assess sequence quality using the following Tool Parameters:
 
     - Under **Input Reads**: select your `aymo_gut_standard_D6331_subset2` **.fastq** dataset.
-    - Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
+    - Under **Mode**: select the `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
     - Under **Perform metagenomic assembly**: select `Yes`.
     - Under **Generate a log file**: select `Yes`.
 
@@ -94,7 +94,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g33689793048_0_10#slide=id.g33689793048_0_10")
 ```
 
-**2. View Flye results** - Explore Flye output files and answer questions below.
+**2. View Flye results** - Explore the Flye output files and answer questions below.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g33689793048_0_21#slide=id.g33689793048_0_21")
@@ -151,7 +151,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 |:--|
 | <br>|
 
-|4B. How does FASTA sequence format differ from FASTQ sequence format?|
+|4B. How does FASTA sequence format differ from the FASTQ sequence format?|
 |:--|
 |<br> |
 
@@ -174,7 +174,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 #### Instructions
 
-Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly** output (in gfa1 format) using default parameters.
+Run the **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly** output (in gfa1 format) using the default parameters.
 
 #### Questions
 
@@ -186,7 +186,7 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 |:--|
 |<br> |
 
-|3. Do you expect to obtain more contigs, larger or circular contigs with more sequencing reads? why?|
+|3. Do you expect to obtain more contigs, larger or more circular contigs with more sequencing reads? why?|
 |:--|
 |<br> |
 
@@ -196,10 +196,10 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 #### Instructions
 
-1. Run **ABRicate** tool in Galaxy using Flye **consensus** as input using the following `Tool Parameters`:
+1. Run **ABRicate** tool in Galaxy using the Flye **consensus** file as the input using the following `Tool Parameters`:
 
     - Under **Input Reads**: select your Flye: consensus output in FASTA format
-    - IMPORTANT: Under **Advanced Option**s: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default‘resfinder’ may not work well.
+    - IMPORTANT: Under **Advanced Option**s: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default ‘resfinder’ may not work well.
 
 2. Explore **ABRicate report file**.
 
@@ -318,10 +318,10 @@ Use **Galaxy** tools to
 
 ### Introduction
 
-In this activity we will practice *de novo* metagenome assembly with `Flye`, using **soil** sample sequenced by Nanopore sequencing. We will have an opportunity to compare and contrast assembled contigs and antimicrobial resistance profiles of soil and gut and think about the differences and similarities in microbial diversity of the two environments.
+In this activity we will practice *de novo* metagenome assembly with `Flye`, using a **soil** sample from the [BioDIGS project](https://biodigs.org/#about) sequenced by Nanopore sequencing. We will have an opportunity to compare and contrast assembled contigs and antimicrobial resistance profiles of soil and gut and think about the differences and similarities in microbial diversity of the two environments.
 
 
-In this project you will also learn about MetaBAT2 and GTDB-Tk. Let's start now. The most up to date long read metagenomics workflow includes contig assembly (e.g. using Flye tool), followed by contig binning into larger metagenome-assembled genomes (MAGs) (with e.g. MetaBAT2 tool) and finally MAG classification (e.g. with GTDB-Tk). MetaBAT2 is an algorithm that bins (or groups) sequence fragments (contigs) into larger MAGs or draft genomes. Subsequently, MAGs can be taxonomically classified by GTDB-Tk.
+In this activity you will also learn about MetaBAT2 and GTDB-Tk. Let's start now. The most up to date long read metagenomics workflow includes contig assembly (e.g. using Flye tool), followed by contig binning into larger metagenome-assembled genomes (MAGs) (with e.g. MetaBAT2 tool) and finally MAG classification (e.g. with GTDB-Tk). MetaBAT2 is an algorithm that bins (or groups) sequence fragments (contigs) into larger MAGs or draft genomes. Subsequently, MAGs can be taxonomically classified by GTDB-Tk.
 
 
 `You will not be executing GTDB-Tk in this activity to stay within a reasonable activity time frame.` However, for your project work, you will have a chance to test GTDB-Tk on your genome assemblies and bins. A note to your future self working on a project - as a rule, after genome assembly, if your contigs are 500 kb or above, they will be considered large enough to be passed on to GTDB-Tk without the need for binning. Contigs of < 500 kb will be binned and passed on to GTDB-Tk for taxonomy classification as bins.
@@ -339,14 +339,14 @@ In this project you will also learn about MetaBAT2 and GTDB-Tk. Let's start now.
 *Estimated time: 30 min (activity time DOES NOT include the Flye run time on Galaxy)*
 
 ::: {.notice} 
-The sample used in this activity is from the [BioDIGS Project](https://biodigs.org/#about), sequenced using Oxford Nanopore Technologies’ [PromethION Instrument](https://nanoporetech.com/products/sequence/promethion). A subset of this data is used in this Activity.
+The sample used in this activity is from the [BioDIGS Project](https://biodigs.org/#about), sequenced using Oxford Nanopore Technologies’ [PromethION Instrument](https://nanoporetech.com/products/sequence/promethion). A subset of this data was adapter-trimmed and filtered and is used in this activity.
 :::
 
 #### Instructions
 
-1. Run Flye in Galaxy on quality filtered (with fastp tool) <mark style="background-color: yellow">nanopore soil pilot subset</mark> [nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered) to de novo assemble soil microbial genomes. 
+1. Run Flye in Galaxy on adapter-trimmed (with Porechop tool) and quality filtered (with fastp tool) nanopore soil subset [nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered-1) to de novo assemble soil microbial genomes. 
 
-    a. Obtain .fastq file from a subset of Nanopore-sequencing soil study: [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered](https://usegalaxy.org/u/valerie-g/h/nano-pore-soil-subset-filtered).
+    a. Obtain .fastq file from a subset of Nanopore-sequencing soil study: [https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered-1](https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered-1).
 
     b. Name your new history **Finding soil AMRs**.
 
@@ -573,7 +573,7 @@ The sample used in this activity is from the [BioDIGS Project](https://biodigs.o
 
 ### Grading Criteria
 
-    - <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
+- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
